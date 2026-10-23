@@ -1,6 +1,6 @@
 # MatterLab cloud research handoff
 
-Status: the owner explicitly authorized handoff to the existing Jarvis cloud assistant on 2026-10-24, with strictly zero additional fees. The English instructions were delivered and acknowledged. A dedicated native cloud setup subsequently completed bounded real CHGNet evaluations and saved raw evidence; the dedicated private environment is published. Recurrence and durable resume are not yet verified. See CLOUD_MIGRATION.md for the evidence and remaining gates.
+Status: the owner explicitly authorized handoff to the existing Jarvis cloud assistant on 2026-10-24, with strictly zero additional fees. The English instructions were delivered and acknowledged. The dedicated private environment is published; real CHGNet execution and subsequent filesystem restoration are verified. The restored numerical comparison failed its original force/stress tolerances and is under diagnosis. One active four-hour cloud continuation is verified, but its first scheduled wake and complete migration acceptance remain pending. See CLOUD_MIGRATION.md for evidence and remaining gates.
 
 Target: native ChatGPT cloud agent / Codex Cloud using existing included Pro allowance. Cadence: every four hours, Asia/Shanghai. Requested model: GPT-6 Astra, High reasoning.
 
