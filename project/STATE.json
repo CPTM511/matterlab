@@ -1,14 +1,14 @@
 {
   "project": "MatterLab",
   "updated_date": "2026-10-24",
-  "phase": "english_public_release_in_progress",
+  "phase": "gamma_numerical_diagnosis_next",
   "overall_complete": false,
   "public_language": "English",
   "public_repository": "https://github.com/CPTM511/matterlab",
-  "repository_verified_published": false,
+  "repository_verified_published": true,
   "working_cadence": "Every four hours while the local host and app are available",
   "milestones": {
-    "P1_public_platform": "in_progress",
+    "P1_public_platform": "completed",
     "S1_gamma_numerical_diagnosis": "pending",
     "S2_candidate_dft_and_phase_evidence": "pending",
     "S3_application_specific_evidence": "pending"
@@ -20,14 +20,19 @@
     "runs/quantum/evidence-verification.json",
     "docs/delivery-checks-en.json"
   ],
-  "active_work": [
-    "Audited English public repository and release publication"
-  ],
-  "next_action": "Publish and verify the clean English release, then diagnose the inconclusive Gamma residuals from saved C03-005 force arrays and a known reference before new candidate DFT.",
+  "active_work": [],
+  "next_action": "Analyze saved C03-005 Gamma force arrays and re-evaluate controlled displacements on C03-005 and CaTiO3. Test finite-difference indexing, graph/neighbor continuity and numerical precision; record a protocol before additional calculations. Preserve inconclusive outcomes. Then plan converged candidate DFT and application-specific response.",
   "constraints": [
     "No additional spending",
     "No paid APIs or remote compute",
     "No unverified novelty, synthesis, stability, or product claims"
   ],
-  "notification_policy": "Meaningful milestone, completion, new blocking failure, or required user decision only"
+  "notification_policy": "Meaningful milestone, completion, new blocking failure, or required user decision only",
+  "engineering_validation": {
+    "scientific_tests_passed": 22,
+    "publication_guard_tests_passed": 12,
+    "english_campaign_checks_passed": 301,
+    "full_campaign_comparisons_identical": 136,
+    "http_downloads_verified": 106
+  }
 }
