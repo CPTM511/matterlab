@@ -20,7 +20,14 @@
     "runs/quantum/evidence-verification.json",
     "docs/delivery-checks-en.json"
   ],
-  "active_work": [],
+  "active_work": [
+    {
+      "owner": "Jarvis cloud assistant",
+      "scope": "Post-publication restoration, bounded replay, durable checkpoint and recurrence verification",
+      "status": "Requested; completion not yet verified",
+      "coordination": "Check this handoff before local research; do not overlap cloud calculations."
+    }
+  ],
   "next_action": "Analyze saved C03-005 Gamma force arrays and re-evaluate controlled displacements on C03-005 and CaTiO3. Test finite-difference indexing, graph/neighbor continuity and numerical precision; record a protocol before additional calculations. Preserve inconclusive outcomes. Then plan converged candidate DFT and application-specific response.",
   "constraints": [
     "No additional spending",
@@ -38,17 +45,31 @@
   "cloud_migration": {
     "requested": true,
     "activated_verified": false,
-    "cloud_execution_verified": false,
+    "cloud_execution_verified": true,
     "target_model": "gpt-6-astra",
     "target_reasoning": "high",
     "target_cadence": "Every four hours, Asia/Shanghai",
-    "status": "English handoff delivered to the authorized existing cloud assistant and acknowledged on 2026-10-24. Runtime/quota checks are in progress; cloud calculation, recurrence and durable resume are not yet verified. Retain local fallback and inspect hosted tasks before any scheduler retry.",
+    "status": "The dedicated private MatterLab native cloud environment is published. Bounded real CHGNet execution and raw hashes were verified during setup. The cloud assistant independently checked the included-usage dashboard and has been asked to verify restoration/replay, a durable GitHub checkpoint and one four-hour continuation. Retain local fallback until these gates pass.",
     "handoff_instructions": "project/CLOUD_HANDOFF.md",
     "acceptance": "project/CLOUD_MIGRATION.md",
     "local_fallback_active": true,
     "handoff_authorized": true,
     "handoff_delivered_verified": true,
     "handoff_acknowledged_verified": true,
-    "cloud_resume_verified": false
+    "cloud_resume_verified": false,
+    "environment_published_verified": true,
+    "onboarding_validation": {
+      "runtime": "Linux x86_64, Python 3.12.14, CPU PyTorch 2.6.0, CHGNet 0.4.2/model 0.3.0",
+      "source_commit": "3319dc595397f68c0e7a3326e64c2b27ae799027",
+      "tests_passed": 34,
+      "historical_evidence_checks_passed": 301,
+      "calculation": "Two independent 20-atom CaTiO3 single-point evaluations on the same cloud instance",
+      "energy_eV": -166.1494140625,
+      "observation_comparison": "All energies, forces and stresses exactly equal",
+      "hashes_verified_per_evaluation": 16,
+      "scientific_scope": "Runtime validation only; not candidate DFT, stability, novelty or application evidence",
+      "persistence": "Private environment snapshot published; subsequent restoration and audited public evidence export pending",
+      "model_attestation": "Setup began under the UI default GPT-6.1 Sol Light. The UI was then set to GPT-6 Astra High; setup did not independently attest model metadata."
+    }
   }
 }

@@ -15,7 +15,19 @@ Continue MatterLab while the owner's computer is off, using GPT-6 Astra and only
 
 The English instructions are saved in [CLOUD_HANDOFF.md](CLOUD_HANDOFF.md). On 2026-10-24 the owner explicitly authorized handing them to the existing cloud assistant under the strict zero-additional-fee boundary. Delivery and acknowledgement were verified in the signed-in interface. The assistant accepted the quota, runtime and durable-resume checks before migration acceptance. Requested settings are GPT-6 Astra, High reasoning and an approximately four-hour cadence in Asia/Shanghai; actual runtime and recurrence still require evidence.
 
-The existing local heartbeat remains active as a fallback. No cloud execution, cloud simulation result, or migration completion is claimed. Do not duplicate a possible hosted task or overlap cloud and local calculations; check current responsibility and repository state first.
+The existing local heartbeat remains active as a fallback. Do not overlap cloud and local calculations; check current responsibility and repository state first. A subsequent signed-in hosted-task inventory and a MatterLab search both returned no matching task; the cloud assistant must still inspect current state before adding recurrence.
+
+## Cloud onboarding validation
+
+A dedicated native cloud setup task checked out the public repository at `3319dc595397f68c0e7a3326e64c2b27ae799027`. Its returned task metadata identifies a durable cloud host, and command output identifies a Linux workspace. The setup installed Python 3.12.14, CPU PyTorch 2.6.0 and CHGNet 0.4.2/model 0.3.0. All 34 existing tests and 301 historical evidence checks passed; historical evidence was copied before verification to avoid modification.
+
+Two real single-point evaluations of the initial 20-atom CaTiO3 reference returned `-166.1494140625 eV`, with identical energies, forces and stresses on the same cloud instance. All 16 manifest entries in each evaluation verified. This is runtime validation, not candidate DFT, material stability, novelty, synthesis or application validation. Raw evidence, resolved dependencies, helper code and the report are retained in the private cloud environment; they are not yet part of the public release.
+
+The interface initially started setup with its default GPT-6.1 Sol Light. The model selector was subsequently changed to GPT-6 Astra High. The setup agent could not independently attest variant/effort metadata, so the original setup must not be described as verified Astra-only execution.
+
+The dedicated private environment is published. Restoration in a subsequent hosted task, independent replay, durable research coordination and recurring continuation remain unverified. Saving or publishing the environment alone does not complete migration.
+
+The signed-in web route `https://chatgpt.com/settings/usage?tab=overview` exposed an included-plan usage indicator. The cloud assistant has been given that read-only route for later checks. A local snapshot is not continuing billing enforcement; if the route cannot be verified from the cloud, substantial work must defer. Account-specific usage records stay out of public artifacts.
 
 ## Migration acceptance
 
