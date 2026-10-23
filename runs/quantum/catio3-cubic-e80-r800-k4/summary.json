@@ -1,0 +1,31 @@
+{
+  "calculation": "actual plane-wave PBE PAW density-functional theory SCF",
+  "structure": "ideal cubic CaTiO3, 5 atoms, fixed a=3.89 Angstrom; not claimed stable or novel",
+  "settings": {
+    "ecut": 80,
+    "rho": 800,
+    "k": 4,
+    "threads": 2,
+    "timeout": 1800
+  },
+  "command": [
+    "${PROJECT_ROOT}/.tools/qe/bin/pw.x",
+    "-in",
+    "input.in"
+  ],
+  "returncode": 143,
+  "timed_out": false,
+  "wall_seconds": 407.8776776790619,
+  "job_done": true,
+  "scf_converged": false,
+  "scf_iterations": null,
+  "total_energy_Ry": null,
+  "pseudopotentials": {
+    "Ca.pbe-spn-kjpaw_psl.1.0.0.UPF": "12bd73f4429e0b30784368e5c19703c8a0f0e959b712a2cba24ddbc2627ee3e5",
+    "O.pbe-n-kjpaw_psl.1.0.0.UPF": "6d4f573d1f5d8fab1d334ed76fefbac21fdbb2c406af7f85ab8c6aab0e84ccc0",
+    "Ti.pbe-spn-kjpaw_psl.1.0.0.UPF": "6f97c81d27b063715dac8214c3d983608c1cc1a2d7f9a4b00eea25c67d1ffd7e"
+  },
+  "input_sha256": "0c47faa8638880443ffb400edb8cf68976bdd024c1633e0d1e755eecd7dab3f2",
+  "output_sha256": "df57772369dfb38662103b09d12e71a785dcedfa2de816162729eb3d3e698e0c",
+  "limitations": "No ionic/cell relaxation, phonons, competing-phase hull, band-gap validation, or novelty proof. Compare cutoffs and k meshes before using numerical energies."
+}

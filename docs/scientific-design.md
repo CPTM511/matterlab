@@ -1,0 +1,66 @@
+# Local oxide candidate generation and scientific validation
+
+Design date: 2026-10-24. This document defines the scientific design and validation requirements, rather than certifying that every proposed check has been completed. The initial recipe is **(Ca0.5Sr0.25Ba0.25)(Ti0.5Zr0.25Sn0.25)O3**; the implemented campaign also includes Sr/Zr-rich and Ba/Sn-rich variants at the same 2:1:1 site ratios. Generate explicit ordered crystals, calculate their local atomistic relaxation and mechanical response, and preserve inputs and raw outputs. Success means reproducible candidate structures and defensible screening results, including failures; it does not require claiming a discovery. Completed historical results and the separately tracked English rerun are described in [Results](RESULTS.md); the evidence limits for novelty are in the [novelty ledger](NOVELTY.md).
+
+## Family and novelty boundary
+
+Use isovalent A2+ = Ca/Sr/Ba and B4+ = Ti/Zr/Sn substitutions in ABO3 perovskites. The 20-atom candidate has Ca2SrBaTi2ZrSnO12. Charge balance needs no artificial compensating vacancies or mixed valence. Sn is worth retaining: all nine A/B endmembers are established computational systems, making controls available and avoiding unnecessary exotic chemistry. This is a tractability argument, not proof that every mixture is stable. [Primary study of the nine endmembers](https://arxiv.org/abs/2504.15857).
+
+The chemical family is already known. A 2024 experimental paper reports equimolar (Ca1/3Sr1/3Ba1/3)(Ti1/3X1/3Y1/3)O3 ceramics with X/Y selected from Zr, Hf and Sn. It is close prior art for precisely the proposed six-cation element set. [Ceramics International, DOI 10.1016/j.ceramint.2023.11.388](https://doi.org/10.1016/j.ceramint.2023.11.388). The accessible indexed publisher abstract supports this statement; direct full-page retrieval returned HTTP 403.
+
+Narrow web queries on 2026-10-24 for `"Ca0.5Sr0.25Ba0.25" "Ti0.5Zr0.25Sn0.25"` and `"Ca0.5" "Sr0.25" "Ba0.25" "Sn" "Ti" "Zr"` did not surface an exact match. This is a bounded search outcome, not global novelty evidence. Different formula ordering, fractions, patents, unindexed papers, deposited structures and continuous solid-solution ranges can cover the same material. Label outputs **generated composition/order candidates; novelty unverified**. Distinguish newly generated coordinates from a previously unknown composition, a distinct relaxed structure, and a synthesized material.
+
+Do not call a 20-atom periodic ordering a random alloy or an entropy-stabilized phase. An ordered zero-temperature calculation does not establish configurational entropy, high-temperature phase stability, or the disorder present in experimentally sintered ceramics.
+
+## Deterministic structure generation
+
+1. Construct cubic ABO3 from an explicit five-site basis: A at (0,0,0), B at (1/2,1/2,1/2), and O at (1/2,1/2,0), (1/2,0,1/2), (0,1/2,1/2). A starting lattice constant near 4.0 Å is an initialization assumption; relax it.
+2. Apply the integer supercell transformation `[[1,1,0],[-1,1,0],[0,0,2]]`. Its determinant is 4, producing 20 atoms and permitting common perovskite tilt periodicities. Keep lattice orientation and site-order conventions explicit.
+3. Enumerate the 12 distinct permutations of Ca,Ca,Sr,Ba over four A sites and the 12 permutations of Ti,Ti,Zr,Sn over four B sites: **144 raw decorations**. Deduplicate using the parent symmetry while retaining element identities, with recorded tolerances. Counts after deduplication must come from the actual program.
+4. Generate all input CIFs even if only a small subset is simulated. The implemented first round uses seeded uniform sampling without replacement of two parent-symmetry-distinct decorations from each of three compositions. Record exactly which candidates were selected. This is a bounded sample; neither exhaustive relaxed-structure search nor demonstrated neighborhood-diversity coverage is claimed.
+5. Start from a reproducibly perturbed structure. The historical first-round configuration uses seeded Gaussian Cartesian offsets with a 0.06 Å component standard deviation, subtracts the mean translation, and adds an antiphase octahedral-tilt seed. Rechecking finalists from independent seeds and competing coherent tilt/polar patterns is a further validation requirement, not a completed first-round result. Relax atomic positions and cell without imposing the cubic parent symmetry. Tiny random displacements are not a substitute for testing competing tilt/polar minima.
+6. Hash starting and relaxed structures; retain site decorations, symmetry tolerances, software versions, model identifier/checksum, units, device, optimizer settings and full convergence records. Perform relaxed-structure matching to identify candidates that collapse into the same minimum.
+
+## Controls and model choice
+
+Generate controls separately from discovery candidates. Minimum controls are CaTiO3 and SrTiO3; the complete restricted reference set is the nine combinations of A = Ca/Sr/Ba and B = Ti/Zr/Sn. For CaTiO3, CaZrO3, SrZrO3, CaSnO3 and SrSnO3, include tilted orthorhombic starts. Include polar/tilted alternatives for titanates rather than asserting their ideal cubic cells are zero-temperature ground states. Literature addresses structural and dielectric anisotropy of these distorted perovskites. [Coh et al., Physical Review B 82, 064101](https://doi.org/10.1103/PhysRevB.82.064101).
+
+CHGNet provides energies, forces and stresses and explicitly supports CPU and Apple silicon MPS. Pin a checkpoint and establish a CPU baseline before trusting accelerator results. The direct model reports energy in eV/atom and stress in GPa; ASE calculator interfaces can use different conventions. Verify the actual adapter rather than copying units between APIs. [Official CHGNet repository](https://github.com/CederGroupHub/chgnet).
+
+A universal ML potential is an approximate potential-energy surface learned from training calculations. Six-cation local environments, strained states and competing distortions may be outside its well-represented training distribution. Agreement between two related pretrained models is corroboration, not independent physical proof. Systematic softening has been demonstrated for CHGNet, M3GNet and MACE-MP-0, including solid-solution energetics and vibrational response; hence a smooth energy curve can still be quantitatively wrong. [Deng et al., npj Computational Materials 11, 9](https://doi.org/10.1038/s41524-024-01500-6).
+
+## Acceptance gates and what each result means
+
+| Gate | Required evidence | Permitted interpretation |
+| --- | --- | --- |
+| Generated structure | Correct stoichiometry, finite positive volume, no unphysical overlaps, exact reproducible input | A constructed periodic candidate |
+| Relaxation | Finite energy/stress; optimizer convergence; maximum force and stress reported separately | A stationary configuration within the tested model and initialization |
+| Local mechanical response | Strain convergence, full tensor if claiming elastic stability, stable numerical signs | Mechanical response of that model near that minimum |
+| Dynamic stability | Converged phonons over a Brillouin-zone mesh, not only Gamma | No resolved harmonic instability within the tested model, cell range and conditions |
+| Thermodynamic stability | Consistent energies for competing phases and composition-conserving decomposition | Stability relative to the explicitly covered phase set |
+| DFT corroboration | Converged independently evaluated energies, forces/stresses and relevant relaxations | A first-principles check of the selected prediction, not experimental validation |
+| Discovery/use | Literature and structure checks plus property-specific evidence; synthesis for physical realization | Only the level of novelty and usefulness actually demonstrated |
+
+The historical first-round implementation requests an optimizer force tolerance of 0.01 eV/Å or tighter, checks atomic forces separately against the configured acceptance threshold, and requires residual stress <= 0.15 GPa for variable-cell convergence. Detailed refinement and internal relaxation of EOS points use fmax <= 0.005 eV/Å. The exact code and configuration saved with each run govern its acceptance record; these are numerical workflow choices, not universally sufficient physical-validation thresholds. Count a step-limit termination as unconverged, even if an output CIF exists. Re-evaluate finalists more tightly if their ranking or elastic signs depend on the tolerance.
+
+For elastic constants apply the six independent small strain modes at positive and negative amplitudes, initially 0.5% and 1%. At each fixed strained cell relax internal coordinates; preserve unstrained reference stress and engineering-shear conventions. Report tensor asymmetry and fit residuals before symmetrizing. Lower-symmetry decorated cells require the full stiffness tensor: the three cubic inequalities cannot be applied automatically. Positive definiteness at negligible external stress supports homogeneous elastic stability, not phonon stability. Near-zero eigenvalues require numerical uncertainty checks. [Mouhat and Coudert, Physical Review B 90, 224104](https://doi.org/10.1103/PhysRevB.90.224104).
+
+A volume-only energy curve supports an equation-of-state bulk-modulus estimate, with its constraint conditions stated. It does not yield shear modulus, Young's modulus, hardness or full elastic stability. A fixed-shape isotropic dilation curve is not automatically the relaxed hydrostatic response of an anisotropic crystal.
+
+For phonons, use finite displacements with explicit force units and supercell convergence. A Gamma-only Hessian is a useful local diagnostic but misses finite-wavevector instabilities. Do not erase significant imaginary frequencies by relabeling them noise. [Official Phonopy formulation](https://phonopy.github.io/phonopy/formulation.html).
+
+## Restricted decomposition reference
+
+Use energies from the **same model/checkpoint and relaxation policy**. Let `e_ab` be the energy per ABO3 formula unit of each of the nine relaxed endmembers. Compute the minimum of `sum(w_ab * e_ab)` subject to nonnegative weights, row sums `(0.5,0.25,0.25)` for Ca/Sr/Ba, and column sums `(0.5,0.25,0.25)` for Ti/Zr/Sn. This small linear program finds the lowest composition-conserving mixture of the supplied endpoints. An arbitrary weighted average can overestimate the decomposition reference.
+
+Report `delta_e_restricted = (E_candidate_per_formula - E_reference_per_formula) / 5` in eV/atom. Positive values indicate a lower-energy endpoint mixture within that model. Negative values only beat those references. Neither sign establishes stability against binary oxides, other stoichiometries, alternative polymorphs, elemental phases, oxygen exchange or omitted multicomponent compounds. Do not label this value `energy_above_hull`. A complete phase diagram requires the relevant competitor set and consistent energy treatment. [Materials Project phase-diagram methodology](https://docs.materialsproject.org/methodology/materials-methodology/thermodynamic-stability/phase-diagrams-pds).
+
+Do not mix raw ML energies with corrected database DFT energies. Do not add an ideal configurational entropy term to an isolated ordered candidate and call it a demonstrated finite-temperature phase diagram.
+
+## Independent DFT and use hypotheses
+
+For the lowest-energy structurally distinct finalist, perform a local Quantum ESPRESSO SCF force/stress check, then relaxation if practical, together with relevant endmember references. Use a single exchange-correlation functional and documented, checksummed pseudopotentials throughout. Converge plane-wave cutoffs and k-point sampling against the energy differences and force/stress precision actually needed. A one-point calculation or unconverged run must be labeled accordingly. Quantum ESPRESSO supports fixed-ion SCF, structural and variable-cell optimization. [Official PWscf guide](https://www.quantum-espresso.org/Doc/pw_user_guide/). If local DFT cannot be completed, the deliverable remains explicitly ML-screened with a reproducible follow-up input deck; it is not DFT-validated.
+
+The plausible application context is oxide dielectric ceramics, because related compositions have experimental dielectric literature. Candidate-specific capacitance, dielectric loss, breakdown field, temperature stability, energy-storage density and piezoelectricity remain uncomputed. High stiffness alone cannot establish any of these. A mechanically favorable candidate can be prioritized for these later measurements, not advertised as an improved capacitor material. Structural engineering uses would additionally require toughness, strength, defects, porosity, fatigue and processing data. Thermal-barrier uses require thermal conductivity, expansion, oxidation/corrosion and thermal cycling evidence.
+
+All proposed computation uses local open-source software and freely obtainable checkpoints. No paid API, remote paid compute, paid dataset or experimental expenditure is part of this design. Existing local hardware time and electricity are real resource costs, so report runtime instead of calling computation literally costless.

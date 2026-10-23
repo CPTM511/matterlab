@@ -1,0 +1,42 @@
+{
+  "id": "C03-005",
+  "kind": "candidate",
+  "formula": "CaSrBa2TiZrSn2O12",
+  "composition": {
+    "A": {
+      "Ca": 1,
+      "Sr": 1,
+      "Ba": 2
+    },
+    "B": {
+      "Ti": 1,
+      "Zr": 1,
+      "Sn": 2
+    }
+  },
+  "seed": 20263028,
+  "selected": true,
+  "input_cif": "generated/C03-005.cif",
+  "canonical_symbols": [
+    "Ba",
+    "Sn",
+    "O",
+    "O",
+    "O",
+    "Ca",
+    "Sn",
+    "O",
+    "O",
+    "O",
+    "Sr",
+    "Ti",
+    "O",
+    "O",
+    "O",
+    "Ba",
+    "Zr",
+    "O",
+    "O",
+    "O"
+  ]
+}

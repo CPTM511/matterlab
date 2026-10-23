@@ -1,0 +1,83 @@
+{
+  "runs": [
+    {
+      "run": "catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi",
+      "total_energy_Ry": -442.91302725,
+      "wall_seconds": 84.04317116737366,
+      "scf_iterations": 10,
+      "settings": {
+        "ecut": 60,
+        "rho": 600,
+        "k": 4,
+        "threads": 2,
+        "timeout": 1800,
+        "mixing": 0.1,
+        "mixing_ndim": 12,
+        "diagonalization": "david",
+        "solver": "openmpi",
+        "warm_start": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12"
+      }
+    },
+    {
+      "run": "catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi",
+      "total_energy_Ry": -442.91712792,
+      "wall_seconds": 362.5722439289093,
+      "scf_iterations": 53,
+      "settings": {
+        "ecut": 80,
+        "rho": 800,
+        "k": 4,
+        "threads": 2,
+        "timeout": 1800,
+        "mixing": 0.1,
+        "mixing_ndim": 12,
+        "diagonalization": "david",
+        "solver": "openmpi",
+        "warm_start": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi"
+      }
+    }
+  ],
+  "adjacent_comparisons": [
+    {
+      "from": "catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi",
+      "to": "catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi",
+      "absolute_delta_meV_per_atom": 11.158491523616723,
+      "below_exploratory_1_meV_per_atom": false
+    }
+  ],
+  "unaccepted_runs": [
+    {
+      "run": "catio3-cubic-e60-r600-k4",
+      "returncode": 143,
+      "scf_converged": false,
+      "job_done": true
+    },
+    {
+      "run": "catio3-cubic-e60-r600-k4-m0.1-n12",
+      "returncode": 143,
+      "scf_converged": true,
+      "job_done": true
+    },
+    {
+      "run": "catio3-cubic-e60-r600-k4-sandbox-mpi-failed",
+      "returncode": 143,
+      "scf_converged": false,
+      "job_done": false
+    },
+    {
+      "run": "catio3-cubic-e80-r800-k4",
+      "returncode": 143,
+      "scf_converged": false,
+      "job_done": true
+    },
+    {
+      "run": "catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi",
+      "returncode": 0,
+      "scf_converged": false,
+      "job_done": true
+    }
+  ],
+  "numerical_convergence_status": "not_established",
+  "criterion": "Exploratory absolute-energy change <1 meV/atom between adjacent settings; not a proof of complete basis/k convergence or force/stress convergence.",
+  "scope": "Identical ideal cubic CaTiO3 cell and pseudopotentials only; different compositions must not be compared by absolute total energy."
+}

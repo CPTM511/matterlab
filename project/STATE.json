@@ -1,0 +1,33 @@
+{
+  "project": "MatterLab",
+  "updated_date": "2026-10-24",
+  "phase": "english_public_release_in_progress",
+  "overall_complete": false,
+  "public_language": "English",
+  "public_repository": "https://github.com/CPTM511/matterlab",
+  "repository_verified_published": false,
+  "working_cadence": "Every four hours while the local host and app are available",
+  "milestones": {
+    "P1_public_platform": "in_progress",
+    "S1_gamma_numerical_diagnosis": "pending",
+    "S2_candidate_dft_and_phase_evidence": "pending",
+    "S3_application_specific_evidence": "pending"
+  },
+  "confirmed_evidence": [
+    "runs/round-001-en/verification.json",
+    "runs/round-001-en/english-replay-comparison.json",
+    "runs/reproduction-round-001-en-C03-005/reproduction.json",
+    "runs/quantum/evidence-verification.json",
+    "docs/delivery-checks-en.json"
+  ],
+  "active_work": [
+    "Audited English public repository and release publication"
+  ],
+  "next_action": "Publish and verify the clean English release, then diagnose the inconclusive Gamma residuals from saved C03-005 force arrays and a known reference before new candidate DFT.",
+  "constraints": [
+    "No additional spending",
+    "No paid APIs or remote compute",
+    "No unverified novelty, synthesis, stability, or product claims"
+  ],
+  "notification_policy": "Meaningful milestone, completion, new blocking failure, or required user decision only"
+}

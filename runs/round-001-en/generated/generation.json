@@ -1,0 +1,1339 @@
+{
+  "seed": 20261024,
+  "symmetry_operations": 64,
+  "symprec_A": 1e-05,
+  "selection": "seeded sampling without replacement from exact parent-symmetry representatives",
+  "groups": [
+    {
+      "composition": {
+        "A": {
+          "Ca": 2,
+          "Sr": 1,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 2,
+          "Zr": 1,
+          "Sn": 1
+        }
+      },
+      "raw_decorations": 144,
+      "symmetry_unique": 9,
+      "selected": 2
+    },
+    {
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 2,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 2,
+          "Sn": 1
+        }
+      },
+      "raw_decorations": 144,
+      "symmetry_unique": 9,
+      "selected": 2
+    },
+    {
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 1,
+          "Ba": 2
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 1,
+          "Sn": 2
+        }
+      },
+      "raw_decorations": 144,
+      "symmetry_unique": 9,
+      "selected": 2
+    }
+  ],
+  "structures": [
+    {
+      "id": "C01-001",
+      "kind": "candidate",
+      "formula": "Ca2SrBaTi2ZrSnO12",
+      "composition": {
+        "A": {
+          "Ca": 2,
+          "Sr": 1,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 2,
+          "Zr": 1,
+          "Sn": 1
+        }
+      },
+      "seed": 20261024,
+      "selected": false,
+      "input_cif": "generated/C01-001.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C01-002",
+      "kind": "candidate",
+      "formula": "Ca2SrBaTi2ZrSnO12",
+      "composition": {
+        "A": {
+          "Ca": 2,
+          "Sr": 1,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 2,
+          "Zr": 1,
+          "Sn": 1
+        }
+      },
+      "seed": 20261025,
+      "selected": false,
+      "input_cif": "generated/C01-002.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Ti",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C01-003",
+      "kind": "candidate",
+      "formula": "Ca2SrBaTi2ZrSnO12",
+      "composition": {
+        "A": {
+          "Ca": 2,
+          "Sr": 1,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 2,
+          "Zr": 1,
+          "Sn": 1
+        }
+      },
+      "seed": 20261026,
+      "selected": false,
+      "input_cif": "generated/C01-003.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C01-004",
+      "kind": "candidate",
+      "formula": "Ca2SrBaTi2ZrSnO12",
+      "composition": {
+        "A": {
+          "Ca": 2,
+          "Sr": 1,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 2,
+          "Zr": 1,
+          "Sn": 1
+        }
+      },
+      "seed": 20261027,
+      "selected": false,
+      "input_cif": "generated/C01-004.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C01-005",
+      "kind": "candidate",
+      "formula": "Ca2SrBaTi2ZrSnO12",
+      "composition": {
+        "A": {
+          "Ca": 2,
+          "Sr": 1,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 2,
+          "Zr": 1,
+          "Sn": 1
+        }
+      },
+      "seed": 20261028,
+      "selected": false,
+      "input_cif": "generated/C01-005.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Ti",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C01-006",
+      "kind": "candidate",
+      "formula": "Ca2SrBaTi2ZrSnO12",
+      "composition": {
+        "A": {
+          "Ca": 2,
+          "Sr": 1,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 2,
+          "Zr": 1,
+          "Sn": 1
+        }
+      },
+      "seed": 20261029,
+      "selected": false,
+      "input_cif": "generated/C01-006.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C01-007",
+      "kind": "candidate",
+      "formula": "Ca2SrBaTi2ZrSnO12",
+      "composition": {
+        "A": {
+          "Ca": 2,
+          "Sr": 1,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 2,
+          "Zr": 1,
+          "Sn": 1
+        }
+      },
+      "seed": 20261030,
+      "selected": true,
+      "input_cif": "generated/C01-007.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C01-008",
+      "kind": "candidate",
+      "formula": "Ca2SrBaTi2ZrSnO12",
+      "composition": {
+        "A": {
+          "Ca": 2,
+          "Sr": 1,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 2,
+          "Zr": 1,
+          "Sn": 1
+        }
+      },
+      "seed": 20261031,
+      "selected": false,
+      "input_cif": "generated/C01-008.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C01-009",
+      "kind": "candidate",
+      "formula": "Ca2SrBaTi2ZrSnO12",
+      "composition": {
+        "A": {
+          "Ca": 2,
+          "Sr": 1,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 2,
+          "Zr": 1,
+          "Sn": 1
+        }
+      },
+      "seed": 20261032,
+      "selected": true,
+      "input_cif": "generated/C01-009.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C02-001",
+      "kind": "candidate",
+      "formula": "CaSr2BaTiZr2SnO12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 2,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 2,
+          "Sn": 1
+        }
+      },
+      "seed": 20262024,
+      "selected": false,
+      "input_cif": "generated/C02-001.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C02-002",
+      "kind": "candidate",
+      "formula": "CaSr2BaTiZr2SnO12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 2,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 2,
+          "Sn": 1
+        }
+      },
+      "seed": 20262025,
+      "selected": true,
+      "input_cif": "generated/C02-002.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C02-003",
+      "kind": "candidate",
+      "formula": "CaSr2BaTiZr2SnO12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 2,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 2,
+          "Sn": 1
+        }
+      },
+      "seed": 20262026,
+      "selected": false,
+      "input_cif": "generated/C02-003.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Ti",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C02-004",
+      "kind": "candidate",
+      "formula": "CaSr2BaTiZr2SnO12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 2,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 2,
+          "Sn": 1
+        }
+      },
+      "seed": 20262027,
+      "selected": false,
+      "input_cif": "generated/C02-004.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C02-005",
+      "kind": "candidate",
+      "formula": "CaSr2BaTiZr2SnO12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 2,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 2,
+          "Sn": 1
+        }
+      },
+      "seed": 20262028,
+      "selected": false,
+      "input_cif": "generated/C02-005.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C02-006",
+      "kind": "candidate",
+      "formula": "CaSr2BaTiZr2SnO12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 2,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 2,
+          "Sn": 1
+        }
+      },
+      "seed": 20262029,
+      "selected": false,
+      "input_cif": "generated/C02-006.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C02-007",
+      "kind": "candidate",
+      "formula": "CaSr2BaTiZr2SnO12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 2,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 2,
+          "Sn": 1
+        }
+      },
+      "seed": 20262030,
+      "selected": false,
+      "input_cif": "generated/C02-007.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Ti",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C02-008",
+      "kind": "candidate",
+      "formula": "CaSr2BaTiZr2SnO12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 2,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 2,
+          "Sn": 1
+        }
+      },
+      "seed": 20262031,
+      "selected": false,
+      "input_cif": "generated/C02-008.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C02-009",
+      "kind": "candidate",
+      "formula": "CaSr2BaTiZr2SnO12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 2,
+          "Ba": 1
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 2,
+          "Sn": 1
+        }
+      },
+      "seed": 20262032,
+      "selected": true,
+      "input_cif": "generated/C02-009.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C03-001",
+      "kind": "candidate",
+      "formula": "CaSrBa2TiZrSn2O12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 1,
+          "Ba": 2
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 1,
+          "Sn": 2
+        }
+      },
+      "seed": 20263024,
+      "selected": false,
+      "input_cif": "generated/C03-001.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C03-002",
+      "kind": "candidate",
+      "formula": "CaSrBa2TiZrSn2O12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 1,
+          "Ba": 2
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 1,
+          "Sn": 2
+        }
+      },
+      "seed": 20263025,
+      "selected": false,
+      "input_cif": "generated/C03-002.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ba",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C03-003",
+      "kind": "candidate",
+      "formula": "CaSrBa2TiZrSn2O12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 1,
+          "Ba": 2
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 1,
+          "Sn": 2
+        }
+      },
+      "seed": 20263026,
+      "selected": false,
+      "input_cif": "generated/C03-003.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ba",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Sn",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C03-004",
+      "kind": "candidate",
+      "formula": "CaSrBa2TiZrSn2O12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 1,
+          "Ba": 2
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 1,
+          "Sn": 2
+        }
+      },
+      "seed": 20263027,
+      "selected": false,
+      "input_cif": "generated/C03-004.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ba",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C03-005",
+      "kind": "candidate",
+      "formula": "CaSrBa2TiZrSn2O12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 1,
+          "Ba": 2
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 1,
+          "Sn": 2
+        }
+      },
+      "seed": 20263028,
+      "selected": true,
+      "input_cif": "generated/C03-005.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ba",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C03-006",
+      "kind": "candidate",
+      "formula": "CaSrBa2TiZrSn2O12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 1,
+          "Ba": 2
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 1,
+          "Sn": 2
+        }
+      },
+      "seed": 20263029,
+      "selected": false,
+      "input_cif": "generated/C03-006.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C03-007",
+      "kind": "candidate",
+      "formula": "CaSrBa2TiZrSn2O12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 1,
+          "Ba": 2
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 1,
+          "Sn": 2
+        }
+      },
+      "seed": 20263030,
+      "selected": false,
+      "input_cif": "generated/C03-007.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Ba",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Sn",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C03-008",
+      "kind": "candidate",
+      "formula": "CaSrBa2TiZrSn2O12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 1,
+          "Ba": 2
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 1,
+          "Sn": 2
+        }
+      },
+      "seed": 20263031,
+      "selected": true,
+      "input_cif": "generated/C03-008.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ba",
+        "Zr",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "C03-009",
+      "kind": "candidate",
+      "formula": "CaSrBa2TiZrSn2O12",
+      "composition": {
+        "A": {
+          "Ca": 1,
+          "Sr": 1,
+          "Ba": 2
+        },
+        "B": {
+          "Ti": 1,
+          "Zr": 1,
+          "Sn": 2
+        }
+      },
+      "seed": 20263032,
+      "selected": false,
+      "input_cif": "generated/C03-009.cif",
+      "canonical_symbols": [
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O",
+        "Ca",
+        "Ti",
+        "O",
+        "O",
+        "O",
+        "Sr",
+        "Zr",
+        "O",
+        "O",
+        "O",
+        "Ba",
+        "Sn",
+        "O",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "id": "R-CaTiO3",
+      "kind": "reference",
+      "formula": "CaTiO3",
+      "composition": {
+        "A": {
+          "Ca": 4
+        },
+        "B": {
+          "Ti": 4
+        }
+      },
+      "seed": 20271051,
+      "selected": true,
+      "input_cif": "generated/R-CaTiO3.cif"
+    },
+    {
+      "id": "R-CaZrO3",
+      "kind": "reference",
+      "formula": "CaZrO3",
+      "composition": {
+        "A": {
+          "Ca": 4
+        },
+        "B": {
+          "Zr": 4
+        }
+      },
+      "seed": 20271052,
+      "selected": true,
+      "input_cif": "generated/R-CaZrO3.cif"
+    },
+    {
+      "id": "R-CaSnO3",
+      "kind": "reference",
+      "formula": "CaSnO3",
+      "composition": {
+        "A": {
+          "Ca": 4
+        },
+        "B": {
+          "Sn": 4
+        }
+      },
+      "seed": 20271053,
+      "selected": true,
+      "input_cif": "generated/R-CaSnO3.cif"
+    },
+    {
+      "id": "R-SrTiO3",
+      "kind": "reference",
+      "formula": "SrTiO3",
+      "composition": {
+        "A": {
+          "Sr": 4
+        },
+        "B": {
+          "Ti": 4
+        }
+      },
+      "seed": 20271054,
+      "selected": true,
+      "input_cif": "generated/R-SrTiO3.cif"
+    },
+    {
+      "id": "R-SrZrO3",
+      "kind": "reference",
+      "formula": "SrZrO3",
+      "composition": {
+        "A": {
+          "Sr": 4
+        },
+        "B": {
+          "Zr": 4
+        }
+      },
+      "seed": 20271055,
+      "selected": true,
+      "input_cif": "generated/R-SrZrO3.cif"
+    },
+    {
+      "id": "R-SrSnO3",
+      "kind": "reference",
+      "formula": "SrSnO3",
+      "composition": {
+        "A": {
+          "Sr": 4
+        },
+        "B": {
+          "Sn": 4
+        }
+      },
+      "seed": 20271056,
+      "selected": true,
+      "input_cif": "generated/R-SrSnO3.cif"
+    },
+    {
+      "id": "R-BaTiO3",
+      "kind": "reference",
+      "formula": "BaTiO3",
+      "composition": {
+        "A": {
+          "Ba": 4
+        },
+        "B": {
+          "Ti": 4
+        }
+      },
+      "seed": 20271057,
+      "selected": true,
+      "input_cif": "generated/R-BaTiO3.cif"
+    },
+    {
+      "id": "R-BaZrO3",
+      "kind": "reference",
+      "formula": "BaZrO3",
+      "composition": {
+        "A": {
+          "Ba": 4
+        },
+        "B": {
+          "Zr": 4
+        }
+      },
+      "seed": 20271058,
+      "selected": true,
+      "input_cif": "generated/R-BaZrO3.cif"
+    },
+    {
+      "id": "R-BaSnO3",
+      "kind": "reference",
+      "formula": "BaSnO3",
+      "composition": {
+        "A": {
+          "Ba": 4
+        },
+        "B": {
+          "Sn": 4
+        }
+      },
+      "seed": 20271059,
+      "selected": true,
+      "input_cif": "generated/R-BaSnO3.cif"
+    }
+  ]
+}

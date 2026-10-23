@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-10-24T01:32:06.092228+08:00",
+  "passed": true,
+  "checks": 301,
+  "errors": [],
+  "scope": "artifact integrity and independent recomputation of aggregate metrics; not external physical validation"
+}

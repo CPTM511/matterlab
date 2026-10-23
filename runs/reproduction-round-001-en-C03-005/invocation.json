@@ -1,0 +1,39 @@
+{
+  "argv": [
+    "python",
+    "reproduce_candidate.py",
+    "../round-001-en",
+    "C03-005",
+    ".",
+    "--worker",
+    "--energy-atol",
+    "1e-05",
+    "--force-atol",
+    "0.0002",
+    "--stress-atol",
+    "1e-05",
+    "--cell-atol",
+    "0.0001",
+    "--position-atol",
+    "0.001"
+  ],
+  "path_policy": "Recorded invocation uses paths relative to this output directory; execution resolved local absolute paths.",
+  "original_inputs_sha256": {
+    "config.json": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+    "provenance.json": "af10e14dac28d9c648c8d6b86b605b1ab2331889b2920afda5afa7560c0c76c5",
+    "generated/generation.json": "6c3795b594a97a27429dde743b59a4a7825c29aacab54902781bc08b1f860373",
+    "requirements-lock.txt": "7b4da2b28c594835f0745aeeb52418e2395b11977316e3e934f2c463b7c813aa",
+    "generated/C03-005.cif": "73bc68817d896f101c1bea2cfcf90c16f000d3a00a1fa5cca242ea3ce6fbdd81",
+    "C03-005/result.json": "07c6202f00786506f423ce0da7b405bf7e58ce510249009d7f7953f4d143f2d3",
+    "C03-005/refined_observations.json": "8ba6cd83c1e3b80666060bd3297a900973aea9f2dbb28dbdd18438cc675b24fc",
+    "C03-005/refined.cif": "e2e382c1537dcbe6a6f2239cd140ef45eb1f06ebb63a5284d4e09c187cefd773",
+    "source_snapshot/matterlab/generate.py": "5d85ad13271efe0589cf4a924869087134c456f998400148ed069d051e76839c",
+    "source_snapshot/matterlab/simulate.py": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a",
+    "source_snapshot/matterlab/__init__.py": "6da326c20117347cd4b498489cc1cbf524e5cf5a0e1116e4cc41f479efb15d27",
+    "source_snapshot/matterlab/physics.py": "a58162e71a3d2afb0df30902c43d1e46e454805a6765fcbcd7c9ba0d9e6ac96c",
+    "source_snapshot/matterlab/cli.py": "778d945618d9821bc7df8c491b996eee0e541869b1f16bfc65c5d4397d7e0be1",
+    "source_snapshot/matterlab/evidence.py": "ec0e0194d618c61815e88e01f3dbbad9d572db54bde8a0f172032a0e08ed915d",
+    "source_snapshot/matterlab/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "source_snapshot/matterlab/report.py": "50ddc6ef88b5111f21ab55a2d6b4c0fb895db13989ad17dbf4510ba3ec18f8bc"
+  }
+}

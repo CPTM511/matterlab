@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "baseline_campaign": "round-001 (historical local evidence, not part of English public export)",
+  "comparison": "Fresh complete English campaign versus historical calculation, same settings/model/platform",
+  "checks": 136,
+  "numerical_differences_detected": false,
+  "scope": "Numerical replay agreement does not establish physical accuracy, novelty, or synthesizability."
+}

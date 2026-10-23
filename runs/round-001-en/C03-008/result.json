@@ -1,0 +1,232 @@
+{
+  "id": "C03-008",
+  "kind": "candidate",
+  "formula": "CaSrBa2TiZrSn2O12",
+  "composition": {
+    "A": {
+      "Ca": 1,
+      "Sr": 1,
+      "Ba": 2
+    },
+    "B": {
+      "Ti": 1,
+      "Zr": 1,
+      "Sn": 2
+    }
+  },
+  "seed": 20263031,
+  "selected": true,
+  "input_cif": "generated/C03-008.cif",
+  "canonical_symbols": [
+    "Ba",
+    "Sn",
+    "O",
+    "O",
+    "O",
+    "Ca",
+    "Ti",
+    "O",
+    "O",
+    "O",
+    "Sr",
+    "Sn",
+    "O",
+    "O",
+    "O",
+    "Ba",
+    "Zr",
+    "O",
+    "O",
+    "O"
+  ],
+  "max_force_eV_A": 0.009381097741425037,
+  "max_stress_GPa": 0.07230978459119797,
+  "optimizer_converged": true,
+  "optimizer_steps": 136,
+  "relaxation_converged": true,
+  "status": "above_restricted_reference",
+  "energy_eV_per_atom": -7.645512390136719,
+  "density_g_cm3": 5.783530824430739,
+  "volume_A3_per_atom": 13.937299396224414,
+  "novelty_status": "unverified_generated_composition_and_ordering",
+  "structure": {
+    "symbols": [
+      "Ba",
+      "Sn",
+      "O",
+      "O",
+      "O",
+      "Ca",
+      "Ti",
+      "O",
+      "O",
+      "O",
+      "Sr",
+      "Sn",
+      "O",
+      "O",
+      "O",
+      "Ba",
+      "Zr",
+      "O",
+      "O",
+      "O"
+    ],
+    "positions": [
+      [
+        5.864230169201811,
+        5.81325889712767,
+        8.223586821182312
+      ],
+      [
+        2.872598647134334,
+        0.0028218629306913877,
+        2.069770319231715
+      ],
+      [
+        2.9702943319355994,
+        0.2428003790043168,
+        8.198546087143873
+      ],
+      [
+        1.7696573735909513,
+        4.052180643647577,
+        1.8262715096832534
+      ],
+      [
+        1.1166821285413293,
+        1.1162464887416803,
+        2.386858722747571
+      ],
+      [
+        5.511744603265543,
+        -0.06029845272067053,
+        4.068312131952571
+      ],
+      [
+        2.9170277317790188,
+        5.78377228596242,
+        6.17710486419404
+      ],
+      [
+        3.0624690280656917,
+        5.683717222630278,
+        4.199224291447697
+      ],
+      [
+        1.5848388932705093,
+        4.434726786168971,
+        6.309711223819681
+      ],
+      [
+        1.6537322167724287,
+        1.4802732110468264,
+        6.128746023625029
+      ],
+      [
+        3.0303236885801375,
+        2.8867113734298213,
+        8.171380440116689
+      ],
+      [
+        5.860801270467464,
+        2.9103804752498825,
+        2.0985835977600784
+      ],
+      [
+        5.807920043529726,
+        2.785277678424243,
+        0.04141173767183512
+      ],
+      [
+        4.145428741218631,
+        1.6816439925121378,
+        2.1392552499691444
+      ],
+      [
+        4.6148679408019815,
+        4.615653174685683,
+        2.0850233126875706
+      ],
+      [
+        2.921745894420949,
+        2.908403464060269,
+        4.14922257248544
+      ],
+      [
+        5.880619137057424,
+        2.898826401431994,
+        6.175688529410094
+      ],
+      [
+        5.913130988350749,
+        3.28936861298119,
+        4.131073168355597
+      ],
+      [
+        4.5331451305687525,
+        1.337613217567379,
+        5.995685628303237
+      ],
+      [
+        4.342543939554991,
+        4.344146876031795,
+        6.320153248554305
+      ]
+    ],
+    "cell": [
+      [
+        5.839393586238338,
+        0.009064797946526298,
+        0.02350460794238147
+      ],
+      [
+        0.008947609792581105,
+        5.800057336305414,
+        0.005642316178449633
+      ],
+      [
+        0.03383729966431777,
+        0.00810077242072962,
+        8.230329594856274
+      ]
+    ]
+  },
+  "artifacts": {
+    "initial_cif": "generated/C03-008.cif",
+    "relaxed_cif": "C03-008/relaxed.cif",
+    "result_json": "C03-008/result.json",
+    "observations_json": "C03-008/observations.json",
+    "relaxation_log": "C03-008/relax.log",
+    "trajectory": "C03-008/relax.traj"
+  },
+  "elapsed_seconds": 10.339172374922782,
+  "applications": [
+    {
+      "name": "Dielectric-ceramic research candidate for capacitors and electronic packaging",
+      "evidence": "Related oxides have dielectric-ceramic literature; this candidate has only the interatomic-potential calculations listed in its record. Its energy exceeds the restricted endmember screening threshold; decomposition and synthesizability need priority investigation.",
+      "missing": [
+        "Permittivity and dielectric loss",
+        "Insulation resistance and breakdown field",
+        "Temperature response",
+        "Full phase stability and experimental synthesis"
+      ]
+    },
+    {
+      "name": "Ceramic-composite filler research candidate",
+      "evidence": "Composition, density, and calculated compression response can inform subsequent models; no product-performance claim is established.",
+      "missing": [
+        "Interface bonding and dispersion",
+        "Thermal conductivity and expansion",
+        "Toughness, fatigue, and processing validation"
+      ]
+    }
+  ],
+  "restricted_decomposition_eV_per_atom": 0.015356063842773438,
+  "restricted_reference_weights": {
+    "BaSnO3": 0.25,
+    "BaZrO3": 0.25,
+    "CaSnO3": 0.25,
+    "SrTiO3": 0.25
+  }
+}

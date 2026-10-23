@@ -1,0 +1,24 @@
+&CONTROL
+ calculation='scf', prefix='catio3', pseudo_dir='${PROJECT_ROOT}/.tools/pseudo',
+ outdir='./scratch', tprnfor=.true., tstress=.true., disk_io='low'
+/
+&SYSTEM
+ ibrav=1, A=3.89, nat=5, ntyp=3,
+ ecutwfc=80, ecutrho=800, occupations='fixed', input_dft='PBE'
+/
+&ELECTRONS
+ conv_thr=1.0d-9, electron_maxstep=100, mixing_beta=0.1, mixing_ndim=12,
+ diagonalization='david', startingpot='file', startingwfc='atomic+random',
+/
+ATOMIC_SPECIES
+Ca 40.078 Ca.pbe-spn-kjpaw_psl.1.0.0.UPF
+Ti 47.867 Ti.pbe-spn-kjpaw_psl.1.0.0.UPF
+O 15.999 O.pbe-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal
+Ca 0.0 0.0 0.0
+Ti 0.5 0.5 0.5
+O 0.5 0.5 0.0
+O 0.5 0.0 0.5
+O 0.0 0.5 0.5
+K_POINTS automatic
+4 4 4 0 0 0

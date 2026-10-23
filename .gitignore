@@ -1,0 +1,12 @@
+.venv/
+.cache/
+.tools/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.DS_Store
+*.pid
+*.tmp
+runs/quantum/**/scratch/
+dist/

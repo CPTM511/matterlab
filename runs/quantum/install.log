@@ -1,0 +1,148 @@
+Fetch Shard Index for conda-forge/noarch                                                        ⧖ Starting
+Fetch Shard Index for conda-forge/noarch                                                  ✔ Done (1.6 sec)
+Fetch Shard Index for conda-forge/osx-arm64                                                     ⧖ Starting
+Fetch Shard Index for conda-forge/osx-arm64                                               ✔ Done (1.2 sec)
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                    ✔ Done (19.3 sec)
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.1 sec)
+
+Transaction
+
+  Prefix: ${PROJECT_ROOT}/.tools/qe
+
+  Updating specs:
+
+   - qe=7.6
+   - mpi=1.0=mpich
+
+
+  Package                   Version  Build                  Channel          Size
+───────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────
+
+  + _openmp_mutex               4.5  8_kmp_llvm             conda-forge       8kB
+  + aws-c-auth                1.0.0  h7ad4001_2             conda-forge     116kB
+  + aws-c-cal                 1.0.0  h50d513f_1             conda-forge      48kB
+  + aws-c-common              1.0.3  h74c22ad_0             conda-forge     251kB
+  + aws-c-compression         1.0.0  h50d513f_1             conda-forge      22kB
+  + aws-c-http                1.0.0  h7b2e6b5_1             conda-forge     190kB
+  + aws-c-io                  1.0.0  h49e100f_0             conda-forge     190kB
+  + aws-c-s3                  1.0.0  hffd187b_1             conda-forge     138kB
+  + aws-c-sdkutils            1.0.0  h50d513f_1             conda-forge      60kB
+  + aws-checksums             1.0.0  h50d513f_0             conda-forge      92kB
+  + c-ares                   1.34.9  h74c22ad_0             conda-forge     202kB
+  + ca-certificates      2026.10.19  hbd8a1cb_0             conda-forge     131kB
+  + elpa                2026.02.002  mpi_mpich_h72b9257_2   conda-forge       6MB
+  + fftw                     3.3.11  nompi_haf1500d_100     conda-forge     747kB
+  + hdf5                      2.2.0  mpi_mpich_hbd619b9_1   conda-forge       4MB
+  + icu                        78.3  py310h579977c_2        conda-forge      14MB
+  + krb5                     1.22.2  h34f8a20_2             conda-forge       1MB
+  + libaec                    1.1.5  h8664d51_0             conda-forge      30kB
+  + libblas                  3.11.0  11_h51639a9_openblas   conda-forge      18kB
+  + libcurl                  8.23.0  h6651222_0             conda-forge     426kB
+  + libcxx                   23.1.4  h55c6f16_2             conda-forge     577kB
+  + libedit            3.1.20260512  pl5321h26f1114_0       conda-forge     109kB
+  + libev                      4.33  h1a92334_3             conda-forge      40kB
+  + libfabric                 2.6.0  hce30654_0             conda-forge      14kB
+  + libfabric1                2.6.0  h84a0fba_0             conda-forge     335kB
+  + libgcc                   16.2.0  h3cf6597_7             conda-forge     366kB
+  + libgfortran              16.2.0  h07b0088_7             conda-forge     100kB
+  + libgfortran5             16.2.0  hdb7a957_7             conda-forge     555kB
+  + libhwloc                 2.15.0  default_h98d0dc1_1001  conda-forge       2MB
+  + libiconv                   1.18  he4c29f2_3             conda-forge     751kB
+  + liblapack                3.11.0  11_hd9741b5_openblas   conda-forge      18kB
+  + liblzma                   5.8.3  h8088a28_1             conda-forge      92kB
+  + libnghttp2               1.68.1  h435687b_1             conda-forge     567kB
+  + libopenblas              0.3.34  openmp_h5e6e99c_1      conda-forge       4MB
+  + libpsl                   0.23.1  hdb0c161_1             conda-forge      73kB
+  + libssh2                  1.11.1  hbf2880b_1             conda-forge     280kB
+  + libxml2                  2.15.4  h550178d_1             conda-forge      41kB
+  + libxml2-16               2.15.4  heb56d2d_1             conda-forge     469kB
+  + libzlib                   1.3.2  h8088a28_3             conda-forge      48kB
+  + llvm-openmp              23.1.4  hdb3d66b_0             conda-forge     287kB
+  + mpi                       1.0.1  mpich                  conda-forge       7kB
+  + mpich                     5.0.2  h334a687_0             conda-forge       6MB
+  + ncurses                     6.6  he64c551_1             conda-forge     804kB
+  + openssl                   3.6.5  h55eecbc_0             conda-forge       3MB
+  + pkg-config               0.29.2  he0b766d_1013          conda-forge     274kB
+  + qe                          7.6  mpi_mpich_h2fa8bd0_3   conda-forge     241MB
+  + s2n                       1.7.7  h430f396_0             conda-forge     278kB
+  + scalapack                 2.2.0  hf586d3d_6             conda-forge       2MB
+  + zstd                      1.5.7  hf451053_7             conda-forge     434kB
+
+  Summary:
+
+  Install: 49 packages
+
+  Total download: 292MB
+
+───────────────────────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Linking mpi-1.0.1-mpich
+Linking ca-certificates-2026.10.19-hbd8a1cb_0
+Linking llvm-openmp-23.1.4-hdb3d66b_0
+Linking libzlib-1.3.2-h8088a28_3
+Linking libcxx-23.1.4-h55c6f16_2
+Linking libiconv-1.18-he4c29f2_3
+Linking aws-c-common-1.0.3-h74c22ad_0
+Linking libfabric1-2.6.0-h84a0fba_0
+Linking libev-4.33-h1a92334_3
+Linking c-ares-1.34.9-h74c22ad_0
+Linking ncurses-6.6-he64c551_1
+Linking icu-78.3-py310h579977c_2
+Linking liblzma-5.8.3-h8088a28_1
+Linking openssl-3.6.5-h55eecbc_0
+Linking _openmp_mutex-4.5-8_kmp_llvm
+Linking zstd-1.5.7-hf451053_7
+Linking libaec-1.1.5-h8664d51_0
+Linking pkg-config-0.29.2-he0b766d_1013
+Linking aws-c-cal-1.0.0-h50d513f_1
+Linking aws-c-compression-1.0.0-h50d513f_1
+Linking aws-checksums-1.0.0-h50d513f_0
+Linking aws-c-sdkutils-1.0.0-h50d513f_1
+Linking libfabric-2.6.0-hce30654_0
+Linking libedit-3.1.20260512-pl5321h26f1114_0
+Linking libpsl-0.23.1-hdb0c161_1
+Linking libxml2-16-2.15.4-heb56d2d_1
+Linking libssh2-1.11.1-hbf2880b_1
+Linking libnghttp2-1.68.1-h435687b_1
+Linking s2n-1.7.7-h430f396_0
+Linking libgcc-16.2.0-h3cf6597_7
+Linking krb5-1.22.2-h34f8a20_2
+Linking libxml2-2.15.4-h550178d_1
+Linking aws-c-io-1.0.0-h49e100f_0
+Linking libgfortran5-16.2.0-hdb7a957_7
+Linking libcurl-8.23.0-h6651222_0
+Linking libhwloc-2.15.0-default_h98d0dc1_1001
+Linking aws-c-http-1.0.0-h7b2e6b5_1
+Linking libgfortran-16.2.0-h07b0088_7
+Linking aws-c-auth-1.0.0-h7ad4001_2
+Linking libopenblas-0.3.34-openmp_h5e6e99c_1
+Linking fftw-3.3.11-nompi_haf1500d_100
+Linking mpich-5.0.2-h334a687_0
+Linking aws-c-s3-1.0.0-hffd187b_1
+Linking libblas-3.11.0-11_h51639a9_openblas
+Linking hdf5-2.2.0-mpi_mpich_hbd619b9_1
+Linking liblapack-3.11.0-11_hd9741b5_openblas
+Linking scalapack-2.2.0-hf586d3d_6
+Linking elpa-2026.02.002-mpi_mpich_h72b9257_2
+Linking qe-7.6-mpi_mpich_h2fa8bd0_3
+
+Transaction finished
+
+
+To activate this environment, use:
+
+    micromamba activate ${PROJECT_ROOT}/.tools/qe
+
+Or to execute a single command in this environment, use:
+
+    micromamba run -p ${PROJECT_ROOT}/.tools/qe mycommand
+

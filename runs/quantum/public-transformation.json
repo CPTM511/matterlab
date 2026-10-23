@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "kind": "public derivative of locally preserved quantum evidence",
+  "placeholders": {
+    "${PROJECT_ROOT}": "absolute path of the original project, replaced for publication",
+    "${HOME}": "absolute home directory path, replaced for publication"
+  },
+  "source_manifest_sha256": "dfeedac1d9f4bd19e4b22fe98dee5f829b9b78d2b4c743fb12ef66b6a4f01a1a",
+  "transformations": [
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4/data-file-schema.xml",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4/data-file-schema.xml",
+      "original_sha256": "7c512b05f66448ff35b1777af4781ec95a81174d7c01e07356f3965d12a7c60f",
+      "exported_sha256": "23b5ed8d6a40f884869c5035cd9ce96def470367468a54a9785a53f8bdac1129",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4/input.in",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4/input.in",
+      "original_sha256": "adc4eb16ec0fd85b44822dfcbb21c5a628f8be49ffb6e1edf0c80412a49b3366",
+      "exported_sha256": "f1412ea14bb159d158bcf49a6e66653d96f9ea05721c40fcbbb15995b4d76d2f",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4/output.out",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4/output.out",
+      "original_sha256": "d3b9b1904d7395c6d0cd8a1d429ab26643c2a83ba3ac49776aa1f6c0ac111775",
+      "exported_sha256": "6980668271ec358209067c32553f1727b45c520920690808e88a11894910fc63",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4/summary.json",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4/summary.json",
+      "original_sha256": "00dac027b5ddd7edca50b7d4d8907bdcc90169af49d26b7253feacfeb03cc666",
+      "exported_sha256": "465b444d2bf25eb362b8596fa32f1619d35e191839708ae123b52e8389977413",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders",
+        "refresh input/output hashes to match exported derivative files"
+      ],
+      "original_recorded_input_sha256": "adc4eb16ec0fd85b44822dfcbb21c5a628f8be49ffb6e1edf0c80412a49b3366",
+      "original_recorded_output_sha256": "d3b9b1904d7395c6d0cd8a1d429ab26643c2a83ba3ac49776aa1f6c0ac111775"
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/data-file-schema.xml",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/data-file-schema.xml",
+      "original_sha256": "5ec59644c2c45bb040e31ff3bcead8f91a5542cf7279cf15737393f81da81ce5",
+      "exported_sha256": "20964f5c9c0ac7bab73ae60c1031ec9cecb9a6a23ebd7067880153882c3681c0",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/input.in",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/input.in",
+      "original_sha256": "636a382cfbb8c38b259fad94235c5373bda87ee834b8969d600c32cb188e171a",
+      "exported_sha256": "8a8dbb6ead4a50c54f68616349ab612d8dcea0274ad8e71d5b76addf5608fc34",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/output.out",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/output.out",
+      "original_sha256": "da382b9068a37949a8858eca52a3d54ddcee930c8e62a0fb3c4fef2e15d3016f",
+      "exported_sha256": "7899bc482c991908e9075b38d635d567a229771dffc5fae6aef2b673defc6636",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/summary.json",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/summary.json",
+      "original_sha256": "d8ee882220f3c0df03aca4695aa4ecad1387762b0c9955280fcb7122af945f8c",
+      "exported_sha256": "7a92813c114a77712073f5063e1f36ffff3eeee7588b932c23e0c543fbe73fe1",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders",
+        "refresh input/output hashes to match exported derivative files"
+      ],
+      "original_recorded_input_sha256": "636a382cfbb8c38b259fad94235c5373bda87ee834b8969d600c32cb188e171a",
+      "original_recorded_output_sha256": "da382b9068a37949a8858eca52a3d54ddcee930c8e62a0fb3c4fef2e15d3016f"
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/data-file-schema.xml",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/data-file-schema.xml",
+      "original_sha256": "305b4b3fafb81f18e7a1b4b0aae220732020161d59f1172bbf7482a80a8a9a7e",
+      "exported_sha256": "602774c09521da87b164da4279a41f9a915f36a96884faf14fce328fc8da35f3",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/initial-density.tar.gz",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/initial-density.tar.gz",
+      "original_sha256": "129ba2cb26d927d965c03d295e62795b9a834cefbe712335e01bab571f4590e6",
+      "exported_sha256": "c5b0b79b04796b4be682bf210930d46d09af350842f9a156622b8c2b61a00911",
+      "operations": [
+        "repack density archive with normalized metadata and portable text paths"
+      ],
+      "archive_members": [
+        {
+          "path": "scratch/catio3.save/charge-density.hdf5",
+          "original_sha256": "36bf075eb7a5dfe499c1acd7c9eec9971265afbd474c5295068154c164607598",
+          "exported_sha256": "36bf075eb7a5dfe499c1acd7c9eec9971265afbd474c5295068154c164607598",
+          "operations": [
+            "normalize archive ownership, permissions, and timestamps",
+            "preserve binary payload bytes exactly"
+          ]
+        },
+        {
+          "path": "scratch/catio3.save/paw.txt",
+          "original_sha256": "3b2ff12dd9763764dcd98758c2486fcbed57dc900684c9f7a5365fc35c3c3397",
+          "exported_sha256": "3b2ff12dd9763764dcd98758c2486fcbed57dc900684c9f7a5365fc35c3c3397",
+          "operations": [
+            "normalize archive ownership, permissions, and timestamps"
+          ]
+        },
+        {
+          "path": "scratch/catio3.save/data-file-schema.xml",
+          "original_sha256": "5ec59644c2c45bb040e31ff3bcead8f91a5542cf7279cf15737393f81da81ce5",
+          "exported_sha256": "20964f5c9c0ac7bab73ae60c1031ec9cecb9a6a23ebd7067880153882c3681c0",
+          "operations": [
+            "normalize archive ownership, permissions, and timestamps",
+            "replace absolute paths with portable placeholders"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/input.in",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/input.in",
+      "original_sha256": "88357ecbe3e911d07b61c640188739dbaf47d51668bff1347210f4c94d0a5522",
+      "exported_sha256": "8caaaebb4213b46ba7d9259726e9e2a77f782740296bd21e508c1438bf81bd24",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/output.out",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/output.out",
+      "original_sha256": "6877548db464a9f269da1bfbbf6e37c219c600afc508d7019f90e3a9f0b471df",
+      "exported_sha256": "16af1e68043bd829da4aef81b19fac9678324a0288ec3ef0c135a59d3d8864d4",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/summary.json",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/summary.json",
+      "original_sha256": "6eeaf1e670c94a060b444c2a574811a8b8b98efadb119ae6f6b9b64842825a4f",
+      "exported_sha256": "454a877c6e391cbca543a41ff0d5591e6c8aff3e5030c3fddff6b3fe642c86cf",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders",
+        "refresh input/output hashes to match exported derivative files"
+      ],
+      "original_recorded_input_sha256": "88357ecbe3e911d07b61c640188739dbaf47d51668bff1347210f4c94d0a5522",
+      "original_recorded_output_sha256": "6877548db464a9f269da1bfbbf6e37c219c600afc508d7019f90e3a9f0b471df"
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4-sandbox-mpi-failed/input.in",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4-sandbox-mpi-failed/input.in",
+      "original_sha256": "adc4eb16ec0fd85b44822dfcbb21c5a628f8be49ffb6e1edf0c80412a49b3366",
+      "exported_sha256": "f1412ea14bb159d158bcf49a6e66653d96f9ea05721c40fcbbb15995b4d76d2f",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4-sandbox-mpi-failed/output.out",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4-sandbox-mpi-failed/output.out",
+      "original_sha256": "b9e73d7e5d13d2026e15c56909263c1fb83bdd75874e20d423624a7ed453752f",
+      "exported_sha256": "b9e73d7e5d13d2026e15c56909263c1fb83bdd75874e20d423624a7ed453752f",
+      "operations": [
+        "copy bytes unchanged"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e60-r600-k4-sandbox-mpi-failed/summary.json",
+      "exported": "runs/quantum/catio3-cubic-e60-r600-k4-sandbox-mpi-failed/summary.json",
+      "original_sha256": "72a6ffc7de093d2c3d1c88f3024f237ddf30b0b8db3dea7ac866a8d4b139db63",
+      "exported_sha256": "69d0310d350a8ef563be5a25d086b9d450fd015c27b330e77756d317ffb3bcc4",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders",
+        "refresh input/output hashes to match exported derivative files"
+      ],
+      "original_recorded_input_sha256": "adc4eb16ec0fd85b44822dfcbb21c5a628f8be49ffb6e1edf0c80412a49b3366",
+      "original_recorded_output_sha256": "b9e73d7e5d13d2026e15c56909263c1fb83bdd75874e20d423624a7ed453752f"
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e80-r800-k4/data-file-schema.xml",
+      "exported": "runs/quantum/catio3-cubic-e80-r800-k4/data-file-schema.xml",
+      "original_sha256": "7e8ad453905cf76fafbc9472fc6aa938813c8884ad246ff2eadc71af4c1810b3",
+      "exported_sha256": "af186d5016ab3357dd11c3c8726f87f6fe6bd48212cc60a10a5af0d2c8c4ef71",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e80-r800-k4/input.in",
+      "exported": "runs/quantum/catio3-cubic-e80-r800-k4/input.in",
+      "original_sha256": "fdc2474eb58349ea036856fafcf5c9a84920b7ee994f258d6e42ec9642b859e6",
+      "exported_sha256": "0c47faa8638880443ffb400edb8cf68976bdd024c1633e0d1e755eecd7dab3f2",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e80-r800-k4/output.out",
+      "exported": "runs/quantum/catio3-cubic-e80-r800-k4/output.out",
+      "original_sha256": "e2c130da2a854981a7c5c183a41ffe2c615ea007216c54b136855272c810c869",
+      "exported_sha256": "df57772369dfb38662103b09d12e71a785dcedfa2de816162729eb3d3e698e0c",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e80-r800-k4/summary.json",
+      "exported": "runs/quantum/catio3-cubic-e80-r800-k4/summary.json",
+      "original_sha256": "51d7c57e5309702f9c314ecd771fab25b6058dc544ee4e3fc570d9475620d53d",
+      "exported_sha256": "c06173b92fb482ae0cb94c5f335974fdbcbeb6e32084eae4f6bed5e78af9ffb0",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders",
+        "refresh input/output hashes to match exported derivative files"
+      ],
+      "original_recorded_input_sha256": "fdc2474eb58349ea036856fafcf5c9a84920b7ee994f258d6e42ec9642b859e6",
+      "original_recorded_output_sha256": "e2c130da2a854981a7c5c183a41ffe2c615ea007216c54b136855272c810c869"
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/data-file-schema.xml",
+      "exported": "runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/data-file-schema.xml",
+      "original_sha256": "446a3811e7018a4df934df98b6bf4603d9932bf5006bdbe5207e1a34df416c24",
+      "exported_sha256": "bccff70ba0b20d1ed4c64dd3f945c957e12f2b70719e2d851d60db562002c788",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/initial-density.tar.gz",
+      "exported": "runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/initial-density.tar.gz",
+      "original_sha256": "c349fde4b14fbe5d4fd4a21f4f163b1e74e1479a4b94d2eea9283f842df0a444",
+      "exported_sha256": "44baadf484f92dd9528e3dbd1250687c8957e3b01c0ed964ca6c5ba6bcbe44fb",
+      "operations": [
+        "repack density archive with normalized metadata and portable text paths"
+      ],
+      "archive_members": [
+        {
+          "path": "scratch/catio3.save/charge-density.hdf5",
+          "original_sha256": "f69b6904437120b5d02e7af6df55efe9ff30448bafaed1e0133c0c9314188556",
+          "exported_sha256": "f69b6904437120b5d02e7af6df55efe9ff30448bafaed1e0133c0c9314188556",
+          "operations": [
+            "normalize archive ownership, permissions, and timestamps",
+            "preserve binary payload bytes exactly"
+          ]
+        },
+        {
+          "path": "scratch/catio3.save/paw.txt",
+          "original_sha256": "7193352fd22b0b39cce1ef944682e335beaaa14f2dbb9daa774dc8639616cc15",
+          "exported_sha256": "7193352fd22b0b39cce1ef944682e335beaaa14f2dbb9daa774dc8639616cc15",
+          "operations": [
+            "normalize archive ownership, permissions, and timestamps"
+          ]
+        },
+        {
+          "path": "scratch/catio3.save/data-file-schema.xml",
+          "original_sha256": "305b4b3fafb81f18e7a1b4b0aae220732020161d59f1172bbf7482a80a8a9a7e",
+          "exported_sha256": "602774c09521da87b164da4279a41f9a915f36a96884faf14fce328fc8da35f3",
+          "operations": [
+            "normalize archive ownership, permissions, and timestamps",
+            "replace absolute paths with portable placeholders"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/input.in",
+      "exported": "runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/input.in",
+      "original_sha256": "285d92fa0564fed7cc4c3fe98df53ba56708d624a7698882c42b1f0ea85f09b0",
+      "exported_sha256": "0a7632923f8edcefa9835b954794cea4aafb39ba4a1a61d235093ab80957ea3e",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/output.out",
+      "exported": "runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/output.out",
+      "original_sha256": "81e5eb81429cdee575953d5a204e8f385a8ee34289c58aa7b1f0358d141380d0",
+      "exported_sha256": "40e6c7f36328c37e751397df71c33763a740cb3c872f00004ea2eaedbbb6a811",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/summary.json",
+      "exported": "runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/summary.json",
+      "original_sha256": "08a159a94beb5d30af833c76261c57db6a8cadf8198bbd7b94ca21cbede352a5",
+      "exported_sha256": "19e877557909abb5dc4ebc67770f3bcd3f20e84fb855b10671798cfd6d69fd13",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders",
+        "refresh input/output hashes to match exported derivative files"
+      ],
+      "original_recorded_input_sha256": "285d92fa0564fed7cc4c3fe98df53ba56708d624a7698882c42b1f0ea85f09b0",
+      "original_recorded_output_sha256": "81e5eb81429cdee575953d5a204e8f385a8ee34289c58aa7b1f0358d141380d0"
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/data-file-schema.xml",
+      "exported": "runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/data-file-schema.xml",
+      "original_sha256": "314d1a57a657e01e629534e9be052c397d83bdae3ab3f8c87797d61f7c4c21da",
+      "exported_sha256": "20031c2a609c722945e5e132de3fdb699b690a42f1ff17ca7ffa3b72f3be4d31",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/initial-density.tar.gz",
+      "exported": "runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/initial-density.tar.gz",
+      "original_sha256": "dbb488482d6400258e353fa88db87e1c4c9dec6b3875bc57fa8c2a801dcf4363",
+      "exported_sha256": "74287238cba81054ccf8c85b107c95bc47141100f69f8b97e48405d0d14e2fc7",
+      "operations": [
+        "repack density archive with normalized metadata and portable text paths"
+      ],
+      "archive_members": [
+        {
+          "path": "scratch/catio3.save/charge-density.hdf5",
+          "original_sha256": "6b4e341aad724bc9c55bf013be9ec9d78c0afea478da5111b5a10bd5a343fedb",
+          "exported_sha256": "6b4e341aad724bc9c55bf013be9ec9d78c0afea478da5111b5a10bd5a343fedb",
+          "operations": [
+            "normalize archive ownership, permissions, and timestamps",
+            "preserve binary payload bytes exactly"
+          ]
+        },
+        {
+          "path": "scratch/catio3.save/paw.txt",
+          "original_sha256": "85b12d86aeecfea26d465fdafcdd7e58c9edd6eb1522859ce69201bfbf9c2f71",
+          "exported_sha256": "85b12d86aeecfea26d465fdafcdd7e58c9edd6eb1522859ce69201bfbf9c2f71",
+          "operations": [
+            "normalize archive ownership, permissions, and timestamps"
+          ]
+        },
+        {
+          "path": "scratch/catio3.save/data-file-schema.xml",
+          "original_sha256": "446a3811e7018a4df934df98b6bf4603d9932bf5006bdbe5207e1a34df416c24",
+          "exported_sha256": "bccff70ba0b20d1ed4c64dd3f945c957e12f2b70719e2d851d60db562002c788",
+          "operations": [
+            "normalize archive ownership, permissions, and timestamps",
+            "replace absolute paths with portable placeholders"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/input.in",
+      "exported": "runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/input.in",
+      "original_sha256": "bc6ab41d125d40ca142ecfc39e1114f04c876adf6d3bf3a33827884b90a5f300",
+      "exported_sha256": "123325d89e1ca69fb7105ae39a6a65936a2c5773966c5150e821e67ce4358d60",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/output.out",
+      "exported": "runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/output.out",
+      "original_sha256": "226714396b3d7c6dee83d71ab13952eb11c07d0e27779a38c0d946f0441272c9",
+      "exported_sha256": "542247859f6dd26b660f6beb9ca9f85d3fcbeb3bb9b31930c489b6b6be1f75b8",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/summary.json",
+      "exported": "runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/summary.json",
+      "original_sha256": "183035724183b743b73f2cdfa50ba2b02ebb30f6fcd5f0922f1f79bdf0503af7",
+      "exported_sha256": "a47d3d56c1567985bac1e94dd1c0f5cf2fb9b148d8eea09ef35a3350edebaa0c",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders",
+        "refresh input/output hashes to match exported derivative files"
+      ],
+      "original_recorded_input_sha256": "bc6ab41d125d40ca142ecfc39e1114f04c876adf6d3bf3a33827884b90a5f300",
+      "original_recorded_output_sha256": "226714396b3d7c6dee83d71ab13952eb11c07d0e27779a38c0d946f0441272c9"
+    },
+    {
+      "source": "runs/quantum/convergence.json",
+      "exported": "runs/quantum/convergence.json",
+      "original_sha256": "b61d118c4b997095372ccc8bf0b4d6c551f3d6c64c5e389ab2b3691c5b7c7e9a",
+      "exported_sha256": "b61d118c4b997095372ccc8bf0b4d6c551f3d6c64c5e389ab2b3691c5b7c7e9a",
+      "operations": [
+        "copy bytes unchanged"
+      ]
+    },
+    {
+      "source": "runs/quantum/evidence-verification.json",
+      "exported": "runs/quantum/evidence-verification.json",
+      "original_sha256": "cbced9945a38ce0e403a6a5121b410c51cf8db14b891a72e544fdca1c26fed45",
+      "exported_sha256": "cbced9945a38ce0e403a6a5121b410c51cf8db14b891a72e544fdca1c26fed45",
+      "operations": [
+        "copy bytes unchanged"
+      ]
+    },
+    {
+      "source": "runs/quantum/install-openmpi.log",
+      "exported": "runs/quantum/install-openmpi.log",
+      "original_sha256": "543743bf3d051d76d12d0a04df3d835d367224be7363d91b81847c912691fcbc",
+      "exported_sha256": "45aecd287e8fff9e05d85d2badd4314dc344c45282e881321a3f5ddc0fc608cb",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/install.log",
+      "exported": "runs/quantum/install.log",
+      "original_sha256": "3045afe9f073de1c7a424f72589bd40f64fad41a9d81ecb048d6386b59b6c740",
+      "exported_sha256": "398028d63a2d5b9a3485f4bca82e8d63cd477a6ff3e275849dbcd7b13b17e7bd",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/lock-openmpi-replay-check.log",
+      "exported": "runs/quantum/lock-openmpi-replay-check.log",
+      "original_sha256": "e619439343d2659bf9be039a3a831f2c99efd4f6c47524239186e744a9d4bd36",
+      "exported_sha256": "5324122b6209845ceb1ca0f4565a05c6423ce74ea8d834cdc490b4a16ae048b9",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/lock-replay-check.log",
+      "exported": "runs/quantum/lock-replay-check.log",
+      "original_sha256": "bc88a7a3179f4f107189a00cd0a85437998fb3d598a341d03d45e23c46863e2c",
+      "exported_sha256": "0a51340629e3c777f495d887c940766bb4d15c6d1676ec6dd2892a4ba356f370",
+      "operations": [
+        "replace absolute home/workspace paths with portable placeholders"
+      ]
+    },
+    {
+      "source": "runs/quantum/manifest.sha256",
+      "exported": "runs/quantum/historical-manifest.sha256",
+      "original_sha256": "dfeedac1d9f4bd19e4b22fe98dee5f829b9b78d2b4c743fb12ef66b6a4f01a1a",
+      "exported_sha256": "dfeedac1d9f4bd19e4b22fe98dee5f829b9b78d2b4c743fb12ef66b6a4f01a1a",
+      "operations": [
+        "retain historical hash listing under a distinct filename; not the public manifest"
+      ]
+    },
+    {
+      "source": "docs/quantum-validation.md",
+      "exported": "docs/quantum-validation.md",
+      "original_sha256": "7b93c493fdffcb5820457db9c8d8e29d1055536d81c17e7149ff3c358aac5944",
+      "exported_sha256": "ad22cd857a136a21c81439f8c5b32d3d1ccc8e50330d8150adeb8955cfa645b8",
+      "operations": [
+        "publish English documentation; retain original documentation locally"
+      ]
+    },
+    {
+      "source": "docs/quantum-validation.en.md",
+      "exported": "docs/quantum-validation.en.md",
+      "original_sha256": "ad22cd857a136a21c81439f8c5b32d3d1ccc8e50330d8150adeb8955cfa645b8",
+      "exported_sha256": "ad22cd857a136a21c81439f8c5b32d3d1ccc8e50330d8150adeb8955cfa645b8",
+      "operations": [
+        "publish English documentation; retain original documentation locally"
+      ]
+    }
+  ],
+  "generated_artifacts": [
+    "runs/quantum/public-export-verification.json",
+    "runs/quantum/manifest.sha256"
+  ],
+  "originals_preserved": true
+}

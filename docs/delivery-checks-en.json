@@ -1,0 +1,13 @@
+{
+  "campaign": "round-001-en",
+  "artifact_downloads_checked": 106,
+  "artifact_download_hashes_match": true,
+  "english_browser_checks": [
+    "run loaded with actual 6 candidates and 9 references",
+    "C03-005 search returns one record",
+    "two-candidate comparison displays both inconclusive Gamma assessments",
+    "application hypotheses and raw-evidence links displayed in English"
+  ],
+  "screenshot": "images/matterlab-english.png",
+  "scope": "Local HTTP delivery and observed English UI; not new physical evidence."
+}

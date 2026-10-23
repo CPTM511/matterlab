@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "candidate_id": "C03-005",
+  "active_structure_stage": "refined",
+  "original_run": "../round-001-en",
+  "source_module": "source_snapshot/matterlab/simulate.py",
+  "source_module_sha256": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a",
+  "refinement_parameters": {
+    "fmax": 0.005,
+    "steps": 400
+  },
+  "geometry_reference": "authenticated result.json structure in its raw Cartesian basis; CIF retained separately",
+  "comparisons": {
+    "energy_eV_per_atom": {
+      "max_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-05,
+      "passed": true
+    },
+    "forces_eV_A": {
+      "max_absolute_difference": 0.0,
+      "absolute_tolerance": 0.0002,
+      "passed": true
+    },
+    "stress_eV_A3": {
+      "max_absolute_difference": 0.0,
+      "absolute_tolerance": 1e-05,
+      "passed": true
+    },
+    "cell_A": {
+      "max_absolute_difference": 0.0,
+      "absolute_tolerance": 0.0001,
+      "passed": true
+    },
+    "same_site_displacement_A": {
+      "max_absolute_difference": 0.0,
+      "absolute_tolerance": 0.001,
+      "passed": true
+    },
+    "convergence_state": {
+      "actual": true,
+      "recorded": true,
+      "passed": true
+    }
+  },
+  "optimizer_steps": 7,
+  "recorded_optimizer_steps": 7,
+  "scope": "Independent fresh local ML-potential relaxation from original generated CIF; same saved model/code. Not DFT or experimental validation.",
+  "not_replayed": [
+    "EOS scans",
+    "Gamma finite displacements",
+    "other candidates",
+    "phase-reference calculations"
+  ]
+}

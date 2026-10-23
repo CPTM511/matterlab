@@ -1,0 +1,7 @@
+{
+  "artifact_downloads_checked": 102,
+  "artifact_download_hashes_match": true,
+  "changed_input_rejected_before_replay": true,
+  "tamper_worker_started": false,
+  "scope": "Local HTTP artifact delivery and deliberate changed-input rejection; not new materials data"
+}

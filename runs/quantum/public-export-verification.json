@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "recorded_runs": 7,
+  "accepted_runs": 2,
+  "unaccepted_runs": 5,
+  "records": [
+    {
+      "run": "catio3-cubic-e60-r600-k4",
+      "accepted": false,
+      "returncode": 143,
+      "scf_converged": false,
+      "total_energy_Ry": null
+    },
+    {
+      "run": "catio3-cubic-e60-r600-k4-m0.1-n12",
+      "accepted": false,
+      "returncode": 143,
+      "scf_converged": true,
+      "total_energy_Ry": -442.91302725
+    },
+    {
+      "run": "catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi",
+      "accepted": true,
+      "returncode": 0,
+      "scf_converged": true,
+      "total_energy_Ry": -442.91302725
+    },
+    {
+      "run": "catio3-cubic-e60-r600-k4-sandbox-mpi-failed",
+      "accepted": false,
+      "returncode": 143,
+      "scf_converged": false,
+      "total_energy_Ry": null
+    },
+    {
+      "run": "catio3-cubic-e80-r800-k4",
+      "accepted": false,
+      "returncode": 143,
+      "scf_converged": false,
+      "total_energy_Ry": null
+    },
+    {
+      "run": "catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi",
+      "accepted": true,
+      "returncode": 0,
+      "scf_converged": true,
+      "total_energy_Ry": -442.91712792
+    },
+    {
+      "run": "catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi",
+      "accepted": false,
+      "returncode": 0,
+      "scf_converged": false,
+      "total_energy_Ry": null
+    }
+  ],
+  "source_status_identical": true,
+  "input_output_hashes_verified": true,
+  "raw_log_xml_consistency_verified": true,
+  "binary_density_payloads_unchanged": true,
+  "scope": "Evidence preservation and consistency; not physical convergence or candidate validation."
+}

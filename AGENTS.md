@@ -1,0 +1,12 @@
+# MatterLab project instructions
+
+- Goal: generate genuinely new composition/ordering hypotheses, execute real physical calculations, and publish reproducible evidence with bounded application hypotheses.
+- Zero additional spending. No OpenAI API, paid services, cloud compute, credit purchases, automatic quota resets, or fallback to paid overage. Use existing signed-in Codex Pro sessions for GPT roles. Check account usage before further long agent batches; pause new model work before included allowance is exhausted. Account usage is shared and cannot be enforced by this repository.
+- The user explicitly requests GPT Astra roles. Use `gpt-6-astra` for delegated scientific/design/review tasks. Record actual role and tool evidence; never claim a prompt changes the underlying model.
+- All generated candidates are computational hypotheses, not synthesized materials. ML interatomic potential results are not DFT. Negative restricted decomposition energy is not a full convex-hull result. Bulk modulus is not strength, hardness, toughness, or dielectric performance.
+- New structure files do not prove global novelty. Preserve prior art and label lookup coverage and uncertainty.
+- The user authorizes continuous unattended work and English-only public GitHub publication. Follow project/OPERATIONS.md and resume from project/STATE.json. All current product/model/report/public content must be English; preserve historical raw evidence separately. Publish only the audited clean export, never this private workspace's history or personal metadata.
+- Preserve raw inputs/outputs, seeds, package/model versions and SHA256 manifests. Never replace failed measurements with synthetic values. A round with zero surviving candidates is a valid negative result, not a discovery.
+- Main commands: `.venv/bin/python -m pip install -e .`, `.venv/bin/matterlab generate`, `.venv/bin/matterlab run`, `.venv/bin/matterlab verify RUN_DIRECTORY`, `.venv/bin/matterlab serve` (see README for arguments).
+- Keep `.venv`, model cache, and solver installations out of Git. Raw result artifacts and reusable reproduction scripts belong in the project. External source code/models/data retain their licenses.
+- Current shared duties: parent owns src/, tests/, configs/, README and integration; science role owns docs/scientific-design.md; dashboard role owns ui/; quantum role owns .tools/, tools/quantum/, docs/quantum-validation.md and runs/quantum/.

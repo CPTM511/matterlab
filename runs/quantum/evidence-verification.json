@@ -1,0 +1,63 @@
+{
+  "recorded_runs": 7,
+  "successful_runs": 2,
+  "records": [
+    {
+      "run": "catio3-cubic-e60-r600-k4",
+      "execution_and_scf_success": false,
+      "returncode": 143,
+      "scf_converged": false,
+      "runtime_warnings": []
+    },
+    {
+      "run": "catio3-cubic-e60-r600-k4-m0.1-n12",
+      "execution_and_scf_success": false,
+      "returncode": 143,
+      "scf_converged": true,
+      "runtime_warnings": []
+    },
+    {
+      "run": "catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi",
+      "execution_and_scf_success": true,
+      "returncode": 0,
+      "scf_converged": true,
+      "runtime_warnings": [
+        "Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG"
+      ]
+    },
+    {
+      "run": "catio3-cubic-e60-r600-k4-sandbox-mpi-failed",
+      "execution_and_scf_success": false,
+      "returncode": 143,
+      "scf_converged": false,
+      "runtime_warnings": []
+    },
+    {
+      "run": "catio3-cubic-e80-r800-k4",
+      "execution_and_scf_success": false,
+      "returncode": 143,
+      "scf_converged": false,
+      "runtime_warnings": []
+    },
+    {
+      "run": "catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi",
+      "execution_and_scf_success": true,
+      "returncode": 0,
+      "scf_converged": true,
+      "runtime_warnings": [
+        "Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG"
+      ]
+    },
+    {
+      "run": "catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi",
+      "execution_and_scf_success": false,
+      "returncode": 0,
+      "scf_converged": false,
+      "runtime_warnings": [
+        "Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG"
+      ]
+    }
+  ],
+  "integrity_errors": [],
+  "scope": "Verifies stored evidence integrity, not physical convergence, stability, novelty, or experimental properties."
+}
