@@ -1,13 +1,38 @@
 {
   "files": [
-    "README.md", "LICENSE", "pyproject.toml", ".gitignore", "AGENTS.md",
-    "docs/scientific-design.md", "docs/NOVELTY.md", "docs/RESULTS.md",
-    "docs/MODEL_CARD.md", "docs/THIRD_PARTY.md", "docs/PUBLICATION.md",
-    "docs/delivery-checks-en.json", "docs/delivery-checks.json", "docs/images/matterlab-english.png",
-    "project/OPERATIONS.md", "project/STATE.json",
-    "tools/reproduce_candidate.py", "tools/export_public.py", "tools/export_quantum_public.py"
+    "README.md",
+    "LICENSE",
+    "pyproject.toml",
+    ".gitignore",
+    "AGENTS.md",
+    "docs/scientific-design.md",
+    "docs/NOVELTY.md",
+    "docs/RESULTS.md",
+    "docs/MODEL_CARD.md",
+    "docs/THIRD_PARTY.md",
+    "docs/PUBLICATION.md",
+    "docs/delivery-checks-en.json",
+    "docs/delivery-checks.json",
+    "docs/images/matterlab-english.png",
+    "project/OPERATIONS.md",
+    "project/STATE.json",
+    "tools/reproduce_candidate.py",
+    "tools/export_public.py",
+    "tools/export_quantum_public.py",
+    "project/CLOUD_MIGRATION.md",
+    "project/CLOUD_HANDOFF.md"
   ],
-  "directories": ["src/matterlab", "tests", "ui", "configs", "tools/quantum"],
-  "campaigns": ["round-001-en"],
-  "reproductions": ["reproduction-round-001-en-C03-005"]
+  "directories": [
+    "src/matterlab",
+    "tests",
+    "ui",
+    "configs",
+    "tools/quantum"
+  ],
+  "campaigns": [
+    "round-001-en"
+  ],
+  "reproductions": [
+    "reproduction-round-001-en-C03-005"
+  ]
 }

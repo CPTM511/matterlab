@@ -18,7 +18,7 @@ All interfaces, generated reports, model/candidate cards, documentation, code co
 
 ## Zero-spend boundary
 
-Use only existing signed-in Codex Pro allowance and the current local computer with free software/data. No model API charges, prepaid credits, quota-reset purchases, paid overage, cloud rental, paid databases, subscriptions, or paid GitHub features. Do not route subscription credentials into an API or copy credentials into project files. Do not change host sleep/security settings without a separate user request. Local scheduled work requires the machine and desktop app to remain available.
+Use only existing signed-in Codex Pro allowance, subscription-included native cloud execution, and free software/data. The owner requested cloud continuation on 2026-10-24; follow project/CLOUD_MIGRATION.md and its verification gates. Free local computation remains a fallback until a cloud handoff is verified. No model API charges, prepaid credits, quota-reset purchases, paid overage, cloud rental, paid databases, subscriptions, or paid GitHub features. Do not route subscription credentials into an API or copy credentials into project files. Do not change host sleep/security settings without a separate user request. Local scheduled work requires the machine and desktop app to remain available.
 
 When resources are unavailable, checkpoint and resume later. Do not promise that a sleeping/offline machine will keep computing, that Pro is unlimited, or that research success is guaranteed.
 

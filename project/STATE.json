@@ -24,7 +24,7 @@
   "next_action": "Analyze saved C03-005 Gamma force arrays and re-evaluate controlled displacements on C03-005 and CaTiO3. Test finite-difference indexing, graph/neighbor continuity and numerical precision; record a protocol before additional calculations. Preserve inconclusive outcomes. Then plan converged candidate DFT and application-specific response.",
   "constraints": [
     "No additional spending",
-    "No paid APIs or remote compute",
+    "No paid APIs or paid remote compute; subscription-included native cloud execution is authorized",
     "No unverified novelty, synthesis, stability, or product claims"
   ],
   "notification_policy": "Meaningful milestone, completion, new blocking failure, or required user decision only",
@@ -34,5 +34,17 @@
     "english_campaign_checks_passed": 301,
     "full_campaign_comparisons_identical": 136,
     "http_downloads_verified": 106
+  },
+  "cloud_migration": {
+    "requested": true,
+    "activated_verified": false,
+    "cloud_execution_verified": false,
+    "target_model": "gpt-6-astra",
+    "target_reasoning": "high",
+    "target_cadence": "Every four hours, Asia/Shanghai",
+    "status": "Hosted scheduler did not provide a verified creation result; inspect before retrying. Existing cloud-assistant handoff authorization requested.",
+    "handoff_instructions": "project/CLOUD_HANDOFF.md",
+    "acceptance": "project/CLOUD_MIGRATION.md",
+    "local_fallback_active": true
   }
 }

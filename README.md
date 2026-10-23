@@ -65,7 +65,7 @@ A [published six-cation family precedent](https://doi.org/10.1016/j.ceramint.202
 
 The project is maintained through an owner-authorized, scheduled research workflow. See [operating agreement](project/OPERATIONS.md) and [research state](project/STATE.json). Each iteration must answer a specific unresolved question, keep separate evidence, and retain negative results. Engineering release and materials discovery are separate milestones; research success is not guaranteed.
 
-GPT Astra roles assist planning, development, and review within the owner's existing Codex subscription. This repository does not offer a free model API, contain subscription credentials, or require GPT calls to replay saved simulations. Local scheduled work requires the host and desktop app to remain available. No paid API, rented compute, paid database, credits, or automatic overage is part of this workflow.
+GPT Astra roles assist planning, development, and review within the owner's existing Codex subscription. This repository does not offer a free model API, contain subscription credentials, or require GPT calls to replay saved simulations. Local scheduled work requires the host and desktop app to remain available. Native subscription-included cloud continuation has been requested; activation and actual cloud execution remain unverified. See [cloud migration status and acceptance](project/CLOUD_MIGRATION.md). No paid API, rented compute, paid database, credits, or automatic overage is part of this workflow.
 
 ![English dashboard](docs/images/matterlab-english.png)
 
