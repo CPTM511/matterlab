@@ -1,7 +1,7 @@
 # MatterLab project instructions
 
 - Goal: generate genuinely new composition/ordering hypotheses, execute real physical calculations, and publish reproducible evidence with bounded application hypotheses.
-- Zero additional spending. No OpenAI API, paid services, cloud compute, credit purchases, automatic quota resets, or fallback to paid overage. Use existing signed-in Codex Pro sessions for GPT roles. Check account usage before further long agent batches; pause new model work before included allowance is exhausted. Account usage is shared and cannot be enforced by this repository.
+- Zero additional spending. No OpenAI API, paid services, paid cloud compute, credit purchases, automatic quota resets, or fallback to paid overage. Existing signed-in Pro sessions and verified subscription-included native cloud execution are authorized; follow project/CLOUD_MIGRATION.md before transferring responsibility. Check account usage before further long agent batches; pause new model work before included allowance is exhausted. Account usage is shared and cannot be enforced by this repository.
 - The user explicitly requests GPT Astra roles. Use `gpt-6-astra` for delegated scientific/design/review tasks. Record actual role and tool evidence; never claim a prompt changes the underlying model.
 - All generated candidates are computational hypotheses, not synthesized materials. ML interatomic potential results are not DFT. Negative restricted decomposition energy is not a full convex-hull result. Bulk modulus is not strength, hardness, toughness, or dielectric performance.
 - New structure files do not prove global novelty. Preserve prior art and label lookup coverage and uncertainty.

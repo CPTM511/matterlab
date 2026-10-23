@@ -42,9 +42,13 @@
     "target_model": "gpt-6-astra",
     "target_reasoning": "high",
     "target_cadence": "Every four hours, Asia/Shanghai",
-    "status": "Hosted scheduler did not provide a verified creation result; inspect before retrying. Existing cloud-assistant handoff authorization requested.",
+    "status": "English handoff delivered to the authorized existing cloud assistant and acknowledged on 2026-10-24. Runtime/quota checks are in progress; cloud calculation, recurrence and durable resume are not yet verified. Retain local fallback and inspect hosted tasks before any scheduler retry.",
     "handoff_instructions": "project/CLOUD_HANDOFF.md",
     "acceptance": "project/CLOUD_MIGRATION.md",
-    "local_fallback_active": true
+    "local_fallback_active": true,
+    "handoff_authorized": true,
+    "handoff_delivered_verified": true,
+    "handoff_acknowledged_verified": true,
+    "cloud_resume_verified": false
   }
 }

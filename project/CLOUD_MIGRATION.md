@@ -13,7 +13,9 @@ Continue MatterLab while the owner's computer is off, using GPT-6 Astra and only
 - Local and cloud Codex work share plan usage. API use is separately charged. This project must not add an API-key route or consume extra credits. [Pricing](https://learn.chatgpt.com/docs/pricing)
 - The signed-in web scheduler exposed GPT-6 Astra, High reasoning, and a four-hour interval in China Standard Time. However, task-list and schedule-option loading failed. Selecting Create returned no verified success state or task identifier. Activation is therefore unconfirmed; inspect the hosted task list before any further creation attempt to prevent duplicates.
 
-The English instructions are saved in [CLOUD_HANDOFF.md](CLOUD_HANDOFF.md). The existing local heartbeat remains active as a fallback. No cloud execution, cloud simulation result, or migration completion is claimed.
+The English instructions are saved in [CLOUD_HANDOFF.md](CLOUD_HANDOFF.md). On 2026-10-24 the owner explicitly authorized handing them to the existing cloud assistant under the strict zero-additional-fee boundary. Delivery and acknowledgement were verified in the signed-in interface. The assistant accepted the quota, runtime and durable-resume checks before migration acceptance. Requested settings are GPT-6 Astra, High reasoning and an approximately four-hour cadence in Asia/Shanghai; actual runtime and recurrence still require evidence.
+
+The existing local heartbeat remains active as a fallback. No cloud execution, cloud simulation result, or migration completion is claimed. Do not duplicate a possible hosted task or overlap cloud and local calculations; check current responsibility and repository state first.
 
 ## Migration acceptance
 
