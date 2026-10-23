@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "files_checked": 322,
+  "files_checked": 447,
   "archive_members_checked": 9,
   "evidence_hashes_checked": 284,
   "checks": [
@@ -9,5 +9,14 @@
     "archive metadata and payload inspection",
     "saved evidence hash verification"
   ],
-  "scope": "Release integrity and bounded pattern checks; human review remains required."
+  "scope": "Release integrity and bounded pattern checks; human review remains required.",
+  "additional_sanitation_scan": {
+    "passed": true,
+    "private_marker_matches": [],
+    "original_and_public_transformation_hashes_verified": 114
+  },
+  "independent_review_status": "ready_for_parent_review; parent subsequently approved failed-evidence publication",
+  "publication_status": "parent approved; this audit precedes commit and readback",
+  "reviewed_patch_sha256": "5be5e6843d69b1acfdc0eb5a5891bfcabbc55995bd421665b2baf5b4dcc6a57f",
+  "post_review_changes": "Coordination/startup handoff fields and regenerated audit/manifest only; scientific payload unchanged."
 }

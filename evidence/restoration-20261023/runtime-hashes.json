@@ -1,0 +1,35 @@
+{
+  "python_executable_sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7",
+  "chgnet_python_sources": {
+    "__init__.py": "cfb471aeab92e13c11e604db2c2059c02d98ef208ffff0bf2f3c29ae853dbcf5",
+    "data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/dataset.py": "fb53ae559c6d6794780b156c7ad28a381b1a5f8efaf832043495499c3217d60e",
+    "graph/__init__.py": "8ddcf2c0f6af449c97ee56860bcc5971c623d583d6c18f6d341eb9f79cb410f2",
+    "graph/converter.py": "565a0a3007613323720e2ec3ab06e84043b6970a6a150234222123cee9979c0f",
+    "graph/crystalgraph.py": "b75e26195790c19696d7e9ab0a58029e73decaa5e1589dd6679eaf97324fc727",
+    "graph/graph.py": "c5c613f013d62bcfd675d3c389b80ea6551208bfd461a22209f9a9395ba81e4f",
+    "model/__init__.py": "79ca3c8f5a559e1f921c5b8b7784a232ce9d0df6e40a3daf34466c67aaebf31f",
+    "model/basis.py": "0e75cf46d3e1b4e96e1726472af0bedf3757b2c24c70cc98161e051c163beace",
+    "model/composition_model.py": "c7111354fc8795c6a41147b3d01298546a070bc12c87d02f533d7678ab569570",
+    "model/dynamics.py": "c5c48a3cf2cd526f366b5aea430811f5c58a7148d6ae7ba53f26b6944acfcd46",
+    "model/encoders.py": "7dffbc1be159bc48acdfd363c618711bcbd88f72c7ecd5e4aad2dc1830de264c",
+    "model/functions.py": "8914b73a7b990b1d4fa91ed1064ffc3138a5acd4bf2b192b8b7c5be7b15fed1b",
+    "model/layers.py": "9c60e275508a0427084d5ee2089d27dd0a86db40bf90c3b268e81c1cb8b5716c",
+    "model/model.py": "767b120ba8b3ee7f75c247416902d1b72e871ba8ffc2916ed76d24809c98fc96",
+    "trainer/__init__.py": "c7b544b26968c1489091d094a56e439b74903406704926c16b0b5b316bd363b5",
+    "trainer/trainer.py": "c932e54d1edfa506886afac43fd1b0f8fe0561aadb4eaea808f0b16ffaef55d4",
+    "utils/__init__.py": "73b851109bcdf553fde5009a6c59469bd6d5fc3f4a4a4eb32802a564cc4d7faf",
+    "utils/common_utils.py": "850fcd0c73c6b0b0a2f9787e77d5c8a1e3fa122f9eed831c8f7b8786f8b83772",
+    "utils/vasp_utils.py": "b46993e27ebc0ca7ddd5fbd8cca03b62e1c10e3b328c67bd5e12442b47b271f3"
+  },
+  "torch_version": "2.6.0+cpu",
+  "torch_cuda_version": null,
+  "cpu_affinity_before": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "protocol_sha256": "8bc5cb2102fb7abb85e00783153857188c05033917b705943de158fb5bd39fab"
+}

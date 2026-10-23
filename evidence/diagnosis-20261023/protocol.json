@@ -1,0 +1,74 @@
+{
+  "declared_at_utc": "2026-10-23T18:38:22.773811+00:00",
+  "question": "Is the restored derivative drift repeatable with identical graph tensors, and is it sensitive to ATen CPU dispatch under otherwise fixed controls?",
+  "hypotheses": {
+    "H_repeat": "Independent instrumented processes reproduce prior restored outputs and each other exactly, including graph order.",
+    "H_graph": "Graph/input arrays vary between equivalent control processes; stop if observed.",
+    "H_dispatch": "Changing only ATEN_CPU_CAPABILITY to default changes derivatives at fixed graph/weights/input; this can demonstrate kernel-dispatch sensitivity but cannot identify historical baseline hardware."
+  },
+  "conditions": [
+    {
+      "id": "D1-control",
+      "change": "none; original one-thread restoration controls with capture-only hooks"
+    },
+    {
+      "id": "D2-control-repeat",
+      "change": "fresh process, same D1 controls; negative repeat control"
+    },
+    {
+      "id": "D3-generic-aten",
+      "change": "only ATEN_CPU_CAPABILITY=default before Python starts; require observable capability differs from control"
+    },
+    {
+      "id": "D4-generic-repeat",
+      "conditional": "Only if D3 changes finite output at identical graph/weights; confirm generic result in fresh process"
+    }
+  ],
+  "decision_rules": [
+    "Stop if source/model/input/config/preserved manifests mismatch or other active calculation appears",
+    "D1 and D2 only initially. Require equal graph/input/weight hashes and exact output repeat; require D1 matches original restored output. Otherwise retain and stop with localized nonrepeatability or instrumentation/runtime confound.",
+    "If controls pass, run D3; no graph modification or alternate graph evaluation is warranted because current fast/legacy arrays are identical",
+    "If D3 has no output change, stop: selected dispatch contrast negative and historical cause not identifiable. If D3 changes output at same graph/weights, run D4 once; report sensitivity and repeatability without inferring historical hardware.",
+    "Stop on nonfinite output, timeout, exception, inaccessible included access/limit warning, four evaluations, 600 seconds cumulative calculation process wall time, or 1800 seconds investigation wall time from 2026-10-23T18:35:41Z. No retries of failed calculations."
+  ],
+  "original_acceptance": {
+    "energy_eV": {
+      "atol": 1e-05,
+      "rtol": 0
+    },
+    "forces_eV_A": {
+      "atol": 1e-06,
+      "rtol": 0
+    },
+    "stress_eV_A3": {
+      "atol": 1e-07,
+      "rtol": 0
+    }
+  },
+  "additional_comparisons": "Report all signed arrays, maximum absolute differences, exact equality, finite checks and unchanged acceptance for each condition against both historical baselines and restored result; repeat pairs and dispatch pairs compared too. Alternative condition success never retroactively changes failed restoration.",
+  "capture": [
+    "raw CIF and exact config",
+    "ASE and Pymatgen input arrays/order",
+    "raw neighbor list",
+    "eight graph tensors and byte hashes/dtype/shape",
+    "model parameter hashes/dtypes",
+    "raw model output tensors and ASE energy/force/stress",
+    "effective in-process torch/backend/thread/affinity flags and whitelisted thread environment",
+    "code/package/compiled graph/model hashes",
+    "wall timings, failures, stdout"
+  ],
+  "resource_controls": {
+    "device": "cpu",
+    "threads": 1,
+    "affinity": "same one CPU as restoration",
+    "seed": 20261024,
+    "maximum_evaluations": 4,
+    "maximum_total_calculation_wall_seconds": 600,
+    "maximum_investigation_wall_seconds": 1800
+  },
+  "limitations": [
+    "Historical CPU/backend/graph data absent. Current measurements cannot fill historical fields.",
+    "Post-run probes are separate from effective in-calculation captures.",
+    "Float32 model; diagnostic only, no DFT/stability/synthesis/novelty/application evidence."
+  ]
+}

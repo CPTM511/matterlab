@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "DIAGNOSIS_PRIVATE/run_diagnosis.py", line 50, in <module>
+    a=do_run('D1-control');b=do_run('D2-control-repeat')
+      ^^^^^^^^^^^^^^^^^^^^
+  File "DIAGNOSIS_PRIVATE/run_diagnosis.py", line 42, in do_run
+    if rc:raise RuntimeError(name+' failed; no retry')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: D1-control failed; no retry

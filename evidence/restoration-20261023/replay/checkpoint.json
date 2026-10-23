@@ -1,0 +1,5 @@
+{
+  "status": "single_point_complete",
+  "next_step": "Verify manifest and replay evaluate.py into a new directory. Do not resume historical campaigns across environments.",
+  "input_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0"
+}

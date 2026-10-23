@@ -1,0 +1,8 @@
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cpu
+CHGNet will run on cpu
+Traceback (most recent call last):
+  File "DIAGNOSIS_PRIVATE/diagnostic_eval.py", line 52, in <module>
+    assert captures=={'graph_calls':1,'model_calls':1},captures
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'graph_calls': 1, 'model_calls': 0}

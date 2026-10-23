@@ -1,0 +1,20 @@
+{
+  "algorithm": "SHA256",
+  "scope": "Public derivative; original and prior manifests retained as provenance only",
+  "files": {
+    "config-original.json": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601",
+    "diagnostic_eval.py": "63b107740a6994cb3c5e9b69703147e83cf89fff684ad6369c511845f1b040d0",
+    "failure.txt": "15396488e041ab4fc2f9cae627179d4b3ec5dfe5a3a9fd233ff4d8a5522b04e8",
+    "graph-hashes.json": "de46e2c84cc5826d72c88a6cd4caf9a6cc645aa0f8df840ddfdc21b38ab09617",
+    "graph.npz": "cf985ae32baba35f5b561cada2f2b970397380e5dd7e8015308e2a0ead17914f",
+    "input-array-hashes.json": "da540467bfa9b8d7cc1138af62b4ddcfc4d7e2d69ec022a01ef4ed9e8d167a43",
+    "input-arrays.npz": "6bd5750564082c350755fff9b11c0f2e8377f0e72b63669a14cede0b6574c136",
+    "input.cif": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+    "model-tensor-hashes.json": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf",
+    "neighbor-hashes.json": "f1ed95e4321e852ea790a931ae255bfd2ef81215dbb0c812b1c2e3f09db289f6",
+    "neighbors.npz": "e236f975d9b4b80ad80b6ee70989b7775a2293da9bf3b6d7c22c55833011d08c",
+    "original-manifest.json": "7a1730ef80ffaa61fb233f86d6826531cb0d9b6a196872f838100a2f119f9a46",
+    "provenance.json": "d9ec22b50b40928c5195253284e766e449d459c79734450479f03cbbfb677ef3",
+    "runtime.json": "6a2546318ee748796662f4621066a9791c7dfe91231b5cc441d4c72f856bd1c5"
+  }
+}

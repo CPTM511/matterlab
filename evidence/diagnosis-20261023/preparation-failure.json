@@ -1,0 +1,6 @@
+{
+  "stage": "before protocol/evaluations",
+  "failure": "inspect.py shadowed standard-library inspect; import failed before inspection/model calculation",
+  "repair": "Renamed own new script to inspect_runtime.py; original script content unchanged",
+  "calculation_invocations": 0
+}

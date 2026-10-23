@@ -1,0 +1,4 @@
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cpu
+CHGNet will run on cpu
+{"output": "VALIDATION/replay", "energy_eV": -166.1494140625, "atoms": 20}

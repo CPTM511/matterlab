@@ -1,0 +1,26 @@
+[
+  {
+    "logical_manifest": "matterlab-onboarding/manifest.json",
+    "sha256": "52ad334c0dfac1a3a3fe86090ed04ddeb2695a75d446ab158e9cf70451298381",
+    "entries": 285,
+    "passed": true
+  },
+  {
+    "logical_manifest": "chgnet-single-point-001/manifest.json",
+    "sha256": "ab1f71f40775f51bc22757620b61e92f3416688bdabc202f698fb825f40f0e5d",
+    "entries": 16,
+    "passed": true
+  },
+  {
+    "logical_manifest": "chgnet-single-point-002/manifest.json",
+    "sha256": "f6d98f5dc1e94ec3f2bbe6991481f00e508632c811f3188ae94bccfee6cc6e00",
+    "entries": 16,
+    "passed": true
+  },
+  {
+    "logical_manifest": "matterlab-restoration-20261023T182448Z/manifest.json",
+    "sha256": "4014be4f2747d8f09d6df2e89bd50c2b476f4df4cf352df1b48cde204bb22538",
+    "entries": 134,
+    "passed": true
+  }
+]

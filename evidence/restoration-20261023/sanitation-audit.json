@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "files_scanned": 72,
+  "errors": [],
+  "transformation_entries": 82,
+  "checks": [
+    "existing unchanged publication check_content guard",
+    "additional private-path/account/task/host marker scans",
+    "public transformation ledger hashes"
+  ],
+  "initial_scan_failed": true,
+  "repair": "Sanitized review copies of logs/test fixture names; private originals unchanged",
+  "limits": "Additive bundle only; full integrated repository publication audit and parent manual review still required."
+}

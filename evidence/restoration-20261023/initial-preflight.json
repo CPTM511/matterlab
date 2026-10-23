@@ -1,0 +1,72 @@
+{
+  "checks": [
+    {
+      "name": "clean_checkout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "coordination_empty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_visible_calculation_process",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_matterlab-onboarding",
+      "passed": true,
+      "detail": {
+        "manifest_sha256": "52ad334c0dfac1a3a3fe86090ed04ddeb2695a75d446ab158e9cf70451298381",
+        "entries": 285,
+        "errors": []
+      }
+    },
+    {
+      "name": "manifest_chgnet-single-point-001",
+      "passed": true,
+      "detail": {
+        "manifest_sha256": "ab1f71f40775f51bc22757620b61e92f3416688bdabc202f698fb825f40f0e5d",
+        "entries": 16,
+        "errors": []
+      }
+    },
+    {
+      "name": "manifest_chgnet-single-point-002",
+      "passed": true,
+      "detail": {
+        "manifest_sha256": "f6d98f5dc1e94ec3f2bbe6991481f00e508632c811f3188ae94bccfee6cc6e00",
+        "entries": 16,
+        "errors": []
+      }
+    },
+    {
+      "name": "chgnet-single-point-001_checkpoint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-001_helper",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-001_input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-001_config",
+      "passed": false,
+      "detail": null
+    }
+  ],
+  "passed": false
+}

@@ -1,0 +1,213 @@
+{
+  "tests": [
+    {
+      "name": "test_modified_measurement_is_rejected",
+      "class": "tests.test_publication",
+      "seconds": 0.003,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_manifest_cannot_read_outside_release",
+      "class": "tests.test_publication",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_release_rejects_language_paths_and_credentials[\\u4e2d]",
+      "class": "tests.test_publication",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_release_rejects_language_paths_and_credentials[PRIVATE_HOME/project]",
+      "class": "tests.test_publication",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_release_rejects_language_paths_and_credentials[SYNTHETIC_CREDENTIAL_TEST_FIXTURE]",
+      "class": "tests.test_publication",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_nested_archive_text_is_inspected",
+      "class": "tests.test_publication",
+      "seconds": 0.002,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_publication_manifest_rejects_extra_file",
+      "class": "tests.test_publication",
+      "seconds": 0.003,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_excluded_content_cannot_hide_from_audit[scratch/private.txt]",
+      "class": "tests.test_publication",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_excluded_content_cannot_hide_from_audit[private.tmp]",
+      "class": "tests.test_publication",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_excluded_content_cannot_hide_from_audit[tools/__pycache__/private.txt]",
+      "class": "tests.test_publication",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_missing_required_reproduction_fails",
+      "class": "tests.test_publication",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_missing_source_directory_fails",
+      "class": "tests.test_publication",
+      "seconds": 0.0,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_generator_reproduces_structures_and_sampling",
+      "class": "tests.test_science",
+      "seconds": 0.304,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_generated_candidates_preserve_charge_composition_and_separation",
+      "class": "tests.test_science",
+      "seconds": 0.159,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_perturb_seed_changes_coordinates_without_changing_composition",
+      "class": "tests.test_science",
+      "seconds": 0.009,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_decoration_key_is_invariant_under_every_parent_operation",
+      "class": "tests.test_science",
+      "seconds": 0.014,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_structure_validation_detects_periodic_boundary_overlap",
+      "class": "tests.test_science",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_structure_validation_rejects_wrong_stoichiometry_and_nonfinite_input",
+      "class": "tests.test_science",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_restricted_decomposition_finds_lower_cross_pairing_than_naive_average",
+      "class": "tests.test_science",
+      "seconds": 0.004,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_restricted_decomposition_obeys_six_cation_marginals",
+      "class": "tests.test_science",
+      "seconds": 0.002,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_restricted_decomposition_excludes_absent_elements[extraneous0]",
+      "class": "tests.test_science",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_restricted_decomposition_excludes_absent_elements[extraneous1]",
+      "class": "tests.test_science",
+      "seconds": 0.002,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_restricted_decomposition_reports_infeasible_reference_coverage",
+      "class": "tests.test_science",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_eos_recovers_known_bulk_modulus_and_is_extensive",
+      "class": "tests.test_science",
+      "seconds": 0.002,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_eos_rejects_unbracketed_minimum",
+      "class": "tests.test_science",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_force_difference_recovers_harmonic_sign_and_coordinate_couplings",
+      "class": "tests.test_science",
+      "seconds": 0.0,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_nonconservative_force_derivative_is_reported_before_symmetrization",
+      "class": "tests.test_science",
+      "seconds": 0.0,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_gamma_projection_removes_only_three_translations[stiffnesses0-expected0]",
+      "class": "tests.test_science",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_gamma_projection_removes_only_three_translations[stiffnesses1-expected1]",
+      "class": "tests.test_science",
+      "seconds": 0.0,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_gamma_reports_translation_violation_instead_of_hiding_it",
+      "class": "tests.test_science",
+      "seconds": 0.0,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_gamma_assessment_does_not_pass_small_negative_or_step_sensitive_modes[minima0-True]",
+      "class": "tests.test_science",
+      "seconds": 0.0,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_gamma_assessment_does_not_pass_small_negative_or_step_sensitive_modes[minima1-False]",
+      "class": "tests.test_science",
+      "seconds": 0.0,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_gamma_assessment_does_not_pass_small_negative_or_step_sensitive_modes[minima2-None]",
+      "class": "tests.test_science",
+      "seconds": 0.0,
+      "outcome": "passed"
+    },
+    {
+      "name": "test_gamma_assessment_does_not_pass_small_negative_or_step_sensitive_modes[minima3-None]",
+      "class": "tests.test_science",
+      "seconds": 0.0,
+      "outcome": "passed"
+    }
+  ],
+  "passed": 34,
+  "failed": 0,
+  "skipped": 0,
+  "warnings": 5,
+  "log": "pytest.log"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ready_for_parent_review",
+  "requested_model": "GPT-6 Astra",
+  "requested_reasoning": "High",
+  "observable_identity": "GPT-6-based Codex (developer identity)",
+  "actual_model_variant": null,
+  "actual_reasoning": null,
+  "actual_service_tier": null,
+  "scientific_decision": "Stop after D1 instrumentation exception; no retry under frozen protocol.",
+  "output_comparison_status": "unavailable; numerical outputs were not saved",
+  "original_restoration_acceptance": "FAILED; unchanged",
+  "cause": "Registered model Module forward hook bypassed by direct self.forward call in CHGNet predict_graph.",
+  "capture_limitation": "Saved neighbor list came from a separate pre-hook query; captured graph tensors are direct graph output.",
+  "prior_export_findings": [
+    "Two ledger entries retain a byte-identical label despite listed sanitization and differing hashes.",
+    "MATTERLAB_ROOT does not itself bind imported matterlab modules to the named checkout.",
+    "Named timezone is a source-coded project convention, not evidence of owner location.",
+    "Hard-coded no-API/no-paid-compute provenance fields are declarations, not measured attestation."
+  ],
+  "performed": ["read-only file and source review", "targeted prior-export text scans", "reviewer documents"],
+  "not_performed": ["scientific calculations", "model evaluation", "network", "publication", "schedule changes", "installations", "credential access"],
+  "staged_review": {
+    "scientific_claims": "pass",
+    "proposed_recorder_static_logic": "reasonable; not physically validated",
+    "synthetic_tests": "two passes in inspected supplied log; reviewer did not rerun",
+    "private_metadata_targeted_scan": "no obvious leak found; bounded text scan only",
+    "coordination_diff": "preserves supplied public-base state; parent-observed wake correctly attributed",
+    "reported_integrated_audit": "444 files, 9 archive members, 284 evidence hashes; inspected, not rerun",
+    "source_preflight": "Proposed diagnostic recorder binds import path and requires MATTERLAB_EXPECTED_CODE source hashes before inference; other preflight checks remain mandatory.",
+    "packaging_correction": "Corrected restoration README inspected; current and historical manifest/ledger roles distinguished.",
+    "graph_comparison": "Inspected supplied all-eight-current-tensors equality report; no independent recomputation or historical graph inference."
+  },
+  "publication_blockers": [],
+  "remaining_gate": "Parent incorporates final review, regenerates affected ledgers/manifests and integrated audit, reconciles public state, and performs publication review. No additional physical calculation required."
+}

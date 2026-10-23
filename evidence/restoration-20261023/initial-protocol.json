@@ -1,0 +1,47 @@
+{
+  "declared_at_utc": "2026-10-23T18:25:44.672138+00:00",
+  "question": "Did the published cloud snapshot restore the saved CaTiO3 single-point inputs, code, dependencies and models, and does one new CPU evaluation reproduce both restored baselines?",
+  "scope": "One real CHGNet single point on the initial 20-atom reference; no relaxation, campaigns, DFT, physical stability, synthesis, novelty or application claims.",
+  "comparison": {
+    "energy_eV": {
+      "atol": 1e-05,
+      "rtol": 0
+    },
+    "forces_eV_A": {
+      "atol": 1e-06,
+      "rtol": 0
+    },
+    "stress_eV_A3": {
+      "atol": 1e-07,
+      "rtol": 0
+    }
+  },
+  "rationale": "Strict numerical replay tolerances: total-energy tolerance is 0.5 micro-eV per atom, forces 1 micro-eV/Angstrom, stress 1e-7 eV/Angstrom^3. These diagnose numerical replay, not model accuracy. Exact equality is separately reported.",
+  "required_exact_matches": [
+    "source HEAD",
+    "all source SHA256",
+    "helper SHA256",
+    "input SHA256",
+    "configuration SHA256",
+    "Python/platform/package provenance",
+    "all model checkpoint SHA256",
+    "baseline checkpoint completion"
+  ],
+  "stops": [
+    "overlap",
+    "missing or corrupt helper/manifest/checkpoint/dependency",
+    "preflight mismatch",
+    "nonfinite result",
+    "calculation wall time 600 seconds",
+    "one calculation invocation maximum",
+    "retain failure or numerical mismatch without retry or threshold revision"
+  ],
+  "execution": {
+    "device": "cpu",
+    "cpu_threads": 1,
+    "maximum_wall_seconds": 600,
+    "network_calls": false,
+    "install_or_upgrade": false
+  },
+  "startup_instruction_gap": "Saved start_skill is not exposed as a filesystem file or available environment-settings tool. The saved REPORT.md replay instructions and explicit delegation supply the invocation; full start_skill restoration is not verified."
+}

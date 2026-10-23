@@ -1,0 +1,228 @@
+{
+  "checks": [
+    {
+      "name": "clean_checkout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "coordination_empty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_visible_calculation_process",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_head",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_matterlab-onboarding",
+      "passed": true,
+      "detail": {
+        "manifest_sha256": "52ad334c0dfac1a3a3fe86090ed04ddeb2695a75d446ab158e9cf70451298381",
+        "entries": 285,
+        "errors": []
+      }
+    },
+    {
+      "name": "manifest_chgnet-single-point-001",
+      "passed": true,
+      "detail": {
+        "manifest_sha256": "ab1f71f40775f51bc22757620b61e92f3416688bdabc202f698fb825f40f0e5d",
+        "entries": 16,
+        "errors": []
+      }
+    },
+    {
+      "name": "manifest_chgnet-single-point-002",
+      "passed": true,
+      "detail": {
+        "manifest_sha256": "f6d98f5dc1e94ec3f2bbe6991481f00e508632c811f3188ae94bccfee6cc6e00",
+        "entries": 16,
+        "errors": []
+      }
+    },
+    {
+      "name": "chgnet-single-point-001_checkpoint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-001_helper",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-001_input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-001_config",
+      "passed": true,
+      "detail": {
+        "source_raw_sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601",
+        "serialized_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc"
+      }
+    },
+    {
+      "name": "chgnet-single-point-001_source",
+      "passed": true,
+      "detail": {
+        "src/matterlab/__init__.py": "6da326c20117347cd4b498489cc1cbf524e5cf5a0e1116e4cc41f479efb15d27",
+        "src/matterlab/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+        "src/matterlab/cli.py": "778d945618d9821bc7df8c491b996eee0e541869b1f16bfc65c5d4397d7e0be1",
+        "src/matterlab/evidence.py": "ec0e0194d618c61815e88e01f3dbbad9d572db54bde8a0f172032a0e08ed915d",
+        "src/matterlab/generate.py": "5d85ad13271efe0589cf4a924869087134c456f998400148ed069d051e76839c",
+        "src/matterlab/physics.py": "a58162e71a3d2afb0df30902c43d1e46e454805a6765fcbcd7c9ba0d9e6ac96c",
+        "src/matterlab/report.py": "50ddc6ef88b5111f21ab55a2d6b4c0fb895db13989ad17dbf4510ba3ec18f8bc",
+        "src/matterlab/simulate.py": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a"
+      }
+    },
+    {
+      "name": "chgnet-single-point-002_checkpoint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-002_helper",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-002_input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-002_config",
+      "passed": true,
+      "detail": {
+        "source_raw_sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601",
+        "serialized_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc"
+      }
+    },
+    {
+      "name": "chgnet-single-point-002_source",
+      "passed": true,
+      "detail": {
+        "src/matterlab/__init__.py": "6da326c20117347cd4b498489cc1cbf524e5cf5a0e1116e4cc41f479efb15d27",
+        "src/matterlab/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+        "src/matterlab/cli.py": "778d945618d9821bc7df8c491b996eee0e541869b1f16bfc65c5d4397d7e0be1",
+        "src/matterlab/evidence.py": "ec0e0194d618c61815e88e01f3dbbad9d572db54bde8a0f172032a0e08ed915d",
+        "src/matterlab/generate.py": "5d85ad13271efe0589cf4a924869087134c456f998400148ed069d051e76839c",
+        "src/matterlab/physics.py": "a58162e71a3d2afb0df30902c43d1e46e454805a6765fcbcd7c9ba0d9e6ac96c",
+        "src/matterlab/report.py": "50ddc6ef88b5111f21ab55a2d6b4c0fb895db13989ad17dbf4510ba3ec18f8bc",
+        "src/matterlab/simulate.py": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a"
+      }
+    },
+    {
+      "name": "chgnet-single-point-001_environment_python",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-001_environment_platform",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-001_environment_machine",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-001_environment_packages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-001_environment_model_checkpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-001_environment_model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-001_environment_device",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-001_environment_threads",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-001_environment_seed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-002_environment_python",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-002_environment_platform",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-002_environment_machine",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-002_environment_packages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-002_environment_model_checkpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-002_environment_model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-002_environment_device",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-002_environment_threads",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chgnet-single-point-002_environment_seed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "single_cpu_config",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pip_check",
+      "passed": true,
+      "detail": {
+        "returncode": 0
+      }
+    }
+  ],
+  "passed": true
+}

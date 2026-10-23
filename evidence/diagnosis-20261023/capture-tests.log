@@ -1,0 +1,9 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-9.1.1, pluggy-1.7.0 -- CHECKOUT/.venv/bin/python
+rootdir: WORKSPACE
+collecting ... collected 2 items
+
+matterlab-diagnosis-20261023T183541Z/test_capture_helpers.py::test_direct_forward_bypasses_hook_but_wrapper_captures_unchanged_result PASSED [ 50%]
+matterlab-diagnosis-20261023T183541Z/test_capture_helpers.py::test_neighbor_wrapper_observes_actual_query_once_without_reordering PASSED [100%]
+
+============================== 2 passed in 0.87s ===============================

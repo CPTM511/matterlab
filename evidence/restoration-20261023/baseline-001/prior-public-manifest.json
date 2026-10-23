@@ -1,0 +1,23 @@
+{
+  "algorithm": "SHA256",
+  "scope": "Public derivative files; original-manifest.json documents private originals, not the transformed helper.",
+  "files": {
+    "checkpoint.json": "9ffdac0d58121539e00c079206ea83e0ea777245e4d2dbdb60be331944a89b4a",
+    "code.json": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+    "config.json": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+    "evaluate.py": "19ec86cb0db26fec46a7ad6f68d3bcd33169ddcf0fd9c9366a73d367dfc91959",
+    "input.cif": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+    "observations.json": "383815c8bf8c0e129cde6a67e61665cad49959e08db15a608df2218c7b0c48b4",
+    "original-manifest.json": "ab1f71f40775f51bc22757620b61e92f3416688bdabc202f698fb825f40f0e5d",
+    "provenance.json": "251af21e1ebcd9fd806133094cb68b2eb4faa0effe9acc1e36ed9035b3812f7e",
+    "requirements-lock.txt": "78c0a152824a32d115eeb8f9c56be2b6f4d4d869341ac65ae985c34692c42e82",
+    "source_snapshot/matterlab/__init__.py": "6da326c20117347cd4b498489cc1cbf524e5cf5a0e1116e4cc41f479efb15d27",
+    "source_snapshot/matterlab/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "source_snapshot/matterlab/cli.py": "778d945618d9821bc7df8c491b996eee0e541869b1f16bfc65c5d4397d7e0be1",
+    "source_snapshot/matterlab/evidence.py": "ec0e0194d618c61815e88e01f3dbbad9d572db54bde8a0f172032a0e08ed915d",
+    "source_snapshot/matterlab/generate.py": "5d85ad13271efe0589cf4a924869087134c456f998400148ed069d051e76839c",
+    "source_snapshot/matterlab/physics.py": "a58162e71a3d2afb0df30902c43d1e46e454805a6765fcbcd7c9ba0d9e6ac96c",
+    "source_snapshot/matterlab/report.py": "50ddc6ef88b5111f21ab55a2d6b4c0fb895db13989ad17dbf4510ba3ec18f8bc",
+    "source_snapshot/matterlab/simulate.py": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a"
+  }
+}

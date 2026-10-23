@@ -1,0 +1,7 @@
+{
+  "stop_reason": "Failure; retain and stop without retry.",
+  "original_restoration_acceptance": "FAILED; unchanged",
+  "calculation_invocations": 1,
+  "total_calculation_wall_seconds": 3.1735857149999447,
+  "controller_wall_seconds": 3.177335524
+}

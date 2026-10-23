@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "base_public_commit": "f1fdd7fbe07b05c60cb2c15f808ddaa6c13a06bb",
+  "calculation_source_sha": "3319dc595397f68c0e7a3326e64c2b27ae799027",
+  "original_restoration_manifest_sha256": "4014be4f2747d8f09d6df2e89bd50c2b476f4df4cf352df1b48cde204bb22538",
+  "original_restoration_public_manifest_sha256": "175ba5e714770d76128f3750e6e126fc9c77397586a8c7f9c2b742eb3b040ea7",
+  "protocol_sha256": "43da0b0d217fe5c267a4d2b7aedd5f8e66fb9d8af2b4688b01a7b2e250ee4584",
+  "original_numerical_acceptance": "FAILED; unchanged",
+  "diagnostic_status": "Recorder failed; no numerical outputs persisted; no retry",
+  "evidence": "evidence/diagnosis-20261023",
+  "startup": "project/CLOUD_START.md",
+  "resume_status": "Independent GitHub-backed resume remains unverified. A separate isolated saved-environment task must fetch this published checkpoint after the publication task is terminal.",
+  "local_fallback": "retained; avoids overlap",
+  "first_scheduled_wake": "parent verified actual 2026-10-23T18:38:51Z; no duplicate computation",
+  "next_action": "Fresh-gated one-evaluation repaired-recorder validation under newly frozen protocol; no dispatch test until captures validated.",
+  "diagnosis_evidence_manifest_sha256": "a336ceb8d23e11b4ff13317b0791d63d6bab6440f680fee39fd40575df9fa9dc",
+  "restoration_derivative_manifest_sha256": "c3b5ab425936f5f7a429179d40f4d15d9dc6fcd18c9d78aa74c41b0fa02becdc",
+  "independent_review": "ready_for_parent_review; bounded scientific/privacy/static review, no physical rerun",
+  "publication_review": "Parent approved failed-evidence checkpoint, not numerical success",
+  "physical_job_active": false
+}

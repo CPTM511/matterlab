@@ -1,0 +1,736 @@
+{
+  "scope": "Sanitized additive export; originals unchanged. No credentials copied. Original manifests retained for provenance; derivative manifests use derivative hashes.",
+  "files": [
+    {
+      "original_logical_file": "validation/REPORT.md",
+      "original_sha256": "aba11e504f0e6547b212c2cdeb240595df876406703245ed95acb89ee8902871",
+      "public_file": "REPORT.md",
+      "public_sha256": "aba11e504f0e6547b212c2cdeb240595df876406703245ed95acb89ee8902871",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/protocol.json",
+      "original_sha256": "8bc5cb2102fb7abb85e00783153857188c05033917b705943de158fb5bd39fab",
+      "public_file": "protocol.json",
+      "public_sha256": "8bc5cb2102fb7abb85e00783153857188c05033917b705943de158fb5bd39fab",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/comparison.json",
+      "original_sha256": "98a387a20d58509a7618e6a31f8867997f902e026dfaae602e74e62c2a2b0521",
+      "public_file": "comparison.json",
+      "public_sha256": "98a387a20d58509a7618e6a31f8867997f902e026dfaae602e74e62c2a2b0521",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/preflight.json",
+      "original_sha256": "324f88d930e2f083d6fd3c1d7308044299583f7104c94bfb5ccd2eb916c5c2c3",
+      "public_file": "preflight.json",
+      "public_sha256": "324f88d930e2f083d6fd3c1d7308044299583f7104c94bfb5ccd2eb916c5c2c3",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/preflight-correction.json",
+      "original_sha256": "da474106aa0a67c6c9e2e48b504dc366143dd9d023abd4ea1a5f9579f2a36c1a",
+      "public_file": "preflight-correction.json",
+      "public_sha256": "da474106aa0a67c6c9e2e48b504dc366143dd9d023abd4ea1a5f9579f2a36c1a",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/initial-preflight.json",
+      "original_sha256": "220fc9b102606b369bb97580ffb18399507c1e3832fdee04620cdbb780e9d8bc",
+      "public_file": "initial-preflight.json",
+      "public_sha256": "220fc9b102606b369bb97580ffb18399507c1e3832fdee04620cdbb780e9d8bc",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/initial-protocol.json",
+      "original_sha256": "1faf24b226750461b12cb9e96aafd2606bd83349f64ddaf93e15706bd4dc69e9",
+      "public_file": "initial-protocol.json",
+      "public_sha256": "1faf24b226750461b12cb9e96aafd2606bd83349f64ddaf93e15706bd4dc69e9",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/test-results.json",
+      "original_sha256": "04af40f5620e606f5d838b35e5ff7121fbfcc0905b2e9ba3847eb8c50eeb2913",
+      "public_file": "test-results.json",
+      "public_sha256": "9fb04b3873632a9c9ffb9ad9f10722787e284204840c4c4cb99fe10cd9062181",
+      "transformations": [
+        "replace private home paths and synthetic credential fixture in parametrized test names; outcomes unchanged"
+      ]
+    },
+    {
+      "original_logical_file": "validation/pytest.log",
+      "original_sha256": "c667444861d452509dc251ec927372875987e18617eff78eedf628c2493a7f80",
+      "public_file": "pytest.log",
+      "public_sha256": "162816fcb2b1e7bb57b6e18416d87c905778fae3e3992888fdd93ff753b9a27c",
+      "transformations": [
+        "remove account usage record where present; replace private absolute workspace paths and private assistant label with logical labels",
+        "replace private home paths and synthetic credential fixture in parametrized test names; outcomes unchanged"
+      ]
+    },
+    {
+      "original_logical_file": "validation/pip-check.log",
+      "original_sha256": "b5c689654c98c889a2d3072bad980df4e7ddb0cecec416d9b37ca9cd28de7e36",
+      "public_file": "pip-check.log",
+      "public_sha256": "66daa6a0775ee7c81d60da89a9da73d09783e6fda444a11a9e3cc7d6957ac1ba",
+      "transformations": [
+        "replace private home paths and synthetic credential fixture in parametrized test names; outcomes unchanged"
+      ]
+    },
+    {
+      "original_logical_file": "validation/evaluation.log",
+      "original_sha256": "5e9f0e02c95ba9af3732f69d961b67ad1a6ecc51b7e12eaa92080fe25044757f",
+      "public_file": "evaluation.log",
+      "public_sha256": "98fc86ea95cf52c20f75bad6e7bd67a9f341bc75b22209bbd1e5c63e8ff45a0b",
+      "transformations": [
+        "remove account usage record where present; replace private absolute workspace paths and private assistant label with logical labels"
+      ]
+    },
+    {
+      "original_logical_file": "validation/execution.json",
+      "original_sha256": "6dc80011cce716fe3f92d1fed99c7a866f1f1854e9ffb3d1367f3820fec5e5a5",
+      "public_file": "execution.json",
+      "public_sha256": "7badfc3c4ae20b7731ab152360926b1c0113fd135ce03f45c4977a03431dc52c",
+      "transformations": [
+        "remove account usage record where present; replace private absolute workspace paths and private assistant label with logical labels",
+        "omit private process identifier"
+      ]
+    },
+    {
+      "original_logical_file": "validation/environment-current.json",
+      "original_sha256": "a1675ebda7ca418eb8c66534821a9de270f1ede10989d4d7f45a9a70949f9593",
+      "public_file": "environment-current.json",
+      "public_sha256": "a1675ebda7ca418eb8c66534821a9de270f1ede10989d4d7f45a9a70949f9593",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/identity-public.json",
+      "original_sha256": "29ddedc88badb856658834177750dad17f61aeed21fa80532666caf19c23ba80",
+      "public_file": "identity-public.json",
+      "public_sha256": "29ddedc88badb856658834177750dad17f61aeed21fa80532666caf19c23ba80",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/torch-runtime.txt",
+      "original_sha256": "7e0305bf5875b2359d81529e09004eaba80fef4e1adf6177ed2b0553c9b31e27",
+      "public_file": "torch-runtime.txt",
+      "public_sha256": "7e0305bf5875b2359d81529e09004eaba80fef4e1adf6177ed2b0553c9b31e27",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/runtime-hashes.json",
+      "original_sha256": "919414cd7fcd6db65396da9e5b212025380bfe8cfd26e4dd720623512e8d97d1",
+      "public_file": "runtime-hashes.json",
+      "public_sha256": "919414cd7fcd6db65396da9e5b212025380bfe8cfd26e4dd720623512e8d97d1",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/REPORT.md",
+      "original_sha256": "6aed7544b07f4aa031b88413addc811a487b80dd2f95ad2316e525735f978803",
+      "public_file": "onboarding-report.sanitized.md",
+      "public_sha256": "e3a08dcd26fdde02bd05eb4ee0f66efdd5941e9017dd4664cf279ab407f7d1c6",
+      "transformations": [
+        "remove account usage record where present; replace private absolute workspace paths and private assistant label with logical labels"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/manifest.json",
+      "original_sha256": "52ad334c0dfac1a3a3fe86090ed04ddeb2695a75d446ab158e9cf70451298381",
+      "public_file": "provenance/original-onboarding-manifest.json",
+      "public_sha256": "52ad334c0dfac1a3a3fe86090ed04ddeb2695a75d446ab158e9cf70451298381",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/checkpoint.json",
+      "original_sha256": "9ffdac0d58121539e00c079206ea83e0ea777245e4d2dbdb60be331944a89b4a",
+      "public_file": "replay/checkpoint.json",
+      "public_sha256": "9ffdac0d58121539e00c079206ea83e0ea777245e4d2dbdb60be331944a89b4a",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/code.json",
+      "original_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "public_file": "replay/code.json",
+      "public_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/config.json",
+      "original_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+      "public_file": "replay/config.json",
+      "public_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/evaluate.py",
+      "original_sha256": "16b46c145d371a85266e9c8502c693712396b047361e60eb46533d55bc376b8b",
+      "public_file": "replay/evaluate.py",
+      "public_sha256": "19ec86cb0db26fec46a7ad6f68d3bcd33169ddcf0fd9c9366a73d367dfc91959",
+      "transformations": [
+        "remove account usage record where present; replace private absolute workspace paths and private assistant label with logical labels",
+        "replace fixed private repository root with explicit MATTERLAB_ROOT; portable derivative not executed"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/input.cif",
+      "original_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "public_file": "replay/input.cif",
+      "public_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/manifest.json",
+      "original_sha256": "5b90b8ca06653ab8356bcee7df836a9af9d575e1284d93db7fc59dd738dce54e",
+      "public_file": "replay/original-manifest.json",
+      "public_sha256": "5b90b8ca06653ab8356bcee7df836a9af9d575e1284d93db7fc59dd738dce54e",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/observations.json",
+      "original_sha256": "a47332b54bd6c7ed0cca77eda631018efeff14f603f4976e4ae003bdaaf5e0e6",
+      "public_file": "replay/observations.json",
+      "public_sha256": "a47332b54bd6c7ed0cca77eda631018efeff14f603f4976e4ae003bdaaf5e0e6",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/provenance.json",
+      "original_sha256": "016d2002670fb5df9c6631b812ee6a1815884358c741cfd93e94e1ad890e5082",
+      "public_file": "replay/provenance.json",
+      "public_sha256": "016d2002670fb5df9c6631b812ee6a1815884358c741cfd93e94e1ad890e5082",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/requirements-lock.txt",
+      "original_sha256": "78c0a152824a32d115eeb8f9c56be2b6f4d4d869341ac65ae985c34692c42e82",
+      "public_file": "replay/requirements-lock.txt",
+      "public_sha256": "78c0a152824a32d115eeb8f9c56be2b6f4d4d869341ac65ae985c34692c42e82",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/source_snapshot/matterlab/__init__.py",
+      "original_sha256": "6da326c20117347cd4b498489cc1cbf524e5cf5a0e1116e4cc41f479efb15d27",
+      "public_file": "replay/source_snapshot/matterlab/__init__.py",
+      "public_sha256": "6da326c20117347cd4b498489cc1cbf524e5cf5a0e1116e4cc41f479efb15d27",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/source_snapshot/matterlab/__main__.py",
+      "original_sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "public_file": "replay/source_snapshot/matterlab/__main__.py",
+      "public_sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/source_snapshot/matterlab/cli.py",
+      "original_sha256": "778d945618d9821bc7df8c491b996eee0e541869b1f16bfc65c5d4397d7e0be1",
+      "public_file": "replay/source_snapshot/matterlab/cli.py",
+      "public_sha256": "778d945618d9821bc7df8c491b996eee0e541869b1f16bfc65c5d4397d7e0be1",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/source_snapshot/matterlab/evidence.py",
+      "original_sha256": "ec0e0194d618c61815e88e01f3dbbad9d572db54bde8a0f172032a0e08ed915d",
+      "public_file": "replay/source_snapshot/matterlab/evidence.py",
+      "public_sha256": "ec0e0194d618c61815e88e01f3dbbad9d572db54bde8a0f172032a0e08ed915d",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/source_snapshot/matterlab/generate.py",
+      "original_sha256": "5d85ad13271efe0589cf4a924869087134c456f998400148ed069d051e76839c",
+      "public_file": "replay/source_snapshot/matterlab/generate.py",
+      "public_sha256": "5d85ad13271efe0589cf4a924869087134c456f998400148ed069d051e76839c",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/source_snapshot/matterlab/physics.py",
+      "original_sha256": "a58162e71a3d2afb0df30902c43d1e46e454805a6765fcbcd7c9ba0d9e6ac96c",
+      "public_file": "replay/source_snapshot/matterlab/physics.py",
+      "public_sha256": "a58162e71a3d2afb0df30902c43d1e46e454805a6765fcbcd7c9ba0d9e6ac96c",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/source_snapshot/matterlab/report.py",
+      "original_sha256": "50ddc6ef88b5111f21ab55a2d6b4c0fb895db13989ad17dbf4510ba3ec18f8bc",
+      "public_file": "replay/source_snapshot/matterlab/report.py",
+      "public_sha256": "50ddc6ef88b5111f21ab55a2d6b4c0fb895db13989ad17dbf4510ba3ec18f8bc",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/replay/source_snapshot/matterlab/simulate.py",
+      "original_sha256": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a",
+      "public_file": "replay/source_snapshot/matterlab/simulate.py",
+      "public_sha256": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/checkpoint.json",
+      "original_sha256": "9ffdac0d58121539e00c079206ea83e0ea777245e4d2dbdb60be331944a89b4a",
+      "public_file": "baseline-001/checkpoint.json",
+      "public_sha256": "9ffdac0d58121539e00c079206ea83e0ea777245e4d2dbdb60be331944a89b4a",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/code.json",
+      "original_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "public_file": "baseline-001/code.json",
+      "public_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/config.json",
+      "original_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+      "public_file": "baseline-001/config.json",
+      "public_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/evaluate.py",
+      "original_sha256": "16b46c145d371a85266e9c8502c693712396b047361e60eb46533d55bc376b8b",
+      "public_file": "baseline-001/evaluate.py",
+      "public_sha256": "19ec86cb0db26fec46a7ad6f68d3bcd33169ddcf0fd9c9366a73d367dfc91959",
+      "transformations": [
+        "remove account usage record where present; replace private absolute workspace paths and private assistant label with logical labels",
+        "replace fixed private repository root with explicit MATTERLAB_ROOT; portable derivative not executed"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/input.cif",
+      "original_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "public_file": "baseline-001/input.cif",
+      "public_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/manifest.json",
+      "original_sha256": "ab1f71f40775f51bc22757620b61e92f3416688bdabc202f698fb825f40f0e5d",
+      "public_file": "baseline-001/original-manifest.json",
+      "public_sha256": "ab1f71f40775f51bc22757620b61e92f3416688bdabc202f698fb825f40f0e5d",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/observations.json",
+      "original_sha256": "383815c8bf8c0e129cde6a67e61665cad49959e08db15a608df2218c7b0c48b4",
+      "public_file": "baseline-001/observations.json",
+      "public_sha256": "383815c8bf8c0e129cde6a67e61665cad49959e08db15a608df2218c7b0c48b4",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/provenance.json",
+      "original_sha256": "251af21e1ebcd9fd806133094cb68b2eb4faa0effe9acc1e36ed9035b3812f7e",
+      "public_file": "baseline-001/provenance.json",
+      "public_sha256": "251af21e1ebcd9fd806133094cb68b2eb4faa0effe9acc1e36ed9035b3812f7e",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/requirements-lock.txt",
+      "original_sha256": "78c0a152824a32d115eeb8f9c56be2b6f4d4d869341ac65ae985c34692c42e82",
+      "public_file": "baseline-001/requirements-lock.txt",
+      "public_sha256": "78c0a152824a32d115eeb8f9c56be2b6f4d4d869341ac65ae985c34692c42e82",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/source_snapshot/matterlab/__init__.py",
+      "original_sha256": "6da326c20117347cd4b498489cc1cbf524e5cf5a0e1116e4cc41f479efb15d27",
+      "public_file": "baseline-001/source_snapshot/matterlab/__init__.py",
+      "public_sha256": "6da326c20117347cd4b498489cc1cbf524e5cf5a0e1116e4cc41f479efb15d27",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/source_snapshot/matterlab/__main__.py",
+      "original_sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "public_file": "baseline-001/source_snapshot/matterlab/__main__.py",
+      "public_sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/source_snapshot/matterlab/cli.py",
+      "original_sha256": "778d945618d9821bc7df8c491b996eee0e541869b1f16bfc65c5d4397d7e0be1",
+      "public_file": "baseline-001/source_snapshot/matterlab/cli.py",
+      "public_sha256": "778d945618d9821bc7df8c491b996eee0e541869b1f16bfc65c5d4397d7e0be1",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/source_snapshot/matterlab/evidence.py",
+      "original_sha256": "ec0e0194d618c61815e88e01f3dbbad9d572db54bde8a0f172032a0e08ed915d",
+      "public_file": "baseline-001/source_snapshot/matterlab/evidence.py",
+      "public_sha256": "ec0e0194d618c61815e88e01f3dbbad9d572db54bde8a0f172032a0e08ed915d",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/source_snapshot/matterlab/generate.py",
+      "original_sha256": "5d85ad13271efe0589cf4a924869087134c456f998400148ed069d051e76839c",
+      "public_file": "baseline-001/source_snapshot/matterlab/generate.py",
+      "public_sha256": "5d85ad13271efe0589cf4a924869087134c456f998400148ed069d051e76839c",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/source_snapshot/matterlab/physics.py",
+      "original_sha256": "a58162e71a3d2afb0df30902c43d1e46e454805a6765fcbcd7c9ba0d9e6ac96c",
+      "public_file": "baseline-001/source_snapshot/matterlab/physics.py",
+      "public_sha256": "a58162e71a3d2afb0df30902c43d1e46e454805a6765fcbcd7c9ba0d9e6ac96c",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/source_snapshot/matterlab/report.py",
+      "original_sha256": "50ddc6ef88b5111f21ab55a2d6b4c0fb895db13989ad17dbf4510ba3ec18f8bc",
+      "public_file": "baseline-001/source_snapshot/matterlab/report.py",
+      "public_sha256": "50ddc6ef88b5111f21ab55a2d6b4c0fb895db13989ad17dbf4510ba3ec18f8bc",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-001/source_snapshot/matterlab/simulate.py",
+      "original_sha256": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a",
+      "public_file": "baseline-001/source_snapshot/matterlab/simulate.py",
+      "public_sha256": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/checkpoint.json",
+      "original_sha256": "9ffdac0d58121539e00c079206ea83e0ea777245e4d2dbdb60be331944a89b4a",
+      "public_file": "baseline-002/checkpoint.json",
+      "public_sha256": "9ffdac0d58121539e00c079206ea83e0ea777245e4d2dbdb60be331944a89b4a",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/code.json",
+      "original_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "public_file": "baseline-002/code.json",
+      "public_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/config.json",
+      "original_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+      "public_file": "baseline-002/config.json",
+      "public_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/evaluate.py",
+      "original_sha256": "16b46c145d371a85266e9c8502c693712396b047361e60eb46533d55bc376b8b",
+      "public_file": "baseline-002/evaluate.py",
+      "public_sha256": "19ec86cb0db26fec46a7ad6f68d3bcd33169ddcf0fd9c9366a73d367dfc91959",
+      "transformations": [
+        "remove account usage record where present; replace private absolute workspace paths and private assistant label with logical labels",
+        "replace fixed private repository root with explicit MATTERLAB_ROOT; portable derivative not executed"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/input.cif",
+      "original_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "public_file": "baseline-002/input.cif",
+      "public_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/manifest.json",
+      "original_sha256": "f6d98f5dc1e94ec3f2bbe6991481f00e508632c811f3188ae94bccfee6cc6e00",
+      "public_file": "baseline-002/original-manifest.json",
+      "public_sha256": "f6d98f5dc1e94ec3f2bbe6991481f00e508632c811f3188ae94bccfee6cc6e00",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/observations.json",
+      "original_sha256": "383815c8bf8c0e129cde6a67e61665cad49959e08db15a608df2218c7b0c48b4",
+      "public_file": "baseline-002/observations.json",
+      "public_sha256": "383815c8bf8c0e129cde6a67e61665cad49959e08db15a608df2218c7b0c48b4",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/provenance.json",
+      "original_sha256": "c2ef36883c45fdc4bdd9ffb9d9678b4a1933bcf95a9ecf01e3e190adcfcff622",
+      "public_file": "baseline-002/provenance.json",
+      "public_sha256": "c2ef36883c45fdc4bdd9ffb9d9678b4a1933bcf95a9ecf01e3e190adcfcff622",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/requirements-lock.txt",
+      "original_sha256": "78c0a152824a32d115eeb8f9c56be2b6f4d4d869341ac65ae985c34692c42e82",
+      "public_file": "baseline-002/requirements-lock.txt",
+      "public_sha256": "78c0a152824a32d115eeb8f9c56be2b6f4d4d869341ac65ae985c34692c42e82",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/source_snapshot/matterlab/__init__.py",
+      "original_sha256": "6da326c20117347cd4b498489cc1cbf524e5cf5a0e1116e4cc41f479efb15d27",
+      "public_file": "baseline-002/source_snapshot/matterlab/__init__.py",
+      "public_sha256": "6da326c20117347cd4b498489cc1cbf524e5cf5a0e1116e4cc41f479efb15d27",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/source_snapshot/matterlab/__main__.py",
+      "original_sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "public_file": "baseline-002/source_snapshot/matterlab/__main__.py",
+      "public_sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/source_snapshot/matterlab/cli.py",
+      "original_sha256": "778d945618d9821bc7df8c491b996eee0e541869b1f16bfc65c5d4397d7e0be1",
+      "public_file": "baseline-002/source_snapshot/matterlab/cli.py",
+      "public_sha256": "778d945618d9821bc7df8c491b996eee0e541869b1f16bfc65c5d4397d7e0be1",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/source_snapshot/matterlab/evidence.py",
+      "original_sha256": "ec0e0194d618c61815e88e01f3dbbad9d572db54bde8a0f172032a0e08ed915d",
+      "public_file": "baseline-002/source_snapshot/matterlab/evidence.py",
+      "public_sha256": "ec0e0194d618c61815e88e01f3dbbad9d572db54bde8a0f172032a0e08ed915d",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/source_snapshot/matterlab/generate.py",
+      "original_sha256": "5d85ad13271efe0589cf4a924869087134c456f998400148ed069d051e76839c",
+      "public_file": "baseline-002/source_snapshot/matterlab/generate.py",
+      "public_sha256": "5d85ad13271efe0589cf4a924869087134c456f998400148ed069d051e76839c",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/source_snapshot/matterlab/physics.py",
+      "original_sha256": "a58162e71a3d2afb0df30902c43d1e46e454805a6765fcbcd7c9ba0d9e6ac96c",
+      "public_file": "baseline-002/source_snapshot/matterlab/physics.py",
+      "public_sha256": "a58162e71a3d2afb0df30902c43d1e46e454805a6765fcbcd7c9ba0d9e6ac96c",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/source_snapshot/matterlab/report.py",
+      "original_sha256": "50ddc6ef88b5111f21ab55a2d6b4c0fb895db13989ad17dbf4510ba3ec18f8bc",
+      "public_file": "baseline-002/source_snapshot/matterlab/report.py",
+      "public_sha256": "50ddc6ef88b5111f21ab55a2d6b4c0fb895db13989ad17dbf4510ba3ec18f8bc",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "onboarding/chgnet-single-point-002/source_snapshot/matterlab/simulate.py",
+      "original_sha256": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a",
+      "public_file": "baseline-002/source_snapshot/matterlab/simulate.py",
+      "public_sha256": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a",
+      "transformations": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_logical_file": "validation/identity-private.json",
+      "original_sha256": "e8279e8eda64b7ba984490329dcdc97d57ac7523330259cb6827ffa2856b4725",
+      "public_file": null,
+      "transformations": [
+        "omitted from public bundle; private execution/account/host/path context or private orchestration tooling"
+      ]
+    },
+    {
+      "original_logical_file": "validation/PRIVATE-ADDENDUM.md",
+      "original_sha256": "eae5446f527b7884559d1dbbbc6209ee971ec071b484c851d77e6eda1a4413a1",
+      "public_file": null,
+      "transformations": [
+        "omitted from public bundle; private execution/account/host/path context or private orchestration tooling"
+      ]
+    },
+    {
+      "original_logical_file": "validation/pytest-private.xml",
+      "original_sha256": "e8c92441eb3ed0ed995a7a5584d2365482a48fc7ae5ac81a9e52bb515ee72587",
+      "public_file": null,
+      "transformations": [
+        "omitted from public bundle; private execution/account/host/path context or private orchestration tooling"
+      ]
+    },
+    {
+      "original_logical_file": "validation/processes-before.txt",
+      "original_sha256": "797f00c4cec2c8076f2b36e7885c0fc4a37e87ec57aab8a58d66d4c43e7f6041",
+      "public_file": null,
+      "transformations": [
+        "omitted from public bundle; private execution/account/host/path context or private orchestration tooling"
+      ]
+    },
+    {
+      "original_logical_file": "validation/state-before-private.json",
+      "original_sha256": "365789e79b3711d41907bd9985f069e33e52b8319cd770e79ee5fd10ed6b4241",
+      "public_file": null,
+      "transformations": [
+        "omitted from public bundle; private execution/account/host/path context or private orchestration tooling"
+      ]
+    },
+    {
+      "original_logical_file": "validation/state-after-private.json",
+      "original_sha256": "cd31cc1483ed805c461cf447d4ca537b3dc5335f8bedf575a28216182c203003",
+      "public_file": null,
+      "transformations": [
+        "omitted from public bundle; private execution/account/host/path context or private orchestration tooling"
+      ]
+    },
+    {
+      "original_logical_file": "validation/original-hashes-private.json",
+      "original_sha256": "d038e38dcb67623f5cb6aa26ca447873fbf38d06a40f99d9ce40e9ea4a783d00",
+      "public_file": null,
+      "transformations": [
+        "omitted from public bundle; private execution/account/host/path context or private orchestration tooling"
+      ]
+    },
+    {
+      "original_logical_file": "validation/original-evidence-unchanged-private.json",
+      "original_sha256": "cf444dc12b3c0cb3ff3f11d62fe3ef71b3e74927c7429d3052ca32b5d86cb316",
+      "public_file": null,
+      "transformations": [
+        "omitted from public bundle; private execution/account/host/path context or private orchestration tooling"
+      ]
+    },
+    {
+      "original_logical_file": "validation/validate_restoration.py",
+      "original_sha256": "823c7a4da690395eeada9e711f728d5e3d349b3d968cace7569dd3c7edc1de03",
+      "public_file": null,
+      "transformations": [
+        "omitted from public bundle; private execution/account/host/path context or private orchestration tooling"
+      ]
+    },
+    {
+      "original_logical_file": "validation/initial-validate_restoration.py",
+      "original_sha256": "6a40cba1e9faedf1135074cafd4dc68b9b22a4cb5b244c141a10f8429a84b647",
+      "public_file": null,
+      "transformations": [
+        "omitted from public bundle; private execution/account/host/path context or private orchestration tooling"
+      ]
+    },
+    {
+      "original_logical_file": "validation/finalize.py",
+      "original_sha256": "0627afc5c3b4471fe40c947ae2815deb52472d76d0bacb186db2f6cc9c157c60",
+      "public_file": null,
+      "transformations": [
+        "omitted from public bundle; private execution/account/host/path context or private orchestration tooling"
+      ]
+    },
+    {
+      "original_logical_file": "validation/hardware-backend.json",
+      "original_sha256": "61a5de339517df5efa7cd85fb65d611cf8180b5b8640da1a54ff4c8ca6defa2e",
+      "public_file": "hardware-backend.json",
+      "public_sha256": "61a5de339517df5efa7cd85fb65d611cf8180b5b8640da1a54ff4c8ca6defa2e",
+      "transformations": [
+        "byte-identical copy; CPU/backend fields only, no hostname/account context"
+      ]
+    },
+    {
+      "original_logical_file": "validation/initial-sanitation-audit.json",
+      "original_sha256": "76267f3ebb97aae23bf9db88a15beb76bebdfcb96ee7986743cc43b37c7b5da5",
+      "public_file": null,
+      "transformations": [
+        "omitted; failure and repair disclosed in report"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "started_at_utc": "2026-10-23T18:26:16.208976+00:00",
+  "finished_at_utc": "2026-10-23T18:26:19.282688+00:00",
+  "command": [
+    "CHECKOUT/.venv/bin/python",
+    "ONBOARDING/evaluate.py",
+    "VALIDATION/replay"
+  ],
+  "affinity_cpu": 0,
+  "wall_limit_seconds": 600,
+  "elapsed_seconds": 3.0736844020000262,
+  "returncode": 0,
+  "timed_out": false,
+  "invocations": 1
+}

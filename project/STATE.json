@@ -20,15 +20,8 @@
     "runs/quantum/evidence-verification.json",
     "docs/delivery-checks-en.json"
   ],
-  "active_work": [
-    {
-      "owner": "Jarvis cloud assistant",
-      "scope": "Preserve failed restored replay; diagnose numerical reproducibility and establish one cloud continuation",
-      "status": "Restoration report completed with failed numerical acceptance and a sanitized candidate evidence bundle; cloud coordinator owns review, bounded diagnosis and first scheduled wake verification",
-      "coordination": "Check this handoff before local research; do not overlap cloud calculations."
-    }
-  ],
-  "next_action": "The cloud coordinator must finish preserving the failed restored-reference replay, diagnose hardware/backend/input or graph-order differences using a predeclared bounded test, verify the first scheduled wake and an audited GitHub checkpoint, then return to S1 Gamma numerical diagnosis. Do not widen failed thresholds or overlap active cloud work.",
+  "active_work": [],
+  "next_action": "A separate isolated saved-environment task must refresh included usage, check current public ownership and active jobs, verify this published checkpoint and source/model/input hashes, then freeze a one-evaluation repaired-recorder validation protocol. Original force/stress acceptance remains failed. No backend contrast or S1/S2/S3 campaign before recorder validation. Preserve the non-overlapping local fallback.",
   "constraints": [
     "No additional spending",
     "No paid APIs or paid remote compute; subscription-included native cloud execution is authorized",
@@ -49,7 +42,7 @@
     "target_model": "gpt-6-astra",
     "target_reasoning": "high",
     "target_cadence": "Every four hours, Asia/Shanghai",
-    "status": "One active four-hour cloud continuation is verified, with first displayed wake at 02:40 Asia/Shanghai. Published cloud environment restored its helper/baselines and executed a real evaluation. Energy matches exactly but force/stress differences fail predeclared tolerances; full migration acceptance remains pending. Jarvis owns diagnosis; local fallback remains available without overlapping work.",
+    "status": "Published environment restoration and execution verified; original force/stress acceptance failed and one diagnostic recorder failure is retained. One scheduled wake was observed by the parent without overlap. Audited failed-evidence checkpoint approved for publication; independent GitHub-backed resume and full migration remain incomplete.",
     "handoff_instructions": "project/CLOUD_HANDOFF.md",
     "acceptance": "project/CLOUD_MIGRATION.md",
     "local_fallback_active": true,
@@ -90,9 +83,28 @@
       "public_bundle_review_complete": false
     },
     "recurrence_configured_verified": true,
-    "first_scheduled_wake_verified": false,
+    "first_scheduled_wake_verified": true,
     "cloud_acceptance_complete": false,
     "hosted_task_name": "MatterLab cloud research",
-    "first_displayed_wake": "2026-10-24T02:40:00+08:00"
+    "first_displayed_wake": "2026-10-24T02:40:00+08:00",
+    "first_scheduled_wake_evidence": {
+      "source": "parent observed scheduler wake",
+      "actual_wake_utc": "2026-10-23T18:38:51Z",
+      "nominal_wake_utc": "2026-10-23T18:40:00Z",
+      "early_seconds": 69,
+      "manual_run": false,
+      "overlap_outcome": "Existing active cloud work detected; no duplicate calculation or task launched."
+    }
+  },
+  "bounded_numerical_diagnosis": {
+    "evidence": "evidence/diagnosis-20261023",
+    "protocol_sha256": "43da0b0d217fe5c267a4d2b7aedd5f8e66fb9d8af2b4688b01a7b2e250ee4584",
+    "attempted_single_points": 1,
+    "status": "instrumentation_failure_before_observations_persisted",
+    "original_restoration_acceptance": "failed; unchanged",
+    "new_numerical_comparisons": "unavailable",
+    "proposed_recorder": "synthetic tests passed; not physically validated",
+    "publication": "Parent-approved failed-evidence checkpoint; verify this commit and manifest from GitHub. Independent cloud resume remains pending.",
+    "physical_job_active": false
   }
 }

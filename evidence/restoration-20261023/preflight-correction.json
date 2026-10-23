@@ -1,0 +1,10 @@
+{
+  "stage": "before any evaluation invocation",
+  "initial_failure": "Raw source config SHA256 differs from helper-reformatted baseline config SHA256",
+  "cause": "Checker compared different serialized representations, not changed configuration",
+  "source_config_sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601",
+  "baseline_config_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+  "exact_json_values_equal": true,
+  "exact_helper_serialized_bytes_equal": true,
+  "correction": "Apply the unchanged saved helper write_json serialization before hashing source configuration; preserve exact baseline hash match. No tolerance changes, no saved-source changes, no historical evidence edits."
+}

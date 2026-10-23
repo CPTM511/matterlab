@@ -1,0 +1,21 @@
+{
+  "requested": {
+    "model": "GPT-6 Astra",
+    "reasoning": "High",
+    "service_tier": "Standard"
+  },
+  "observable_assistant": "GPT-6-based Codex (developer identity)",
+  "actual_model_variant": null,
+  "actual_reasoning": null,
+  "actual_service_tier": null,
+  "configuration_attestation": "Requested selector values are not independently exposed to this task. No Astra-only setup or execution claim.",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "torch": "2.6.0+cpu",
+    "chgnet_package": "0.4.2",
+    "chgnet_model": "0.3.0",
+    "device": "cpu",
+    "threads": 1
+  }
+}

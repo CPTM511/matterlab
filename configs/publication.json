@@ -20,14 +20,17 @@
     "tools/export_public.py",
     "tools/export_quantum_public.py",
     "project/CLOUD_MIGRATION.md",
-    "project/CLOUD_HANDOFF.md"
+    "project/CLOUD_HANDOFF.md",
+    "project/CLOUD_START.md",
+    "project/checkpoints/diagnosis-20261023.json"
   ],
   "directories": [
     "src/matterlab",
     "tests",
     "ui",
     "configs",
-    "tools/quantum"
+    "tools/quantum",
+    "evidence"
   ],
   "campaigns": [
     "round-001-en"

@@ -1,0 +1,57 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-9.1.1, pluggy-1.7.0 -- CHECKOUT/.venv/bin/python
+rootdir: CHECKOUT
+configfile: pyproject.toml
+testpaths: tests
+collecting ... collected 34 items
+
+tests/test_publication.py::test_modified_measurement_is_rejected PASSED  [  2%]
+tests/test_publication.py::test_manifest_cannot_read_outside_release PASSED [  5%]
+tests/test_publication.py::test_release_rejects_language_paths_and_credentials[\u4e2d] PASSED [  8%]
+tests/test_publication.py::test_release_rejects_language_paths_and_credentials[PRIVATE_HOME/project] PASSED [ 11%]
+tests/test_publication.py::test_release_rejects_language_paths_and_credentials[SYNTHETIC_CREDENTIAL_TEST_FIXTURE] PASSED [ 14%]
+tests/test_publication.py::test_nested_archive_text_is_inspected PASSED  [ 17%]
+tests/test_publication.py::test_publication_manifest_rejects_extra_file PASSED [ 20%]
+tests/test_publication.py::test_excluded_content_cannot_hide_from_audit[scratch/private.txt] PASSED [ 23%]
+tests/test_publication.py::test_excluded_content_cannot_hide_from_audit[private.tmp] PASSED [ 26%]
+tests/test_publication.py::test_excluded_content_cannot_hide_from_audit[tools/__pycache__/private.txt] PASSED [ 29%]
+tests/test_publication.py::test_missing_required_reproduction_fails PASSED [ 32%]
+tests/test_publication.py::test_missing_source_directory_fails PASSED    [ 35%]
+tests/test_science.py::test_generator_reproduces_structures_and_sampling PASSED [ 38%]
+tests/test_science.py::test_generated_candidates_preserve_charge_composition_and_separation PASSED [ 41%]
+tests/test_science.py::test_perturb_seed_changes_coordinates_without_changing_composition PASSED [ 44%]
+tests/test_science.py::test_decoration_key_is_invariant_under_every_parent_operation PASSED [ 47%]
+tests/test_science.py::test_structure_validation_detects_periodic_boundary_overlap PASSED [ 50%]
+tests/test_science.py::test_structure_validation_rejects_wrong_stoichiometry_and_nonfinite_input PASSED [ 52%]
+tests/test_science.py::test_restricted_decomposition_finds_lower_cross_pairing_than_naive_average PASSED [ 55%]
+tests/test_science.py::test_restricted_decomposition_obeys_six_cation_marginals PASSED [ 58%]
+tests/test_science.py::test_restricted_decomposition_excludes_absent_elements[extraneous0] PASSED [ 61%]
+tests/test_science.py::test_restricted_decomposition_excludes_absent_elements[extraneous1] PASSED [ 64%]
+tests/test_science.py::test_restricted_decomposition_reports_infeasible_reference_coverage PASSED [ 67%]
+tests/test_science.py::test_eos_recovers_known_bulk_modulus_and_is_extensive PASSED [ 70%]
+tests/test_science.py::test_eos_rejects_unbracketed_minimum PASSED       [ 73%]
+tests/test_science.py::test_force_difference_recovers_harmonic_sign_and_coordinate_couplings PASSED [ 76%]
+tests/test_science.py::test_nonconservative_force_derivative_is_reported_before_symmetrization PASSED [ 79%]
+tests/test_science.py::test_gamma_projection_removes_only_three_translations[stiffnesses0-expected0] PASSED [ 82%]
+tests/test_science.py::test_gamma_projection_removes_only_three_translations[stiffnesses1-expected1] PASSED [ 85%]
+tests/test_science.py::test_gamma_reports_translation_violation_instead_of_hiding_it PASSED [ 88%]
+tests/test_science.py::test_gamma_assessment_does_not_pass_small_negative_or_step_sensitive_modes[minima0-True] PASSED [ 91%]
+tests/test_science.py::test_gamma_assessment_does_not_pass_small_negative_or_step_sensitive_modes[minima1-False] PASSED [ 94%]
+tests/test_science.py::test_gamma_assessment_does_not_pass_small_negative_or_step_sensitive_modes[minima2-None] PASSED [ 97%]
+tests/test_science.py::test_gamma_assessment_does_not_pass_small_negative_or_step_sensitive_modes[minima3-None] PASSED [100%]
+
+=============================== warnings summary ===============================
+tests/test_science.py::test_generator_reproduces_structures_and_sampling
+tests/test_science.py::test_generator_reproduces_structures_and_sampling
+tests/test_science.py::test_generated_candidates_preserve_charge_composition_and_separation
+tests/test_science.py::test_decoration_key_is_invariant_under_every_parent_operation
+  CHECKOUT/.venv/lib/python3.12/site-packages/spglib/spg.py:353: DeprecationWarning: Set OLD_ERROR_HANDLING to false and catch the errors directly.
+    _set_no_error()
+
+tests/test_science.py::test_eos_rejects_unbracketed_minimum
+  CHECKOUT/.venv/lib/python3.12/site-packages/ase/eos.py:259: UserWarning: The minimum volume of your fit is not in your volumes.  You may not have a minimum in your dataset!
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: VALIDATION/pytest-private.xml -
+======================== 34 passed, 5 warnings in 0.84s ========================

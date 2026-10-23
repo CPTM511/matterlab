@@ -1,0 +1,16 @@
+{
+  "protocol_sha256": "43da0b0d217fe5c267a4d2b7aedd5f8e66fb9d8af2b4688b01a7b2e250ee4584",
+  "runs": [
+    {
+      "condition": "D1-control",
+      "started_at_utc": "2026-10-23T18:39:14.583049+00:00",
+      "wall_seconds": 3.1735857149999447,
+      "returncode": 1,
+      "timeout": false,
+      "capability": null
+    }
+  ],
+  "total_calculation_wall_seconds": 3.1735857149999447,
+  "max_evaluations": 4,
+  "max_total_seconds": 600
+}
