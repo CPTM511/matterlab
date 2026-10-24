@@ -1,0 +1,7 @@
+{
+  "files": 2,
+  "fields_checked": 54,
+  "signed_zero_components": 52590,
+  "all_passed": true,
+  "scope": "Additional standalone signed repeat input/neighbor/graph/model/ASE comparisons; corresponding raw arrays were already independently byte-exact."
+}

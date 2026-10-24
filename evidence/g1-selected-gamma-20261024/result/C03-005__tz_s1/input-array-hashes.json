@@ -1,0 +1,48 @@
+{
+  "atomic_numbers": {
+    "dtype": "int64",
+    "shape": [
+      20
+    ],
+    "data_sha256": "88a2c746f9f74e7cb3b494453f2be4fa283e2d3ae227681efd97556eff0850b0"
+  },
+  "positions": {
+    "dtype": "float64",
+    "shape": [
+      20,
+      3
+    ],
+    "data_sha256": "039806d35975477ff9f3ead6f566bb16a5e1e442ec9d305ee325c8831ed6a407"
+  },
+  "cell": {
+    "dtype": "float64",
+    "shape": [
+      3,
+      3
+    ],
+    "data_sha256": "8528dae07935802bc285f7f23866f7213b3ba58b3f601a67021d25184ca263f9"
+  },
+  "pbc": {
+    "dtype": "bool",
+    "shape": [
+      3
+    ],
+    "data_sha256": "75c8fd04ad916aec3e3d5cb76a452b116b3d4d0912a0a485e9fb8e3d240e210c"
+  },
+  "frac_coords": {
+    "dtype": "float64",
+    "shape": [
+      20,
+      3
+    ],
+    "data_sha256": "cb14aadd0add10bb2b6cb54f56339471c537427f95a52f0d579d5d7d52044796"
+  },
+  "lattice": {
+    "dtype": "float64",
+    "shape": [
+      3,
+      3
+    ],
+    "data_sha256": "8528dae07935802bc285f7f23866f7213b3ba58b3f601a67021d25184ca263f9"
+  }
+}

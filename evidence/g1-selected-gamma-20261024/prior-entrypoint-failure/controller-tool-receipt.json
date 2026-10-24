@@ -1,0 +1,10 @@
+{
+  "provenance": "Manual transcription of observed exec_command result; traceback path/caret formatting sanitized. Not a newly executed command or independently captured stderr.",
+  "exit_code": 1,
+  "session_id": null,
+  "reported_tool_wall_seconds": 5.9677e-05,
+  "reported_tool_wall_interpretation": "Tool-reported field only; not an independently measured controller duration.",
+  "controller_invocations": 1,
+  "new_model_evaluations": 0,
+  "calculation_child_processes": 0
+}

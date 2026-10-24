@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "controller_returncode0": true,
+    "postrepair_invocation1_prior_stopped1": true,
+    "actual_controller_end_before_original_deadline": true,
+    "immutable_original_start": true,
+    "exactly32_point_tokens": true,
+    "exactly32_forward_tokens": true,
+    "all_tokens_same_controller": true,
+    "no_failure_files": true,
+    "raw_decisions_equal": true
+  },
+  "all_passed": true,
+  "postrepair_controller_wall_seconds": 262.1431621860029,
+  "calculation_process_wall_seconds": 222.06428085100197,
+  "recorded_investigation_elapsed_seconds": 1531.445918,
+  "controller_end_seconds_after_original_start": 1531.520105,
+  "log_message_point_counts": {
+    "Matplotlib": 32,
+    "Fontconfig": 32,
+    "Traceback": 0,
+    "No writable cache directories": 32
+  },
+  "raw_identity": {
+    "manifest.json": "c7fbfdb1a57175110e44fe2fef9ba995db89fb88e285e2249e95b2adf94b71c9",
+    "execution.json": "0397d21f891b3f3264bb2d7e1a349ba4b7d175a9cd9250841103dedbcd60628e",
+    "decision.json": "616f5b917aea8420c9f8790e18bed7c5a99e31f3e30190efc6f23d0124ede787",
+    "raw-analysis-decision.json": "616f5b917aea8420c9f8790e18bed7c5a99e31f3e30190efc6f23d0124ede787",
+    "final-decision.json": "eebda75ac10982794fb35dfa7b18d165447277f71210a279cda772ae1185a9b5",
+    "signed-comparisons.json": "7b8fb607998c83eb84ecdff293ceaf037eae0232b3df22d5ea30ac10934af3f9"
+  },
+  "postprocessing_utility_failure": "Executing role reports optional summarize_saved.py TypeError abs(list) on nested stress arrays before summary/snapshot; not rerun by reviewer and does not alter frozen controller/analysis."
+}

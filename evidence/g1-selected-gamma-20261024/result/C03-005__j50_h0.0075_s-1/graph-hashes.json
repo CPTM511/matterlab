@@ -1,0 +1,63 @@
+{
+  "atomic_number": {
+    "dtype": "int32",
+    "shape": [
+      20
+    ],
+    "data_sha256": "ba20ff4ef8d4a7c431a877ba16f037e0fe81a1dcca9baf16dd2c2d3fcfb9b210"
+  },
+  "atom_frac_coord": {
+    "dtype": "float32",
+    "shape": [
+      20,
+      3
+    ],
+    "data_sha256": "ad612d373966bf83d8e7b475a14eea4a540e0f178eb7b1630f455f912f184f05"
+  },
+  "atom_graph": {
+    "dtype": "int32",
+    "shape": [
+      1272,
+      2
+    ],
+    "data_sha256": "a0be3dc40dd5e1c09062edb7aa2b8e283e654e5c6d3f26d6fcd942eef36c02de"
+  },
+  "neighbor_image": {
+    "dtype": "float32",
+    "shape": [
+      1272,
+      3
+    ],
+    "data_sha256": "4d936f9b55dd1b101fcaa2fa6c2494ef028463f8840a7248807c75270dd7a865"
+  },
+  "directed2undirected": {
+    "dtype": "int32",
+    "shape": [
+      1272
+    ],
+    "data_sha256": "12259ffae8ae1338e13b61efd4e0464865f91ee7d207b2124f7f968ea25eb0b0"
+  },
+  "undirected2directed": {
+    "dtype": "int32",
+    "shape": [
+      636
+    ],
+    "data_sha256": "b4e2e85b50406be2a4678e24f9b9653229cb49f9ec7ac1281e1f8a008424513f"
+  },
+  "bond_graph": {
+    "dtype": "int32",
+    "shape": [
+      1384,
+      5
+    ],
+    "data_sha256": "da2d1520debbc59b12dd4d2c2480524223405547a782d4c69f6b8e8279e9f3f2"
+  },
+  "lattice": {
+    "dtype": "float32",
+    "shape": [
+      3,
+      3
+    ],
+    "data_sha256": "e353149d08bd524e5c4abcb6d25cc2c99596ebedb8260a1898306e368cfa9a21"
+  }
+}

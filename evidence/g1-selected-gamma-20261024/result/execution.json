@@ -1,0 +1,295 @@
+{
+  "records": [
+    {
+      "index": 0,
+      "point_id": "R-CaTiO3__base",
+      "started_at_utc": "2026-10-24T09:39:02.803541+00:00",
+      "requested_timeout_seconds": 517.1964640000001,
+      "returncode": 0,
+      "wall_seconds": 7.036562198998581,
+      "ended_at_utc": "2026-10-24T09:39:09.840108+00:00"
+    },
+    {
+      "index": 1,
+      "point_id": "R-CaTiO3__j50_h0.015_s1",
+      "started_at_utc": "2026-10-24T09:39:10.868505+00:00",
+      "requested_timeout_seconds": 509.13149799999997,
+      "returncode": 0,
+      "wall_seconds": 6.936768131003191,
+      "ended_at_utc": "2026-10-24T09:39:17.805279+00:00"
+    },
+    {
+      "index": 2,
+      "point_id": "R-CaTiO3__j50_h0.015_s-1",
+      "started_at_utc": "2026-10-24T09:39:18.951200+00:00",
+      "requested_timeout_seconds": 501.0488029999999,
+      "returncode": 0,
+      "wall_seconds": 6.834468287001073,
+      "ended_at_utc": "2026-10-24T09:39:25.785673+00:00"
+    },
+    {
+      "index": 3,
+      "point_id": "R-CaTiO3__j59_h0.015_s1",
+      "started_at_utc": "2026-10-24T09:39:26.754081+00:00",
+      "requested_timeout_seconds": 493.24592200000006,
+      "returncode": 0,
+      "wall_seconds": 7.186785245001374,
+      "ended_at_utc": "2026-10-24T09:39:33.940871+00:00"
+    },
+    {
+      "index": 4,
+      "point_id": "R-CaTiO3__j59_h0.015_s-1",
+      "started_at_utc": "2026-10-24T09:39:34.937059+00:00",
+      "requested_timeout_seconds": 485.0629449999999,
+      "returncode": 0,
+      "wall_seconds": 7.036386069994478,
+      "ended_at_utc": "2026-10-24T09:39:41.973449+00:00"
+    },
+    {
+      "index": 5,
+      "point_id": "R-CaTiO3__j50_h0.0075_s1",
+      "started_at_utc": "2026-10-24T09:39:42.954726+00:00",
+      "requested_timeout_seconds": 477.04527699999994,
+      "returncode": 0,
+      "wall_seconds": 6.83664071700332,
+      "ended_at_utc": "2026-10-24T09:39:49.791372+00:00"
+    },
+    {
+      "index": 6,
+      "point_id": "R-CaTiO3__j50_h0.0075_s-1",
+      "started_at_utc": "2026-10-24T09:39:50.807582+00:00",
+      "requested_timeout_seconds": 469.19242099999997,
+      "returncode": 0,
+      "wall_seconds": 6.8879928960013785,
+      "ended_at_utc": "2026-10-24T09:39:57.695580+00:00"
+    },
+    {
+      "index": 7,
+      "point_id": "R-CaTiO3__j59_h0.0075_s1",
+      "started_at_utc": "2026-10-24T09:39:58.667845+00:00",
+      "requested_timeout_seconds": 461.33215799999994,
+      "returncode": 0,
+      "wall_seconds": 6.938411103998078,
+      "ended_at_utc": "2026-10-24T09:40:05.606261+00:00"
+    },
+    {
+      "index": 8,
+      "point_id": "R-CaTiO3__j59_h0.0075_s-1",
+      "started_at_utc": "2026-10-24T09:40:06.587233+00:00",
+      "requested_timeout_seconds": 453.412771,
+      "returncode": 0,
+      "wall_seconds": 7.136926662999031,
+      "ended_at_utc": "2026-10-24T09:40:13.724164+00:00"
+    },
+    {
+      "index": 9,
+      "point_id": "R-CaTiO3__j50_h0.00375_s1",
+      "started_at_utc": "2026-10-24T09:40:15.505079+00:00",
+      "requested_timeout_seconds": 444.4949240000001,
+      "returncode": 0,
+      "wall_seconds": 7.339708323001105,
+      "ended_at_utc": "2026-10-24T09:40:22.844792+00:00"
+    },
+    {
+      "index": 10,
+      "point_id": "R-CaTiO3__j50_h0.00375_s-1",
+      "started_at_utc": "2026-10-24T09:40:23.815510+00:00",
+      "requested_timeout_seconds": 436.1844940000001,
+      "returncode": 0,
+      "wall_seconds": 6.985247984004673,
+      "ended_at_utc": "2026-10-24T09:40:30.800763+00:00"
+    },
+    {
+      "index": 11,
+      "point_id": "R-CaTiO3__j59_h0.00375_s1",
+      "started_at_utc": "2026-10-24T09:40:31.770234+00:00",
+      "requested_timeout_seconds": 428.2297699999999,
+      "returncode": 0,
+      "wall_seconds": 6.8344217100020614,
+      "ended_at_utc": "2026-10-24T09:40:38.604660+00:00"
+    },
+    {
+      "index": 12,
+      "point_id": "R-CaTiO3__j59_h0.00375_s-1",
+      "started_at_utc": "2026-10-24T09:40:39.579875+00:00",
+      "requested_timeout_seconds": 420.4201290000001,
+      "returncode": 0,
+      "wall_seconds": 6.936425136002072,
+      "ended_at_utc": "2026-10-24T09:40:46.516304+00:00"
+    },
+    {
+      "index": 13,
+      "point_id": "R-CaTiO3__tz_s1",
+      "started_at_utc": "2026-10-24T09:40:47.480320+00:00",
+      "requested_timeout_seconds": 412.5196820000001,
+      "returncode": 0,
+      "wall_seconds": 7.138524013993447,
+      "ended_at_utc": "2026-10-24T09:40:54.618849+00:00"
+    },
+    {
+      "index": 14,
+      "point_id": "R-CaTiO3__tz_s-1",
+      "started_at_utc": "2026-10-24T09:40:56.234443+00:00",
+      "requested_timeout_seconds": 403.76556000000005,
+      "returncode": 0,
+      "wall_seconds": 6.887630958000955,
+      "ended_at_utc": "2026-10-24T09:41:03.122079+00:00"
+    },
+    {
+      "index": 15,
+      "point_id": "R-CaTiO3__j50_h0.00375_s1__repeat",
+      "started_at_utc": "2026-10-24T09:41:04.131637+00:00",
+      "requested_timeout_seconds": 395.8683659999999,
+      "returncode": 0,
+      "wall_seconds": 6.934849805998965,
+      "ended_at_utc": "2026-10-24T09:41:11.066491+00:00"
+    },
+    {
+      "index": 16,
+      "point_id": "C03-005__base",
+      "started_at_utc": "2026-10-24T09:41:12.069804+00:00",
+      "requested_timeout_seconds": 387.9301989999999,
+      "returncode": 0,
+      "wall_seconds": 6.784122725999623,
+      "ended_at_utc": "2026-10-24T09:41:18.853932+00:00"
+    },
+    {
+      "index": 17,
+      "point_id": "C03-005__j50_h0.015_s1",
+      "started_at_utc": "2026-10-24T09:41:19.860667+00:00",
+      "requested_timeout_seconds": 380.13933599999996,
+      "returncode": 0,
+      "wall_seconds": 6.736237574004917,
+      "ended_at_utc": "2026-10-24T09:41:26.596910+00:00"
+    },
+    {
+      "index": 18,
+      "point_id": "C03-005__j50_h0.015_s-1",
+      "started_at_utc": "2026-10-24T09:41:27.608985+00:00",
+      "requested_timeout_seconds": 372.39101800000003,
+      "returncode": 0,
+      "wall_seconds": 6.93841056299425,
+      "ended_at_utc": "2026-10-24T09:41:34.547400+00:00"
+    },
+    {
+      "index": 19,
+      "point_id": "C03-005__j59_h0.015_s1",
+      "started_at_utc": "2026-10-24T09:41:35.517282+00:00",
+      "requested_timeout_seconds": 364.4827210000001,
+      "returncode": 0,
+      "wall_seconds": 6.984157790000609,
+      "ended_at_utc": "2026-10-24T09:41:42.501445+00:00"
+    },
+    {
+      "index": 20,
+      "point_id": "C03-005__j59_h0.015_s-1",
+      "started_at_utc": "2026-10-24T09:41:43.484364+00:00",
+      "requested_timeout_seconds": 356.515666,
+      "returncode": 0,
+      "wall_seconds": 6.9359315969995805,
+      "ended_at_utc": "2026-10-24T09:41:50.420300+00:00"
+    },
+    {
+      "index": 21,
+      "point_id": "C03-005__j50_h0.0075_s1",
+      "started_at_utc": "2026-10-24T09:41:51.436258+00:00",
+      "requested_timeout_seconds": 348.5637449999999,
+      "returncode": 0,
+      "wall_seconds": 6.935060591000365,
+      "ended_at_utc": "2026-10-24T09:41:58.371323+00:00"
+    },
+    {
+      "index": 22,
+      "point_id": "C03-005__j50_h0.0075_s-1",
+      "started_at_utc": "2026-10-24T09:41:59.345231+00:00",
+      "requested_timeout_seconds": 340.6547720000001,
+      "returncode": 0,
+      "wall_seconds": 7.037867999999435,
+      "ended_at_utc": "2026-10-24T09:42:06.383103+00:00"
+    },
+    {
+      "index": 23,
+      "point_id": "C03-005__j59_h0.0075_s1",
+      "started_at_utc": "2026-10-24T09:42:07.411336+00:00",
+      "requested_timeout_seconds": 332.5886680000001,
+      "returncode": 0,
+      "wall_seconds": 6.834884804004105,
+      "ended_at_utc": "2026-10-24T09:42:14.246225+00:00"
+    },
+    {
+      "index": 24,
+      "point_id": "C03-005__j59_h0.0075_s-1",
+      "started_at_utc": "2026-10-24T09:42:15.208854+00:00",
+      "requested_timeout_seconds": 324.7911489999999,
+      "returncode": 0,
+      "wall_seconds": 6.836608072000672,
+      "ended_at_utc": "2026-10-24T09:42:22.045466+00:00"
+    },
+    {
+      "index": 25,
+      "point_id": "C03-005__j50_h0.00375_s1",
+      "started_at_utc": "2026-10-24T09:42:23.057916+00:00",
+      "requested_timeout_seconds": 316.9420869999999,
+      "returncode": 0,
+      "wall_seconds": 6.834841191994201,
+      "ended_at_utc": "2026-10-24T09:42:29.892762+00:00"
+    },
+    {
+      "index": 26,
+      "point_id": "C03-005__j50_h0.00375_s-1",
+      "started_at_utc": "2026-10-24T09:42:30.858760+00:00",
+      "requested_timeout_seconds": 309.1412439999999,
+      "returncode": 0,
+      "wall_seconds": 6.836702694003179,
+      "ended_at_utc": "2026-10-24T09:42:37.695467+00:00"
+    },
+    {
+      "index": 27,
+      "point_id": "C03-005__j59_h0.00375_s1",
+      "started_at_utc": "2026-10-24T09:42:38.671596+00:00",
+      "requested_timeout_seconds": 301.32840699999997,
+      "returncode": 0,
+      "wall_seconds": 6.88510609199875,
+      "ended_at_utc": "2026-10-24T09:42:45.556706+00:00"
+    },
+    {
+      "index": 28,
+      "point_id": "C03-005__j59_h0.00375_s-1",
+      "started_at_utc": "2026-10-24T09:42:46.565952+00:00",
+      "requested_timeout_seconds": 293.43405099999995,
+      "returncode": 0,
+      "wall_seconds": 6.887150015994848,
+      "ended_at_utc": "2026-10-24T09:42:53.453107+00:00"
+    },
+    {
+      "index": 29,
+      "point_id": "C03-005__tz_s1",
+      "started_at_utc": "2026-10-24T09:42:54.479128+00:00",
+      "requested_timeout_seconds": 285.52087499999993,
+      "returncode": 0,
+      "wall_seconds": 6.838511920002929,
+      "ended_at_utc": "2026-10-24T09:43:01.317644+00:00"
+    },
+    {
+      "index": 30,
+      "point_id": "C03-005__tz_s-1",
+      "started_at_utc": "2026-10-24T09:43:02.298686+00:00",
+      "requested_timeout_seconds": 277.701317,
+      "returncode": 0,
+      "wall_seconds": 6.886297063996608,
+      "ended_at_utc": "2026-10-24T09:43:09.184988+00:00"
+    },
+    {
+      "index": 31,
+      "point_id": "C03-005__j50_h0.00375_s1__repeat",
+      "started_at_utc": "2026-10-24T09:43:10.153012+00:00",
+      "requested_timeout_seconds": 269.8469909999999,
+      "returncode": 0,
+      "wall_seconds": 6.984640913004114,
+      "ended_at_utc": "2026-10-24T09:43:17.137658+00:00"
+    }
+  ],
+  "total_calculation_process_seconds": 222.06428085100197,
+  "complete": true,
+  "investigation_elapsed_seconds": 1531.445918
+}

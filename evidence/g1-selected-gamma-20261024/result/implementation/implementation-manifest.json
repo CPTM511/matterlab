@@ -1,0 +1,21 @@
+{
+  "algorithm": "SHA256",
+  "files": {
+    "LICENSE": "85d73741cd43ff43b832520aeaaccffc6c019c1a04872a7ef1ccbffd990798af",
+    "PROTOCOL.md": "f1841803781e89a126766a69096ef48d4b910f8a246ff5397d354585c4a18056",
+    "REPAIR.md": "1a68b879f04bec71dcea0e684e7f1e11e3fe721359c1d83cfc7ab13148e9d6df",
+    "analyze_saved.py": "c22f611e18e2581aa89a20bb4f26c176fd9ca2871c5f5ed6c288e8fc73699662",
+    "capture_helpers.py": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+    "child_entry.py": "dda140117e37e4c6ab4bb2a9505ca3493b3c30143c09c01462b296bd308bbad7",
+    "control_common.py": "135812c8e8b8499c084fe4684e04f3ccd62c90342bb557739e32f01c9d11df5a",
+    "gamma_worker.py": "ab170f4bacd7d1b27f4848016094f3d2a912e755b6e9004864a01fded30d67f5",
+    "launch.sh": "a55e5474b646675c60690c16988a40673c7ce47cacb89a47e0575e4e305bc08f",
+    "point_checks.py": "bd41b7d9b993ffa66f3842af0c57f95756c55ebea5b76b7aff089d35c7ab8849",
+    "points.json": "b476d67bf0f30cf36d76ed1fe360a99c03a20a34c368d115368f29e54e816d00",
+    "preflight.py": "18d3e59eb5c31db3877b6af9333704f28682fd69ec3b059ddd96b0f635a9f249",
+    "preinference_guards.py": "a39807ab765a5b41e61b23352c1a303563fca5d3b834c1bf9cc279e5a4c0df23",
+    "references.json": "0bed813da60cd3ae0cac662eae0dcb0a953e2c6e27943b2b47297f94dae15614",
+    "run_gamma.py": "99cae1be50c9b9865adbb4a2a7b227f986047f531faa734c5c339229bb280c2e",
+    "runtime_compare.py": "65c4ab2017a8485b6c38ff2c3395a21d7e450fdfcce36c19160b0722535700d6"
+  }
+}

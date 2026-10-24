@@ -1,0 +1,26 @@
+{
+  "id": "G1-selected-Gamma-20261024",
+  "status": "preexecution_review_candidate_no_evaluation_release",
+  "protocol_markdown_sha256": "f1841803781e89a126766a69096ef48d4b910f8a246ff5397d354585c4a18056",
+  "public_commit": "a3e3f1d8927448a2b821752fc5f8f796d1224745",
+  "maximum_single_points": 32,
+  "calculation_process_seconds": 600,
+  "investigation_seconds": 1800,
+  "step_A": [
+    0.015,
+    0.0075,
+    0.00375
+  ],
+  "coordinates": [
+    50,
+    59
+  ],
+  "local_resolution_eV_A2": 0.005,
+  "original_atol": {
+    "energy_eV": 1e-05,
+    "forces_eV_A": 1e-06,
+    "stress_eV_A3": 1e-07
+  },
+  "rtol": 0,
+  "physical_validation_of_new_instrumentation": false
+}

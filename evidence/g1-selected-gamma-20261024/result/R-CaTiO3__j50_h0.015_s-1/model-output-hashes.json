@@ -1,0 +1,47 @@
+{
+  "atoms_per_graph": {
+    "dtype": "int64",
+    "shape": [
+      1
+    ],
+    "data_sha256": "0c27700c82d333aa295692f1814040a962d7bc530253af661d97635dd5ed7af9"
+  },
+  "m_0": {
+    "dtype": "float32",
+    "shape": [
+      20
+    ],
+    "data_sha256": "f6018667e69bf2f911b68cab6cbf6d0be2222189724597a62013eebff1a6bde7"
+  },
+  "crystal_fea": {
+    "dtype": "float32",
+    "shape": [
+      1,
+      64
+    ],
+    "data_sha256": "55cfc7285dc04d875ea9760da9e4aabb67049e11dbc8d6e1fc135ba2f4088839"
+  },
+  "f_0": {
+    "dtype": "float32",
+    "shape": [
+      20,
+      3
+    ],
+    "data_sha256": "a520898d005e571d98ed737d805edec27fb91a267a59eee5c3efbbd5d89c52cd"
+  },
+  "s_0": {
+    "dtype": "float32",
+    "shape": [
+      3,
+      3
+    ],
+    "data_sha256": "ad1423d116f4354e5e2ef63bd51de0a71c06c4c4d46f5bab2d49987e4e1a6512"
+  },
+  "e": {
+    "dtype": "float32",
+    "shape": [
+      1
+    ],
+    "data_sha256": "c0c6b4dcb7cfd1b0a36085e5d3db5c1c1c80fcb32d3143ed960ca7624f2d6428"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "center": {
+    "dtype": "int64",
+    "shape": [
+      1272
+    ],
+    "data_sha256": "e614194ebee70d257c862a3693226184d54134b18c4309beae9d31f0a23cc1e0"
+  },
+  "neighbor": {
+    "dtype": "int64",
+    "shape": [
+      1272
+    ],
+    "data_sha256": "137de0229a39e3e0ca33dc2b916fbe862cfcc1b269f31ed610e81ff23cc4bee9"
+  },
+  "image": {
+    "dtype": "float64",
+    "shape": [
+      1272,
+      3
+    ],
+    "data_sha256": "8f1a6c14b3cc477ee2f9227f3539064e83dfb49f1c422300e35d29f96d8e9636"
+  },
+  "distance": {
+    "dtype": "float64",
+    "shape": [
+      1272
+    ],
+    "data_sha256": "77500e5baec218538491105cda0745bee4ca6333609dbc100d0030578066472a"
+  }
+}

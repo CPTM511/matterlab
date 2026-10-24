@@ -1,0 +1,15 @@
+{
+  "scope": "Post-launch envelope/source inspection only; not a pre-launch review and not a terminal/result review. No partial numerical output inspected.",
+  "checks": {
+    "final_freeze_hash": true,
+    "unchanged_18_other_bundle_files": true,
+    "exact_19_file_coverage": true,
+    "all16_implementation_hashes": true,
+    "protocol_binding": true,
+    "implementation_binding": true,
+    "prior_preparation_freeze_binding": true,
+    "repair_review_binding": true
+  },
+  "all_passed": true,
+  "final_freeze_sha256": "4585e7755f8a138358d709b2119cb8c0486ab776753e271c0f2b416739d9ea1a"
+}

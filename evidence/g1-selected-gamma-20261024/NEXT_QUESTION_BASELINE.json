@@ -1,0 +1,48 @@
+{
+  "scope": "Exact saved G1 reference baseline; no new calculation",
+  "public_evidence_base": "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base",
+  "files": {
+    "input-arrays.npz": {
+      "bytes": 2777,
+      "sha256": "774e110abf0da566186546d23b10218faa035c3bcd2765d68cc36de5c6a91084"
+    },
+    "graph.npz": {
+      "bytes": 79904,
+      "sha256": "ab269a08251baf86f01eb0a16d450dc8a13029767b84ed865da8bc8f4d8d2d2c"
+    },
+    "neighbors.npz": {
+      "bytes": 76652,
+      "sha256": "60ed0f9d9e72a1639eddc3856dcee5bd0659c242ebe637794177e0f17b2b9290"
+    },
+    "model-output.npz": {
+      "bytes": 2110,
+      "sha256": "437fc3540dabfa3bed6b22d4ceab007a188e5282d60c65c370d2563f987c1388"
+    },
+    "runtime.json": {
+      "bytes": 2581,
+      "sha256": "79db846c3bd9ccd505eb4b5079bcd8ae13afcd90a84d3bfa24c1ecd067f70640"
+    },
+    "model-tensor-hashes.json": {
+      "bytes": 27564,
+      "sha256": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf"
+    },
+    "config-original.json": {
+      "bytes": 800,
+      "sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601"
+    },
+    "point.json": {
+      "bytes": 2482,
+      "sha256": "073155e240dbc3926d7e13348be0c6f912acb87b304f72720cf69b36add5fb2c"
+    },
+    "observations.json": {
+      "bytes": 2442,
+      "sha256": "913a4827c309230a21861391b6f5ce14b4d1bce255790cd625d1ac446c81b2de"
+    }
+  },
+  "native_source_reference": "evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/model.py",
+  "coordinates_zero_based": [
+    50,
+    59
+  ],
+  "units": "eV, Angstrom, eV/Angstrom, eV/Angstrom^2"
+}

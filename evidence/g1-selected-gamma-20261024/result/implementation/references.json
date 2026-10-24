@@ -1,0 +1,12 @@
+{
+  "commit": "a3e3f1d8927448a2b821752fc5f8f796d1224745",
+  "files": {
+    "runs/round-001-en/C03-005/result.json": "07c6202f00786506f423ce0da7b405bf7e58ce510249009d7f7953f4d143f2d3",
+    "runs/round-001-en/C03-005/gamma_forces.npz": "1bb740200b1ba6e3777cf1b9b8c0f4c52b9c691f6ff3019ce04b9852a9b3cd8e",
+    "runs/round-001-en/C03-005/gamma_forces_half_step.npz": "bd38e5e54c1b43f9cfa9ca505a92b437c0e1263c47ed2020fbf695d022d43a4f",
+    "runs/round-001-en/R-CaTiO3/result.json": "ae46f74d804bf0af233a21cb3f0e56ec8081b068d53e86159dd2b6266421ac4b",
+    "runs/round-001-en/R-CaTiO3/observations.json": "ab47c3c467c27038978a240f726880f054eda6b83be468cc942060cea9813799",
+    "src/matterlab/physics.py": "a58162e71a3d2afb0df30902c43d1e46e454805a6765fcbcd7c9ba0d9e6ac96c",
+    "src/matterlab/simulate.py": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a"
+  }
+}

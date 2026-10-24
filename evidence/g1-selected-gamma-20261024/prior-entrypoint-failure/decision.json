@@ -1,0 +1,12 @@
+{
+  "status": "inconclusive_controller_entrypoint_exception",
+  "scientific_decision": null,
+  "evaluations": 0,
+  "planned_maximum": 32,
+  "retry_performed": false,
+  "attempt_anchor_claimed": false,
+  "capture_success": false,
+  "numerical_replay_acceptance": "unchanged_failed",
+  "full_migration_complete": false,
+  "publication_authorized": false
+}

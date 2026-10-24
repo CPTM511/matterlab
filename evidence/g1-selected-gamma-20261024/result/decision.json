@@ -1,0 +1,39 @@
+{
+  "materials": {
+    "R-CaTiO3": {
+      "graph_stable_all_sampled_points": true,
+      "pair_asymmetry_eV_A2": {
+        "0.015": -0.07657011349995946,
+        "0.0075": 0.074524680773417,
+        "0.00375": 0.034280742208162795
+      },
+      "max_fine_step_column_difference_eV_A2": 0.8659998575846366,
+      "max_coarse_step_column_difference_eV_A2": 0.6132781505584717,
+      "coarse_to_fine_ratio": 0.7081735004772034,
+      "ratio_interpretation": "Undefined when denominator zero; diagnostic pattern only, not causal proof",
+      "selected_local_quality_criteria_met": false,
+      "native_translation_criteria_met": false,
+      "repeat_exact": true,
+      "outcome": "sampled_numerical_uncertainty_remains"
+    },
+    "C03-005": {
+      "graph_stable_all_sampled_points": false,
+      "pair_asymmetry_eV_A2": {
+        "0.015": -0.5714916934569676,
+        "0.0075": -0.5651009579499564,
+        "0.00375": -0.2848528325557709
+      },
+      "max_fine_step_column_difference_eV_A2": 1.3510862986246739,
+      "max_coarse_step_column_difference_eV_A2": 0.9028991063435878,
+      "coarse_to_fine_ratio": 0.6682764137736322,
+      "ratio_interpretation": "Undefined when denominator zero; diagnostic pattern only, not causal proof",
+      "selected_local_quality_criteria_met": false,
+      "native_translation_criteria_met": false,
+      "repeat_exact": true,
+      "outcome": "graph_or_order_change_precludes_smooth_sampled_derivative_claim"
+    }
+  },
+  "full_gamma_or_stability_acceptance": false,
+  "original_replay_acceptance": "failed unchanged",
+  "migration_complete": false
+}

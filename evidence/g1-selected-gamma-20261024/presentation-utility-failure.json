@@ -1,0 +1,10 @@
+{
+  "utility": "summarize_saved.py",
+  "returncode": 1,
+  "exception": "TypeError: bad operand type for abs(): 'list'",
+  "cause": "Presentation utility assumed a flat stress array; saved signed stress has nested dimensions.",
+  "outcome": "Failed before writing supplemental summary or process snapshot. Frozen controller analysis and raw evidence were not changed.",
+  "rerun_performed": false,
+  "model_evaluations_added": 0,
+  "provenance": "Exception transcribed from tool response; original script retained."
+}

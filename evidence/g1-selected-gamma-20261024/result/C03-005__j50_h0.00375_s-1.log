@@ -1,0 +1,8 @@
+mkdir -p failed for path <PRIVATE_HOME_PATH>: [Errno 30] Read-only file system: '<PRIVATE_HOME_PATH>'
+Matplotlib created a temporary cache directory at <PRIVATE_TEMP_PATH> because there was an issue with the default path (<PRIVATE_HOME_PATH>); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+{"preflight_passed": true, "checks": 1649, "model_inference_performed": false}
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cpu
+CHGNet will run on cpu
+{"condition": "G1-selected-Gamma-20261024", "capability": "NO AVX", "energy_eV": -153.0367431640625, "captures": {"graph_calls": 1, "model_calls": 1, "neighbor_calls": 1}}

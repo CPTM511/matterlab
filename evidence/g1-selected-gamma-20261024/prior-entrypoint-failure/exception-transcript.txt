@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<FROZEN_BUNDLE>/run_gamma.py", line 74, in <module>
+    if __name__=='__main__':main()
+  File "<FROZEN_BUNDLE>/run_gamma.py", line 10, in main
+    bundle=Path(__file__).resolve().parent;freeze=read(bundle/'freeze.json');verify_bundle(bundle,freeze)
+  File "<FROZEN_BUNDLE>/control_common.py", line 170, in verify_bundle
+    raise ValueError('Unexpected or missing frozen bundle file')
+ValueError: Unexpected or missing frozen bundle file

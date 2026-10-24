@@ -1,0 +1,26 @@
+{
+  "algorithm": "SHA256",
+  "scope": "Exported point derivative only",
+  "files": {
+    "call-attempts.json": "bc992c13ce1c40a0a3db5ada14801b8d53d29a97fe7b7ebcb9656b0042333d26",
+    "capture-summary.json": "3054241a24147d9774fe878207ed706efc134a493836f1fecddd21b51bcc2c7a",
+    "capture_helpers.py": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+    "config-original.json": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601",
+    "diagnostic_eval.py": "eee8534b02da1521e4e3b1757e4ef2926b90cc89ca126045517e8d319e450677",
+    "expected-source-code.json": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+    "graph-hashes.json": "3763c5b05640abe3658351d46d92686f05bd8ab327d65789ad0cfbe4476b5615",
+    "graph.npz": "0cc26bdd16d7d276833e3ac75a1bd5ac2db4d47ec5e3d894a276c73c443793a2",
+    "input-array-hashes.json": "33faa8a2406edc5d6b6974978be63c20ae963bdd637b95655aabc2ceeb02d49e",
+    "input-arrays.npz": "3d6118d60dd09474c896d7222ee285fd9ff43f5832af90fc0217c5956dc3a7e5",
+    "model-output-hashes.json": "fb8e104a6618084eb669781d7d0b26369a08f6175b8ce2697a14e8661f051973",
+    "model-output.npz": "bb230dfe0849bc8c121b5a91c9b233088b766b7fc8a2793d7ee89139b79b9bd7",
+    "model-tensor-hashes.json": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf",
+    "neighbor-hashes.json": "4c578b2155207dc8b07d6a2313a8435da940202b45cf8b4eab457a379b600777",
+    "neighbors.npz": "f0e25f25b8a44ca21fe15c4aeafc064c9a598c5f95f4619d59568ef64de611f8",
+    "observations.json": "81e479a724f823a7e61e8ca668aab15c7379f503633d54279a552dd6640b213b",
+    "point.json": "377bec545a880e61265ba6851615296296a5909e8992c83bda82557450e92dcf",
+    "pre-inference-runtime-check.json": "24f279ade79a83fff45d7af0a86a41c5a4af21460f5829e9cbce9da07f557535",
+    "provenance.json": "d996cc4ab0cef8e972158347e2ead9ea650bd70133dbd5243da338c449559873",
+    "runtime.json": "79db846c3bd9ccd505eb4b5079bcd8ae13afcd90a84d3bfa24c1ecd067f70640"
+  }
+}

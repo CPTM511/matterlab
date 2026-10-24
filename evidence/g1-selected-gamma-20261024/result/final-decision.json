@@ -1,0 +1,8 @@
+{
+  "execution_eligible": false,
+  "execution_checks_observed_passed": true,
+  "status": "Requires independent terminal execution and saved-evidence review; no automatic scientific acceptance",
+  "scientific_decision": null,
+  "raw_analysis_retained": true,
+  "full_migration_complete": false
+}

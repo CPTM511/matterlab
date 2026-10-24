@@ -1,0 +1,100 @@
+{
+  "status": "bounded_execution_and_saved_evidence_verified_both_local_quality_criteria_failed",
+  "raw_final_decision_modified": false,
+  "further_calculation_authorized": false,
+  "model_evaluations_by_reviewer": 0,
+  "completed_points": 32,
+  "independent_saved_checks": {
+    "passed": 26073,
+    "total": 26073
+  },
+  "additional_standalone_repeat_fields": 54,
+  "additional_standalone_repeat_components": 52590,
+  "terminal_checks": {
+    "controller_returncode0": true,
+    "postrepair_invocation1_prior_stopped1": true,
+    "actual_controller_end_before_original_deadline": true,
+    "immutable_original_start": true,
+    "exactly32_point_tokens": true,
+    "exactly32_forward_tokens": true,
+    "all_tokens_same_controller": true,
+    "no_failure_files": true,
+    "raw_decisions_equal": true
+  },
+  "envelope_checks": 8,
+  "raw_manifest_members": 898,
+  "arrays": 768,
+  "array_elements": 839250,
+  "signed_main_components": 2750,
+  "calculation_wall_seconds": 222.06428085100197,
+  "controller_wall_seconds": 262.1431621860029,
+  "controller_end_elapsed_from_original_start": 1531.520105,
+  "review_completed_at_utc": "2026-10-24T09:46:57.920484+00:00",
+  "review_completed_before_original_deadline": true,
+  "scientific_summary": {
+    "materials": {
+      "R-CaTiO3": {
+        "graph_stable_all_sampled_points": true,
+        "pair_asymmetry_eV_A2": {
+          "0.015": -0.07657011349995946,
+          "0.0075": 0.074524680773417,
+          "0.00375": 0.034280742208162795
+        },
+        "max_fine_step_column_difference_eV_A2": 0.8659998575846366,
+        "max_coarse_step_column_difference_eV_A2": 0.6132781505584717,
+        "coarse_to_fine_ratio": 0.7081735004772034,
+        "ratio_interpretation": "Undefined when denominator zero; diagnostic pattern only, not causal proof",
+        "selected_local_quality_criteria_met": false,
+        "native_translation_criteria_met": false,
+        "repeat_exact": true,
+        "outcome": "sampled_numerical_uncertainty_remains"
+      },
+      "C03-005": {
+        "graph_stable_all_sampled_points": false,
+        "pair_asymmetry_eV_A2": {
+          "0.015": -0.5714916934569676,
+          "0.0075": -0.5651009579499564,
+          "0.00375": -0.2848528325557709
+        },
+        "max_fine_step_column_difference_eV_A2": 1.3510862986246739,
+        "max_coarse_step_column_difference_eV_A2": 0.9028991063435878,
+        "coarse_to_fine_ratio": 0.6682764137736322,
+        "ratio_interpretation": "Undefined when denominator zero; diagnostic pattern only, not causal proof",
+        "selected_local_quality_criteria_met": false,
+        "native_translation_criteria_met": false,
+        "repeat_exact": true,
+        "outcome": "graph_or_order_change_precludes_smooth_sampled_derivative_claim"
+      }
+    },
+    "full_gamma_or_stability_acceptance": false,
+    "original_replay_acceptance": "failed unchanged",
+    "migration_complete": false
+  },
+  "raw_identity": {
+    "manifest.json": "c7fbfdb1a57175110e44fe2fef9ba995db89fb88e285e2249e95b2adf94b71c9",
+    "execution.json": "0397d21f891b3f3264bb2d7e1a349ba4b7d175a9cd9250841103dedbcd60628e",
+    "decision.json": "616f5b917aea8420c9f8790e18bed7c5a99e31f3e30190efc6f23d0124ede787",
+    "raw-analysis-decision.json": "616f5b917aea8420c9f8790e18bed7c5a99e31f3e30190efc6f23d0124ede787",
+    "final-decision.json": "eebda75ac10982794fb35dfa7b18d165447277f71210a279cda772ae1185a9b5",
+    "signed-comparisons.json": "7b8fb607998c83eb84ecdff293ceaf037eae0232b3df22d5ea30ac10934af3f9"
+  },
+  "review": {
+    "bytes": 6977,
+    "sha256": "ca0d033f2c4454788534736588f18a4baed1c2316c23f61455b5fee06b83af9f"
+  },
+  "verification_artifacts": {
+    "envelope-inspection.json": "7cf6e0fe800596333c2f6c0f21cb94ec03c0152eb8794815e1c6d06fdc5be4d6",
+    "saved-verification.json": "8b219cd439efaf930c717c2807720d6b633e7b91ffacb0c5ef49e33373f2c182",
+    "terminal-verification.json": "471ae250d70f33764305a88954d6352ccf15c61cb34e6e78ebc4012f122c6844",
+    "standalone-repeat-verification.json": "831f95728b9cabae1f3cb0e07c7549a6e4a9fc219fc20b7b356485e6a1fc5cc5"
+  },
+  "limits": [
+    "No physical accuracy/stability/migration acceptance",
+    "No sanitized export or archive review",
+    "Final envelope inspected after launch, not before",
+    "Optional presentation utility failure preserved separately",
+    "No independent new model construction; compared captured parameter hash records"
+  ],
+  "requested_role": "Astra High",
+  "observable_identity": "GPT-6-based Codex; serving variant, effort and speed not independently attested"
+}

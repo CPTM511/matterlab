@@ -1,0 +1,13 @@
+{
+  "protocol_anchor_claims": 1,
+  "point_launch_tokens": 32,
+  "forward_tokens": 32,
+  "tokens_consumed": true,
+  "scientifically_released_controller_invocations": 2,
+  "original_entrypoint_evaluations": 0,
+  "postrepair_evaluations": 32,
+  "physical_job_active": false,
+  "no_retry_authorized": true,
+  "original_cache_preserved_privately": true,
+  "private_originals_preserved": true
+}

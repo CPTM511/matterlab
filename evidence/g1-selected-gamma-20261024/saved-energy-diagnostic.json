@@ -1,0 +1,85 @@
+{
+  "scope": "Saved-data diagnostic only, not new physics or an acceptance test. Float64 rescaling cannot recover pre-normalization/offset energy lost before returned e; quantization proxies are not uncertainty bounds. Energy-force central differences also include finite-step truncation.",
+  "input_raw_manifest_sha256": "c7fbfdb1a57175110e44fe2fef9ba995db89fb88e285e2249e95b2adf94b71c9",
+  "records": [
+    {
+      "h_A": 0.015,
+      "coordinate": 50,
+      "baseline_force_eV_A": 0.0018903017044067383,
+      "force_from_ASE_energy_eV_A": 0.0030517578125,
+      "force_from_float64_rescaling_returned_e_eV_A": 0.0031789143880208335,
+      "energy_FD_force_minus_baseline_force_eV_A": 0.0011614561080932617,
+      "ASE_extensive_rounding_contribution_eV_A": -0.00012715657552083348,
+      "returned_e_quantum_derivative_proxy_eV_A": 0.0012715657552083335,
+      "ASE_energy_quantum_derivative_proxy_eV_A": 0.0010172526041666667,
+      "diagonal_force_FD_eV_A2": 16.688712437947594,
+      "diagonal_ASE_energy_second_difference_eV_A2": 16.54730902777778
+    },
+    {
+      "h_A": 0.015,
+      "coordinate": 59,
+      "baseline_force_eV_A": -0.00213693268597126,
+      "force_from_ASE_energy_eV_A": -0.00152587890625,
+      "force_from_float64_rescaling_returned_e_eV_A": -0.0012715657552083335,
+      "energy_FD_force_minus_baseline_force_eV_A": 0.0006110537797212601,
+      "ASE_extensive_rounding_contribution_eV_A": -0.0002543131510416665,
+      "returned_e_quantum_derivative_proxy_eV_A": 0.0012715657552083335,
+      "ASE_energy_quantum_derivative_proxy_eV_A": 0.0010172526041666667,
+      "diagonal_force_FD_eV_A2": 5.886479963858923,
+      "diagonal_ASE_energy_second_difference_eV_A2": 5.900065104166667
+    },
+    {
+      "h_A": 0.0075,
+      "coordinate": 50,
+      "baseline_force_eV_A": 0.0018903017044067383,
+      "force_from_ASE_energy_eV_A": -0.0,
+      "force_from_float64_rescaling_returned_e_eV_A": -0.0,
+      "energy_FD_force_minus_baseline_force_eV_A": -0.0018903017044067383,
+      "ASE_extensive_rounding_contribution_eV_A": 0.0,
+      "returned_e_quantum_derivative_proxy_eV_A": 0.002543131510416667,
+      "ASE_energy_quantum_derivative_proxy_eV_A": 0.0020345052083333335,
+      "diagonal_force_FD_eV_A2": 16.350491841634117,
+      "diagonal_ASE_energy_second_difference_eV_A2": 16.276041666666668
+    },
+    {
+      "h_A": 0.0075,
+      "coordinate": 59,
+      "baseline_force_eV_A": -0.00213693268597126,
+      "force_from_ASE_energy_eV_A": -0.0020345052083333335,
+      "force_from_float64_rescaling_returned_e_eV_A": -0.002543131510416667,
+      "energy_FD_force_minus_baseline_force_eV_A": 0.00010242747763792659,
+      "ASE_extensive_rounding_contribution_eV_A": 0.0005086263020833335,
+      "returned_e_quantum_derivative_proxy_eV_A": 0.002543131510416667,
+      "ASE_energy_quantum_derivative_proxy_eV_A": 0.0020345052083333335,
+      "diagonal_force_FD_eV_A2": 5.865579346815745,
+      "diagonal_ASE_energy_second_difference_eV_A2": 5.967881944444445
+    },
+    {
+      "h_A": 0.00375,
+      "coordinate": 50,
+      "baseline_force_eV_A": 0.0018903017044067383,
+      "force_from_ASE_energy_eV_A": -0.0,
+      "force_from_float64_rescaling_returned_e_eV_A": -0.0,
+      "energy_FD_force_minus_baseline_force_eV_A": -0.0018903017044067383,
+      "ASE_extensive_rounding_contribution_eV_A": 0.0,
+      "returned_e_quantum_derivative_proxy_eV_A": 0.005086263020833334,
+      "ASE_energy_quantum_derivative_proxy_eV_A": 0.004069010416666667,
+      "diagonal_force_FD_eV_A2": 15.48449198404948,
+      "diagonal_ASE_energy_second_difference_eV_A2": 17.36111111111111
+    },
+    {
+      "h_A": 0.00375,
+      "coordinate": 59,
+      "baseline_force_eV_A": -0.00213693268597126,
+      "force_from_ASE_energy_eV_A": -0.004069010416666667,
+      "force_from_float64_rescaling_returned_e_eV_A": -0.002543131510416667,
+      "energy_FD_force_minus_baseline_force_eV_A": -0.0019320777306954069,
+      "ASE_extensive_rounding_contribution_eV_A": -0.00152587890625,
+      "returned_e_quantum_derivative_proxy_eV_A": 0.005086263020833334,
+      "ASE_energy_quantum_derivative_proxy_eV_A": 0.004069010416666667,
+      "diagonal_force_FD_eV_A2": 5.770436426003775,
+      "diagonal_ASE_energy_second_difference_eV_A2": 6.510416666666667
+    }
+  ],
+  "model_evaluations": 0
+}

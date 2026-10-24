@@ -1,0 +1,14 @@
+{
+  "git_head": "3319dc595397f68c0e7a3326e64c2b27ae799027",
+  "sources_sha256": {
+    "src/matterlab/__init__.py": "6da326c20117347cd4b498489cc1cbf524e5cf5a0e1116e4cc41f479efb15d27",
+    "src/matterlab/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "src/matterlab/cli.py": "778d945618d9821bc7df8c491b996eee0e541869b1f16bfc65c5d4397d7e0be1",
+    "src/matterlab/evidence.py": "ec0e0194d618c61815e88e01f3dbbad9d572db54bde8a0f172032a0e08ed915d",
+    "src/matterlab/generate.py": "5d85ad13271efe0589cf4a924869087134c456f998400148ed069d051e76839c",
+    "src/matterlab/physics.py": "a58162e71a3d2afb0df30902c43d1e46e454805a6765fcbcd7c9ba0d9e6ac96c",
+    "src/matterlab/report.py": "50ddc6ef88b5111f21ab55a2d6b4c0fb895db13989ad17dbf4510ba3ec18f8bc",
+    "src/matterlab/simulate.py": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a"
+  },
+  "scope": "Bounded CPU CHGNet single-point runtime check, not DFT or migration acceptance"
+}

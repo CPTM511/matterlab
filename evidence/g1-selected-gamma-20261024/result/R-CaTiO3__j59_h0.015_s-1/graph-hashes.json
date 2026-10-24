@@ -1,0 +1,63 @@
+{
+  "atomic_number": {
+    "dtype": "int32",
+    "shape": [
+      20
+    ],
+    "data_sha256": "48a19e866256f431f6180efa1836ee9ca06c70d8b313264025c42cd2a0509027"
+  },
+  "atom_frac_coord": {
+    "dtype": "float32",
+    "shape": [
+      20,
+      3
+    ],
+    "data_sha256": "1167cd4193f359e6bb5914f6753190a14a8dce18cfc8f1d46f758867667d766f"
+  },
+  "atom_graph": {
+    "dtype": "int32",
+    "shape": [
+      1576,
+      2
+    ],
+    "data_sha256": "c84135a6bb88c52de922da64b24937af48d5b16cd7c47dd1911b4947e0ce68e1"
+  },
+  "neighbor_image": {
+    "dtype": "float32",
+    "shape": [
+      1576,
+      3
+    ],
+    "data_sha256": "33706269db38a8bd7001bfe91566e085f41a59ca1f5204918d56f3727d2b7047"
+  },
+  "directed2undirected": {
+    "dtype": "int32",
+    "shape": [
+      1576
+    ],
+    "data_sha256": "3123e44e4f34ca2185f3a71b08d03094882839bc95c9734da4c14647ee65fea8"
+  },
+  "undirected2directed": {
+    "dtype": "int32",
+    "shape": [
+      788
+    ],
+    "data_sha256": "9134fa170809965fe549806d0b38428e092ecaeb7ebf102964d5b00eb99532c8"
+  },
+  "bond_graph": {
+    "dtype": "int32",
+    "shape": [
+      1824,
+      5
+    ],
+    "data_sha256": "8ba057048e4a1ae069c940c467dcabe5e7e67722cf03764de445b6acbeb3a184"
+  },
+  "lattice": {
+    "dtype": "float32",
+    "shape": [
+      3,
+      3
+    ],
+    "data_sha256": "c0ef30fecd90a045a36449b1e3f06c282b4fd9a2923dddac91646d125c13265a"
+  }
+}

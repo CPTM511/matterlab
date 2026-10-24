@@ -1,0 +1,12 @@
+{
+  "status": "reviewed_for_parent_release",
+  "execution_release_required": true,
+  "protocol_sha256": "7998bd0674d03c7ed8ebc45062578c78982fac73b6898b7b831a8a803f2e1382",
+  "implementation_manifest_sha256": "0feee37484be73feb72e20d5844cfe9542a0c0f4da499e9bd723f679754da3b4",
+  "prior_independent_review_sha256": "8b981b38101ff467f71050ab866402ca9ce598ca11cfb4069ccdac38cd0a5459",
+  "independent_review_sha256": "d5adbeebeaa0725a462942d57626b2e4cfb6f43f0bb7463daf2b03f1e6ef6b11",
+  "prior_freeze_sha256": "804ffd5ed536a7771d812ad8ffdd4524548e158aacacf29af3ab78cdf24cdd58",
+  "repair_review_required": false,
+  "repair_independent_review_sha256": "6d611ae0ae2fabcb9fa82446d18a1e130fa04b10f15485350df48ac338db4ba9",
+  "preparation_freeze_sha256": "e739e06eeab416da82023068444030804c8874ed4a5d1a2b2abd765c934ba45a"
+}
