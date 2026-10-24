@@ -1,76 +1,95 @@
 # MatterLab
 
-An English-only, local-first platform for generating material composition and ordering hypotheses, running real atomistic calculations, and inspecting reproducible evidence.
+MatterLab is an open-source platform for computational materials design. It connects composition and atomic ordering, atomistic simulation, and reproducible evidence in a single research workflow.
 
-**Current result:** 27 symmetry-distinct initial decorations; six candidates and nine reference structures calculated; two candidates investigated with energy-volume scans and Gamma finite-displacement diagnostics. Both Gamma diagnostics are inconclusive. No stable, synthesizable, globally novel material or product performance has been established.
+Built for materials engineers, research teams and scientific developers, MatterLab helps turn configurable material hypotheses into traceable calculations and inspectable candidate dossiers. Its current implementation focuses on multication oxide perovskites.
 
-Read the [results and potential applications](docs/RESULTS.md), [model and candidate card](docs/MODEL_CARD.md), and [scientific protocol](docs/scientific-design.md) before interpreting the numbers.
+[Explore results](docs/RESULTS.md) · [Scientific methods](docs/scientific-design.md) · [Model card](docs/MODEL_CARD.md)
 
-## What it does
+![MatterLab evidence dashboard](docs/images/matterlab-english.png)
 
-- Enumerates 20-atom oxide perovskite decorations with configurable Ca/Sr/Ba and Ti/Zr/Sn occupations, exact parent-symmetry deduplication, and seeded sampling.
-- Relaxes atoms and cells with a pinned CHGNet model and explicit force/stress criteria.
-- Uses composition-constrained linear programming to compare candidates against a restricted set of nine endmember references.
-- Runs fixed-shape energy-volume scans and two-step Gamma curvature diagnostics for selected candidates.
-- Preserves CIF files, optimization trajectories, raw energies/forces/stresses, model and dependency hashes, code snapshots, and failed or inconclusive checks.
-- Provides an offline English dashboard with searchable candidates, comparison, rotatable structures, application hypotheses, and evidence downloads.
-- Includes separate, actual Quantum ESPRESSO calculations on a known CaTiO3 reference. These are not candidate DFT validation.
+## From composition to evidence
 
-## Quick start
+1. **Define a design space.** Configure Ca/Sr/Ba and Ti/Zr/Sn occupations in 20-atom oxide-perovskite cells. Enumerate atomic orderings, remove parent-symmetry duplicates and sample reproducibly with fixed seeds.
+2. **Calculate structural response.** Relax atomic positions and cells with CHGNet, compare energies against a restricted endmember reference set, and evaluate fixed-shape energy-volume response.
+3. **Inspect numerical reliability.** Examine Gamma finite-displacement diagnostics, displacement-step sensitivity, convergence checks and raw force/stress comparisons. Failed and inconclusive checks remain part of the record.
+4. **Review and reproduce.** Browse structures and comparisons in the local dashboard; download evidence and replay calculations with recorded configurations, source snapshots, dependency versions and model hashes.
 
-Python 3.11 or 3.12 is required. Installation downloads free dependencies; the included CHGNet workflow and dashboard can then run locally without a model API key.
+The evidence package includes structures, trajectories, energies, forces, stresses and machine-readable results. The dashboard supports candidate search, comparisons, interactive structure views and evidence downloads.
+
+## Application pathways
+
+These are target research applications, with property requirements that guide subsequent validation—not demonstrated performance of the generated candidates.
+
+| Research application | Properties and validation needed |
+| --- | --- |
+| Dielectric ceramics for capacitors | Permittivity, dielectric loss, insulation resistance, breakdown field and temperature dependence |
+| Electronic-packaging ceramics | Dielectric behavior, thermal conductivity, thermal expansion and compatibility with processing and operating conditions |
+| Ceramic-composite fillers | Interface bonding, dispersion, processing compatibility and the target electrical or thermal response of the composite |
+
+Current calculations provide structural, energetic and compression-response evidence, plus limited Gamma diagnostics. Compression response cannot substitute for dielectric, thermal, strength or lifetime measurements. See the [results and application requirements](docs/RESULTS.md) and [model and candidate limitations](docs/MODEL_CARD.md).
+
+**Scientific scope:** Generated candidates are computational hypotheses. CHGNet is a machine-learned interatomic potential, not DFT; global novelty, stability, synthesis and product performance have not been established. Restricted reference comparisons are not a complete phase diagram, and Gamma diagnostics are not full phonon dispersion. The [detailed results](docs/RESULTS.md), [model card](docs/MODEL_CARD.md) and [known-reference DFT limitations](docs/quantum-validation.md) define the evidence boundaries.
+
+## Getting started
+
+Use Python 3.11 or 3.12. The commands below use a POSIX shell and run from the repository root. Dependencies and the local workflow require no model API key.
 
 ```sh
+git clone https://github.com/CPTM511/matterlab.git
+cd matterlab
 python3.11 -m venv .venv
-.venv/bin/python -m pip install -e '.[test]'
-.venv/bin/pytest -q
+.venv/bin/python -m pip install -e .
 .venv/bin/matterlab verify runs/round-001-en
 .venv/bin/matterlab serve --port 8877
 ```
 
-Open http://127.0.0.1:8877/ . The server is read-only and binds to the local computer only. Pick another port if necessary. The repository includes actual first-round results, so you can inspect them before starting another calculation.
+Open [http://127.0.0.1:8877/](http://127.0.0.1:8877/) to inspect the included results before starting a calculation. The read-only server binds to localhost. Substitute `python3.12` when that is the installed compatible interpreter.
 
-## Generate and calculate
+### Configure and run a study
 
 ```sh
-# Generate structures only. The output directory must be new.
+# Generate structures without running atomistic calculations.
 .venv/bin/matterlab generate --config configs/round-001.json --output runs/new-design
 
-# Run a complete independent campaign with the saved settings.
-.venv/bin/matterlab run --config configs/round-001.json --output runs/my-first-run
-.venv/bin/matterlab verify runs/my-first-run
+# Run the configured study in a separate, new output directory.
+.venv/bin/matterlab run --config configs/round-001.json --output runs/new-study
+.venv/bin/matterlab verify runs/new-study
 
-# Replay one candidate from original input and compare raw final observations.
+# Independently replay one candidate and compare saved observations.
 .venv/bin/python tools/reproduce_candidate.py \
-  runs/round-001-en C03-005 runs/my-replay-C03-005
+  runs/round-001-en C03-005 runs/replay-C03-005
 ```
 
-Use a new directory for each independent run. `--resume` reuses saved results and rejects configuration, environment, checkpoint, or source drift; it is not independent reproduction. Every campaign records `requirements-lock.txt` and `source_snapshot/matterlab`. To invoke an older saved source, use `PYTHONPATH=runs/RUN/source_snapshot .venv/bin/python -m matterlab ...` with its compatible locked environment. Exact same-platform replay is separate from cross-platform reproducibility and physical accuracy.
+Start each independent study or replay in a new directory. `run --resume` continues saved work and rejects configuration, environment, checkpoint or source drift; it is not an independent reproduction. Calculations consume local compute and storage. Consult the [scientific design](docs/scientific-design.md) before choosing study settings or interpreting a replay.
 
-The tested macOS environment uses SciPy 1.17.1. Its official wheel resolved a native-extension loading failure encountered with SciPy 1.15.3; no system security controls were changed.
+## Results and documentation
 
-## Evidence and applications
+The included dataset contains 27 symmetry-distinct initial decorations, six calculated candidates and nine reference structures. Two candidates have energy-volume and Gamma analyses; both Gamma assessments are inconclusive.
 
-- [English campaign report](runs/round-001-en/report.md) and [machine-readable results](runs/round-001-en/summary.json).
-- [Integrity and metric-recomputation checks](runs/round-001-en/verification.json).
-- [Independent C03-005 replay](runs/reproduction-round-001-en-C03-005/reproduction.json).
-- [Known-reference DFT execution and convergence limitations](docs/quantum-validation.md).
-- [Novelty ledger](docs/NOVELTY.md) and [third-party sources](docs/THIRD_PARTY.md).
+- [Campaign report](runs/round-001-en/report.md), [machine-readable summary](runs/round-001-en/summary.json) and [integrity checks](runs/round-001-en/verification.json).
+- [C03-005 reproduction record](runs/reproduction-round-001-en-C03-005/reproduction.json).
+- [Numerical replay and capture report](evidence/repaired-recorder-20261023/REPORT.md), [CPU-dispatch diagnostic](evidence/dispatch-contrast-20261023/REPORT.md) and [same-condition repeatability result](evidence/p1-default-repeat-20261024/result/REPORT.md). Exact pairwise repetition does not resolve the original force/stress acceptance failure or establish physical accuracy.
+- [Quantum ESPRESSO reference calculations](docs/quantum-validation.md), including the failed cutoff-convergence check; these do not validate candidates.
+- [Novelty and prior-art ledger](docs/NOVELTY.md), [scientific methods](docs/scientific-design.md) and [publication integrity workflow](docs/PUBLICATION.md).
 
-The potential research directions are dielectric ceramics for capacitors/electronic packaging and ceramic-composite fillers. Permittivity, dielectric loss, breakdown, thermal transport, strength, processing, and lifetime remain unverified. The datasets can already serve as open samples for materials-informatics and interatomic-potential research.
+## Architecture and development
 
-A [published six-cation family precedent](https://doi.org/10.1016/j.ceramint.2023.11.388) limits novelty claims. Generated coordinates are not an invention certificate. Restricted decomposition energies are not a complete convex hull, Gamma tests are not full phonon dispersion, and fixed-shape compression response is not strength, hardness, toughness, or dielectric performance.
+The Python package separates structure generation, simulation, numerical analysis, evidence verification and reporting. JSON configurations define the supported design space and study settings; saved source snapshots and dependency records support reproducible investigation. The static dashboard reads the exported result files through the local evidence server.
 
-## Continuing development
+- [`src/matterlab/`](src/matterlab/): generation, calculators, analysis, evidence, reports and CLI.
+- [`configs/`](configs/): study configurations.
+- [`ui/`](ui/): evidence dashboard.
+- [`tools/`](tools/): reproduction, export and quantum-calculation utilities.
+- [`tests/`](tests/): engineering and scientific-analysis checks.
 
-The project is maintained through an owner-authorized, scheduled research workflow. See [operating agreement](project/OPERATIONS.md) and [research state](project/STATE.json). Each iteration must answer a specific unresolved question, keep separate evidence, and retain negative results. Engineering release and materials discovery are separate milestones; research success is not guaranteed.
+For contributors, install the test dependencies and run the test suite separately from the product quick start:
 
-GPT Astra roles assist planning, development, and review within the owner's existing Codex subscription. This repository does not offer a free model API, contain subscription credentials, or require GPT calls to replay saved simulations. Local scheduled work requires the host and desktop app to remain available. Native subscription-included cloud continuation has been requested; activation and actual cloud execution remain unverified. See [cloud migration status and acceptance](project/CLOUD_MIGRATION.md). No paid API, rented compute, paid database, credits, or automatic overage is part of this workflow.
+```sh
+.venv/bin/python -m pip install -e '.[test]'
+.venv/bin/pytest -q
+```
 
-![English dashboard](docs/images/matterlab-english.png)
+## License
 
-## Publication and license
-
-Original code is MIT-licensed. External software, pretrained weights, pseudopotentials, and cited data retain their own licenses; they are not relicensed or bundled as model weights. Local computer time, power, and storage remain real resource costs.
-
-The public release is a clean English export. Historical private workspace records are preserved locally; they are not pushed as Git history. Public quantum artifacts with sanitized machine paths/archive ownership are explicitly marked as derivatives, with source and exported checksums. See `publication/manifest.json` and `runs/quantum/public-transformation.json` in the public release. Do not describe those sanitized metadata files as byte-identical originals.
+Original MatterLab code is available under the [MIT License](LICENSE). External software, pretrained weights, pseudopotentials and cited data retain their respective licenses; MIT does not relicense those assets. See [third-party sources and licensing](docs/THIRD_PARTY.md).
