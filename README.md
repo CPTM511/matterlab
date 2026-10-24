@@ -44,7 +44,7 @@ python3.11 -m venv .venv
 .venv/bin/matterlab serve --port 8877
 ```
 
-Open [http://127.0.0.1:8877/](http://127.0.0.1:8877/) to inspect the included results before starting a calculation. The read-only server binds to localhost. Substitute `python3.12` when that is the installed compatible interpreter.
+After starting the server, open the dashboard URL displayed in your terminal to explore the included results. You can also browse the [published results and documentation](#results-and-documentation) directly in this repository. The read-only server binds to localhost. Substitute `python3.12` when that is the installed compatible interpreter.
 
 ### Configure and run a study
 
