@@ -1,0 +1,69 @@
+{
+  "scope": "Additive publication of accepted scientific evidence. Account, ownership, process/host records and private reviewer start snapshot remain private. Scientific result package/archive and accepted reports are unchanged.",
+  "unchanged_result_archive_sha256": "01d92464eacc8e80298683ed232b239e77be7509d2a1f06703c0fb9945cec0a7",
+  "unchanged_result_manifest_sha256": "c31149eec57ecfd487b66e04ca8b835bdfb5a4f3f78315a4ee1991358ef99923",
+  "source_transformations": [
+    {
+      "original_label": "independent-review/REVIEW.md",
+      "original_sha256": "e7fa495296550b65e34b6d4873e71c10428a2d2fe052f49bb76c4511cd51fefa",
+      "public_relative": "independent-review/REVIEW.md",
+      "public_sha256": "e7fa495296550b65e34b6d4873e71c10428a2d2fe052f49bb76c4511cd51fefa",
+      "transformation": "none"
+    },
+    {
+      "original_label": "independent-review/review-summary.json",
+      "original_sha256": "d9988c71c1fce6b1983b94456a4287dd4b5aec7ec96fad0a0f69341f272edc99",
+      "public_relative": "independent-review/review-summary.json",
+      "public_sha256": "d9988c71c1fce6b1983b94456a4287dd4b5aec7ec96fad0a0f69341f272edc99",
+      "transformation": "none"
+    },
+    {
+      "original_label": "independent-review/verification.json",
+      "original_sha256": "7915fc73622a4e2d2e466a59df71b9f0a186b49e0b4917ab97a93610630a1acd",
+      "public_relative": "independent-review/verification.json",
+      "public_sha256": "7915fc73622a4e2d2e466a59df71b9f0a186b49e0b4917ab97a93610630a1acd",
+      "transformation": "none"
+    },
+    {
+      "original_label": "independent-review/cross-representation-clarification.json",
+      "original_sha256": "a28b615be6dd91439e0c5e9ee4638d73489bbabc71e405dc8de14c6aab537e9c",
+      "public_relative": "independent-review/cross-representation-clarification.json",
+      "public_sha256": "a28b615be6dd91439e0c5e9ee4638d73489bbabc71e405dc8de14c6aab537e9c",
+      "transformation": "none"
+    },
+    {
+      "original_label": "independent-review/final-preservation.json",
+      "original_sha256": "66083654239ae7cae504e0a5264bd4b640ccf9c43973b6933acff65b68ef0999",
+      "public_relative": "independent-review/final-preservation.json",
+      "public_sha256": "66083654239ae7cae504e0a5264bd4b640ccf9c43973b6933acff65b68ef0999",
+      "transformation": "none"
+    },
+    {
+      "original_label": "independent-review/verify_saved_evidence.py",
+      "original_sha256": "0cbf4963f72eb92d41e2e8f06c7eccd881c21be7d74c88e8ff1897470bc45e0a",
+      "public_relative": "independent-review/verify_saved_evidence.redacted.py",
+      "public_sha256": "e3f83203e049d08e82e7d1f41b2d319707f1a492b1cc388bea3371f179fedf68",
+      "transformation": "Private absolute root/home strings replaced by explicit placeholders; source snapshot only, not rerun or a self-contained public verifier. Original retained privately."
+    },
+    {
+      "original_label": "preexecution-review/REVIEW.md",
+      "original_sha256": "01a4e1ee61098ab79977b8a660fbc0e4dca2213fd2cb828e4ea164c44c3951d6",
+      "public_relative": "preexecution-review/REVIEW.md",
+      "public_sha256": "01a4e1ee61098ab79977b8a660fbc0e4dca2213fd2cb828e4ea164c44c3951d6",
+      "transformation": "none"
+    },
+    {
+      "original_label": "preexecution-review/review.json",
+      "original_sha256": "c8bff51a3fa03899a335e9c7e02249a23cb00881c52d1a9c9954c11a1ec9d7ad",
+      "public_relative": "preexecution-review/review.json",
+      "public_sha256": "c8bff51a3fa03899a335e9c7e02249a23cb00881c52d1a9c9954c11a1ec9d7ad",
+      "transformation": "none"
+    }
+  ],
+  "private_exclusions": [
+    "Raw release/account/ownership/process/CPU records; covered by private original manifest",
+    "Independent reviewer start hash snapshot containing private-record hashes; retained privately",
+    "Other private drafts and source snapshots retained in their original locations"
+  ],
+  "historical_text": "Result and review statements that publication is pending describe their preparation time; the new checkpoint/current STATE records later accepted status."
+}

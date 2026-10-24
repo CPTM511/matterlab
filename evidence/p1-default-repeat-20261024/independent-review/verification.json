@@ -1,0 +1,5904 @@
+{
+  "scope": "Independent saved-evidence arithmetic and integrity only; no frozen source execution, model construction, model inference, installation, account/remote access, publication or scheduling",
+  "passed": false,
+  "check_count": 1427,
+  "checks": [
+    {
+      "name": "raw:complete-coverage",
+      "passed": true
+    },
+    {
+      "name": "raw:INFERENCE-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/input.cif",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/observations.json",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/pre-inference-runtime-check.json",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "raw:P1/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "raw:analysis-decision.json",
+      "passed": true
+    },
+    {
+      "name": "raw:analysis-execution.json",
+      "passed": true
+    },
+    {
+      "name": "raw:analysis.log",
+      "passed": true
+    },
+    {
+      "name": "raw:calculation.log",
+      "passed": true
+    },
+    {
+      "name": "raw:comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "raw:cpu-private.txt",
+      "passed": true
+    },
+    {
+      "name": "raw:decision.json",
+      "passed": true
+    },
+    {
+      "name": "raw:execution.json",
+      "passed": true
+    },
+    {
+      "name": "raw:freeze.json",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/analyze_saved.py",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/child_entry.py",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/control.py",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/freeze.json",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/guarded_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/implementation-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/preflight.py",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/preinference_guards.py",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/published_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/recorder-derivative.patch",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/references.json",
+      "passed": true
+    },
+    {
+      "name": "raw:implementation/runtime_compare.py",
+      "passed": true
+    },
+    {
+      "name": "raw:integrity.json",
+      "passed": true
+    },
+    {
+      "name": "raw:launch-release-private.json",
+      "passed": true
+    },
+    {
+      "name": "raw:preflight-execution.json",
+      "passed": true
+    },
+    {
+      "name": "raw:preflight.json",
+      "passed": true
+    },
+    {
+      "name": "raw:preflight.log",
+      "passed": true
+    },
+    {
+      "name": "raw:processes-private.txt",
+      "passed": true
+    },
+    {
+      "name": "raw:release-private.json",
+      "passed": true
+    },
+    {
+      "name": "recorder:complete-coverage",
+      "passed": true
+    },
+    {
+      "name": "recorder:capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "recorder:capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "recorder:config-original.json",
+      "passed": true
+    },
+    {
+      "name": "recorder:diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "recorder:expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "recorder:graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "recorder:graph.npz",
+      "passed": true
+    },
+    {
+      "name": "recorder:input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "recorder:input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "recorder:input.cif",
+      "passed": true
+    },
+    {
+      "name": "recorder:model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "recorder:model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "recorder:model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "recorder:neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "recorder:neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "recorder:observations.json",
+      "passed": true
+    },
+    {
+      "name": "recorder:pre-inference-runtime-check.json",
+      "passed": true
+    },
+    {
+      "name": "recorder:provenance.json",
+      "passed": true
+    },
+    {
+      "name": "recorder:runtime.json",
+      "passed": true
+    },
+    {
+      "name": "export:complete-coverage",
+      "passed": true
+    },
+    {
+      "name": "export:INFERENCE-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "export:P1/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "export:P1/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "export:P1/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "export:P1/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "export:P1/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "export:P1/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "export:P1/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "export:P1/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "export:P1/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "export:P1/input.cif",
+      "passed": true
+    },
+    {
+      "name": "export:P1/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "export:P1/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "export:P1/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "export:P1/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "export:P1/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "export:P1/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "export:P1/observations.json",
+      "passed": true
+    },
+    {
+      "name": "export:P1/pre-inference-runtime-check.json",
+      "passed": true
+    },
+    {
+      "name": "export:P1/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "export:P1/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "export:REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "export:analysis-decision.json",
+      "passed": true
+    },
+    {
+      "name": "export:analysis-execution.json",
+      "passed": true
+    },
+    {
+      "name": "export:analysis.log",
+      "passed": true
+    },
+    {
+      "name": "export:calculation.log",
+      "passed": true
+    },
+    {
+      "name": "export:comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "export:completion.json",
+      "passed": true
+    },
+    {
+      "name": "export:decision.json",
+      "passed": true
+    },
+    {
+      "name": "export:entry-gates-summary.json",
+      "passed": true
+    },
+    {
+      "name": "export:execution.json",
+      "passed": true
+    },
+    {
+      "name": "export:freeze.json",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/analyze_saved.py",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/child_entry.py",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/control.py",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/freeze.json",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/guarded_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/implementation-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/preflight.py",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/preinference_guards.py",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/published_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/recorder-derivative.patch",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/references.json",
+      "passed": true
+    },
+    {
+      "name": "export:implementation/runtime_compare.py",
+      "passed": true
+    },
+    {
+      "name": "export:integrity.json",
+      "passed": true
+    },
+    {
+      "name": "export:preflight-execution.json",
+      "passed": true
+    },
+    {
+      "name": "export:preflight.json",
+      "passed": true
+    },
+    {
+      "name": "export:preflight.log",
+      "passed": true
+    },
+    {
+      "name": "export:saved-data-verification.json",
+      "passed": true
+    },
+    {
+      "name": "export:transformation-ledger.json",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:complete-coverage",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:config-original.json",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:graph.npz",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:input.cif",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:observations.json",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:pre-inference-runtime-check.json",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:provenance.json",
+      "passed": true
+    },
+    {
+      "name": "export-recorder:runtime.json",
+      "passed": true
+    },
+    {
+      "name": "public:complete-coverage",
+      "passed": true
+    },
+    {
+      "name": "public:.gitignore",
+      "passed": true
+    },
+    {
+      "name": "public:AGENTS.md",
+      "passed": true
+    },
+    {
+      "name": "public:LICENSE",
+      "passed": true
+    },
+    {
+      "name": "public:README.md",
+      "passed": true
+    },
+    {
+      "name": "public:configs/publication.json",
+      "passed": true
+    },
+    {
+      "name": "public:configs/round-001.json",
+      "passed": true
+    },
+    {
+      "name": "public:docs/MODEL_CARD.md",
+      "passed": true
+    },
+    {
+      "name": "public:docs/NOVELTY.md",
+      "passed": true
+    },
+    {
+      "name": "public:docs/PUBLICATION.md",
+      "passed": true
+    },
+    {
+      "name": "public:docs/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "public:docs/THIRD_PARTY.md",
+      "passed": true
+    },
+    {
+      "name": "public:docs/delivery-checks-en.json",
+      "passed": true
+    },
+    {
+      "name": "public:docs/delivery-checks.json",
+      "passed": true
+    },
+    {
+      "name": "public:docs/images/matterlab-english.png",
+      "passed": true
+    },
+    {
+      "name": "public:docs/quantum-validation.en.md",
+      "passed": true
+    },
+    {
+      "name": "public:docs/quantum-validation.md",
+      "passed": true
+    },
+    {
+      "name": "public:docs/scientific-design.md",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/failure.txt",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/input.cif",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/original-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/D1-control.log",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/capture-tests.log",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/captured-array-comparison.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/comparison.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/decision.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/diagnostic_eval_proposed.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/execution.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/failure.txt",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/inspection-graph-fast.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/inspection-graph-legacy.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/inspection-input.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/inspection-neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/observable-comparison.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/preparation-failure.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/preservation-before.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/public-base-verification.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/reviewer/REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/reviewer/review.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/diagnosis-20261023/test_capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/input.cif",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/original-recorder-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control-comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control-execution.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control-gate.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C0-control.log",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/input.cif",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/original-recorder-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default-comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default-execution.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default-gate.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/C1-default.log",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/DispatchStub.cpp",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/R1-preservation.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/README.md",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/capability-probes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/contrast.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/cpu.txt",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/decision.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/dispatch-source.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/environment.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/finish_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/installed-record-verification.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/investigation-start.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/licenses/PyTorch-LICENSE",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/preflight.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/preflight.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/protocol-freeze.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/provenance/original-publication-audit.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/provenance/original-publication-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/public-preservation.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/raw-capture-review.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/reviewer/R1-arithmetic-check.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/reviewer/REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/reviewer/final-review.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/reviewer/integrated-full-audit.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/reviewer/integrated-independent-audit.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/reviewer/preliminary-review.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/reviewer/protocol-review-draft.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/reviewer/protocol-review.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/reviewer/runtime-difference-review.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/reviewer/saved-data-review.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/reviewer/state-diff-review.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/reviewer/verify_saved.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/runtime-comparison-diagnosis.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/scalar-sanity-review.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/supplemental-audit.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/dispatch-contrast-20261023/transformation-ledger.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/public-transformation.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/ATTEMPT-STARTED.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/D1-capture-comparison.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/input.cif",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/original-recorder-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/R1/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/README.md",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/analyze.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/calculation.log",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/cpu.txt",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/decision.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/environment.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/execution.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/finalize.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/identity.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/installed-record-verification.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/integrity.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/launch_once.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/licenses/ase/ase-3.26.0.dist-info/licenses/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/licenses/chgnet/chgnet-0.4.2.dist-info/licenses/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/licenses/numpy/numpy/_core/include/numpy/random/LICENSE.txt",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/licenses/numpy/numpy/ma/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/licenses/numpy/numpy/random/LICENSE.md",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/licenses/numpy/numpy-2.2.6.dist-info/LICENSE.txt",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/licenses/pymatgen/pymatgen-2025.6.14.dist-info/licenses/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/licenses/scipy/scipy/_lib/_uarray/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/licenses/scipy/scipy/fft/_pocketfft/LICENSE.md",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/licenses/scipy/scipy/integrate/LICENSE_DOP",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/licenses/scipy/scipy/spatial/qhull_src/COPYING_QHULL.txt",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/licenses/scipy/scipy-1.17.1.dist-info/LICENSE.txt",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/licenses/torch/torch-2.6.0+cpu.dist-info/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/licenses/torch/torch-2.6.0+cpu.dist-info/NOTICE",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/model-ASE-consistency.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/neighbor-geometry-sanity.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/preflight.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/preflight.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/preservation-after.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/proposed-STATE.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/protocol-freeze.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/references/baseline-001/code.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/references/baseline-001/config.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/references/baseline-001/input.cif",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/references/baseline-001/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/references/baseline-002/code.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/references/baseline-002/config.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/references/baseline-002/input.cif",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/references/baseline-002/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/references/replay/code.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/references/replay/config.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/references/replay/input.cif",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/references/replay/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/resume-checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/sanitation-audit.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/sanity-review.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/sanity_review.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/data/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/data/dataset.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/graph/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/graph/converter.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/graph/crystalgraph.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/graph/graph.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/basis.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/composition_model.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/dynamics.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/encoders.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/functions.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/layers.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/model.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/trainer/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/trainer/trainer.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/utils/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/utils/common_utils.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/chgnet/utils/vasp_utils.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/docs/THIRD_PARTY.md",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/repaired-recorder-20261023/transformation-ledger.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/README.md",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/code.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/config.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/evaluate.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/input.cif",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/original-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/prior-public-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/requirements-lock.txt",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/code.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/config.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/evaluate.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/input.cif",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/original-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/prior-public-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/requirements-lock.txt",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/comparison.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/environment-current.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/evaluation.log",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/execution.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/hardware-backend.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/identity-public.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/initial-preflight.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/initial-protocol.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/onboarding-report.sanitized.md",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/pip-check.log",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/preflight-correction.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/preflight.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/prior-public-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/prior-public-transformation.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/provenance/original-onboarding-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/pytest.log",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/code.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/config.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/evaluate.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/input.cif",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/original-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/prior-public-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/requirements-lock.txt",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/source_snapshot/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/source_snapshot/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/source_snapshot/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/source_snapshot/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/source_snapshot/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/source_snapshot/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/source_snapshot/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/replay/source_snapshot/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/runtime-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/sanitation-audit.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/test-results.json",
+      "passed": true
+    },
+    {
+      "name": "public:evidence/restoration-20261023/torch-runtime.txt",
+      "passed": true
+    },
+    {
+      "name": "public:project/CLOUD_HANDOFF.md",
+      "passed": true
+    },
+    {
+      "name": "public:project/CLOUD_MIGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "public:project/CLOUD_START.md",
+      "passed": true
+    },
+    {
+      "name": "public:project/OPERATIONS.md",
+      "passed": true
+    },
+    {
+      "name": "public:project/STATE.json",
+      "passed": true
+    },
+    {
+      "name": "public:project/checkpoints/diagnosis-20261023.json",
+      "passed": true
+    },
+    {
+      "name": "public:project/checkpoints/dispatch-contrast-20261023.json",
+      "passed": true
+    },
+    {
+      "name": "public:publication/audit.json",
+      "passed": true
+    },
+    {
+      "name": "public:pyproject.toml",
+      "passed": true
+    },
+    {
+      "name": "public:runs/index.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4/data-file-schema.xml",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4/input.in",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4/output.out",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4/summary.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/data-file-schema.xml",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/input.in",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/output.out",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/summary.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/data-file-schema.xml",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/initial-density.tar.gz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/input.in",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/output.out",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/summary.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4-sandbox-mpi-failed/input.in",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4-sandbox-mpi-failed/output.out",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e60-r600-k4-sandbox-mpi-failed/summary.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e80-r800-k4/data-file-schema.xml",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e80-r800-k4/input.in",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e80-r800-k4/output.out",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e80-r800-k4/summary.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/data-file-schema.xml",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/initial-density.tar.gz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/input.in",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/output.out",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/summary.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/data-file-schema.xml",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/initial-density.tar.gz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/input.in",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/output.out",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/summary.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/convergence.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/evidence-verification.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/historical-manifest.sha256",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/install-openmpi.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/install.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/lock-openmpi-replay-check.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/lock-replay-check.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/manifest.sha256",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/public-export-verification.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/quantum/public-transformation.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/C03-005/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/C03-005/refine.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/C03-005/refine.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/C03-005/refined.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/C03-005/refined.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/C03-005/refined_observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/C03-005/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/C03-005/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/C03-005/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/C03-005/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/C03-005/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/candidate_record.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/config.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/expected/active.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/expected/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/expected/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/expected/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/generated/C03-005.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/invocation.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/original_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/replay.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/reproduce_candidate.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/reproduction.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/requirements-lock.txt",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C01-007/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C01-007/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C01-007/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C01-007/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C01-007/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C01-007/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C01-009/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C01-009/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C01-009/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C01-009/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C01-009/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C01-009/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-002/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-002/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-002/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-002/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-002/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-002/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-00.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-00.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-00.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-01.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-01.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-01.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-02.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-02.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-02.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-03.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-03.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-03.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-04.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-04.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-04.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-05.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-05.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-05.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-06.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-06.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos-06.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/eos.csv",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/gamma_forces.npz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/gamma_forces_half_step.npz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/gamma_hessian.csv",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/gamma_hessian_half_step.csv",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/refine.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/refine.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/refined.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/refined_observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C02-009/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-00.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-00.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-00.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-01.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-01.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-01.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-02.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-02.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-02.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-03.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-03.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-03.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-04.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-04.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-04.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-05.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-05.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-05.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-06.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-06.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos-06.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/eos.csv",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/gamma_forces.npz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/gamma_forces_half_step.npz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/gamma_hessian.csv",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/gamma_hessian_half_step.csv",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/refine.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/refine.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/refined.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/refined_observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-005/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-008/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-008/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-008/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-008/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-008/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/C03-008/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaSnO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaSnO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaSnO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaSnO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaSnO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaSnO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaTiO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaTiO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaTiO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaTiO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaTiO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaTiO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaZrO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaZrO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaZrO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaZrO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaZrO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-BaZrO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaSnO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaSnO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaSnO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaSnO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaSnO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaSnO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaTiO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaTiO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaTiO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaTiO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaTiO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaTiO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaZrO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaZrO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaZrO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaZrO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaZrO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-CaZrO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrSnO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrSnO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrSnO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrSnO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrSnO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrSnO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrTiO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrTiO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrTiO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrTiO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrTiO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrTiO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrZrO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrZrO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrZrO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrZrO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrZrO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/R-SrZrO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/config.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/english-replay-comparison.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C01-001.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C01-002.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C01-003.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C01-004.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C01-005.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C01-006.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C01-007.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C01-008.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C01-009.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C02-001.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C02-002.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C02-003.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C02-004.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C02-005.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C02-006.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C02-007.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C02-008.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C02-009.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C03-001.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C03-002.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C03-003.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C03-004.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C03-005.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C03-006.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C03-007.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C03-008.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/C03-009.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/R-BaSnO3.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/R-BaTiO3.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/R-BaZrO3.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/R-CaSnO3.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/R-CaTiO3.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/R-CaZrO3.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/R-SrSnO3.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/R-SrTiO3.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/R-SrZrO3.cif",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/generated/generation.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/report.md",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/requirements-lock.txt",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/source_snapshot/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/source_snapshot/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/source_snapshot/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/source_snapshot/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/source_snapshot/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/source_snapshot/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/source_snapshot/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/source_snapshot/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/summary.json",
+      "passed": true
+    },
+    {
+      "name": "public:runs/round-001-en/verification.json",
+      "passed": true
+    },
+    {
+      "name": "public:src/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public:src/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "public:src/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "public:src/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "public:src/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "public:src/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "public:src/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "public:src/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "public:tests/test_publication.py",
+      "passed": true
+    },
+    {
+      "name": "public:tests/test_science.py",
+      "passed": true
+    },
+    {
+      "name": "public:tools/export_public.py",
+      "passed": true
+    },
+    {
+      "name": "public:tools/export_quantum_public.py",
+      "passed": true
+    },
+    {
+      "name": "public:tools/quantum/compare_convergence.py",
+      "passed": true
+    },
+    {
+      "name": "public:tools/quantum/conda-explicit-openmpi-osx-arm64.txt",
+      "passed": true
+    },
+    {
+      "name": "public:tools/quantum/conda-explicit-osx-arm64.txt",
+      "passed": true
+    },
+    {
+      "name": "public:tools/quantum/executables.sha256",
+      "passed": true
+    },
+    {
+      "name": "public:tools/quantum/install.sh",
+      "passed": true
+    },
+    {
+      "name": "public:tools/quantum/pseudopotentials.sha256",
+      "passed": true
+    },
+    {
+      "name": "public:tools/quantum/run_reference.py",
+      "passed": true
+    },
+    {
+      "name": "public:tools/quantum/verify_evidence.py",
+      "passed": true
+    },
+    {
+      "name": "public:tools/reproduce_candidate.py",
+      "passed": true
+    },
+    {
+      "name": "public:ui/index.html",
+      "passed": true
+    },
+    {
+      "name": "implementation:LICENSE",
+      "passed": true
+    },
+    {
+      "name": "implementation:analyze_saved.py",
+      "passed": true
+    },
+    {
+      "name": "implementation:capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "implementation:child_entry.py",
+      "passed": true
+    },
+    {
+      "name": "implementation:control.py",
+      "passed": true
+    },
+    {
+      "name": "implementation:guarded_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "implementation:preflight.py",
+      "passed": true
+    },
+    {
+      "name": "implementation:preinference_guards.py",
+      "passed": true
+    },
+    {
+      "name": "implementation:published_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "implementation:recorder-derivative.patch",
+      "passed": true
+    },
+    {
+      "name": "implementation:references.json",
+      "passed": true
+    },
+    {
+      "name": "implementation:runtime_compare.py",
+      "passed": true
+    },
+    {
+      "name": "freeze-binding:protocol.json",
+      "passed": true
+    },
+    {
+      "name": "freeze-binding:PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "freeze-binding:implementation-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "freeze-envelope-identity",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:control.py",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:control.py",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:published_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:published_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:recorder-derivative.patch",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:recorder-derivative.patch",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:runtime_compare.py",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:runtime_compare.py",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:child_entry.py",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:child_entry.py",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:guarded_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:guarded_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:references.json",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:references.json",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:LICENSE",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:LICENSE",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:freeze.json",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:freeze.json",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:protocol.json",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:protocol.json",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:preflight.py",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:preflight.py",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:analyze_saved.py",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:analyze_saved.py",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:preinference_guards.py",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:preinference_guards.py",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "raw-implementation:implementation-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "export-implementation:implementation-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "actual-recorder-source",
+      "passed": true
+    },
+    {
+      "name": "actual-helper-source",
+      "passed": true
+    },
+    {
+      "name": "physics-source-identity",
+      "passed": true
+    },
+    {
+      "name": "public-physics:src/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public-physics:src/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "public-physics:src/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "public-physics:src/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "public-physics:src/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "public-physics:src/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "public-physics:src/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "public-physics:src/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "P1/input-arrays:keys",
+      "passed": true
+    },
+    {
+      "name": "P1/input-arrays/atomic_numbers:data",
+      "passed": true
+    },
+    {
+      "name": "P1/input-arrays/positions:data",
+      "passed": true
+    },
+    {
+      "name": "P1/input-arrays/cell:data",
+      "passed": true
+    },
+    {
+      "name": "P1/input-arrays/pbc:data",
+      "passed": true
+    },
+    {
+      "name": "P1/input-arrays/frac_coords:data",
+      "passed": true
+    },
+    {
+      "name": "P1/input-arrays/lattice:data",
+      "passed": true
+    },
+    {
+      "name": "P1/neighbors:keys",
+      "passed": true
+    },
+    {
+      "name": "P1/neighbors/center:data",
+      "passed": true
+    },
+    {
+      "name": "P1/neighbors/neighbor:data",
+      "passed": true
+    },
+    {
+      "name": "P1/neighbors/image:data",
+      "passed": true
+    },
+    {
+      "name": "P1/neighbors/distance:data",
+      "passed": true
+    },
+    {
+      "name": "P1/graph:keys",
+      "passed": true
+    },
+    {
+      "name": "P1/graph/atomic_number:data",
+      "passed": true
+    },
+    {
+      "name": "P1/graph/atom_frac_coord:data",
+      "passed": true
+    },
+    {
+      "name": "P1/graph/atom_graph:data",
+      "passed": true
+    },
+    {
+      "name": "P1/graph/neighbor_image:data",
+      "passed": true
+    },
+    {
+      "name": "P1/graph/directed2undirected:data",
+      "passed": true
+    },
+    {
+      "name": "P1/graph/undirected2directed:data",
+      "passed": true
+    },
+    {
+      "name": "P1/graph/bond_graph:data",
+      "passed": true
+    },
+    {
+      "name": "P1/graph/lattice:data",
+      "passed": true
+    },
+    {
+      "name": "P1/model-output:keys",
+      "passed": true
+    },
+    {
+      "name": "P1/model-output/atoms_per_graph:data",
+      "passed": true
+    },
+    {
+      "name": "P1/model-output/m_0:data",
+      "passed": true
+    },
+    {
+      "name": "P1/model-output/crystal_fea:data",
+      "passed": true
+    },
+    {
+      "name": "P1/model-output/f_0:data",
+      "passed": true
+    },
+    {
+      "name": "P1/model-output/s_0:data",
+      "passed": true
+    },
+    {
+      "name": "P1/model-output/e:data",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays:keys",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/atomic_numbers:data",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/positions:data",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/cell:data",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/pbc:data",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/frac_coords:data",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/lattice:data",
+      "passed": true
+    },
+    {
+      "name": "C1/neighbors:keys",
+      "passed": true
+    },
+    {
+      "name": "C1/neighbors/center:data",
+      "passed": true
+    },
+    {
+      "name": "C1/neighbors/neighbor:data",
+      "passed": true
+    },
+    {
+      "name": "C1/neighbors/image:data",
+      "passed": true
+    },
+    {
+      "name": "C1/neighbors/distance:data",
+      "passed": true
+    },
+    {
+      "name": "C1/graph:keys",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/atomic_number:data",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/atom_frac_coord:data",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/atom_graph:data",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/neighbor_image:data",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/directed2undirected:data",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/undirected2directed:data",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/bond_graph:data",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/lattice:data",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output:keys",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/atoms_per_graph:data",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/m_0:data",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/crystal_fea:data",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/f_0:data",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/s_0:data",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/e:data",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays:keys",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/atomic_numbers:data",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/positions:data",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/cell:data",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/pbc:data",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/frac_coords:data",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/lattice:data",
+      "passed": true
+    },
+    {
+      "name": "C0/neighbors:keys",
+      "passed": true
+    },
+    {
+      "name": "C0/neighbors/center:data",
+      "passed": true
+    },
+    {
+      "name": "C0/neighbors/neighbor:data",
+      "passed": true
+    },
+    {
+      "name": "C0/neighbors/image:data",
+      "passed": true
+    },
+    {
+      "name": "C0/neighbors/distance:data",
+      "passed": true
+    },
+    {
+      "name": "C0/graph:keys",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/atomic_number:data",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/atom_frac_coord:data",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/atom_graph:data",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/neighbor_image:data",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/directed2undirected:data",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/undirected2directed:data",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/bond_graph:data",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/lattice:data",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output:keys",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/atoms_per_graph:data",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/m_0:data",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/crystal_fea:data",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/f_0:data",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/s_0:data",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/e:data",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays:keys",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/atomic_numbers:data",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/positions:data",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/cell:data",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/pbc:data",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/frac_coords:data",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/lattice:data",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors:keys",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/center:data",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/neighbor:data",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/image:data",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/distance:data",
+      "passed": true
+    },
+    {
+      "name": "R1/graph:keys",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/atomic_number:data",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/atom_frac_coord:data",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/atom_graph:data",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/neighbor_image:data",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/directed2undirected:data",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/undirected2directed:data",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/bond_graph:data",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/lattice:data",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output:keys",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/atoms_per_graph:data",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/m_0:data",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/crystal_fea:data",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/f_0:data",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/s_0:data",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/e:data",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:input-arrays/atomic_numbers",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:input-arrays/positions",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:input-arrays/cell",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:input-arrays/pbc",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:input-arrays/frac_coords",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:input-arrays/lattice",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:neighbors/center",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:neighbors/neighbor",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:neighbors/image",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:neighbors/distance",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:graph/atomic_number",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:graph/atom_frac_coord",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:graph/atom_graph",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:graph/neighbor_image",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:graph/directed2undirected",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:graph/undirected2directed",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:graph/bond_graph",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:graph/lattice",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:model-output/atoms_per_graph",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:model-output/m_0",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:model-output/crystal_fea",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:model-output/f_0",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:model-output/s_0",
+      "passed": true
+    },
+    {
+      "name": "primary-byte-equality:model-output/e",
+      "passed": true
+    },
+    {
+      "name": "primary-file-equality:input.cif",
+      "passed": true
+    },
+    {
+      "name": "primary-file-equality:config-original.json",
+      "passed": true
+    },
+    {
+      "name": "primary-file-equality:model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "six-model-tensor-keys",
+      "passed": true
+    },
+    {
+      "name": "runtime-only-condition-differs",
+      "passed": true
+    },
+    {
+      "name": "runtime-default-capability",
+      "passed": true
+    },
+    {
+      "name": "runtime-one-canonical-capability",
+      "passed": true
+    },
+    {
+      "name": "runtime-threads-seed-affinity",
+      "passed": true
+    },
+    {
+      "name": "preinference-runtime-guard",
+      "passed": true
+    },
+    {
+      "name": "primary-observations-exact-typed-JSON",
+      "passed": true
+    },
+    {
+      "name": "float32-conversion-dtypes",
+      "passed": true
+    },
+    {
+      "name": "model-to-ASE:energy_eV",
+      "passed": true
+    },
+    {
+      "name": "model-to-ASE:forces_eV_A",
+      "passed": true
+    },
+    {
+      "name": "model-to-ASE:stress_eV_A3",
+      "passed": true
+    },
+    {
+      "name": "ASE-shapes",
+      "passed": true
+    },
+    {
+      "name": "consumed-neighbor-graph",
+      "passed": false
+    },
+    {
+      "name": "graph-input-arrays",
+      "passed": true
+    },
+    {
+      "name": "complete-comparison-reference-set",
+      "passed": true
+    },
+    {
+      "name": "observables-keyset:C1",
+      "passed": true
+    },
+    {
+      "name": "C1/energy_eV:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/energy_eV:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/forces_eV_A:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/forces_eV_A:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/stress_eV_A3:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/stress_eV_A3:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "array-comparison-archive-set:C1",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays:comparison-keys",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/atomic_numbers:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/atomic_numbers:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/positions:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/positions:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/cell:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/cell:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/pbc:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/pbc:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/frac_coords:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/frac_coords:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/lattice:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/input-arrays/lattice:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/neighbors:comparison-keys",
+      "passed": true
+    },
+    {
+      "name": "C1/neighbors/center:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/neighbors/center:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/neighbors/neighbor:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/neighbors/neighbor:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/neighbors/image:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/neighbors/image:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/neighbors/distance:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/neighbors/distance:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/graph:comparison-keys",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/atomic_number:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/atomic_number:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/atom_frac_coord:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/atom_frac_coord:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/atom_graph:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/atom_graph:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/neighbor_image:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/neighbor_image:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/directed2undirected:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/directed2undirected:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/undirected2directed:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/undirected2directed:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/bond_graph:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/bond_graph:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/lattice:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/graph/lattice:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output:comparison-keys",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/atoms_per_graph:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/atoms_per_graph:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/m_0:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/m_0:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/crystal_fea:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/crystal_fea:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/f_0:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/f_0:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/s_0:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/s_0:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/e:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C1/model-output/e:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "observables-keyset:C0",
+      "passed": true
+    },
+    {
+      "name": "C0/energy_eV:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/energy_eV:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/forces_eV_A:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/forces_eV_A:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/stress_eV_A3:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/stress_eV_A3:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "array-comparison-archive-set:C0",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays:comparison-keys",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/atomic_numbers:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/atomic_numbers:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/positions:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/positions:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/cell:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/cell:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/pbc:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/pbc:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/frac_coords:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/frac_coords:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/lattice:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/input-arrays/lattice:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/neighbors:comparison-keys",
+      "passed": true
+    },
+    {
+      "name": "C0/neighbors/center:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/neighbors/center:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/neighbors/neighbor:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/neighbors/neighbor:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/neighbors/image:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/neighbors/image:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/neighbors/distance:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/neighbors/distance:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/graph:comparison-keys",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/atomic_number:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/atomic_number:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/atom_frac_coord:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/atom_frac_coord:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/atom_graph:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/atom_graph:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/neighbor_image:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/neighbor_image:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/directed2undirected:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/directed2undirected:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/undirected2directed:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/undirected2directed:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/bond_graph:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/bond_graph:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/lattice:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/graph/lattice:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output:comparison-keys",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/atoms_per_graph:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/atoms_per_graph:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/m_0:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/m_0:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/crystal_fea:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/crystal_fea:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/f_0:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/f_0:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/s_0:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/s_0:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/e:signed-components",
+      "passed": true
+    },
+    {
+      "name": "C0/model-output/e:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "observables-keyset:R1",
+      "passed": true
+    },
+    {
+      "name": "R1/energy_eV:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/energy_eV:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/forces_eV_A:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/forces_eV_A:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/stress_eV_A3:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/stress_eV_A3:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "array-comparison-archive-set:R1",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays:comparison-keys",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/atomic_numbers:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/atomic_numbers:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/positions:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/positions:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/cell:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/cell:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/pbc:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/pbc:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/frac_coords:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/frac_coords:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/lattice:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/lattice:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors:comparison-keys",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/center:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/center:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/neighbor:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/neighbor:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/image:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/image:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/distance:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/distance:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/graph:comparison-keys",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/atomic_number:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/atomic_number:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/atom_frac_coord:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/atom_frac_coord:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/atom_graph:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/atom_graph:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/neighbor_image:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/neighbor_image:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/directed2undirected:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/directed2undirected:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/undirected2directed:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/undirected2directed:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/bond_graph:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/bond_graph:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/lattice:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/lattice:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output:comparison-keys",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/atoms_per_graph:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/atoms_per_graph:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/m_0:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/m_0:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/crystal_fea:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/crystal_fea:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/f_0:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/f_0:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/s_0:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/s_0:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/e:signed-components",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/e:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "observables-keyset:baseline-001",
+      "passed": true
+    },
+    {
+      "name": "baseline-001/energy_eV:signed-components",
+      "passed": true
+    },
+    {
+      "name": "baseline-001/energy_eV:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "baseline-001/forces_eV_A:signed-components",
+      "passed": true
+    },
+    {
+      "name": "baseline-001/forces_eV_A:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "baseline-001/stress_eV_A3:signed-components",
+      "passed": true
+    },
+    {
+      "name": "baseline-001/stress_eV_A3:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "array-comparison-archive-set:baseline-001",
+      "passed": true
+    },
+    {
+      "name": "observables-keyset:baseline-002",
+      "passed": true
+    },
+    {
+      "name": "baseline-002/energy_eV:signed-components",
+      "passed": true
+    },
+    {
+      "name": "baseline-002/energy_eV:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "baseline-002/forces_eV_A:signed-components",
+      "passed": true
+    },
+    {
+      "name": "baseline-002/forces_eV_A:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "baseline-002/stress_eV_A3:signed-components",
+      "passed": true
+    },
+    {
+      "name": "baseline-002/stress_eV_A3:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "array-comparison-archive-set:baseline-002",
+      "passed": true
+    },
+    {
+      "name": "observables-keyset:replay",
+      "passed": true
+    },
+    {
+      "name": "replay/energy_eV:signed-components",
+      "passed": true
+    },
+    {
+      "name": "replay/energy_eV:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "replay/forces_eV_A:signed-components",
+      "passed": true
+    },
+    {
+      "name": "replay/forces_eV_A:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "replay/stress_eV_A3:signed-components",
+      "passed": true
+    },
+    {
+      "name": "replay/stress_eV_A3:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "array-comparison-archive-set:replay",
+      "passed": true
+    },
+    {
+      "name": "saved-conversion/energy_eV:signed-components",
+      "passed": true
+    },
+    {
+      "name": "saved-conversion/energy_eV:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "saved-conversion/forces_eV_A:signed-components",
+      "passed": true
+    },
+    {
+      "name": "saved-conversion/forces_eV_A:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "saved-conversion/stress_eV_A3:signed-components",
+      "passed": true
+    },
+    {
+      "name": "saved-conversion/stress_eV_A3:metadata-decisions",
+      "passed": true
+    },
+    {
+      "name": "D1-unavailable-preserved",
+      "passed": true
+    },
+    {
+      "name": "secondary-capability-validation:P1-default-repeat-20261024",
+      "passed": true
+    },
+    {
+      "name": "secondary-capability-validation:C0-control",
+      "passed": true
+    },
+    {
+      "name": "secondary-runtime-normalized-equality",
+      "passed": true
+    },
+    {
+      "name": "saved-runtime-comparisons",
+      "passed": true
+    },
+    {
+      "name": "one-recorded-graph-forward",
+      "passed": true
+    },
+    {
+      "name": "protocol-token-identity",
+      "passed": true
+    },
+    {
+      "name": "inference-token-one",
+      "passed": true
+    },
+    {
+      "name": "one-recorded-attempt",
+      "passed": true
+    },
+    {
+      "name": "process-resource-limits",
+      "passed": true
+    },
+    {
+      "name": "metadata-processes-success",
+      "passed": true
+    },
+    {
+      "name": "preflight:timestamps-ordered",
+      "passed": true
+    },
+    {
+      "name": "calculation:timestamps-ordered",
+      "passed": true
+    },
+    {
+      "name": "analysis:timestamps-ordered",
+      "passed": true
+    },
+    {
+      "name": "process-phases-ordered",
+      "passed": true
+    },
+    {
+      "name": "reporting-within-investigation-limit",
+      "passed": true
+    },
+    {
+      "name": "recorded-integrity-120-pass",
+      "passed": true
+    },
+    {
+      "name": "recorded-preflight-1498-pass",
+      "passed": true
+    },
+    {
+      "name": "independent-final-decision-reconstruction",
+      "passed": true
+    },
+    {
+      "name": "H1-and-historical-failure-separate",
+      "passed": true
+    },
+    {
+      "name": "old-C1-gate-unchanged",
+      "passed": true
+    },
+    {
+      "name": "old-C2-remains-absent",
+      "passed": true
+    },
+    {
+      "name": "no-recorder-controller-failure-record",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:INFERENCE-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:INFERENCE-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/input.cif",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/input.cif",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/observations.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/observations.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/pre-inference-runtime-check.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/pre-inference-runtime-check.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:P1/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:P1/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:analysis-decision.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:analysis-decision.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:analysis-execution.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:analysis-execution.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:analysis.log",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:analysis.log",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:calculation.log",
+      "passed": true
+    },
+    {
+      "name": "ledger-exact-path-redaction:calculation.log",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "excluded-private:cpu-private.txt",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:decision.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:decision.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:execution.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:execution.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:freeze.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:freeze.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/analyze_saved.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/analyze_saved.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/child_entry.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/child_entry.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/control.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/control.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/freeze.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/freeze.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/guarded_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/guarded_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/implementation-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/implementation-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/preflight.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/preflight.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/preinference_guards.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/preinference_guards.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/published_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/published_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/recorder-derivative.patch",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/recorder-derivative.patch",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/references.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/references.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:implementation/runtime_compare.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:implementation/runtime_compare.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:integrity.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:integrity.json",
+      "passed": true
+    },
+    {
+      "name": "excluded-private:launch-release-private.json",
+      "passed": true
+    },
+    {
+      "name": "excluded-private:manifest-private.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:preflight-execution.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:preflight-execution.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:preflight.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:preflight.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:preflight.log",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:preflight.log",
+      "passed": true
+    },
+    {
+      "name": "excluded-private:processes-private.txt",
+      "passed": true
+    },
+    {
+      "name": "excluded-private:release-private.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-hashes:saved-data-verification.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-identical:saved-data-verification.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-generated-file-boundary",
+      "passed": true
+    },
+    {
+      "name": "archive-55-complete-members",
+      "passed": true
+    },
+    {
+      "name": "archive-member:INFERENCE-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/input.cif",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/observations.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/pre-inference-runtime-check.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:P1/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "archive-member:analysis-decision.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:analysis-execution.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:analysis.log",
+      "passed": true
+    },
+    {
+      "name": "archive-member:calculation.log",
+      "passed": true
+    },
+    {
+      "name": "archive-member:comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:completion.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:decision.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:entry-gates-summary.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:execution.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:freeze.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/analyze_saved.py",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/child_entry.py",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/control.py",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/freeze.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/guarded_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/implementation-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/preflight.py",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/preinference_guards.py",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/published_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/recorder-derivative.patch",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/references.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:implementation/runtime_compare.py",
+      "passed": true
+    },
+    {
+      "name": "archive-member:integrity.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:manifest.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:preflight-execution.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:preflight.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:preflight.log",
+      "passed": true
+    },
+    {
+      "name": "archive-member:saved-data-verification.json",
+      "passed": true
+    },
+    {
+      "name": "archive-member:transformation-ledger.json",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:atoms_per_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:m_0.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:crystal_fea.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:f_0.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:s_0.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:e.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:center.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:neighbor.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:image.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:distance.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:atomic_numbers.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:positions.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:cell.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:pbc.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:frac_coords.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:atomic_number.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:atom_frac_coord.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:atom_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:neighbor_image.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:directed2undirected.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:undirected2directed.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:bond_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "npz-safe-member:lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "bounded-sanitation-scan",
+      "passed": true
+    },
+    {
+      "name": "handled-cache-messages-not-recorder-exception",
+      "passed": true
+    },
+    {
+      "name": "all-originals-preserved-during-review",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "manifest_entries": {
+      "raw": 53,
+      "recorder": 19,
+      "export": 54,
+      "export-recorder": 19,
+      "public": 642,
+      "implementation": 12
+    },
+    "arrays_rehashed": 96,
+    "array_elements_rehashed": 106000,
+    "signed_observable_components": 420,
+    "signed_array_components": 79500,
+    "signed_array_comparisons": 72
+  },
+  "numerical_summary": {
+    "C1": {
+      "energy_eV": {
+        "max_abs_difference": 0.0,
+        "exact_equal": true,
+        "passed": true
+      },
+      "forces_eV_A": {
+        "max_abs_difference": 0.0,
+        "exact_equal": true,
+        "passed": true
+      },
+      "stress_eV_A3": {
+        "max_abs_difference": 0.0,
+        "exact_equal": true,
+        "passed": true
+      }
+    },
+    "C0": {
+      "energy_eV": {
+        "max_abs_difference": 0.0,
+        "exact_equal": true,
+        "passed": true
+      },
+      "forces_eV_A": {
+        "max_abs_difference": 5.1021575927734375e-05,
+        "exact_equal": false,
+        "passed": false
+      },
+      "stress_eV_A3": {
+        "max_abs_difference": 5.736947059631348e-07,
+        "exact_equal": false,
+        "passed": false
+      }
+    },
+    "R1": {
+      "energy_eV": {
+        "max_abs_difference": 0.0,
+        "exact_equal": true,
+        "passed": true
+      },
+      "forces_eV_A": {
+        "max_abs_difference": 5.1021575927734375e-05,
+        "exact_equal": false,
+        "passed": false
+      },
+      "stress_eV_A3": {
+        "max_abs_difference": 5.736947059631348e-07,
+        "exact_equal": false,
+        "passed": false
+      }
+    },
+    "baseline-001": {
+      "energy_eV": {
+        "max_abs_difference": 0.0,
+        "exact_equal": true,
+        "passed": true
+      },
+      "forces_eV_A": {
+        "max_abs_difference": 3.4332275390625e-05,
+        "exact_equal": false,
+        "passed": false
+      },
+      "stress_eV_A3": {
+        "max_abs_difference": 4.4249463826417923e-07,
+        "exact_equal": false,
+        "passed": false
+      }
+    },
+    "baseline-002": {
+      "energy_eV": {
+        "max_abs_difference": 0.0,
+        "exact_equal": true,
+        "passed": true
+      },
+      "forces_eV_A": {
+        "max_abs_difference": 3.4332275390625e-05,
+        "exact_equal": false,
+        "passed": false
+      },
+      "stress_eV_A3": {
+        "max_abs_difference": 4.4249463826417923e-07,
+        "exact_equal": false,
+        "passed": false
+      }
+    },
+    "replay": {
+      "energy_eV": {
+        "max_abs_difference": 0.0,
+        "exact_equal": true,
+        "passed": true
+      },
+      "forces_eV_A": {
+        "max_abs_difference": 5.1021575927734375e-05,
+        "exact_equal": false,
+        "passed": false
+      },
+      "stress_eV_A3": {
+        "max_abs_difference": 5.736947059631348e-07,
+        "exact_equal": false,
+        "passed": false
+      }
+    }
+  },
+  "model_tensor_keys": [
+    "atoms_per_graph",
+    "crystal_fea",
+    "e",
+    "f_0",
+    "m_0",
+    "s_0"
+  ],
+  "model_parameter_records": 136,
+  "runtime_fields_differing_from_C1": [
+    "condition"
+  ],
+  "execution": {
+    "attempts": 1,
+    "completed": true,
+    "timeout": false,
+    "started_at_utc": "2026-10-24T03:01:12.491792+00:00",
+    "requested_timeout_seconds": 594,
+    "returncode": 0,
+    "wall_seconds": 4.427294630000688,
+    "ended_at_utc": "2026-10-24T03:01:16.919139+00:00",
+    "investigation_elapsed_seconds": 65.134202,
+    "investigation_limit_respected": true
+  },
+  "capture_summary": {
+    "graph_calls": 1,
+    "model_calls": 1,
+    "inference_seconds": 0.2636702060008247
+  },
+  "reporting_elapsed_seconds": 340.674275,
+  "ledger_actions": {
+    "byte_identical_copy": 49,
+    "path_redaction": 1,
+    "excluded_private_record": 5
+  },
+  "archive_members": 55,
+  "NPZ_members_inspected": 24,
+  "sanitation_findings": [],
+  "log_findings": {
+    "handled_runtime_home_permission_message": true,
+    "temporary_Matplotlib_fallback_logged": true,
+    "Fontconfig_error_message_logged": true,
+    "traceback_logged": false,
+    "recorder_controller_exception_files_present": false
+  },
+  "identities": {
+    "PROTOCOL.md": "8818e943d53d64884c9ed0ad7e7b35836627fb9cb611ec92e7a9c9dbcfc442c7",
+    "protocol.json": "65edd51f107018e757b920fcc339789373b1dbba498bd2f71aef7423d41d6d7f",
+    "implementation-manifest.json": "7e4b3630e23d721486a59d6342fd303b25eeaab1dea4d1faf525f89696c42c7f",
+    "control.py": "96c528df9dea67d6185e2f04eb60ff47cddd05083f4dd2a3929a16e196d83380",
+    "guarded_recorder.py": "530bedca0d338401a8f3821fb21f98bb3569f26f6f1efe2f612d07ba0e052419",
+    "freeze.json": "fd475de8179f83f4cb71ffe7a8449ec43f72e7db20d501fe50354b87515ce1b9"
+  },
+  "artifact_identities": {
+    "REPORT.md": {
+      "bytes": 9792,
+      "characters": 9792,
+      "sha256": "df58b4ed9bbdb1ae9bf70a75ad6d15b0d8a2fb1b4a74390805e68977a2e9dfb0"
+    },
+    "export_manifest_sha256": "c31149eec57ecfd487b66e04ca8b835bdfb5a4f3f78315a4ee1991358ef99923",
+    "archive_sha256": "01d92464eacc8e80298683ed232b239e77be7509d2a1f06703c0fb9945cec0a7",
+    "raw_manifest_sha256": "a68858791c532cb6cca524a7f45451bd940735b1d65d28af0fef0648512481f2",
+    "decision_sha256": "a3ddfe9689245d9d718146ad9db5478bcad48e9873d11839c75b36cdd6ee6ce9"
+  },
+  "limitations": [
+    "One retained token and recorded forward establish one recorded authorized invocation, not a universal proof about all historical machine activity",
+    "Private release/account records were digest-checked through the raw manifest but their account fields were not inspected or independently verified",
+    "Stored parameter hashes were compared; full parameter tensors were not present for independent rehashing",
+    "Sanitation is bounded pattern/archive/ledger inspection of this review derivative, not publication authorization or a full new integrated release audit"
+  ]
+}

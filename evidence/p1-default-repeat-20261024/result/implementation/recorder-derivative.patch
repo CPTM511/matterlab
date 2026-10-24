@@ -1,0 +1,46 @@
+--- published_recorder.py
++++ guarded_recorder.py
+@@ -9,6 +9,7 @@
+ import matterlab
+ assert Path(matterlab.__file__).resolve().is_relative_to(R/'src'), 'Imported source differs from MATTERLAB_ROOT'
+ from capture_helpers import capture_method
++from preinference_guards import check_hash_record, check_runtime, check_model_finite
+ from matterlab.simulate import make_calculator
+ from matterlab.evidence import environment
+ P=Path(sys.argv[1]).resolve();P.mkdir(exist_ok=False)
+@@ -32,17 +33,21 @@
+  model=calc.model;captures={'graph_calls':0,'model_calls':0}
+  params={k:v.detach().cpu().numpy() for k,v in model.state_dict().items()}
+  save('model-tensor-hashes.json',array_record(params))
++ check_hash_record(R,P,'model-tensor-hashes.json')
+  def graph_before(module,args):
+   structure=args[0]
+   inp={'atomic_numbers':atoms.numbers,'positions':atoms.positions,'cell':atoms.cell.array,'pbc':atoms.pbc,'frac_coords':structure.frac_coords,'lattice':structure.lattice.matrix}
+   np.savez(P/'input-arrays.npz',**inp);save('input-array-hashes.json',array_record(inp))
++  check_hash_record(R,P,'input-array-hashes.json')
+   def capture_actual_neighbors(n):
+    a=dict(zip(['center','neighbor','image','distance'],n));np.savez(P/'neighbors.npz',**a);save('neighbor-hashes.json',array_record(a))
++   check_hash_record(R,P,'neighbor-hashes.json')
+   capture_method(structure,'get_neighbor_list',capture_actual_neighbors)
+  def graph_after(module,args,result):
+   captures['graph_calls']+=1
+   a={k:v.detach().cpu().numpy().copy() for k,v in result.to_dict().items() if isinstance(v,torch.Tensor)}
+   np.savez(P/'graph.npz',**a);save('graph-hashes.json',array_record(a))
++  check_hash_record(R,P,'graph-hashes.json')
+  def prediction_hook(result):
+   captures['model_calls']+=1
+   a={}
+@@ -52,11 +57,13 @@
+     for i,x in enumerate(v):
+      if isinstance(x,torch.Tensor):a[k+'_'+str(i)]=x.detach().cpu().numpy().copy()
+   np.savez(P/'model-output.npz',**a);save('model-output-hashes.json',array_record(a))
++  check_model_finite(a)
+  model.graph_converter.register_forward_pre_hook(graph_before)
+  model.graph_converter.register_forward_hook(graph_after)
+  capture_method(model,'forward',prediction_hook)
+  runtime={'capture_stage':'inside evaluation before inference','condition':os.environ['MATTERLAB_CONDITION'],'cpu_capability':torch.backends.cpu.get_cpu_capability(),'torch_version':torch.__version__,'default_dtype':str(torch.get_default_dtype()),'parameter_dtypes':sorted({str(x.dtype) for x in model.parameters()}),'graph_algorithm':model.graph_converter.algorithm,'torch_num_threads':torch.get_num_threads(),'torch_num_interop_threads':torch.get_num_interop_threads(),'cpu_affinity':sorted(os.sched_getaffinity(0)),'deterministic_algorithms':torch.are_deterministic_algorithms_enabled(),'mkldnn_enabled':torch.backends.mkldnn.enabled,'float32_matmul_precision':torch.get_float32_matmul_precision(),'torch_build':torch.__config__.show(),'environment_controls':{k:os.environ.get(k) for k in ['ATEN_CPU_CAPABILITY','OMP_NUM_THREADS','MKL_NUM_THREADS','OPENBLAS_NUM_THREADS','NUMEXPR_NUM_THREADS','VECLIB_MAXIMUM_THREADS','MKL_CBWR']},'seed':config['seed'],'device':str(next(model.parameters()).device),'python':sys.version,'platform':platform.platform()}
+  save('runtime.json',runtime)
++ check_runtime(R,P,runtime)
+  assert runtime['torch_num_threads']==1 and len(runtime['cpu_affinity'])==1
+  start=time.monotonic();energy=float(atoms.get_potential_energy());forces=atoms.get_forces();stress=atoms.get_stress(voigt=False)
+  assert np.isfinite(energy) and np.isfinite(forces).all() and np.isfinite(stress).all()

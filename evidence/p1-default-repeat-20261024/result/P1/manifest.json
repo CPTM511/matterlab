@@ -1,0 +1,24 @@
+{
+  "algorithm": "SHA256",
+  "files": {
+    "capture-summary.json": "c57651efa16a3391efe6e733fc0782dbb1161a729b8051761d0181bc817b809a",
+    "capture_helpers.py": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+    "config-original.json": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601",
+    "diagnostic_eval.py": "530bedca0d338401a8f3821fb21f98bb3569f26f6f1efe2f612d07ba0e052419",
+    "expected-source-code.json": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+    "graph-hashes.json": "de46e2c84cc5826d72c88a6cd4caf9a6cc645aa0f8df840ddfdc21b38ab09617",
+    "graph.npz": "cf985ae32baba35f5b561cada2f2b970397380e5dd7e8015308e2a0ead17914f",
+    "input-array-hashes.json": "da540467bfa9b8d7cc1138af62b4ddcfc4d7e2d69ec022a01ef4ed9e8d167a43",
+    "input-arrays.npz": "6bd5750564082c350755fff9b11c0f2e8377f0e72b63669a14cede0b6574c136",
+    "input.cif": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+    "model-output-hashes.json": "76ffa560bf5677b9f340155f5359b71959929d23e681d7490d719e28bde2bd0b",
+    "model-output.npz": "a22788265bc177ec9b087459dc7a92755df466ec79306dd3e2dab225325f7a5b",
+    "model-tensor-hashes.json": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf",
+    "neighbor-hashes.json": "f1ed95e4321e852ea790a931ae255bfd2ef81215dbb0c812b1c2e3f09db289f6",
+    "neighbors.npz": "e236f975d9b4b80ad80b6ee70989b7775a2293da9bf3b6d7c22c55833011d08c",
+    "observations.json": "25f3c38f009dcd06a35c4b8921c1577ec238ce9aefd07ca05157773c51566207",
+    "pre-inference-runtime-check.json": "24f279ade79a83fff45d7af0a86a41c5a4af21460f5829e9cbce9da07f557535",
+    "provenance.json": "0f1e49d5c6249eda14b9eabbe77650b427df8a299a700c41389f2dcfb067faf8",
+    "runtime.json": "8bffa7c478ee0a6d93a27567279cefc45038a2ff77d9d3e72261068e413547d5"
+  }
+}

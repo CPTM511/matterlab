@@ -1,0 +1,487 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "input-arrays:nonempty_record_set",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:atomic_numbers:finite",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:atomic_numbers:digest",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:positions:finite",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:positions:digest",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:cell:finite",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:cell:digest",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:pbc:finite",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:pbc:digest",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:frac_coords:finite",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:frac_coords:digest",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:lattice:finite",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:lattice:digest",
+      "passed": true
+    },
+    {
+      "name": "neighbors:nonempty_record_set",
+      "passed": true
+    },
+    {
+      "name": "neighbors:center:finite",
+      "passed": true
+    },
+    {
+      "name": "neighbors:center:digest",
+      "passed": true
+    },
+    {
+      "name": "neighbors:neighbor:finite",
+      "passed": true
+    },
+    {
+      "name": "neighbors:neighbor:digest",
+      "passed": true
+    },
+    {
+      "name": "neighbors:image:finite",
+      "passed": true
+    },
+    {
+      "name": "neighbors:image:digest",
+      "passed": true
+    },
+    {
+      "name": "neighbors:distance:finite",
+      "passed": true
+    },
+    {
+      "name": "neighbors:distance:digest",
+      "passed": true
+    },
+    {
+      "name": "graph:nonempty_record_set",
+      "passed": true
+    },
+    {
+      "name": "graph:atomic_number:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:atomic_number:digest",
+      "passed": true
+    },
+    {
+      "name": "graph:atom_frac_coord:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:atom_frac_coord:digest",
+      "passed": true
+    },
+    {
+      "name": "graph:atom_graph:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:atom_graph:digest",
+      "passed": true
+    },
+    {
+      "name": "graph:neighbor_image:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:neighbor_image:digest",
+      "passed": true
+    },
+    {
+      "name": "graph:directed2undirected:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:directed2undirected:digest",
+      "passed": true
+    },
+    {
+      "name": "graph:undirected2directed:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:undirected2directed:digest",
+      "passed": true
+    },
+    {
+      "name": "graph:bond_graph:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:bond_graph:digest",
+      "passed": true
+    },
+    {
+      "name": "graph:lattice:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:lattice:digest",
+      "passed": true
+    },
+    {
+      "name": "model-output:nonempty_record_set",
+      "passed": true
+    },
+    {
+      "name": "model-output:atoms_per_graph:finite",
+      "passed": true
+    },
+    {
+      "name": "model-output:atoms_per_graph:digest",
+      "passed": true
+    },
+    {
+      "name": "model-output:m_0:finite",
+      "passed": true
+    },
+    {
+      "name": "model-output:m_0:digest",
+      "passed": true
+    },
+    {
+      "name": "model-output:crystal_fea:finite",
+      "passed": true
+    },
+    {
+      "name": "model-output:crystal_fea:digest",
+      "passed": true
+    },
+    {
+      "name": "model-output:f_0:finite",
+      "passed": true
+    },
+    {
+      "name": "model-output:f_0:digest",
+      "passed": true
+    },
+    {
+      "name": "model-output:s_0:finite",
+      "passed": true
+    },
+    {
+      "name": "model-output:s_0:digest",
+      "passed": true
+    },
+    {
+      "name": "model-output:e:finite",
+      "passed": true
+    },
+    {
+      "name": "model-output:e:digest",
+      "passed": true
+    },
+    {
+      "name": "recorder_manifest_complete_coverage",
+      "passed": true
+    },
+    {
+      "name": "manifest:capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "manifest:config-original.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "manifest:expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:graph.npz",
+      "passed": true
+    },
+    {
+      "name": "manifest:input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "manifest:input.cif",
+      "passed": true
+    },
+    {
+      "name": "manifest:model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "manifest:model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "manifest:observations.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:pre-inference-runtime-check.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:provenance.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:runtime.json",
+      "passed": true
+    },
+    {
+      "name": "observation:energy_eV:JSON_types",
+      "passed": true
+    },
+    {
+      "name": "observation:forces_eV_A:JSON_types",
+      "passed": true
+    },
+    {
+      "name": "observation:stress_eV_A3:JSON_types",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:C1_keys",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:atomic_numbers:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:positions:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:cell:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:pbc:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:frac_coords:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:lattice:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:C1_exact_invariant",
+      "passed": true
+    },
+    {
+      "name": "neighbors:C1_keys",
+      "passed": true
+    },
+    {
+      "name": "neighbors:center:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "neighbors:neighbor:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "neighbors:image:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "neighbors:distance:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "neighbors:C1_exact_invariant",
+      "passed": true
+    },
+    {
+      "name": "graph:C1_keys",
+      "passed": true
+    },
+    {
+      "name": "graph:atomic_number:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "graph:atom_frac_coord:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "graph:atom_graph:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "graph:neighbor_image:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "graph:directed2undirected:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "graph:undirected2directed:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "graph:bond_graph:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "graph:lattice:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "graph:C1_exact_invariant",
+      "passed": true
+    },
+    {
+      "name": "model-output:C1_keys",
+      "passed": true
+    },
+    {
+      "name": "model-output:atoms_per_graph:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "model-output:m_0:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "model-output:crystal_fea:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "model-output:f_0:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "model-output:s_0:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "model-output:e:C1_structure",
+      "passed": true
+    },
+    {
+      "name": "raw:input.cif",
+      "passed": true
+    },
+    {
+      "name": "raw:config-original.json",
+      "passed": true
+    },
+    {
+      "name": "recorder_implementation:diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "recorder_implementation:capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "one_forward_one_graph",
+      "passed": true
+    },
+    {
+      "name": "primary_runtime_exact",
+      "passed": true
+    },
+    {
+      "name": "pre_inference_runtime_guard",
+      "passed": true
+    },
+    {
+      "name": "model_parameters_exact",
+      "passed": true
+    },
+    {
+      "name": "float32_model_ASE_conversion",
+      "passed": true
+    },
+    {
+      "name": "20_atoms_no_relaxation",
+      "passed": true
+    },
+    {
+      "name": "ASE_shapes",
+      "passed": true
+    },
+    {
+      "name": "neighbors_match_graph",
+      "passed": true
+    },
+    {
+      "name": "input_matches_graph",
+      "passed": true
+    },
+    {
+      "name": "single_successful_execution",
+      "passed": true
+    }
+  ],
+  "missing": [],
+  "errors": []
+}

@@ -1,0 +1,32 @@
+{
+  "checkpoint": "p1-default-repeat-20261024",
+  "prepared_against_public_commit": "91147ff73336ce205717117b2ab7de3e62c5fdb1",
+  "status": "Parent accepted exact bounded result and independent review; additive publication checkpoint",
+  "report_sha256": "df58b4ed9bbdb1ae9bf70a75ad6d15b0d8a2fb1b4a74390805e68977a2e9dfb0",
+  "review_sha256": "e7fa495296550b65e34b6d4873e71c10428a2d2fe052f49bb76c4511cd51fefa",
+  "decision_sha256": "a3ddfe9689245d9d718146ad9db5478bcad48e9873d11839c75b36cdd6ee6ce9",
+  "archive_sha256": "01d92464eacc8e80298683ed232b239e77be7509d2a1f06703c0fb9945cec0a7",
+  "result": {
+    "evidence": "evidence/p1-default-repeat-20261024",
+    "protocol_id": "P1-default-repeat-20261024",
+    "new_evaluations": 1,
+    "capture_integrity": "passed:120 checks",
+    "same_condition_repeat": "H1 exact C1 model-tensor/ASE equality with complete primary runtime match except label",
+    "original_baseline_acceptance": "failed; unchanged original thresholds",
+    "historical_C1_gate": "failed; unchanged",
+    "historical_C2": "not run",
+    "independent_review": "Accepted by parent;1426/1427 initial checks passed with preserved reviewer cross-representation assertion error, clarified by four source-backed relation checks; no evidence defect",
+    "calculation_process_wall_seconds": 4.427294630000688,
+    "physical_job_active": false,
+    "remaining_authorized_inference": 0,
+    "full_migration_complete": false
+  },
+  "next_action": "Prepare a separately frozen bounded reference/C03-005 Gamma numerical-diagnosis protocol and implementation for independent pre-execution review. No Gamma or further model evaluation is authorized; refresh included usage and ownership before a later substantial stage. Preserve original baseline failures, failed historical C1 gate and unrun C2.",
+  "original_baseline_tolerances": {
+    "energy_eV_atol": 1e-05,
+    "forces_eV_A_atol": 1e-06,
+    "stress_eV_A3_atol": 1e-07,
+    "rtol": 0
+  },
+  "publication_note": "Verify the actual containing Git commit and readback; this preparation record does not itself prove publication."
+}

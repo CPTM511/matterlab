@@ -1,0 +1,113 @@
+{
+  "status": "Frozen H1 outcome independently supported; documented reviewer cross-representation assertion error resolved without changing first-pass artifact or original gates",
+  "completed_at_utc": "2026-10-24T03:17:24.055130+00:00",
+  "requested_identity": {
+    "model": "GPT-6 Astra",
+    "reasoning": "High",
+    "speed": "Standard where selectable",
+    "existing_role_reused": true
+  },
+  "observable_identity": "GPT-6-based Codex developer identity. Parent reports requested delegation settings; actual serving variant, reasoning effort and tier not independently attested.",
+  "review_file": {
+    "name": "REVIEW.md",
+    "bytes": 13292,
+    "characters": 13292,
+    "sha256": "e7fa495296550b65e34b6d4873e71c10428a2d2fe052f49bb76c4511cd51fefa"
+  },
+  "result_report": {
+    "bytes": 9792,
+    "characters": 9792,
+    "sha256": "df58b4ed9bbdb1ae9bf70a75ad6d15b0d8a2fb1b4a74390805e68977a2e9dfb0"
+  },
+  "implementation_protocol_identity": {
+    "PROTOCOL.md": "8818e943d53d64884c9ed0ad7e7b35836627fb9cb611ec92e7a9c9dbcfc442c7",
+    "protocol.json": "65edd51f107018e757b920fcc339789373b1dbba498bd2f71aef7423d41d6d7f",
+    "implementation-manifest.json": "7e4b3630e23d721486a59d6342fd303b25eeaab1dea4d1faf525f89696c42c7f",
+    "control.py": "96c528df9dea67d6185e2f04eb60ff47cddd05083f4dd2a3929a16e196d83380",
+    "guarded_recorder.py": "530bedca0d338401a8f3821fb21f98bb3569f26f6f1efe2f612d07ba0e052419",
+    "freeze.json": "fd475de8179f83f4cb71ffe7a8449ec43f72e7db20d501fe50354b87515ce1b9"
+  },
+  "first_pass": {
+    "checks": 1427,
+    "passed": 1426,
+    "failed": 1,
+    "failed_check": "consumed-neighbor-graph",
+    "failure_classification": "Reviewer required byte equality across int64 neighbor and explicitly converted int32 graph representations",
+    "preserved_verification_sha256": "7915fc73622a4e2d2e466a59df71b9f0a186b49e0b4917ab97a93610630a1acd"
+  },
+  "clarification": {
+    "sha256": "a28b615be6dd91439e0c5e9ee4638d73489bbabc71e405dc8de14c6aab537e9c",
+    "four_relation_checks_passed": true,
+    "converter_int32_and_frozen_analyzer_value_rule_confirmed": true,
+    "corresponding_P1_C1_byte_dtype_rules_unchanged": true
+  },
+  "counts": {
+    "manifest_entries": {
+      "raw": 53,
+      "recorder": 19,
+      "export": 54,
+      "export-recorder": 19,
+      "public": 642,
+      "implementation": 12
+    },
+    "arrays_rehashed": 96,
+    "array_elements_rehashed": 106000,
+    "signed_observable_components": 420,
+    "signed_array_components": 79500,
+    "signed_array_comparisons": 72
+  },
+  "export_review": {
+    "archive_members": 55,
+    "NPZ_members": 24,
+    "ledger_actions": {
+      "byte_identical_copy": 49,
+      "path_redaction": 1,
+      "excluded_private_record": 5
+    },
+    "sanitation_findings": [],
+    "archive_sha256": "01d92464eacc8e80298683ed232b239e77be7509d2a1f06703c0fb9945cec0a7",
+    "manifest_sha256": "c31149eec57ecfd487b66e04ca8b835bdfb5a4f3f78315a4ee1991358ef99923",
+    "boundary": "Review-only derivative; no publication authorization or new complete integrated release audit"
+  },
+  "decision": {
+    "primary_repeat_passed": true,
+    "outcome": "H1_exact_pairwise_repeat",
+    "original_baseline_acceptance": false,
+    "old_C1_gate": "FAILED; unchanged",
+    "old_C2": "not run",
+    "full_migration_complete": false,
+    "further_inference_authorized_under_P1": false
+  },
+  "originals_preserved": true,
+  "final_preservation_sha256": "66083654239ae7cae504e0a5264bd4b640ccf9c43973b6933acff65b68ef0999",
+  "log_assessment": {
+    "handled_runtime_home_permission_message": true,
+    "temporary_Matplotlib_fallback_logged": true,
+    "Fontconfig_error_message_logged": true,
+    "traceback_logged": false,
+    "recorder_controller_exception_files_present": false
+  },
+  "evidence_integrity_defects": [],
+  "unresolved_review_blockers": [],
+  "pending_actions": [
+    "Parent reading and acceptance of complete result and independent review",
+    "Separate authorization and reviewed export before any publication",
+    "Separate protocol and authorization before further scientific computation"
+  ],
+  "limits": [
+    "One retained token and recorded forward establish one recorded authorized invocation, not a universal proof about all historical machine activity",
+    "Private release/account records were digest-checked through the raw manifest but their account fields were not inspected or independently verified",
+    "Stored parameter hashes were compared; full parameter tensors were not present for independent rehashing",
+    "Sanitation is bounded pattern/archive/ledger inspection of this review derivative, not publication authorization or a full new integrated release audit",
+    "Recorded preflight and capture-check counts were inspected, not rerun through model/source execution",
+    "Pairwise repeatability is not statistical or cross-platform reproducibility, historical-cause identification, physical-accuracy ranking, Gamma/DFT/application validation or migration completion"
+  ],
+  "new_model_evaluations": 0,
+  "frozen_source_executed": false,
+  "account_or_remote_access": false,
+  "publication_performed": false,
+  "schedule_changes": false,
+  "new_agents_or_environments": false,
+  "actions_denied": [],
+  "uncertain_action_outcomes": []
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "files_checked": 643,
+  "archive_members_checked": 9,
+  "evidence_hashes_checked": 284,
+  "checks": [
+    "English Han-text guard",
+    "home-path and credential-pattern scan",
+    "archive metadata and payload inspection",
+    "saved evidence hash verification"
+  ],
+  "scope": "Release integrity and bounded pattern checks; human review remains required."
+}

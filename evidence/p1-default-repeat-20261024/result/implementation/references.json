@@ -1,0 +1,65 @@
+{
+  "public_commit": "91147ff73336ce205717117b2ab7de3e62c5fdb1",
+  "references": {
+    "altered_C1": {
+      "public_directory": "evidence/dispatch-contrast-20261023/C1-default",
+      "files_sha256": {
+        "observations.json": "25f3c38f009dcd06a35c4b8921c1577ec238ce9aefd07ca05157773c51566207",
+        "input.cif": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+        "runtime.json": "309d56388b7d6b8b2a4bede18d89b8db6c3bb9ab55a5d9c6147f3b5f5b59e720",
+        "model-tensor-hashes.json": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf",
+        "input-array-hashes.json": "da540467bfa9b8d7cc1138af62b4ddcfc4d7e2d69ec022a01ef4ed9e8d167a43",
+        "neighbor-hashes.json": "f1ed95e4321e852ea790a931ae255bfd2ef81215dbb0c812b1c2e3f09db289f6",
+        "graph-hashes.json": "de46e2c84cc5826d72c88a6cd4caf9a6cc645aa0f8df840ddfdc21b38ab09617",
+        "model-output-hashes.json": "76ffa560bf5677b9f340155f5359b71959929d23e681d7490d719e28bde2bd0b"
+      }
+    },
+    "control_C0": {
+      "public_directory": "evidence/dispatch-contrast-20261023/C0-control",
+      "files_sha256": {
+        "observations.json": "a47332b54bd6c7ed0cca77eda631018efeff14f603f4976e4ae003bdaaf5e0e6",
+        "input.cif": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+        "runtime.json": "75f672cde55ce872923a7fb4795c7df123b2951ad56d2d2a567e189189f84140",
+        "model-tensor-hashes.json": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf",
+        "input-array-hashes.json": "da540467bfa9b8d7cc1138af62b4ddcfc4d7e2d69ec022a01ef4ed9e8d167a43",
+        "neighbor-hashes.json": "f1ed95e4321e852ea790a931ae255bfd2ef81215dbb0c812b1c2e3f09db289f6",
+        "graph-hashes.json": "de46e2c84cc5826d72c88a6cd4caf9a6cc645aa0f8df840ddfdc21b38ab09617",
+        "model-output-hashes.json": "e4fca3bec173447751239b8afbe317f62b227553cb73a8a512868f7eb31d942b"
+      }
+    },
+    "R1": {
+      "public_directory": "evidence/repaired-recorder-20261023/R1",
+      "files_sha256": {
+        "observations.json": "a47332b54bd6c7ed0cca77eda631018efeff14f603f4976e4ae003bdaaf5e0e6",
+        "input.cif": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+        "runtime.json": "3069b58454242805f7dfe6609b3ad66b4a684b0ab696c6e7380a0d1868c34c82",
+        "model-tensor-hashes.json": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf",
+        "input-array-hashes.json": "da540467bfa9b8d7cc1138af62b4ddcfc4d7e2d69ec022a01ef4ed9e8d167a43",
+        "neighbor-hashes.json": "f1ed95e4321e852ea790a931ae255bfd2ef81215dbb0c812b1c2e3f09db289f6",
+        "graph-hashes.json": "de46e2c84cc5826d72c88a6cd4caf9a6cc645aa0f8df840ddfdc21b38ab09617",
+        "model-output-hashes.json": "e4fca3bec173447751239b8afbe317f62b227553cb73a8a512868f7eb31d942b"
+      }
+    },
+    "baseline_001": {
+      "public_directory": "evidence/restoration-20261023/baseline-001",
+      "files_sha256": {
+        "observations.json": "383815c8bf8c0e129cde6a67e61665cad49959e08db15a608df2218c7b0c48b4",
+        "input.cif": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0"
+      }
+    },
+    "baseline_002": {
+      "public_directory": "evidence/restoration-20261023/baseline-002",
+      "files_sha256": {
+        "observations.json": "383815c8bf8c0e129cde6a67e61665cad49959e08db15a608df2218c7b0c48b4",
+        "input.cif": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0"
+      }
+    },
+    "restored": {
+      "public_directory": "evidence/restoration-20261023/replay",
+      "files_sha256": {
+        "observations.json": "a47332b54bd6c7ed0cca77eda631018efeff14f603f4976e4ae003bdaaf5e0e6",
+        "input.cif": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0"
+      }
+    }
+  }
+}

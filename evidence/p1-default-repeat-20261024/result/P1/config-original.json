@@ -1,0 +1,26 @@
+{
+  "run_id": "round-001",
+  "seed": 20261024,
+  "model": "0.3.0",
+  "device": "cpu",
+  "threads": 1,
+  "supercell": [[1,1,0],[-1,1,0],[0,0,2]],
+  "a_elements": ["Ca","Sr","Ba"],
+  "b_elements": ["Ti","Zr","Sn"],
+  "compositions": [
+    {"A": {"Ca":2,"Sr":1,"Ba":1}, "B":{"Ti":2,"Zr":1,"Sn":1}},
+    {"A": {"Ca":1,"Sr":2,"Ba":1}, "B":{"Ti":1,"Zr":2,"Sn":1}},
+    {"A": {"Ca":1,"Sr":1,"Ba":2}, "B":{"Ti":1,"Zr":1,"Sn":2}}
+  ],
+  "orderings_per_composition": 2,
+  "initial_displacement_A": 0.06,
+  "relax_fmax_eV_A": 0.025,
+  "relax_steps": 600,
+  "eos_strains": [-0.045,-0.03,-0.015,0,0.015,0.03,0.045],
+  "eos_fmax_eV_A": 0.03,
+  "eos_steps": 120,
+  "detailed_candidates": 2,
+  "gamma_displacement_A": 0.015,
+  "gamma_negative_tolerance_eV_A2": -0.05,
+  "restricted_energy_tolerance_eV_atom": 0.01
+}

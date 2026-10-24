@@ -1,0 +1,12 @@
+{
+  "primary_repeat_passed": true,
+  "outcome": "H1_exact_pairwise_repeat",
+  "original_baseline_acceptance": false,
+  "old_C1_gate": "FAILED; unchanged",
+  "old_C2": "not run",
+  "further_inference": "none under this single-use protocol",
+  "missing": [],
+  "errors": [],
+  "interpretation": "Pairwise equality only; no statistical or historical-cause claim. Changed outputs cannot isolate new guard-instrumentation effects from other unrecorded effects.",
+  "full_migration_complete": false
+}

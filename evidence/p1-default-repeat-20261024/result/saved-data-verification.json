@@ -1,0 +1,687 @@
+{
+  "scope": "Saved-data and hash verification by the executing role; not an independent new scientific reviewer and no additional model inference.",
+  "passed": true,
+  "checks_count": 170,
+  "checks": [
+    {
+      "name": "manifest_coverage:manifest-private.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:INFERENCE-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/input.cif",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/observations.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/pre-inference-runtime-check.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:P1/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:analysis-decision.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:analysis-execution.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:analysis.log",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:calculation.log",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:cpu-private.txt",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:decision.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:execution.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:freeze.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/analyze_saved.py",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/child_entry.py",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/control.py",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/freeze.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/guarded_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/implementation-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/preflight.py",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/preinference_guards.py",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/published_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/recorder-derivative.patch",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/references.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:implementation/runtime_compare.py",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:integrity.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:launch-release-private.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:preflight-execution.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:preflight.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:preflight.log",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:processes-private.txt",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest-private.json:release-private.json",
+      "passed": true
+    },
+    {
+      "name": "manifest_coverage:manifest.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:config-original.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:graph.npz",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:input.cif",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:observations.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:pre-inference-runtime-check.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:provenance.json",
+      "passed": true
+    },
+    {
+      "name": "digest:manifest.json:runtime.json",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:keys",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:atomic_numbers:finite",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:atomic_numbers:exact",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:positions:finite",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:positions:exact",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:cell:finite",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:cell:exact",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:pbc:finite",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:pbc:exact",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:frac_coords:finite",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:frac_coords:exact",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:lattice:finite",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:lattice:exact",
+      "passed": true
+    },
+    {
+      "name": "neighbors:keys",
+      "passed": true
+    },
+    {
+      "name": "neighbors:center:finite",
+      "passed": true
+    },
+    {
+      "name": "neighbors:center:exact",
+      "passed": true
+    },
+    {
+      "name": "neighbors:neighbor:finite",
+      "passed": true
+    },
+    {
+      "name": "neighbors:neighbor:exact",
+      "passed": true
+    },
+    {
+      "name": "neighbors:image:finite",
+      "passed": true
+    },
+    {
+      "name": "neighbors:image:exact",
+      "passed": true
+    },
+    {
+      "name": "neighbors:distance:finite",
+      "passed": true
+    },
+    {
+      "name": "neighbors:distance:exact",
+      "passed": true
+    },
+    {
+      "name": "graph:keys",
+      "passed": true
+    },
+    {
+      "name": "graph:atomic_number:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:atomic_number:exact",
+      "passed": true
+    },
+    {
+      "name": "graph:atom_frac_coord:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:atom_frac_coord:exact",
+      "passed": true
+    },
+    {
+      "name": "graph:atom_graph:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:atom_graph:exact",
+      "passed": true
+    },
+    {
+      "name": "graph:neighbor_image:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:neighbor_image:exact",
+      "passed": true
+    },
+    {
+      "name": "graph:directed2undirected:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:directed2undirected:exact",
+      "passed": true
+    },
+    {
+      "name": "graph:undirected2directed:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:undirected2directed:exact",
+      "passed": true
+    },
+    {
+      "name": "graph:bond_graph:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:bond_graph:exact",
+      "passed": true
+    },
+    {
+      "name": "graph:lattice:finite",
+      "passed": true
+    },
+    {
+      "name": "graph:lattice:exact",
+      "passed": true
+    },
+    {
+      "name": "model-output:keys",
+      "passed": true
+    },
+    {
+      "name": "model-output:atoms_per_graph:finite",
+      "passed": true
+    },
+    {
+      "name": "model-output:atoms_per_graph:exact",
+      "passed": true
+    },
+    {
+      "name": "model-output:m_0:finite",
+      "passed": true
+    },
+    {
+      "name": "model-output:m_0:exact",
+      "passed": true
+    },
+    {
+      "name": "model-output:crystal_fea:finite",
+      "passed": true
+    },
+    {
+      "name": "model-output:crystal_fea:exact",
+      "passed": true
+    },
+    {
+      "name": "model-output:f_0:finite",
+      "passed": true
+    },
+    {
+      "name": "model-output:f_0:exact",
+      "passed": true
+    },
+    {
+      "name": "model-output:s_0:finite",
+      "passed": true
+    },
+    {
+      "name": "model-output:s_0:exact",
+      "passed": true
+    },
+    {
+      "name": "model-output:e:finite",
+      "passed": true
+    },
+    {
+      "name": "model-output:e:exact",
+      "passed": true
+    },
+    {
+      "name": "all_runtime_except_label",
+      "passed": true
+    },
+    {
+      "name": "observations_file_exact_C1",
+      "passed": true
+    },
+    {
+      "name": "model_parameters_exact_C1",
+      "passed": true
+    },
+    {
+      "name": "C1:energy_eV:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "C1:energy_eV:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "C1:forces_eV_A:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "C1:forces_eV_A:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "C1:stress_eV_A3:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "C1:stress_eV_A3:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "C0:energy_eV:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "C0:energy_eV:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "C0:forces_eV_A:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "C0:forces_eV_A:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "C0:stress_eV_A3:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "C0:stress_eV_A3:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "R1:energy_eV:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "R1:energy_eV:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "R1:forces_eV_A:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "R1:forces_eV_A:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "R1:stress_eV_A3:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "R1:stress_eV_A3:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "baseline-001:energy_eV:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "baseline-001:energy_eV:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "baseline-001:forces_eV_A:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "baseline-001:forces_eV_A:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "baseline-001:stress_eV_A3:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "baseline-001:stress_eV_A3:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "baseline-002:energy_eV:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "baseline-002:energy_eV:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "baseline-002:forces_eV_A:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "baseline-002:forces_eV_A:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "baseline-002:stress_eV_A3:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "baseline-002:stress_eV_A3:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "replay:energy_eV:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "replay:energy_eV:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "replay:forces_eV_A:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "replay:forces_eV_A:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "replay:stress_eV_A3:all_signed_differences",
+      "passed": true
+    },
+    {
+      "name": "replay:stress_eV_A3:unchanged_threshold",
+      "passed": true
+    },
+    {
+      "name": "original_baselines_remain_failed",
+      "passed": true
+    },
+    {
+      "name": "one_graph_one_forward",
+      "passed": true
+    },
+    {
+      "name": "frozen_decision_H1_with_original_failure",
+      "passed": true
+    },
+    {
+      "name": "historical_C1_gate_still_false",
+      "passed": true
+    },
+    {
+      "name": "historical_C2_absent",
+      "passed": true
+    }
+  ]
+}

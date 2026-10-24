@@ -1,0 +1,433 @@
+{
+  "scope": "Review-only derivative; all raw scientific observations/arrays/source snapshots unchanged. Account/ownership/process records remain private. Not cleared for publication.",
+  "entries": [
+    {
+      "source_relative": "INFERENCE-ATTEMPT.json",
+      "source_sha256": "b8e9b81bc24931c31473bd66851127801adfe21a18630356009c1a26428edde9",
+      "derivative_relative": "INFERENCE-ATTEMPT.json",
+      "derivative_sha256": "b8e9b81bc24931c31473bd66851127801adfe21a18630356009c1a26428edde9",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/capture-summary.json",
+      "source_sha256": "c57651efa16a3391efe6e733fc0782dbb1161a729b8051761d0181bc817b809a",
+      "derivative_relative": "P1/capture-summary.json",
+      "derivative_sha256": "c57651efa16a3391efe6e733fc0782dbb1161a729b8051761d0181bc817b809a",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/capture_helpers.py",
+      "source_sha256": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+      "derivative_relative": "P1/capture_helpers.py",
+      "derivative_sha256": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/config-original.json",
+      "source_sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601",
+      "derivative_relative": "P1/config-original.json",
+      "derivative_sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/diagnostic_eval.py",
+      "source_sha256": "530bedca0d338401a8f3821fb21f98bb3569f26f6f1efe2f612d07ba0e052419",
+      "derivative_relative": "P1/diagnostic_eval.py",
+      "derivative_sha256": "530bedca0d338401a8f3821fb21f98bb3569f26f6f1efe2f612d07ba0e052419",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/expected-source-code.json",
+      "source_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "derivative_relative": "P1/expected-source-code.json",
+      "derivative_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/graph-hashes.json",
+      "source_sha256": "de46e2c84cc5826d72c88a6cd4caf9a6cc645aa0f8df840ddfdc21b38ab09617",
+      "derivative_relative": "P1/graph-hashes.json",
+      "derivative_sha256": "de46e2c84cc5826d72c88a6cd4caf9a6cc645aa0f8df840ddfdc21b38ab09617",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/graph.npz",
+      "source_sha256": "cf985ae32baba35f5b561cada2f2b970397380e5dd7e8015308e2a0ead17914f",
+      "derivative_relative": "P1/graph.npz",
+      "derivative_sha256": "cf985ae32baba35f5b561cada2f2b970397380e5dd7e8015308e2a0ead17914f",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/input-array-hashes.json",
+      "source_sha256": "da540467bfa9b8d7cc1138af62b4ddcfc4d7e2d69ec022a01ef4ed9e8d167a43",
+      "derivative_relative": "P1/input-array-hashes.json",
+      "derivative_sha256": "da540467bfa9b8d7cc1138af62b4ddcfc4d7e2d69ec022a01ef4ed9e8d167a43",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/input-arrays.npz",
+      "source_sha256": "6bd5750564082c350755fff9b11c0f2e8377f0e72b63669a14cede0b6574c136",
+      "derivative_relative": "P1/input-arrays.npz",
+      "derivative_sha256": "6bd5750564082c350755fff9b11c0f2e8377f0e72b63669a14cede0b6574c136",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/input.cif",
+      "source_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "derivative_relative": "P1/input.cif",
+      "derivative_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/manifest.json",
+      "source_sha256": "c8088d99f6c7689f717960ce602a5600e3950bfc70686c2eeffa5fdbbd3a86ec",
+      "derivative_relative": "P1/manifest.json",
+      "derivative_sha256": "c8088d99f6c7689f717960ce602a5600e3950bfc70686c2eeffa5fdbbd3a86ec",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/model-output-hashes.json",
+      "source_sha256": "76ffa560bf5677b9f340155f5359b71959929d23e681d7490d719e28bde2bd0b",
+      "derivative_relative": "P1/model-output-hashes.json",
+      "derivative_sha256": "76ffa560bf5677b9f340155f5359b71959929d23e681d7490d719e28bde2bd0b",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/model-output.npz",
+      "source_sha256": "a22788265bc177ec9b087459dc7a92755df466ec79306dd3e2dab225325f7a5b",
+      "derivative_relative": "P1/model-output.npz",
+      "derivative_sha256": "a22788265bc177ec9b087459dc7a92755df466ec79306dd3e2dab225325f7a5b",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/model-tensor-hashes.json",
+      "source_sha256": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf",
+      "derivative_relative": "P1/model-tensor-hashes.json",
+      "derivative_sha256": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/neighbor-hashes.json",
+      "source_sha256": "f1ed95e4321e852ea790a931ae255bfd2ef81215dbb0c812b1c2e3f09db289f6",
+      "derivative_relative": "P1/neighbor-hashes.json",
+      "derivative_sha256": "f1ed95e4321e852ea790a931ae255bfd2ef81215dbb0c812b1c2e3f09db289f6",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/neighbors.npz",
+      "source_sha256": "e236f975d9b4b80ad80b6ee70989b7775a2293da9bf3b6d7c22c55833011d08c",
+      "derivative_relative": "P1/neighbors.npz",
+      "derivative_sha256": "e236f975d9b4b80ad80b6ee70989b7775a2293da9bf3b6d7c22c55833011d08c",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/observations.json",
+      "source_sha256": "25f3c38f009dcd06a35c4b8921c1577ec238ce9aefd07ca05157773c51566207",
+      "derivative_relative": "P1/observations.json",
+      "derivative_sha256": "25f3c38f009dcd06a35c4b8921c1577ec238ce9aefd07ca05157773c51566207",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/pre-inference-runtime-check.json",
+      "source_sha256": "24f279ade79a83fff45d7af0a86a41c5a4af21460f5829e9cbce9da07f557535",
+      "derivative_relative": "P1/pre-inference-runtime-check.json",
+      "derivative_sha256": "24f279ade79a83fff45d7af0a86a41c5a4af21460f5829e9cbce9da07f557535",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/provenance.json",
+      "source_sha256": "0f1e49d5c6249eda14b9eabbe77650b427df8a299a700c41389f2dcfb067faf8",
+      "derivative_relative": "P1/provenance.json",
+      "derivative_sha256": "0f1e49d5c6249eda14b9eabbe77650b427df8a299a700c41389f2dcfb067faf8",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "P1/runtime.json",
+      "source_sha256": "8bffa7c478ee0a6d93a27567279cefc45038a2ff77d9d3e72261068e413547d5",
+      "derivative_relative": "P1/runtime.json",
+      "derivative_sha256": "8bffa7c478ee0a6d93a27567279cefc45038a2ff77d9d3e72261068e413547d5",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "analysis-decision.json",
+      "source_sha256": "8f334a138944cd6fef878a70493c47fe1961f79212a61aa4f679b1442b65193f",
+      "derivative_relative": "analysis-decision.json",
+      "derivative_sha256": "8f334a138944cd6fef878a70493c47fe1961f79212a61aa4f679b1442b65193f",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "analysis-execution.json",
+      "source_sha256": "2bd86fbb68a2ebab39972f519eb7afb84134f5ceb94013d77f014ee80e12763d",
+      "derivative_relative": "analysis-execution.json",
+      "derivative_sha256": "2bd86fbb68a2ebab39972f519eb7afb84134f5ceb94013d77f014ee80e12763d",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "analysis.log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derivative_relative": "analysis.log",
+      "derivative_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "calculation.log",
+      "source_sha256": "6a1dddaed1579a9c32b5e7557e2c8e9d9e77d9ca96dfd7f40a39b84242fbf2f2",
+      "derivative_relative": "calculation.log",
+      "derivative_sha256": "4a985442230519da07f3872b479b9bc06ff54aed101d6806de826535211cc4fc",
+      "action": "path_redaction",
+      "changes": [
+        "Runtime home path replaced with [RUNTIME_HOME]",
+        "Ephemeral Matplotlib cache path replaced with [TEMP_MATPLOTLIB_CACHE]"
+      ]
+    },
+    {
+      "source_relative": "comparisons.json",
+      "source_sha256": "342042e59a8523fa4fb6be2faad4670b3a37c214b88af49e0f64381626ebf422",
+      "derivative_relative": "comparisons.json",
+      "derivative_sha256": "342042e59a8523fa4fb6be2faad4670b3a37c214b88af49e0f64381626ebf422",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "cpu-private.txt",
+      "action": "excluded_private_record",
+      "source_hash": "retained in private ledger only"
+    },
+    {
+      "source_relative": "decision.json",
+      "source_sha256": "a3ddfe9689245d9d718146ad9db5478bcad48e9873d11839c75b36cdd6ee6ce9",
+      "derivative_relative": "decision.json",
+      "derivative_sha256": "a3ddfe9689245d9d718146ad9db5478bcad48e9873d11839c75b36cdd6ee6ce9",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "execution.json",
+      "source_sha256": "de74c8ec48abf1c4855b9e396c31e158040cbc802a013db2d1c1970540b0babb",
+      "derivative_relative": "execution.json",
+      "derivative_sha256": "de74c8ec48abf1c4855b9e396c31e158040cbc802a013db2d1c1970540b0babb",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "freeze.json",
+      "source_sha256": "fd475de8179f83f4cb71ffe7a8449ec43f72e7db20d501fe50354b87515ce1b9",
+      "derivative_relative": "freeze.json",
+      "derivative_sha256": "fd475de8179f83f4cb71ffe7a8449ec43f72e7db20d501fe50354b87515ce1b9",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/LICENSE",
+      "source_sha256": "85d73741cd43ff43b832520aeaaccffc6c019c1a04872a7ef1ccbffd990798af",
+      "derivative_relative": "implementation/LICENSE",
+      "derivative_sha256": "85d73741cd43ff43b832520aeaaccffc6c019c1a04872a7ef1ccbffd990798af",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/PROTOCOL.md",
+      "source_sha256": "8818e943d53d64884c9ed0ad7e7b35836627fb9cb611ec92e7a9c9dbcfc442c7",
+      "derivative_relative": "implementation/PROTOCOL.md",
+      "derivative_sha256": "8818e943d53d64884c9ed0ad7e7b35836627fb9cb611ec92e7a9c9dbcfc442c7",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/analyze_saved.py",
+      "source_sha256": "538e50281b2ec25589e226a8f12e5493ad44a9d1b62b136e9923efc24df5b59c",
+      "derivative_relative": "implementation/analyze_saved.py",
+      "derivative_sha256": "538e50281b2ec25589e226a8f12e5493ad44a9d1b62b136e9923efc24df5b59c",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/capture_helpers.py",
+      "source_sha256": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+      "derivative_relative": "implementation/capture_helpers.py",
+      "derivative_sha256": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/child_entry.py",
+      "source_sha256": "80f2ff4956dc9a6333bc47758e9d43c44adb7a38a4978510ac2d550b1bdc816e",
+      "derivative_relative": "implementation/child_entry.py",
+      "derivative_sha256": "80f2ff4956dc9a6333bc47758e9d43c44adb7a38a4978510ac2d550b1bdc816e",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/control.py",
+      "source_sha256": "96c528df9dea67d6185e2f04eb60ff47cddd05083f4dd2a3929a16e196d83380",
+      "derivative_relative": "implementation/control.py",
+      "derivative_sha256": "96c528df9dea67d6185e2f04eb60ff47cddd05083f4dd2a3929a16e196d83380",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/freeze.json",
+      "source_sha256": "fd475de8179f83f4cb71ffe7a8449ec43f72e7db20d501fe50354b87515ce1b9",
+      "derivative_relative": "implementation/freeze.json",
+      "derivative_sha256": "fd475de8179f83f4cb71ffe7a8449ec43f72e7db20d501fe50354b87515ce1b9",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/guarded_recorder.py",
+      "source_sha256": "530bedca0d338401a8f3821fb21f98bb3569f26f6f1efe2f612d07ba0e052419",
+      "derivative_relative": "implementation/guarded_recorder.py",
+      "derivative_sha256": "530bedca0d338401a8f3821fb21f98bb3569f26f6f1efe2f612d07ba0e052419",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/implementation-manifest.json",
+      "source_sha256": "7e4b3630e23d721486a59d6342fd303b25eeaab1dea4d1faf525f89696c42c7f",
+      "derivative_relative": "implementation/implementation-manifest.json",
+      "derivative_sha256": "7e4b3630e23d721486a59d6342fd303b25eeaab1dea4d1faf525f89696c42c7f",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/preflight.py",
+      "source_sha256": "c203ef0f9952179b1f00924867265086be67c6c829707d481bde1c60deb01615",
+      "derivative_relative": "implementation/preflight.py",
+      "derivative_sha256": "c203ef0f9952179b1f00924867265086be67c6c829707d481bde1c60deb01615",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/preinference_guards.py",
+      "source_sha256": "a39807ab765a5b41e61b23352c1a303563fca5d3b834c1bf9cc279e5a4c0df23",
+      "derivative_relative": "implementation/preinference_guards.py",
+      "derivative_sha256": "a39807ab765a5b41e61b23352c1a303563fca5d3b834c1bf9cc279e5a4c0df23",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/protocol.json",
+      "source_sha256": "65edd51f107018e757b920fcc339789373b1dbba498bd2f71aef7423d41d6d7f",
+      "derivative_relative": "implementation/protocol.json",
+      "derivative_sha256": "65edd51f107018e757b920fcc339789373b1dbba498bd2f71aef7423d41d6d7f",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/published_recorder.py",
+      "source_sha256": "5e2275fabbe387e17e1d71bfcd0089296b51cc05732f5f628d4303922a53f765",
+      "derivative_relative": "implementation/published_recorder.py",
+      "derivative_sha256": "5e2275fabbe387e17e1d71bfcd0089296b51cc05732f5f628d4303922a53f765",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/recorder-derivative.patch",
+      "source_sha256": "15847ac4d91cef03f4c8067c58677130032980004b550f39467b238f91ef2d7b",
+      "derivative_relative": "implementation/recorder-derivative.patch",
+      "derivative_sha256": "15847ac4d91cef03f4c8067c58677130032980004b550f39467b238f91ef2d7b",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/references.json",
+      "source_sha256": "20f9bddda35a5397e08a5bda1d9f013a3e43eddeb73463847035076e6620a67a",
+      "derivative_relative": "implementation/references.json",
+      "derivative_sha256": "20f9bddda35a5397e08a5bda1d9f013a3e43eddeb73463847035076e6620a67a",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "implementation/runtime_compare.py",
+      "source_sha256": "65c4ab2017a8485b6c38ff2c3395a21d7e450fdfcce36c19160b0722535700d6",
+      "derivative_relative": "implementation/runtime_compare.py",
+      "derivative_sha256": "65c4ab2017a8485b6c38ff2c3395a21d7e450fdfcce36c19160b0722535700d6",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "integrity.json",
+      "source_sha256": "6b52fff23d95b5d476712303f7223b88d8de5d1f465254aed58a82579bff19c9",
+      "derivative_relative": "integrity.json",
+      "derivative_sha256": "6b52fff23d95b5d476712303f7223b88d8de5d1f465254aed58a82579bff19c9",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "launch-release-private.json",
+      "action": "excluded_private_record",
+      "source_hash": "retained in private ledger only"
+    },
+    {
+      "source_relative": "manifest-private.json",
+      "action": "excluded_private_record",
+      "source_hash": "retained in private ledger only"
+    },
+    {
+      "source_relative": "preflight-execution.json",
+      "source_sha256": "03d597155b41a3e22717db9b9459fe9d70feb0418ba69c24b354dc2c900b6d05",
+      "derivative_relative": "preflight-execution.json",
+      "derivative_sha256": "03d597155b41a3e22717db9b9459fe9d70feb0418ba69c24b354dc2c900b6d05",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "preflight.json",
+      "source_sha256": "d374fafd66e97444695423285958cabcb74de4f4aece7af7628a8b82c80362bd",
+      "derivative_relative": "preflight.json",
+      "derivative_sha256": "d374fafd66e97444695423285958cabcb74de4f4aece7af7628a8b82c80362bd",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "preflight.log",
+      "source_sha256": "9723ab9ce63d83c235b3c98e0dae43b0711dc4be897611480438fa395145da17",
+      "derivative_relative": "preflight.log",
+      "derivative_sha256": "9723ab9ce63d83c235b3c98e0dae43b0711dc4be897611480438fa395145da17",
+      "action": "byte_identical_copy",
+      "changes": []
+    },
+    {
+      "source_relative": "processes-private.txt",
+      "action": "excluded_private_record",
+      "source_hash": "retained in private ledger only"
+    },
+    {
+      "source_relative": "release-private.json",
+      "action": "excluded_private_record",
+      "source_hash": "retained in private ledger only"
+    },
+    {
+      "source_relative": "verification/saved-data-verification.json",
+      "source_sha256": "d10fc4d5a7f9d4da1e766662a59182f969642cd1159234ea6580f54719af8129",
+      "derivative_relative": "saved-data-verification.json",
+      "derivative_sha256": "d10fc4d5a7f9d4da1e766662a59182f969642cd1159234ea6580f54719af8129",
+      "action": "byte_identical_copy",
+      "changes": []
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "protocol_id": "P1-default-repeat-20261024",
+  "status": "prepared_for_independent_review_and_parent_release",
+  "model_inference_performed": false,
+  "execution_release_required": true,
+  "public_commit": "91147ff73336ce205717117b2ab7de3e62c5fdb1",
+  "primary_reference": "evidence/dispatch-contrast-20261023/C1-default",
+  "protocol_markdown_sha256": "8818e943d53d64884c9ed0ad7e7b35836627fb9cb611ec92e7a9c9dbcfc442c7",
+  "implementation_manifest_sha256": "7e4b3630e23d721486a59d6342fd303b25eeaab1dea4d1faf525f89696c42c7f",
+  "references_sha256": "20f9bddda35a5397e08a5bda1d9f013a3e43eddeb73463847035076e6620a67a",
+  "maximum_single_points": 1,
+  "maximum_calculation_wall_seconds": 600,
+  "maximum_investigation_wall_seconds": 1800,
+  "seed": 20261024,
+  "cpu_affinity": [
+    0
+  ],
+  "numerical_threads": 1,
+  "torch_intra_op_threads": 1,
+  "torch_inter_op_threads": 1,
+  "ATEN_CPU_CAPABILITY": "default",
+  "expected_cpu_capability": "NO AVX",
+  "MKL_CBWR": null,
+  "primary_runtime_exclusions": [
+    "condition label only"
+  ],
+  "primary_output_acceptance": "All six model tensors exact dtype,shape,raw bytes; ASE observables exact with type-sensitive JSON; all invariants/capture/process gates pass",
+  "historical_replay_acceptance": {
+    "energy_eV_atol": 1e-05,
+    "forces_eV_A_atol": 1e-06,
+    "stress_eV_A3_atol": 1e-07,
+    "rtol": 0
+  },
+  "old_C1_gate": "FAILED; unchanged",
+  "old_C2": "not run",
+  "full_migration_complete": false,
+  "retry_permitted": false,
+  "subsequent_inference_authorized": false,
+  "publication_authorized": false,
+  "license": "Preserved MIT project license; public source snapshots retain their existing licensing",
+  "requested_configuration": {
+    "model": "gpt-6-astra",
+    "reasoning": "high",
+    "speed": "Standard where selectable",
+    "actual_variant_independently_attested": false
+  },
+  "publication_readback_receipt_sha256": "63efc41bfa9f142b3d6415039f0168fa347bf4a1dfa3bc1b9c940599d01f3b9b"
+}

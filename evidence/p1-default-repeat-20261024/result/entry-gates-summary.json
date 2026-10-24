@@ -1,0 +1,23 @@
+{
+  "public_reference_commit": "91147ff73336ce205717117b2ab7de3e62c5fdb1",
+  "complete_freeze_and_12_entries_verified_before_use": true,
+  "review_identity_verified": true,
+  "python_executable_hash_verified": true,
+  "clean_public_checkout": true,
+  "public_state_no_active_physical_job": true,
+  "current_environment_known_process_scan_no_overlap": true,
+  "parent_coordination_attestation_validated": true,
+  "usage_gate_validated_before_preflight_and_launch": true,
+  "gate_evidence_storage": "Private originals excluded from this derivative",
+  "ownership_boundary": "Parent coordination of the retained fallback and single existing schedule; no independent owner-computer scan. Known process-pattern checks are not a universal distributed lease.",
+  "attempts": 1,
+  "retry_performed": false,
+  "publication_performed": false,
+  "schedule_change_performed": false,
+  "requested_configuration": {
+    "model": "gpt-6-astra",
+    "reasoning": "high",
+    "speed": "Standard where selectable"
+  },
+  "observable_configuration": "GPT-6-based Codex developer identity; exact serving model/reasoning/speed not independently attested."
+}

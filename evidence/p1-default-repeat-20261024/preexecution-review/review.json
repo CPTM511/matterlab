@@ -1,0 +1,94 @@
+{
+  "status": "Independent pre-execution source and metadata review passed for exact identities; not an execution release",
+  "review_completed_at_utc": "2026-10-24T02:50:46.349659+00:00",
+  "protocol_id": "P1-default-repeat-20261024",
+  "reviewed_public_commit": "91147ff73336ce205717117b2ab7de3e62c5fdb1",
+  "reviewed_hashes": {
+    "PROTOCOL.md": "8818e943d53d64884c9ed0ad7e7b35836627fb9cb611ec92e7a9c9dbcfc442c7",
+    "protocol.json": "65edd51f107018e757b920fcc339789373b1dbba498bd2f71aef7423d41d6d7f",
+    "implementation-manifest.json": "7e4b3630e23d721486a59d6342fd303b25eeaab1dea4d1faf525f89696c42c7f",
+    "LICENSE": "85d73741cd43ff43b832520aeaaccffc6c019c1a04872a7ef1ccbffd990798af",
+    "analyze_saved.py": "538e50281b2ec25589e226a8f12e5493ad44a9d1b62b136e9923efc24df5b59c",
+    "capture_helpers.py": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+    "child_entry.py": "80f2ff4956dc9a6333bc47758e9d43c44adb7a38a4978510ac2d550b1bdc816e",
+    "control.py": "96c528df9dea67d6185e2f04eb60ff47cddd05083f4dd2a3929a16e196d83380",
+    "guarded_recorder.py": "530bedca0d338401a8f3821fb21f98bb3569f26f6f1efe2f612d07ba0e052419",
+    "preflight.py": "c203ef0f9952179b1f00924867265086be67c6c829707d481bde1c60deb01615",
+    "preinference_guards.py": "a39807ab765a5b41e61b23352c1a303563fca5d3b834c1bf9cc279e5a4c0df23",
+    "published_recorder.py": "5e2275fabbe387e17e1d71bfcd0089296b51cc05732f5f628d4303922a53f765",
+    "recorder-derivative.patch": "15847ac4d91cef03f4c8067c58677130032980004b550f39467b238f91ef2d7b",
+    "references.json": "20f9bddda35a5397e08a5bda1d9f013a3e43eddeb73463847035076e6620a67a",
+    "runtime_compare.py": "65c4ab2017a8485b6c38ff2c3395a21d7e450fdfcce36c19160b0722535700d6"
+  },
+  "review_markdown_sha256": "01a4e1ee61098ab79977b8a660fbc0e4dca2213fd2cb828e4ea164c44c3951d6",
+  "requested_identity": {
+    "model": "gpt-6-astra",
+    "reasoning": "high",
+    "speed": "Standard where selectable"
+  },
+  "observable_identity": "Developer identifies GPT-6-based Codex. Parent reports delegation model/reasoning settings; exact backend variant, effort and service tier are not independently attested; no speed selector exposed.",
+  "checks": {
+    "initial_integrity_passed": 685,
+    "installed_metadata_preflight_passed": 1498,
+    "final_analyzer_comparator_fixtures_passed": 12,
+    "release_adversarial_fixtures_passed": 39,
+    "dummy_process_token_fixtures_passed": 5,
+    "parent_death_fixture_passed": 1,
+    "final_decision_fixtures_passed": 31,
+    "final_hash_bindings_passed": 23,
+    "implementation_entries_verified": 12
+  },
+  "verification_boundary": [
+    "Local pinned public source/reference and actual installed-runtime metadata/hash checks",
+    "Saved-data arithmetic and explicitly synthetic malformed-data fixtures",
+    "Dummy process cleanup and exclusive-marker tests; no full controller or inference branch execution",
+    "Source review of final coordination, frozen-bundle recheck and final process/resource decision logic",
+    "Parent supplies current cloud ownership/live remote observation; reviewer did not query account/scheduler/other hosts",
+    "Publication receipt digest verified, but no new full public export sanitation audit in this review",
+    "Additive freeze envelope is to follow this review and is not included in its hash boundary"
+  ],
+  "evidence_sha256": {
+    "initial-integrity.json": "f126d6b47e888819c2b2ff045ce806aa3758215785f734bfa548ba6cd3d6fe0c",
+    "draft-comparator-adversarial-review.json": "e3f28852196c9aab588da26281967ce7c6652c344bbe6f80b5191965d637fb27",
+    "design-review.json": "8c8dc5719a2451a5c4e8bb1e799f5ec974f0bbab3afcc024ff6f55ba22a023f6",
+    "saved-float32-conversion-fixture.json": "460ce84d3e6bc4a5e4ad31e32a82a47b47c3ec35a2da4445e1e9780b57408b4d",
+    "proposed-comparator-fixtures-first-review.json": "69d1586542c2efefed3d0689e0db25e7cdb4d2b3baa0cc6a65f63b27466dec24",
+    "recorder-derivative-review.json": "9bdb099ebcb1de8f2a8d2899bedd9b5459cd11046d194e47d4daa0aeee31ea51",
+    "metadata-preflight/preflight.json": "d374fafd66e97444695423285958cabcb74de4f4aece7af7628a8b82c80362bd",
+    "analyzer-fixture-review.json": "c79016e267cf474079c6ad24e1ced379f5116cdc756959b1265023596dec822c",
+    "process-fixture-review.json": "ade15edb3ca036205a2ba69acd0ecd0fe8dc6c0f0cd87f04ae94e8edc8aed93e",
+    "parent-death-fixture-review.json": "fb4c0db4020fb0a3c25dde43399398016fb7f71568f0b096a5d9c437cc93b37e",
+    "release-fixture-review.json": "689831bec9e056b549ec0f7c3a1c5fc4ca522ff219bc5d6bee86ce95a6de7ec0",
+    "final-decision-fixture-review.json": "01a367b260fec7c2aa5e5edfed4ff52bb9f0c3e8d0032434919cd8fea69ce663",
+    "final-hash-verification.json": "8e37db49d23230cbfaebc91c66bc922dabc7acefff9e5391c9cb7e1c0b6cf44b"
+  },
+  "resolved_findings": [
+    "Type-insensitive metadata equality",
+    "Malformed duplicate capability detection",
+    "SIGTERM cleanup and parent-death protection",
+    "Failure elapsed-time preservation and refreshed launch attestation",
+    "Partial/corrupt capture decision preservation",
+    "Raw config and complete recorder-manifest verification",
+    "Separation of H1/H2/inconclusive assumptions",
+    "Final calculation/investigation resource acceptance",
+    "Repeated clean-source/STATE/implementation coordination checks"
+  ],
+  "material_source_review_blockers": [],
+  "pending_gates": [
+    "Additive freeze envelope pinning this review and exact implementation",
+    "Parent reading and explicit release of exact protocol/implementation",
+    "Fresh future usage, ownership, fallback/scheduler and remote/local coordination checks"
+  ],
+  "unresolved_scientific_limits": [
+    "P1 has not run; altered-condition pairwise repeatability remains unknown",
+    "Original force/stress tolerance failures and frozen C1 failure remain unchanged; C2 remains unrun",
+    "Guard derivative lacks physical validation; any mismatch cannot isolate instrumentation effects",
+    "No statistical reproducibility, historical backend attribution, physical-accuracy ranking, Gamma/DFT/application acceptance or full migration conclusion"
+  ],
+  "model_inference_performed": false,
+  "actual_protocol_attempt_claimed": false,
+  "execution_release_created": false,
+  "publication_performed": false,
+  "actions_denied": [],
+  "uncertain_action_outcomes": []
+}

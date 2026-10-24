@@ -1,0 +1,12 @@
+{
+  "attempts": 1,
+  "completed": true,
+  "timeout": false,
+  "started_at_utc": "2026-10-24T03:01:12.491792+00:00",
+  "requested_timeout_seconds": 594,
+  "returncode": 0,
+  "wall_seconds": 4.427294630000688,
+  "ended_at_utc": "2026-10-24T03:01:16.919139+00:00",
+  "investigation_elapsed_seconds": 65.134202,
+  "investigation_limit_respected": true
+}

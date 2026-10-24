@@ -1,0 +1,935 @@
+{
+  "scope": "Read-only new/changed public payload review; no science recalculation, model inference, remote/account/schedule action or publication",
+  "passed": false,
+  "check_count": 212,
+  "checks": [
+    {
+      "name": "only-authorized-existing-files-changed",
+      "passed": true
+    },
+    {
+      "name": "only-P1-payload-and-checkpoint-added",
+      "passed": true
+    },
+    {
+      "name": "unchanged-publication-auditor",
+      "passed": true
+    },
+    {
+      "name": "whole-55-file-result-subtree-identical",
+      "passed": true
+    },
+    {
+      "name": "whole-result-archive-identical",
+      "passed": true
+    },
+    {
+      "name": "parent-accepted-identity:result/REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "parent-accepted-identity:independent-review/REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "integrated:complete-manifest",
+      "passed": true
+    },
+    {
+      "name": "new-payload:complete-manifest",
+      "passed": true
+    },
+    {
+      "name": "result:complete-manifest",
+      "passed": true
+    },
+    {
+      "name": "recorder:complete-manifest",
+      "passed": true
+    },
+    {
+      "name": "source-transform-hashes:independent-review/REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "source-transform-byte-identity:independent-review/REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "source-transform-hashes:independent-review/review-summary.json",
+      "passed": true
+    },
+    {
+      "name": "source-transform-byte-identity:independent-review/review-summary.json",
+      "passed": true
+    },
+    {
+      "name": "source-transform-hashes:independent-review/verification.json",
+      "passed": true
+    },
+    {
+      "name": "source-transform-byte-identity:independent-review/verification.json",
+      "passed": true
+    },
+    {
+      "name": "source-transform-hashes:independent-review/cross-representation-clarification.json",
+      "passed": true
+    },
+    {
+      "name": "source-transform-byte-identity:independent-review/cross-representation-clarification.json",
+      "passed": true
+    },
+    {
+      "name": "source-transform-hashes:independent-review/final-preservation.json",
+      "passed": true
+    },
+    {
+      "name": "source-transform-byte-identity:independent-review/final-preservation.json",
+      "passed": true
+    },
+    {
+      "name": "source-transform-hashes:independent-review/verify_saved_evidence.py",
+      "passed": true
+    },
+    {
+      "name": "only-four-documented-source-placeholder-replacements",
+      "passed": true
+    },
+    {
+      "name": "source-transform-hashes:preexecution-review/REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "source-transform-byte-identity:preexecution-review/REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "source-transform-hashes:preexecution-review/review.json",
+      "passed": true
+    },
+    {
+      "name": "source-transform-byte-identity:preexecution-review/review.json",
+      "passed": true
+    },
+    {
+      "name": "redacted-source-explicitly-nonstandalone",
+      "passed": true
+    },
+    {
+      "name": "prior-public-provenance:publication/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "prior-public-provenance:publication/audit.json",
+      "passed": true
+    },
+    {
+      "name": "prior-public-provenance:project/STATE.json",
+      "passed": true
+    },
+    {
+      "name": "license-preserved",
+      "passed": true
+    },
+    {
+      "name": "historical-diagnosis-unmodified",
+      "passed": true
+    },
+    {
+      "name": "historical-R1-unmodified",
+      "passed": true
+    },
+    {
+      "name": "historical-C1-unmodified",
+      "passed": true
+    },
+    {
+      "name": "migration-incomplete-and-fallback-retained",
+      "passed": true
+    },
+    {
+      "name": "milestones-unmodified",
+      "passed": true
+    },
+    {
+      "name": "no-current-or-future-inference-authorized",
+      "passed": true
+    },
+    {
+      "name": "reviewer-failure-preserved",
+      "passed": true
+    },
+    {
+      "name": "clarification-preserved",
+      "passed": true
+    },
+    {
+      "name": "historical-C1-gate-remains-failed",
+      "passed": true
+    },
+    {
+      "name": "no-historical-C2-artifact",
+      "passed": true
+    },
+    {
+      "name": "baseline-failure-retained",
+      "passed": true
+    },
+    {
+      "name": "state-only-declared-current-fields",
+      "passed": true
+    },
+    {
+      "name": "checkpoint-current-scope",
+      "passed": true
+    },
+    {
+      "name": "archive-exact-result-file-set",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:INFERENCE-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:INFERENCE-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/graph.npz:atomic_number.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/graph.npz:atom_frac_coord.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/graph.npz:atom_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/graph.npz:neighbor_image.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/graph.npz:directed2undirected.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/graph.npz:undirected2directed.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/graph.npz:bond_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/graph.npz:lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/input-arrays.npz:atomic_numbers.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/input-arrays.npz:positions.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/input-arrays.npz:cell.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/input-arrays.npz:pbc.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/input-arrays.npz:frac_coords.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/input-arrays.npz:lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/input.cif",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/input.cif",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/model-output.npz:atoms_per_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/model-output.npz:m_0.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/model-output.npz:crystal_fea.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/model-output.npz:f_0.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/model-output.npz:s_0.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/model-output.npz:e.npy",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/neighbors.npz:center.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/neighbors.npz:neighbor.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/neighbors.npz:image.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result-review.tar.gz:P1/neighbors.npz:distance.npy",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/observations.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/observations.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/pre-inference-runtime-check.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/pre-inference-runtime-check.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:P1/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:P1/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:analysis-decision.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:analysis-decision.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:analysis-execution.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:analysis-execution.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:analysis.log",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:analysis.log",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:calculation.log",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:calculation.log",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:completion.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:completion.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:decision.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:decision.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:entry-gates-summary.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:entry-gates-summary.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:execution.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:execution.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:freeze.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:freeze.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/analyze_saved.py",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/analyze_saved.py",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/child_entry.py",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/child_entry.py",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/control.py",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/control.py",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/freeze.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/freeze.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/guarded_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/guarded_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/implementation-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/implementation-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/preflight.py",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/preflight.py",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/preinference_guards.py",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/preinference_guards.py",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/published_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/published_recorder.py",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/recorder-derivative.patch",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/recorder-derivative.patch",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/references.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/references.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:implementation/runtime_compare.py",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:implementation/runtime_compare.py",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:integrity.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:integrity.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:manifest.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:manifest.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:preflight-execution.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:preflight-execution.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:preflight.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:preflight.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:preflight.log",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:preflight.log",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:saved-data-verification.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:saved-data-verification.json",
+      "passed": true
+    },
+    {
+      "name": "normalized-archive:transformation-ledger.json",
+      "passed": true
+    },
+    {
+      "name": "archive-result-bytes:transformation-ledger.json",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/graph.npz:atomic_number.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/graph.npz:atom_frac_coord.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/graph.npz:atom_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/graph.npz:neighbor_image.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/graph.npz:directed2undirected.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/graph.npz:undirected2directed.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/graph.npz:bond_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/graph.npz:lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/input-arrays.npz:atomic_numbers.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/input-arrays.npz:positions.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/input-arrays.npz:cell.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/input-arrays.npz:pbc.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/input-arrays.npz:frac_coords.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/input-arrays.npz:lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/model-output.npz:atoms_per_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/model-output.npz:m_0.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/model-output.npz:crystal_fea.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/model-output.npz:f_0.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/model-output.npz:s_0.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/model-output.npz:e.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/neighbors.npz:center.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/neighbors.npz:neighbor.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/neighbors.npz:image.npy",
+      "passed": true
+    },
+    {
+      "name": "safe-NPZ:evidence/p1-default-repeat-20261024/result/P1/neighbors.npz:distance.npy",
+      "passed": true
+    },
+    {
+      "name": "bounded-scan-no-findings",
+      "passed": false
+    },
+    {
+      "name": "private-file-excluded:release-private.json",
+      "passed": true
+    },
+    {
+      "name": "private-file-excluded:launch-release-private.json",
+      "passed": true
+    },
+    {
+      "name": "private-file-excluded:processes-private.txt",
+      "passed": true
+    },
+    {
+      "name": "private-file-excluded:cpu-private.txt",
+      "passed": true
+    },
+    {
+      "name": "private-file-excluded:manifest-private.json",
+      "passed": true
+    },
+    {
+      "name": "private-file-excluded:review-start-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "candidate-unchanged-by-review",
+      "passed": true
+    }
+  ],
+  "manifest_entries": {
+    "integrated": 713,
+    "new-payload": 69,
+    "result": 54,
+    "recorder": 19
+  },
+  "public_files": 714,
+  "new_files": 71,
+  "new_payload_files": 70,
+  "changed_existing_files": [
+    "project/STATE.json",
+    "publication/manifest.json",
+    "publication/audit.json"
+  ],
+  "state_diff": [
+    {
+      "path": "/cloud_migration/status",
+      "old": "Independent isolated GitHub-backed resume and R1 recorder capture verified. Original force/stress acceptance remains failed. Fresh C0 exactly matches R1; C1 ATen default dispatch changes derivatives at invariant captured inputs/graphs/weights, but frozen combined runtime gate failed on duplicate intended capability metadata. No C2; full migration incomplete and fallback retained.",
+      "new": "GitHub-backed resume and recorder capture verified; P1 adds one exact pairwise repeat of saved C1 under the declared default-dispatch fingerprint. Original baseline force/stress acceptance and historical C1 gate remain failed; C2 unrun. Full migration incomplete and non-overlapping fallback retained."
+    },
+    {
+      "path": "/next_action",
+      "old": "Parent review of integrated R1 and bounded dispatch evidence. No inference remains authorized under either completed protocol. Decide whether a separately declared altered-condition repeatability test with semantic capability comparison would change the reproduction policy; do not search backend settings to match historical baselines. Refresh usage and ownership before future work.",
+      "new": "Prepare a separately frozen bounded reference/C03-005 Gamma numerical-diagnosis protocol and implementation for independent pre-execution review. No Gamma or further model evaluation is authorized; refresh included usage and ownership before a later substantial stage. Preserve original baseline failures, failed historical C1 gate and unrun C2."
+    },
+    {
+      "path": "/p1_default_repeat",
+      "change": "added",
+      "new": {
+        "evidence": "evidence/p1-default-repeat-20261024",
+        "protocol_id": "P1-default-repeat-20261024",
+        "new_evaluations": 1,
+        "capture_integrity": "passed:120 checks",
+        "same_condition_repeat": "H1 exact C1 model-tensor/ASE equality with complete primary runtime match except label",
+        "original_baseline_acceptance": "failed; unchanged original thresholds",
+        "historical_C1_gate": "failed; unchanged",
+        "historical_C2": "not run",
+        "independent_review": "Accepted by parent;1426/1427 initial checks passed with preserved reviewer cross-representation assertion error, clarified by four source-backed relation checks; no evidence defect",
+        "calculation_process_wall_seconds": 4.427294630000688,
+        "physical_job_active": false,
+        "remaining_authorized_inference": 0,
+        "full_migration_complete": false
+      }
+    },
+    {
+      "path": "/phase",
+      "old": "gamma_numerical_diagnosis_next",
+      "new": "gamma_protocol_design_and_review_next"
+    },
+    {
+      "path": "/updated_at_utc",
+      "old": "2026-10-23T19:30:54.739442+00:00",
+      "new": "2026-10-24T03:23:25.974809+00:00"
+    }
+  ],
+  "new_archive_members_inspected": 55,
+  "NPZ_members_inspected_in_subtree_and_archive": 48,
+  "sanitation_findings": [
+    {
+      "file": "evidence/p1-default-repeat-20261024/independent-review/verify_saved_evidence.redacted.py",
+      "pattern": "private-environment"
+    }
+  ],
+  "identities": {
+    "integrated_manifest_sha256": "b50a43b28f6e004eb843b0de847008f1a72fec6f260132859946998d108f67e9",
+    "integrated_audit_sha256": "6befe4e5b012071fe099a2455338304753cbce86005b09a076ece2d757c34eab",
+    "evidence_manifest_sha256": "d95a6ef30fcea29309958d56327b596e380be89e336b21a188bf202aa900a284",
+    "state_sha256": "be8038276f61c9c23974706a4051940c6116e4a442d515381cae9a28a8a0efbc",
+    "checkpoint_sha256": "53fcfcfe19bc8ee77766a71a452e050508232e6bc16225cfa3b24a67e7a4a079",
+    "publication_transformation_sha256": "472ea8ba4b6441a2b755253136bf595bc8763a6c762b90833de6e9e83c5702e8",
+    "accepted_report_sha256": "df58b4ed9bbdb1ae9bf70a75ad6d15b0d8a2fb1b4a74390805e68977a2e9dfb0",
+    "accepted_review_sha256": "e7fa495296550b65e34b6d4873e71c10428a2d2fe052f49bb76c4511cd51fefa",
+    "redacted_verifier_sha256": "e3f83203e049d08e82e7d1f41b2d319707f1a492b1cc388bea3371f179fedf68"
+  },
+  "limits": [
+    "The local clone .git metadata is excluded from the public manifest and must not be published as an archive or private history",
+    "Redacted verifier is provenance only and explicitly not a rerun or self-contained executable verifier",
+    "Private originals remain required to rerun certain historical provenance checks; those records are deliberately excluded",
+    "Any additive incorporation of this publication review changes the envelope and requires regenerated manifests plus the unchanged full audit again"
+  ]
+}

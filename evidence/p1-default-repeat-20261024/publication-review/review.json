@@ -1,0 +1,66 @@
+{
+  "status": "No unresolved finding in exact pre-incorporation publication candidate; one retained generic-pattern scanner flag manually classified as false positive",
+  "reviewed_at_utc": "2026-10-24T03:27:45.959480+00:00",
+  "review": {
+    "file": "REVIEW.md",
+    "bytes": 8132,
+    "characters": 8132,
+    "sha256": "91f4c5d604ebebdebae6e28ce99fe242c9b591259831f7d0a217421fae3540e4"
+  },
+  "candidate_identities": {
+    "integrated_manifest_sha256": "b50a43b28f6e004eb843b0de847008f1a72fec6f260132859946998d108f67e9",
+    "integrated_audit_sha256": "6befe4e5b012071fe099a2455338304753cbce86005b09a076ece2d757c34eab",
+    "evidence_manifest_sha256": "d95a6ef30fcea29309958d56327b596e380be89e336b21a188bf202aa900a284",
+    "state_sha256": "be8038276f61c9c23974706a4051940c6116e4a442d515381cae9a28a8a0efbc",
+    "checkpoint_sha256": "53fcfcfe19bc8ee77766a71a452e050508232e6bc16225cfa3b24a67e7a4a079",
+    "publication_transformation_sha256": "472ea8ba4b6441a2b755253136bf595bc8763a6c762b90833de6e9e83c5702e8",
+    "accepted_report_sha256": "df58b4ed9bbdb1ae9bf70a75ad6d15b0d8a2fb1b4a74390805e68977a2e9dfb0",
+    "accepted_review_sha256": "e7fa495296550b65e34b6d4873e71c10428a2d2fe052f49bb76c4511cd51fefa",
+    "redacted_verifier_sha256": "e3f83203e049d08e82e7d1f41b2d319707f1a492b1cc388bea3371f179fedf68"
+  },
+  "full_unchanged_audit": {
+    "passed": true,
+    "files_checked": 714,
+    "archive_members_checked": 64,
+    "evidence_hashes_checked": 284,
+    "checks": [
+      "English Han-text guard",
+      "home-path and credential-pattern scan",
+      "archive metadata and payload inspection",
+      "saved evidence hash verification"
+    ],
+    "scope": "Release integrity and bounded pattern checks; human review remains required."
+  },
+  "targeted_checks": {
+    "total": 212,
+    "passed": 211,
+    "flagged": 1,
+    "first_pass_preserved_sha256": "9382705be6a0a6e4e55893073b35de4224ab9938bf64e3191436682ee4e91f46",
+    "scanner_clarification_sha256": "79f59e5ad8c870203e3f579acb7463a7614ee38654d995b68207134892fa7b40",
+    "classification": "Scanner false positive: generic detection prefix in preserved source, no actual environment identifier"
+  },
+  "accepted_report_and_review_preserved": true,
+  "result_55_files_and_archive_preserved": true,
+  "historical_scientific_evidence_unchanged": true,
+  "current_state_changes_limited_to_planning_and_accepted_P1_status": true,
+  "private_exclusions_verified": true,
+  "redacted_source_is_provenance_not_standalone_verifier": true,
+  "unresolved_findings": [],
+  "post_copy_boundary": "If this exact review/report JSON is copied additively, regenerate manifests, verify copied identities and rerun unchanged full audit. Later envelope hashes are outside this review; scientific/unrelated payload changes need renewed review.",
+  "requested_identity": {
+    "model": "GPT-6 Astra",
+    "reasoning": "High",
+    "speed": "Standard where selectable",
+    "existing_role_reused": true
+  },
+  "observable_identity": "GPT-6-based Codex developer identity; parent reports delegation settings, exact serving variant/effort/tier independently unattested",
+  "model_evaluations": 0,
+  "science_recalculations": 0,
+  "candidate_edits": false,
+  "account_or_remote_access": false,
+  "publication_performed": false,
+  "schedule_actions": false,
+  "delegation": false,
+  "actions_denied": [],
+  "uncertain_action_outcomes": []
+}

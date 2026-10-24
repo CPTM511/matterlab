@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "files_checked": 643,
-  "archive_members_checked": 9,
+  "files_checked": 718,
+  "archive_members_checked": 64,
   "evidence_hashes_checked": 284,
   "checks": [
     "English Han-text guard",

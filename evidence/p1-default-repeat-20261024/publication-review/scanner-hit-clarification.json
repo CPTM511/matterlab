@@ -1,0 +1,14 @@
+{
+  "scope": "Manual classification of a bounded scanner hit; no candidate edit",
+  "first_pass_sha256": "9382705be6a0a6e4e55893073b35de4224ab9938bf64e3191436682ee4e91f46",
+  "flagged_file": "independent-review/verify_saved_evidence.redacted.py",
+  "source_sha256": "e3f83203e049d08e82e7d1f41b2d319707f1a492b1cc388bea3371f179fedf68",
+  "matching_lines": [
+    "'private-environment-id': rb'ccarenv_',"
+  ],
+  "generic_detection_literal_only": true,
+  "actual_suffixed_environment_identifier_present": false,
+  "classification": "Scanner false positive: generic detection prefix in preserved source, no actual environment identifier",
+  "candidate_modified": false,
+  "unresolved_sanitation_finding": false
+}

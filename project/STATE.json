@@ -1,7 +1,7 @@
 {
   "project": "MatterLab",
   "updated_date": "2026-10-24",
-  "phase": "gamma_numerical_diagnosis_next",
+  "phase": "gamma_protocol_design_and_review_next",
   "overall_complete": false,
   "public_language": "English",
   "public_repository": "https://github.com/CPTM511/matterlab",
@@ -21,7 +21,7 @@
     "docs/delivery-checks-en.json"
   ],
   "active_work": [],
-  "next_action": "Parent review of integrated R1 and bounded dispatch evidence. No inference remains authorized under either completed protocol. Decide whether a separately declared altered-condition repeatability test with semantic capability comparison would change the reproduction policy; do not search backend settings to match historical baselines. Refresh usage and ownership before future work.",
+  "next_action": "Prepare a separately frozen bounded reference/C03-005 Gamma numerical-diagnosis protocol and implementation for independent pre-execution review. No Gamma or further model evaluation is authorized; refresh included usage and ownership before a later substantial stage. Preserve original baseline failures, failed historical C1 gate and unrun C2.",
   "constraints": [
     "No additional spending",
     "No paid APIs or paid remote compute; subscription-included native cloud execution is authorized",
@@ -42,7 +42,7 @@
     "target_model": "gpt-6-astra",
     "target_reasoning": "high",
     "target_cadence": "Every four hours, Asia/Shanghai",
-    "status": "Independent isolated GitHub-backed resume and R1 recorder capture verified. Original force/stress acceptance remains failed. Fresh C0 exactly matches R1; C1 ATen default dispatch changes derivatives at invariant captured inputs/graphs/weights, but frozen combined runtime gate failed on duplicate intended capability metadata. No C2; full migration incomplete and fallback retained.",
+    "status": "GitHub-backed resume and recorder capture verified; P1 adds one exact pairwise repeat of saved C1 under the declared default-dispatch fingerprint. Original baseline force/stress acceptance and historical C1 gate remain failed; C2 unrun. Full migration incomplete and non-overlapping fallback retained.",
     "handoff_instructions": "project/CLOUD_HANDOFF.md",
     "acceptance": "project/CLOUD_MIGRATION.md",
     "local_fallback_active": true,
@@ -108,7 +108,7 @@
     "physical_job_active": false,
     "scope": "Historical D1 checkpoint fields retained unchanged; current recorder and dispatch outcomes are recorded in repaired_recorder_validation and cpu_dispatch_contrast."
   },
-  "updated_at_utc": "2026-10-23T19:30:54.739442+00:00",
+  "updated_at_utc": "2026-10-24T03:23:25.974809+00:00",
   "repaired_recorder_validation": {
     "evidence": "evidence/repaired-recorder-20261023",
     "evaluations": 1,
@@ -129,6 +129,21 @@
     "numerical_acceptance": "failed against original baselines",
     "historical_cause": "unidentified",
     "physical_job_active": false,
+    "full_migration_complete": false
+  },
+  "p1_default_repeat": {
+    "evidence": "evidence/p1-default-repeat-20261024",
+    "protocol_id": "P1-default-repeat-20261024",
+    "new_evaluations": 1,
+    "capture_integrity": "passed:120 checks",
+    "same_condition_repeat": "H1 exact C1 model-tensor/ASE equality with complete primary runtime match except label",
+    "original_baseline_acceptance": "failed; unchanged original thresholds",
+    "historical_C1_gate": "failed; unchanged",
+    "historical_C2": "not run",
+    "independent_review": "Accepted by parent;1426/1427 initial checks passed with preserved reviewer cross-representation assertion error, clarified by four source-backed relation checks; no evidence defect",
+    "calculation_process_wall_seconds": 4.427294630000688,
+    "physical_job_active": false,
+    "remaining_authorized_inference": 0,
     "full_migration_complete": false
   }
 }

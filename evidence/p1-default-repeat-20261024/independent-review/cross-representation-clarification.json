@@ -1,0 +1,23 @@
+{
+  "status": "Reviewer assertion clarified; original failed first-pass check retained unchanged",
+  "original_verification_sha256": "7915fc73622a4e2d2e466a59df71b9f0a186b49e0b4917ab97a93610630a1acd",
+  "original_failed_check": "consumed-neighbor-graph",
+  "cause": "The reviewer incorrectly required raw byte/dtype equality across two different representations. Consumed indices are int64; the converter explicitly creates graph indices as torch.int32. The frozen analyzer requires their value relation, not cross-representation byte equality.",
+  "source_sha256": "565a0a3007613323720e2ec3ab06e84043b6970a6a150234222123cee9979c0f",
+  "frozen_analyzer_sha256": "538e50281b2ec25589e226a8f12e5493ad44a9d1b62b136e9923efc24df5b59c",
+  "source_explicit_int32_construction": true,
+  "frozen_analyzer_uses_value_equality": true,
+  "checks": {
+    "index_values_equal": true,
+    "index_conversion_lossless": true,
+    "graph_bytes_equal_after_declared_int32_conversion": true,
+    "image_bytes_equal_after_declared_float32_conversion": true
+  },
+  "index_ranges": {
+    "minimum": 0,
+    "maximum": 19
+  },
+  "primary_rule_preserved": "Every P1 input, neighbor and graph array separately matches its corresponding C1 array in dtype, shape and bytes. The six model tensors also match C1. No primary rule or frozen result is changed.",
+  "original_gate_modified": false,
+  "inference_performed": false
+}

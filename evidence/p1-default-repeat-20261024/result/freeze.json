@@ -1,0 +1,15 @@
+{
+  "protocol_id": "P1-default-repeat-20261024",
+  "status": "reviewed_for_parent_release",
+  "execution_release_required": true,
+  "execution_release_created": false,
+  "model_inference_performed": false,
+  "frozen_at_utc": "2026-10-24T02:52:04.744436+00:00",
+  "protocol_sha256": "65edd51f107018e757b920fcc339789373b1dbba498bd2f71aef7423d41d6d7f",
+  "protocol_markdown_sha256": "8818e943d53d64884c9ed0ad7e7b35836627fb9cb611ec92e7a9c9dbcfc442c7",
+  "implementation_manifest_sha256": "7e4b3630e23d721486a59d6342fd303b25eeaab1dea4d1faf525f89696c42c7f",
+  "independent_review_markdown_sha256": "01a4e1ee61098ab79977b8a660fbc0e4dca2213fd2cb828e4ea164c44c3951d6",
+  "independent_review_json_sha256": "c8bff51a3fa03899a335e9c7e02249a23cb00881c52d1a9c9954c11a1ec9d7ad",
+  "public_commit": "91147ff73336ce205717117b2ab7de3e62c5fdb1",
+  "envelope_boundary": "Additive identity envelope created after independent review; reviewed bytes unchanged. This is not a release or a claim that the envelope itself received independent review."
+}

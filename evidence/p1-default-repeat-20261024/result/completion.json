@@ -1,0 +1,17 @@
+{
+  "completed_at_utc": "2026-10-24T03:05:52.674275+00:00",
+  "investigation_started_at_utc": "2026-10-24T03:00:12+00:00",
+  "elapsed_through_reporting_seconds": 340.674275,
+  "maximum_investigation_seconds": 1800,
+  "investigation_limit_respected": true,
+  "known_calculation_process_matches": 0,
+  "public_source_checkout_clean": true,
+  "frozen_source_unchanged": true,
+  "attempt_tokens_retained": true,
+  "new_evaluations": 1,
+  "retries": 0,
+  "remaining_authorized_inference": 0,
+  "publication_performed": false,
+  "schedule_changes": false,
+  "raw_originals_verified_unchanged": true
+}
