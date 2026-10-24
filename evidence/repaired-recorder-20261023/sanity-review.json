@@ -1,0 +1,86 @@
+{
+  "scope": "Separate standard-library Decimal/scalar implementation checks NumPy comparison arithmetic. Same task, not an independent human or separately attested model review. No inference or graph regeneration.",
+  "checks": [
+    {
+      "reference": "baseline-001",
+      "quantity": "energy_eV",
+      "components": 1,
+      "all_signed_components_verified": true,
+      "maximum_verified": true,
+      "acceptance_verified": true
+    },
+    {
+      "reference": "baseline-001",
+      "quantity": "forces_eV_A",
+      "components": 60,
+      "all_signed_components_verified": true,
+      "maximum_verified": true,
+      "acceptance_verified": true
+    },
+    {
+      "reference": "baseline-001",
+      "quantity": "stress_eV_A3",
+      "components": 9,
+      "all_signed_components_verified": true,
+      "maximum_verified": true,
+      "acceptance_verified": true
+    },
+    {
+      "reference": "baseline-002",
+      "quantity": "energy_eV",
+      "components": 1,
+      "all_signed_components_verified": true,
+      "maximum_verified": true,
+      "acceptance_verified": true
+    },
+    {
+      "reference": "baseline-002",
+      "quantity": "forces_eV_A",
+      "components": 60,
+      "all_signed_components_verified": true,
+      "maximum_verified": true,
+      "acceptance_verified": true
+    },
+    {
+      "reference": "baseline-002",
+      "quantity": "stress_eV_A3",
+      "components": 9,
+      "all_signed_components_verified": true,
+      "maximum_verified": true,
+      "acceptance_verified": true
+    },
+    {
+      "reference": "replay",
+      "quantity": "energy_eV",
+      "components": 1,
+      "all_signed_components_verified": true,
+      "maximum_verified": true,
+      "acceptance_verified": true
+    },
+    {
+      "reference": "replay",
+      "quantity": "forces_eV_A",
+      "components": 60,
+      "all_signed_components_verified": true,
+      "maximum_verified": true,
+      "acceptance_verified": true
+    },
+    {
+      "reference": "replay",
+      "quantity": "stress_eV_A3",
+      "components": 9,
+      "all_signed_components_verified": true,
+      "maximum_verified": true,
+      "acceptance_verified": true
+    }
+  ],
+  "passed": true,
+  "scientific_review": [
+    "Capture success does not imply numerical replay acceptance.",
+    "The same restored numerical result under the new recorder does not identify the historical cause.",
+    "No missing D1 values were reconstructed.",
+    "Original thresholds and historical records remain unchanged.",
+    "Only one new evaluation was launched.",
+    "GitHub-backed resume is verified for this isolated invocation; migration and recurring future resume remain incomplete."
+  ]
+}

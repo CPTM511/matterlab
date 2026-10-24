@@ -1,0 +1,14 @@
+{
+  "GitHub_checkpoint_resume": "verified",
+  "recorder_capture_integrity": "passed",
+  "numerical_replay_acceptance": "failed",
+  "historical_restoration_acceptance": "failed; unchanged",
+  "D1_status": "instrumentation failure; missing numerical outputs unchanged",
+  "evaluations": 1,
+  "next_inference": "none authorized by this protocol",
+  "stopped": true,
+  "stop_reason": "Comparison mismatch",
+  "full_migration_complete": false,
+  "local_fallback": "retained without overlap",
+  "publication": "not performed; additive export for parent review only"
+}

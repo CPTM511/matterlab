@@ -1,0 +1,23 @@
+{
+  "status": "Preliminary scientific review complete; integrated export review pending",
+  "scope": "Independent protocol/source review and saved-data arithmetic/integrity; no physical evaluation by reviewer",
+  "requested_reviewer_model": "GPT-6 Astra High",
+  "independently_observable_identity": "GPT-6-based Codex only; exact variant/reasoning effort unavailable in exposed metadata",
+  "completed_checks": 330,
+  "all_completed_checks_passed": true,
+  "evaluations_observed_in_saved_records": 2,
+  "total_saved_calculation_wall_seconds": 7.999249200000122,
+  "assessment": {
+    "C0": "Exact match to R1 for all six model outputs and ASE observations; control gate passed",
+    "C1": "Finite force and stress changes with identical input/neighbor/graph arrays and parameter hashes; frozen gate failed solely because torch_build duplicates intended capability change",
+    "C2": "Not performed; frozen failed gate correctly prevented repetition",
+    "historical_acceptance": "Force and stress still fail unchanged original tolerances for both C0 and C1",
+    "interpretation": "A single observed current-build response supports bounded ATen DispatchStub-selection sensitivity; no replicated altered response, historical-cause identification, baseline correction, full-migration acceptance or materials validation"
+  },
+  "review_limitations": [
+    "Pre-inference review missed that torch.__config__.show() includes live CPU capability text; this was detected by runtime gate and independently diagnosed afterward",
+    "Saved-data arithmetic and source review do not independently attest actual model variant, billing, native kernels, past hosts, scheduler or whole-machine state",
+    "Native library controls are set by launcher but runtime instrumentation is limited to captured fields; no per-kernel trace",
+    "Integrated final artifact and sanitation checks remain pending"
+  ]
+}

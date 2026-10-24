@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "files_scanned": 104,
+  "archive_members_scanned": 24,
+  "ledger_entries_verified": 101,
+  "findings": [],
+  "scope": "Bounded text, archive-payload and transformation-hash checks; parent review remains pending."
+}

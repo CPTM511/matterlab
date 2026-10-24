@@ -1,0 +1,4194 @@
+{
+  "scope": "Read-only integrated public-file, ledger, sanitation and numeric NPZ inspection; no inference or account access. The local clone .git metadata is excluded consistently with the publication manifest and must not enter an archive.",
+  "passed": true,
+  "checks_count": 1044,
+  "checks": [
+    {
+      "name": "complete-integrated-file-coverage",
+      "passed": true
+    },
+    {
+      "name": "publication:.gitignore",
+      "passed": true
+    },
+    {
+      "name": "publication:AGENTS.md",
+      "passed": true
+    },
+    {
+      "name": "publication:LICENSE",
+      "passed": true
+    },
+    {
+      "name": "publication:README.md",
+      "passed": true
+    },
+    {
+      "name": "publication:configs/publication.json",
+      "passed": true
+    },
+    {
+      "name": "publication:configs/round-001.json",
+      "passed": true
+    },
+    {
+      "name": "publication:docs/MODEL_CARD.md",
+      "passed": true
+    },
+    {
+      "name": "publication:docs/NOVELTY.md",
+      "passed": true
+    },
+    {
+      "name": "publication:docs/PUBLICATION.md",
+      "passed": true
+    },
+    {
+      "name": "publication:docs/RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "publication:docs/THIRD_PARTY.md",
+      "passed": true
+    },
+    {
+      "name": "publication:docs/delivery-checks-en.json",
+      "passed": true
+    },
+    {
+      "name": "publication:docs/delivery-checks.json",
+      "passed": true
+    },
+    {
+      "name": "publication:docs/images/matterlab-english.png",
+      "passed": true
+    },
+    {
+      "name": "publication:docs/quantum-validation.en.md",
+      "passed": true
+    },
+    {
+      "name": "publication:docs/quantum-validation.md",
+      "passed": true
+    },
+    {
+      "name": "publication:docs/scientific-design.md",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/failure.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/input.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/original-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/D1-control.log",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/capture-tests.log",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/captured-array-comparison.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/comparison.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/decision.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/diagnostic_eval_proposed.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/execution.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/failure.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/inspection-graph-fast.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/inspection-graph-legacy.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/inspection-input.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/inspection-neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/observable-comparison.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/preparation-failure.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/preservation-before.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/public-base-verification.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/reviewer/REVIEW.md",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/reviewer/review.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/diagnosis-20261023/test_capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/input.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/original-recorder-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control-comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control-execution.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control-gate.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C0-control.log",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/input.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/original-recorder-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default-comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default-execution.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default-gate.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/C1-default.log",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/DispatchStub.cpp",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/R1-preservation.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/README.md",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/capability-probes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/contrast.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/cpu.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/decision.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/dispatch-source.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/environment.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/finish_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/installed-record-verification.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/investigation-start.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/licenses/PyTorch-LICENSE",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/preflight.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/preflight.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/protocol-freeze.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/provenance/original-publication-audit.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/provenance/original-publication-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/public-preservation.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/raw-capture-review.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/reviewer/R1-arithmetic-check.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/reviewer/preliminary-review.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/reviewer/protocol-review-draft.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/reviewer/protocol-review.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/reviewer/runtime-difference-review.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/reviewer/saved-data-review.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/reviewer/verify_saved.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/runtime-comparison-diagnosis.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/scalar-sanity-review.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/supplemental-audit.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/dispatch-contrast-20261023/transformation-ledger.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/public-transformation.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/ATTEMPT-STARTED.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/D1-capture-comparison.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/input.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/original-recorder-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/R1/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/README.md",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/analyze.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/calculation.log",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/cpu.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/decision.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/environment.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/execution.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/finalize.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/identity.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/installed-record-verification.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/integrity.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/launch_once.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/licenses/ase/ase-3.26.0.dist-info/licenses/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/licenses/chgnet/chgnet-0.4.2.dist-info/licenses/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/licenses/numpy/numpy/_core/include/numpy/random/LICENSE.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/licenses/numpy/numpy/ma/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/licenses/numpy/numpy/random/LICENSE.md",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/licenses/numpy/numpy-2.2.6.dist-info/LICENSE.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/licenses/pymatgen/pymatgen-2025.6.14.dist-info/licenses/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/licenses/scipy/scipy/_lib/_uarray/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/licenses/scipy/scipy/fft/_pocketfft/LICENSE.md",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/licenses/scipy/scipy/integrate/LICENSE_DOP",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/licenses/scipy/scipy/spatial/qhull_src/COPYING_QHULL.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/licenses/scipy/scipy-1.17.1.dist-info/LICENSE.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/licenses/torch/torch-2.6.0+cpu.dist-info/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/licenses/torch/torch-2.6.0+cpu.dist-info/NOTICE",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/model-ASE-consistency.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/neighbor-geometry-sanity.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/preflight.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/preflight.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/preservation-after.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/proposed-STATE.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/protocol-freeze.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/references/baseline-001/code.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/references/baseline-001/config.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/references/baseline-001/input.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/references/baseline-001/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/references/baseline-002/code.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/references/baseline-002/config.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/references/baseline-002/input.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/references/baseline-002/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/references/replay/code.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/references/replay/config.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/references/replay/input.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/references/replay/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/resume-checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/sanitation-audit.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/sanity-review.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/sanity_review.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/data/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/data/dataset.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/graph/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/graph/converter.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/graph/crystalgraph.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/graph/graph.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/basis.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/composition_model.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/dynamics.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/encoders.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/functions.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/layers.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/model.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/trainer/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/trainer/trainer.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/utils/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/utils/common_utils.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/chgnet/utils/vasp_utils.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/docs/THIRD_PARTY.md",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/source_snapshot/src/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/repaired-recorder-20261023/transformation-ledger.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/README.md",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/code.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/config.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/evaluate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/input.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/original-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/prior-public-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/requirements-lock.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-001/source_snapshot/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/code.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/config.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/evaluate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/input.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/original-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/prior-public-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/requirements-lock.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/baseline-002/source_snapshot/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/comparison.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/environment-current.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/evaluation.log",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/execution.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/hardware-backend.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/identity-public.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/initial-preflight.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/initial-protocol.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/onboarding-report.sanitized.md",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/pip-check.log",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/preflight-correction.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/preflight.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/prior-public-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/prior-public-transformation.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/protocol.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/provenance/original-onboarding-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/pytest.log",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/code.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/config.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/evaluate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/input.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/original-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/prior-public-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/requirements-lock.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/source_snapshot/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/source_snapshot/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/source_snapshot/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/source_snapshot/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/source_snapshot/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/source_snapshot/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/source_snapshot/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/replay/source_snapshot/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/runtime-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/sanitation-audit.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/test-results.json",
+      "passed": true
+    },
+    {
+      "name": "publication:evidence/restoration-20261023/torch-runtime.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:project/CLOUD_HANDOFF.md",
+      "passed": true
+    },
+    {
+      "name": "publication:project/CLOUD_MIGRATION.md",
+      "passed": true
+    },
+    {
+      "name": "publication:project/CLOUD_START.md",
+      "passed": true
+    },
+    {
+      "name": "publication:project/OPERATIONS.md",
+      "passed": true
+    },
+    {
+      "name": "publication:project/STATE.json",
+      "passed": true
+    },
+    {
+      "name": "publication:project/checkpoints/diagnosis-20261023.json",
+      "passed": true
+    },
+    {
+      "name": "publication:project/checkpoints/dispatch-contrast-20261023.json",
+      "passed": true
+    },
+    {
+      "name": "publication:publication/audit.json",
+      "passed": true
+    },
+    {
+      "name": "publication:pyproject.toml",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/index.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4/data-file-schema.xml",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4/input.in",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4/output.out",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4/summary.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/data-file-schema.xml",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/input.in",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/output.out",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12/summary.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/data-file-schema.xml",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/initial-density.tar.gz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/input.in",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/output.out",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4-m0.1-n12-david-openmpi/summary.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4-sandbox-mpi-failed/input.in",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4-sandbox-mpi-failed/output.out",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e60-r600-k4-sandbox-mpi-failed/summary.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e80-r800-k4/data-file-schema.xml",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e80-r800-k4/input.in",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e80-r800-k4/output.out",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e80-r800-k4/summary.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/data-file-schema.xml",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/initial-density.tar.gz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/input.in",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/output.out",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e80-r800-k4-m0.1-n12-david-openmpi/summary.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/data-file-schema.xml",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/initial-density.tar.gz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/input.in",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/output.out",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/catio3-cubic-e80-r800-k6-m0.1-n12-david-openmpi/summary.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/convergence.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/evidence-verification.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/historical-manifest.sha256",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/install-openmpi.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/install.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/lock-openmpi-replay-check.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/lock-replay-check.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/manifest.sha256",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/public-export-verification.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/quantum/public-transformation.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/C03-005/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/C03-005/refine.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/C03-005/refine.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/C03-005/refined.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/C03-005/refined.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/C03-005/refined_observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/C03-005/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/C03-005/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/C03-005/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/C03-005/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/C03-005/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/candidate_record.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/config.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/expected/active.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/expected/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/expected/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/expected/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/generated/C03-005.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/invocation.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/original_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/replay.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/reproduce_candidate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/reproduction.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/requirements-lock.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/reproduction-round-001-en-C03-005/source_snapshot/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C01-007/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C01-007/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C01-007/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C01-007/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C01-007/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C01-007/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C01-009/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C01-009/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C01-009/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C01-009/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C01-009/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C01-009/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-002/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-002/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-002/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-002/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-002/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-002/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-00.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-00.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-00.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-01.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-01.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-01.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-02.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-02.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-02.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-03.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-03.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-03.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-04.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-04.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-04.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-05.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-05.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-05.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-06.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-06.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos-06.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/eos.csv",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/gamma_forces.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/gamma_forces_half_step.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/gamma_hessian.csv",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/gamma_hessian_half_step.csv",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/refine.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/refine.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/refined.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/refined_observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C02-009/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-00.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-00.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-00.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-01.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-01.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-01.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-02.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-02.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-02.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-03.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-03.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-03.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-04.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-04.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-04.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-05.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-05.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-05.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-06.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-06.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos-06.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/eos.csv",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/gamma_forces.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/gamma_forces_half_step.npz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/gamma_hessian.csv",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/gamma_hessian_half_step.csv",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/refine.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/refine.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/refined.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/refined_observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-005/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-008/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-008/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-008/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-008/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-008/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/C03-008/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaSnO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaSnO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaSnO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaSnO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaSnO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaSnO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaTiO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaTiO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaTiO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaTiO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaTiO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaTiO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaZrO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaZrO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaZrO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaZrO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaZrO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-BaZrO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaSnO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaSnO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaSnO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaSnO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaSnO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaSnO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaTiO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaTiO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaTiO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaTiO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaTiO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaTiO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaZrO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaZrO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaZrO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaZrO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaZrO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-CaZrO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrSnO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrSnO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrSnO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrSnO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrSnO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrSnO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrTiO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrTiO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrTiO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrTiO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrTiO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrTiO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrZrO3/observations.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrZrO3/relax.log",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrZrO3/relax.traj",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrZrO3/relaxed.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrZrO3/relaxed.extxyz",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/R-SrZrO3/result.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/config.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/english-replay-comparison.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C01-001.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C01-002.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C01-003.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C01-004.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C01-005.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C01-006.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C01-007.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C01-008.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C01-009.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C02-001.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C02-002.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C02-003.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C02-004.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C02-005.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C02-006.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C02-007.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C02-008.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C02-009.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C03-001.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C03-002.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C03-003.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C03-004.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C03-005.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C03-006.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C03-007.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C03-008.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/C03-009.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/R-BaSnO3.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/R-BaTiO3.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/R-BaZrO3.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/R-CaSnO3.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/R-CaTiO3.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/R-CaZrO3.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/R-SrSnO3.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/R-SrTiO3.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/R-SrZrO3.cif",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/generated/generation.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/report.md",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/requirements-lock.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/source_snapshot/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/source_snapshot/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/source_snapshot/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/source_snapshot/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/source_snapshot/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/source_snapshot/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/source_snapshot/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/source_snapshot/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/summary.json",
+      "passed": true
+    },
+    {
+      "name": "publication:runs/round-001-en/verification.json",
+      "passed": true
+    },
+    {
+      "name": "publication:src/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:src/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "publication:src/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "publication:src/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "publication:src/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:src/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "publication:src/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "publication:src/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:tests/test_publication.py",
+      "passed": true
+    },
+    {
+      "name": "publication:tests/test_science.py",
+      "passed": true
+    },
+    {
+      "name": "publication:tools/export_public.py",
+      "passed": true
+    },
+    {
+      "name": "publication:tools/export_quantum_public.py",
+      "passed": true
+    },
+    {
+      "name": "publication:tools/quantum/compare_convergence.py",
+      "passed": true
+    },
+    {
+      "name": "publication:tools/quantum/conda-explicit-openmpi-osx-arm64.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:tools/quantum/conda-explicit-osx-arm64.txt",
+      "passed": true
+    },
+    {
+      "name": "publication:tools/quantum/executables.sha256",
+      "passed": true
+    },
+    {
+      "name": "publication:tools/quantum/install.sh",
+      "passed": true
+    },
+    {
+      "name": "publication:tools/quantum/pseudopotentials.sha256",
+      "passed": true
+    },
+    {
+      "name": "publication:tools/quantum/run_reference.py",
+      "passed": true
+    },
+    {
+      "name": "publication:tools/quantum/verify_evidence.py",
+      "passed": true
+    },
+    {
+      "name": "publication:tools/reproduce_candidate.py",
+      "passed": true
+    },
+    {
+      "name": "publication:ui/index.html",
+      "passed": true
+    },
+    {
+      "name": "auditor-unchanged",
+      "passed": true
+    },
+    {
+      "name": "only-state-and-audit-original-entries-changed",
+      "passed": true
+    },
+    {
+      "name": "R1-export-complete-and-byte-identical",
+      "passed": true
+    },
+    {
+      "name": "R1-original-still-byte-identical",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/complete-manifest",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/complete-manifest",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/complete-manifest",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/input.cif",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/input.cif",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/input.cif",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/original-recorder-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/original-recorder-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/original-recorder-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/observations.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/observations.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/observations.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control-comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control-comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control-comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control-execution.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control-execution.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control-execution.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control-gate.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control-gate.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C0-control-gate.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C0-control.log",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C0-control.log",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/input.cif",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/input.cif",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/input.cif",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/original-recorder-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/original-recorder-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/original-recorder-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/observations.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/observations.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/observations.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default-ATTEMPT.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default-comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default-comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default-comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default-execution.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default-execution.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default-execution.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default-gate.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default-gate.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:C1-default-gate.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:C1-default.log",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:C1-default.log",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:DispatchStub.cpp",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:DispatchStub.cpp",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:DispatchStub.cpp",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:R1-preservation.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:R1-preservation.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:R1-preservation.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:capability-probes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:capability-probes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:capability-probes.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:contrast.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:contrast.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:contrast.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:cpu.txt",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:cpu.txt",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:cpu.txt",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:decision.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:decision.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:decision.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:dispatch-source.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:dispatch-source.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:dispatch-source.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:environment.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:environment.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:environment.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:finish_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:finish_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:finish_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:installed-record-verification.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:installed-record-verification.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:installed-record-verification.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:investigation-start.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:investigation-start.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:investigation-start.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:preflight.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:preflight.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:preflight.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:preflight.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:protocol-freeze.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:protocol-freeze.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:protocol-freeze.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:protocol.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:protocol.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:protocol.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:public-preservation.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:public-preservation.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:public-preservation.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:raw-capture-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:raw-capture-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:raw-capture-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:runtime-comparison-diagnosis.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:runtime-comparison-diagnosis.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:runtime-comparison-diagnosis.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:scalar-sanity-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:scalar-sanity-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:scalar-sanity-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:reviewer/R1-arithmetic-check.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:reviewer/R1-arithmetic-check.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:reviewer/R1-arithmetic-check.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:reviewer/preliminary-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:reviewer/preliminary-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:reviewer/preliminary-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:reviewer/protocol-review-draft.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:reviewer/protocol-review-draft.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:reviewer/protocol-review-draft.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:reviewer/protocol-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:reviewer/protocol-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:reviewer/protocol-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:reviewer/runtime-difference-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:reviewer/runtime-difference-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:reviewer/runtime-difference-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:reviewer/saved-data-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:reviewer/saved-data-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:reviewer/saved-data-review.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:reviewer/verify_saved.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:reviewer/verify_saved.py",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:provenance/original-publication-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:provenance/original-publication-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:provenance/original-publication-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:provenance/original-publication-audit.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:provenance/original-publication-audit.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:provenance/original-publication-audit.json",
+      "passed": true
+    },
+    {
+      "name": "ledger-public:licenses/PyTorch-LICENSE",
+      "passed": true
+    },
+    {
+      "name": "ledger-original:licenses/PyTorch-LICENSE",
+      "passed": true
+    },
+    {
+      "name": "ledger-byte-copy:licenses/PyTorch-LICENSE",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C03-005/gamma_forces.npz/safe-member/plus.npy",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C03-005/gamma_forces.npz/safe-member/minus.npy",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C03-005/gamma_forces.npz/safe-member/displacement_A.npy",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C03-005/gamma_forces.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C03-005/gamma_forces_half_step.npz/safe-member/plus.npy",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C03-005/gamma_forces_half_step.npz/safe-member/minus.npy",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C03-005/gamma_forces_half_step.npz/safe-member/displacement_A.npy",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C03-005/gamma_forces_half_step.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C02-009/gamma_forces.npz/safe-member/plus.npy",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C02-009/gamma_forces.npz/safe-member/minus.npy",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C02-009/gamma_forces.npz/safe-member/displacement_A.npy",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C02-009/gamma_forces.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C02-009/gamma_forces_half_step.npz/safe-member/plus.npy",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C02-009/gamma_forces_half_step.npz/safe-member/minus.npy",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C02-009/gamma_forces_half_step.npz/safe-member/displacement_A.npy",
+      "passed": true
+    },
+    {
+      "name": "runs/round-001-en/C02-009/gamma_forces_half_step.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-legacy.npz/safe-member/atomic_number.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-legacy.npz/safe-member/atom_frac_coord.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-legacy.npz/safe-member/atom_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-legacy.npz/safe-member/neighbor_image.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-legacy.npz/safe-member/directed2undirected.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-legacy.npz/safe-member/undirected2directed.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-legacy.npz/safe-member/bond_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-legacy.npz/safe-member/lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-legacy.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-input.npz/safe-member/atomic_numbers.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-input.npz/safe-member/positions.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-input.npz/safe-member/cell.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-input.npz/safe-member/pbc.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-input.npz/safe-member/frac_coords.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-input.npz/safe-member/lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-input.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-neighbors.npz/safe-member/center.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-neighbors.npz/safe-member/neighbor.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-neighbors.npz/safe-member/image.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-neighbors.npz/safe-member/distance.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-neighbors.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-fast.npz/safe-member/atomic_number.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-fast.npz/safe-member/atom_frac_coord.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-fast.npz/safe-member/atom_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-fast.npz/safe-member/neighbor_image.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-fast.npz/safe-member/directed2undirected.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-fast.npz/safe-member/undirected2directed.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-fast.npz/safe-member/bond_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-fast.npz/safe-member/lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/inspection-graph-fast.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/model-output.npz/safe-member/atoms_per_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/model-output.npz/safe-member/m_0.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/model-output.npz/safe-member/crystal_fea.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/model-output.npz/safe-member/f_0.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/model-output.npz/safe-member/s_0.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/model-output.npz/safe-member/e.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/model-output.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/neighbors.npz/safe-member/center.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/neighbors.npz/safe-member/neighbor.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/neighbors.npz/safe-member/image.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/neighbors.npz/safe-member/distance.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/neighbors.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/input-arrays.npz/safe-member/atomic_numbers.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/input-arrays.npz/safe-member/positions.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/input-arrays.npz/safe-member/cell.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/input-arrays.npz/safe-member/pbc.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/input-arrays.npz/safe-member/frac_coords.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/input-arrays.npz/safe-member/lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/input-arrays.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/graph.npz/safe-member/atomic_number.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/graph.npz/safe-member/atom_frac_coord.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/graph.npz/safe-member/atom_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/graph.npz/safe-member/neighbor_image.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/graph.npz/safe-member/directed2undirected.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/graph.npz/safe-member/undirected2directed.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/graph.npz/safe-member/bond_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/graph.npz/safe-member/lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/repaired-recorder-20261023/R1/graph.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/model-output.npz/safe-member/atoms_per_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/model-output.npz/safe-member/m_0.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/model-output.npz/safe-member/crystal_fea.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/model-output.npz/safe-member/f_0.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/model-output.npz/safe-member/s_0.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/model-output.npz/safe-member/e.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/model-output.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/neighbors.npz/safe-member/center.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/neighbors.npz/safe-member/neighbor.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/neighbors.npz/safe-member/image.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/neighbors.npz/safe-member/distance.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/neighbors.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/input-arrays.npz/safe-member/atomic_numbers.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/input-arrays.npz/safe-member/positions.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/input-arrays.npz/safe-member/cell.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/input-arrays.npz/safe-member/pbc.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/input-arrays.npz/safe-member/frac_coords.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/input-arrays.npz/safe-member/lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/input-arrays.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/graph.npz/safe-member/atomic_number.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/graph.npz/safe-member/atom_frac_coord.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/graph.npz/safe-member/atom_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/graph.npz/safe-member/neighbor_image.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/graph.npz/safe-member/directed2undirected.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/graph.npz/safe-member/undirected2directed.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/graph.npz/safe-member/bond_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/graph.npz/safe-member/lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C1-default/graph.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/model-output.npz/safe-member/atoms_per_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/model-output.npz/safe-member/m_0.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/model-output.npz/safe-member/crystal_fea.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/model-output.npz/safe-member/f_0.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/model-output.npz/safe-member/s_0.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/model-output.npz/safe-member/e.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/model-output.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/neighbors.npz/safe-member/center.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/neighbors.npz/safe-member/neighbor.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/neighbors.npz/safe-member/image.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/neighbors.npz/safe-member/distance.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/neighbors.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/input-arrays.npz/safe-member/atomic_numbers.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/input-arrays.npz/safe-member/positions.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/input-arrays.npz/safe-member/cell.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/input-arrays.npz/safe-member/pbc.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/input-arrays.npz/safe-member/frac_coords.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/input-arrays.npz/safe-member/lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/input-arrays.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/graph.npz/safe-member/atomic_number.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/graph.npz/safe-member/atom_frac_coord.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/graph.npz/safe-member/atom_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/graph.npz/safe-member/neighbor_image.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/graph.npz/safe-member/directed2undirected.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/graph.npz/safe-member/undirected2directed.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/graph.npz/safe-member/bond_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/graph.npz/safe-member/lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/dispatch-contrast-20261023/C0-control/graph.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/neighbors.npz/safe-member/center.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/neighbors.npz/safe-member/neighbor.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/neighbors.npz/safe-member/image.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/neighbors.npz/safe-member/distance.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/neighbors.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/input-arrays.npz/safe-member/atomic_numbers.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/input-arrays.npz/safe-member/positions.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/input-arrays.npz/safe-member/cell.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/input-arrays.npz/safe-member/pbc.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/input-arrays.npz/safe-member/frac_coords.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/input-arrays.npz/safe-member/lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/input-arrays.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/graph.npz/safe-member/atomic_number.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/graph.npz/safe-member/atom_frac_coord.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/graph.npz/safe-member/atom_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/graph.npz/safe-member/neighbor_image.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/graph.npz/safe-member/directed2undirected.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/graph.npz/safe-member/undirected2directed.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/graph.npz/safe-member/bond_graph.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/graph.npz/safe-member/lattice.npy",
+      "passed": true
+    },
+    {
+      "name": "evidence/diagnosis-20261023/D1-control/graph.npz/numeric-finite-payloads",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C0-control/input.cif",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C0-control/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C0-control/observations.json",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C0-control/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C0-control/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C0-control/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C0-control/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C0-control/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C1-default/input.cif",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C1-default/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C1-default/observations.json",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C1-default/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C1-default/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C1-default/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C1-default/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "scientific-bytes-unchanged:C1-default/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "no-private-pattern-findings",
+      "passed": true
+    },
+    {
+      "name": "C1-frozen-failed-gate-preserved",
+      "passed": true
+    },
+    {
+      "name": "no-C2-export",
+      "passed": true
+    }
+  ],
+  "files_checked": 638,
+  "NPZ_files": 23,
+  "NPZ_members": 128,
+  "ledger_entries": 78,
+  "sanitation_findings": [],
+  "original_entries_changed": [
+    "project/STATE.json",
+    "publication/audit.json"
+  ],
+  "reviewed_manifest_sha256": "53c6551bdb42446659ea3b7daea1c9d5e2084d3ef83db4109622e3c4431887b7",
+  "reviewed_report_sha256": "41a4c5b6dbb71be5a78df6f227e25a42d6cc130e74354b97a59e2d7e1e85ac0e"
+}

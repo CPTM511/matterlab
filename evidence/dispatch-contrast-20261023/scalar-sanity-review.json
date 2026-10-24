@@ -1,0 +1,249 @@
+{
+  "scope": "Independent standard-library Decimal/scalar implementation, same primary task, no inference",
+  "checks": [
+    {
+      "condition": "C0-control",
+      "reference": "R1",
+      "quantity": "energy_eV",
+      "components": 1,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C0-control",
+      "reference": "R1",
+      "quantity": "forces_eV_A",
+      "components": 60,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C0-control",
+      "reference": "R1",
+      "quantity": "stress_eV_A3",
+      "components": 9,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C0-control",
+      "reference": "baseline-001",
+      "quantity": "energy_eV",
+      "components": 1,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C0-control",
+      "reference": "baseline-001",
+      "quantity": "forces_eV_A",
+      "components": 60,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C0-control",
+      "reference": "baseline-001",
+      "quantity": "stress_eV_A3",
+      "components": 9,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C0-control",
+      "reference": "baseline-002",
+      "quantity": "energy_eV",
+      "components": 1,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C0-control",
+      "reference": "baseline-002",
+      "quantity": "forces_eV_A",
+      "components": 60,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C0-control",
+      "reference": "baseline-002",
+      "quantity": "stress_eV_A3",
+      "components": 9,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C0-control",
+      "reference": "replay",
+      "quantity": "energy_eV",
+      "components": 1,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C0-control",
+      "reference": "replay",
+      "quantity": "forces_eV_A",
+      "components": 60,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C0-control",
+      "reference": "replay",
+      "quantity": "stress_eV_A3",
+      "components": 9,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "R1",
+      "quantity": "energy_eV",
+      "components": 1,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "R1",
+      "quantity": "forces_eV_A",
+      "components": 60,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "R1",
+      "quantity": "stress_eV_A3",
+      "components": 9,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "C0-control",
+      "quantity": "energy_eV",
+      "components": 1,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "C0-control",
+      "quantity": "forces_eV_A",
+      "components": 60,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "C0-control",
+      "quantity": "stress_eV_A3",
+      "components": 9,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "baseline-001",
+      "quantity": "energy_eV",
+      "components": 1,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "baseline-001",
+      "quantity": "forces_eV_A",
+      "components": 60,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "baseline-001",
+      "quantity": "stress_eV_A3",
+      "components": 9,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "baseline-002",
+      "quantity": "energy_eV",
+      "components": 1,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "baseline-002",
+      "quantity": "forces_eV_A",
+      "components": 60,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "baseline-002",
+      "quantity": "stress_eV_A3",
+      "components": 9,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "replay",
+      "quantity": "energy_eV",
+      "components": 1,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "replay",
+      "quantity": "forces_eV_A",
+      "components": 60,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    },
+    {
+      "condition": "C1-default",
+      "reference": "replay",
+      "quantity": "stress_eV_A3",
+      "components": 9,
+      "signed_components_match": true,
+      "maximum_matches": true,
+      "threshold_decision_matches": true
+    }
+  ],
+  "passed": true
+}

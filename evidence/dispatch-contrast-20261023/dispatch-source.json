@@ -1,0 +1,5 @@
+{
+  "url": "https://raw.githubusercontent.com/pytorch/pytorch/2236df1770800ffea5697b11b0bb0d910b2e59e1/aten/src/ATen/native/DispatchStub.cpp",
+  "sha256": "92cbc3bafdea0db0993cd7e020d6b917d84fba3cfeb27c02c6b7050a89c76738",
+  "scope": "Public upstream source at installed PyTorch build commit; compiled installed binary checked separately"
+}

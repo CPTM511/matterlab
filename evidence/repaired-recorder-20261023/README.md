@@ -1,0 +1,9 @@
+# Additive evidence export for parent review
+
+Read REPORT.md, protocol.json, decision.json and resume-checkpoint.json first. This export has not been published. Place this entire directory at evidence/repaired-recorder-20261023 only after parent review; do not replace existing evidence. proposed-STATE.json is a separate coordination proposal, not an instruction to overwrite newer remote state.
+
+Scientific NPZ arrays, observations, signed differences, protocol and source/model expectations are preserved. No new inference is needed to review them. All NPZ arrays load with allow_pickle=False. The current root and R1 manifests verify these derivative files. original-recorder-manifest.json and protocol-freeze.json preserve original provenance, whose hashes may differ from sanitized derivative paths or helper scripts. The transformation ledger records every exported original-to-derivative mapping.
+
+Some orchestration helpers were made portable by replacing fixed private paths with MATTERLAB_ROOT and MATTERLAB_VALIDATION_OUTPUT. Their original hash remains in the frozen protocol and ledger. They are historical orchestration evidence, not permission to repeat this terminal one-evaluation protocol. The proposed recorder itself is unchanged. Analysis helpers can be reviewed or run against saved files; no model evaluation is required. Reference paths in the frozen protocol refer to the original public checkout; copies are also included under references/.
+
+Account records, process listings and the preparation script containing account evidence are excluded. Private originals and their complete private manifest remain retained separately. Source snapshots and dependency licenses retain their original terms. The privacy audit is a bounded pattern and archive-content check, not a universal absence guarantee or independent human review.

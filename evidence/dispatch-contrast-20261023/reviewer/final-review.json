@@ -1,0 +1,47 @@
+{
+  "completed_at_utc": "2026-10-23T19:29:49.557276+00:00",
+  "status": "Reviewed pre-incorporation candidate passes bounded scientific and public-payload review",
+  "requested_identity": "GPT-6 Astra High",
+  "observable_identity": "GPT-6-based Codex; exact variant/effort not independently attested",
+  "physical_inference_performed_by_reviewer": false,
+  "saved_data_checks": 330,
+  "saved_data_passed": true,
+  "full_publication_audit": {
+    "passed": true,
+    "files_checked": 638,
+    "archive_members_checked": 9,
+    "evidence_hashes_checked": 284,
+    "checks": [
+      "English Han-text guard",
+      "home-path and credential-pattern scan",
+      "archive metadata and payload inspection",
+      "saved evidence hash verification"
+    ],
+    "scope": "Release integrity and bounded pattern checks; human review remains required."
+  },
+  "additional_public_payload_checks": 1044,
+  "additional_checks_passed": true,
+  "NPZ_files": 23,
+  "NPZ_members": 128,
+  "ledger_entries": 78,
+  "reviewed_manifest_sha256": "53c6551bdb42446659ea3b7daea1c9d5e2084d3ef83db4109622e3c4431887b7",
+  "reviewed_report_sha256": "41a4c5b6dbb71be5a78df6f227e25a42d6cc130e74354b97a59e2d7e1e85ac0e",
+  "review_markdown_sha256": "dceecec4c24e3ce3103a97c41c01e8bdd103c0da9a69dde33a9b0a69b4300bdf",
+  "review_limitations": [
+    "Pre-inference reviewer missed duplicate live capability within torch_build; retained failed gate caught it",
+    "No inference or independent past-host/kernel/account/model-identity attestation",
+    "Pattern-based sanitation is bounded; .git is excluded from payload",
+    "Final review incorporation, STATE historical annotation and packaging postdate this snapshot and require rerun full audit"
+  ],
+  "research_blockers": [
+    "Original force/stress acceptance failed",
+    "Frozen C1 combined gate failed",
+    "Altered-condition repeatability untested"
+  ],
+  "actions_denied": [],
+  "actions_pending": [
+    "Parent incorporation and regenerated-manifest full audit",
+    "Final archive and patch packaging verification"
+  ],
+  "uncertain_action_outcomes": []
+}

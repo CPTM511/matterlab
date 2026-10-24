@@ -1,0 +1,12 @@
+{
+  "requested": {
+    "model": "GPT-6 Astra",
+    "reasoning": "High",
+    "speed": "Standard"
+  },
+  "observable_identity": "GPT-6-based Codex per developer context",
+  "actual_model_variant": "not independently attested",
+  "actual_reasoning": "not independently attested",
+  "actual_service_tier": "not independently attested",
+  "runtime_evidence": "Selected isolated Linux native cloud workspace; parent states dedicated published environment. No independent billing metering or full environment-publication attestation."
+}

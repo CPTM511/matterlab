@@ -1,0 +1,1521 @@
+{
+  "scope": "Independent saved-array and scalar arithmetic/integrity checks only; no inference or model imports",
+  "passed": true,
+  "checks_count": 330,
+  "checks": [
+    {
+      "name": "R1/manifest-coverage",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/input.cif",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/observations.json",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/original-recorder-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "R1/manifest/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/keys",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/atomic_numbers",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/positions",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/cell",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/pbc",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/frac_coords",
+      "passed": true
+    },
+    {
+      "name": "R1/input-arrays/lattice",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/keys",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/center",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/neighbor",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/image",
+      "passed": true
+    },
+    {
+      "name": "R1/neighbors/distance",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/keys",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/atomic_number",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/atom_frac_coord",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/atom_graph",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/neighbor_image",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/directed2undirected",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/undirected2directed",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/bond_graph",
+      "passed": true
+    },
+    {
+      "name": "R1/graph/lattice",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/keys",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/atoms_per_graph",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/m_0",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/crystal_fea",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/f_0",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/s_0",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output/e",
+      "passed": true
+    },
+    {
+      "name": "R1/one-model-one-graph",
+      "passed": true
+    },
+    {
+      "name": "R1/model-output-keys",
+      "passed": true
+    },
+    {
+      "name": "R1/independent-model-ASE-conversion",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest-coverage",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/input.cif",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/observations.json",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "C0-control/manifest/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "C0-control/input-arrays/keys",
+      "passed": true
+    },
+    {
+      "name": "C0-control/input-arrays/atomic_numbers",
+      "passed": true
+    },
+    {
+      "name": "C0-control/input-arrays/positions",
+      "passed": true
+    },
+    {
+      "name": "C0-control/input-arrays/cell",
+      "passed": true
+    },
+    {
+      "name": "C0-control/input-arrays/pbc",
+      "passed": true
+    },
+    {
+      "name": "C0-control/input-arrays/frac_coords",
+      "passed": true
+    },
+    {
+      "name": "C0-control/input-arrays/lattice",
+      "passed": true
+    },
+    {
+      "name": "C0-control/neighbors/keys",
+      "passed": true
+    },
+    {
+      "name": "C0-control/neighbors/center",
+      "passed": true
+    },
+    {
+      "name": "C0-control/neighbors/neighbor",
+      "passed": true
+    },
+    {
+      "name": "C0-control/neighbors/image",
+      "passed": true
+    },
+    {
+      "name": "C0-control/neighbors/distance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/graph/keys",
+      "passed": true
+    },
+    {
+      "name": "C0-control/graph/atomic_number",
+      "passed": true
+    },
+    {
+      "name": "C0-control/graph/atom_frac_coord",
+      "passed": true
+    },
+    {
+      "name": "C0-control/graph/atom_graph",
+      "passed": true
+    },
+    {
+      "name": "C0-control/graph/neighbor_image",
+      "passed": true
+    },
+    {
+      "name": "C0-control/graph/directed2undirected",
+      "passed": true
+    },
+    {
+      "name": "C0-control/graph/undirected2directed",
+      "passed": true
+    },
+    {
+      "name": "C0-control/graph/bond_graph",
+      "passed": true
+    },
+    {
+      "name": "C0-control/graph/lattice",
+      "passed": true
+    },
+    {
+      "name": "C0-control/model-output/keys",
+      "passed": true
+    },
+    {
+      "name": "C0-control/model-output/atoms_per_graph",
+      "passed": true
+    },
+    {
+      "name": "C0-control/model-output/m_0",
+      "passed": true
+    },
+    {
+      "name": "C0-control/model-output/crystal_fea",
+      "passed": true
+    },
+    {
+      "name": "C0-control/model-output/f_0",
+      "passed": true
+    },
+    {
+      "name": "C0-control/model-output/s_0",
+      "passed": true
+    },
+    {
+      "name": "C0-control/model-output/e",
+      "passed": true
+    },
+    {
+      "name": "C0-control/one-model-one-graph",
+      "passed": true
+    },
+    {
+      "name": "C0-control/model-output-keys",
+      "passed": true
+    },
+    {
+      "name": "C0-control/independent-model-ASE-conversion",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest-coverage",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/config-original.json",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/graph.npz",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/input.cif",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/observations.json",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/provenance.json",
+      "passed": true
+    },
+    {
+      "name": "C1-default/manifest/runtime.json",
+      "passed": true
+    },
+    {
+      "name": "C1-default/input-arrays/keys",
+      "passed": true
+    },
+    {
+      "name": "C1-default/input-arrays/atomic_numbers",
+      "passed": true
+    },
+    {
+      "name": "C1-default/input-arrays/positions",
+      "passed": true
+    },
+    {
+      "name": "C1-default/input-arrays/cell",
+      "passed": true
+    },
+    {
+      "name": "C1-default/input-arrays/pbc",
+      "passed": true
+    },
+    {
+      "name": "C1-default/input-arrays/frac_coords",
+      "passed": true
+    },
+    {
+      "name": "C1-default/input-arrays/lattice",
+      "passed": true
+    },
+    {
+      "name": "C1-default/neighbors/keys",
+      "passed": true
+    },
+    {
+      "name": "C1-default/neighbors/center",
+      "passed": true
+    },
+    {
+      "name": "C1-default/neighbors/neighbor",
+      "passed": true
+    },
+    {
+      "name": "C1-default/neighbors/image",
+      "passed": true
+    },
+    {
+      "name": "C1-default/neighbors/distance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/graph/keys",
+      "passed": true
+    },
+    {
+      "name": "C1-default/graph/atomic_number",
+      "passed": true
+    },
+    {
+      "name": "C1-default/graph/atom_frac_coord",
+      "passed": true
+    },
+    {
+      "name": "C1-default/graph/atom_graph",
+      "passed": true
+    },
+    {
+      "name": "C1-default/graph/neighbor_image",
+      "passed": true
+    },
+    {
+      "name": "C1-default/graph/directed2undirected",
+      "passed": true
+    },
+    {
+      "name": "C1-default/graph/undirected2directed",
+      "passed": true
+    },
+    {
+      "name": "C1-default/graph/bond_graph",
+      "passed": true
+    },
+    {
+      "name": "C1-default/graph/lattice",
+      "passed": true
+    },
+    {
+      "name": "C1-default/model-output/keys",
+      "passed": true
+    },
+    {
+      "name": "C1-default/model-output/atoms_per_graph",
+      "passed": true
+    },
+    {
+      "name": "C1-default/model-output/m_0",
+      "passed": true
+    },
+    {
+      "name": "C1-default/model-output/crystal_fea",
+      "passed": true
+    },
+    {
+      "name": "C1-default/model-output/f_0",
+      "passed": true
+    },
+    {
+      "name": "C1-default/model-output/s_0",
+      "passed": true
+    },
+    {
+      "name": "C1-default/model-output/e",
+      "passed": true
+    },
+    {
+      "name": "C1-default/one-model-one-graph",
+      "passed": true
+    },
+    {
+      "name": "C1-default/model-output-keys",
+      "passed": true
+    },
+    {
+      "name": "C1-default/independent-model-ASE-conversion",
+      "passed": true
+    },
+    {
+      "name": "control-exact/input-arrays",
+      "passed": true
+    },
+    {
+      "name": "altered-invariant/input-arrays",
+      "passed": true
+    },
+    {
+      "name": "control-exact/neighbors",
+      "passed": true
+    },
+    {
+      "name": "altered-invariant/neighbors",
+      "passed": true
+    },
+    {
+      "name": "control-exact/graph",
+      "passed": true
+    },
+    {
+      "name": "altered-invariant/graph",
+      "passed": true
+    },
+    {
+      "name": "control-exact/model-output",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/energy_eV/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/energy_eV/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/energy_eV/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/forces_eV_A/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/forces_eV_A/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/forces_eV_A/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/stress_eV_A3/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/stress_eV_A3/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/stress_eV_A3/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/input-arrays/keysets",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/input-arrays/atomic_numbers/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/input-arrays/positions/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/input-arrays/cell/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/input-arrays/pbc/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/input-arrays/frac_coords/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/input-arrays/lattice/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/neighbors/keysets",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/neighbors/center/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/neighbors/neighbor/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/neighbors/image/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/neighbors/distance/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/graph/keysets",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/graph/atomic_number/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/graph/atom_frac_coord/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/graph/atom_graph/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/graph/neighbor_image/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/graph/directed2undirected/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/graph/undirected2directed/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/graph/bond_graph/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/graph/lattice/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/model-output/keysets",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/model-output/atoms_per_graph/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/model-output/m_0/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/model-output/crystal_fea/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/model-output/f_0/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/model-output/s_0/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/model-output/e/difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/R1/parameter-hash-equality",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-001/energy_eV/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-001/energy_eV/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-001/energy_eV/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-001/forces_eV_A/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-001/forces_eV_A/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-001/forces_eV_A/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-001/stress_eV_A3/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-001/stress_eV_A3/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-001/stress_eV_A3/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-002/energy_eV/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-002/energy_eV/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-002/energy_eV/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-002/forces_eV_A/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-002/forces_eV_A/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-002/forces_eV_A/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-002/stress_eV_A3/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-002/stress_eV_A3/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/baseline-002/stress_eV_A3/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/replay/energy_eV/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/replay/energy_eV/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/replay/energy_eV/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/replay/forces_eV_A/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/replay/forces_eV_A/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/replay/forces_eV_A/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/replay/stress_eV_A3/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C0-control/replay/stress_eV_A3/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C0-control/replay/stress_eV_A3/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/energy_eV/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/energy_eV/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/energy_eV/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/forces_eV_A/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/forces_eV_A/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/forces_eV_A/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/stress_eV_A3/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/stress_eV_A3/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/stress_eV_A3/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/input-arrays/keysets",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/input-arrays/atomic_numbers/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/input-arrays/positions/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/input-arrays/cell/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/input-arrays/pbc/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/input-arrays/frac_coords/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/input-arrays/lattice/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/neighbors/keysets",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/neighbors/center/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/neighbors/neighbor/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/neighbors/image/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/neighbors/distance/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/graph/keysets",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/graph/atomic_number/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/graph/atom_frac_coord/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/graph/atom_graph/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/graph/neighbor_image/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/graph/directed2undirected/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/graph/undirected2directed/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/graph/bond_graph/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/graph/lattice/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/model-output/keysets",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/model-output/atoms_per_graph/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/model-output/m_0/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/model-output/crystal_fea/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/model-output/f_0/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/model-output/s_0/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/model-output/e/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/R1/parameter-hash-equality",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/energy_eV/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/energy_eV/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/energy_eV/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/forces_eV_A/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/forces_eV_A/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/forces_eV_A/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/stress_eV_A3/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/stress_eV_A3/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/stress_eV_A3/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/input-arrays/keysets",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/input-arrays/atomic_numbers/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/input-arrays/positions/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/input-arrays/cell/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/input-arrays/pbc/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/input-arrays/frac_coords/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/input-arrays/lattice/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/neighbors/keysets",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/neighbors/center/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/neighbors/neighbor/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/neighbors/image/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/neighbors/distance/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/graph/keysets",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/graph/atomic_number/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/graph/atom_frac_coord/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/graph/atom_graph/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/graph/neighbor_image/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/graph/directed2undirected/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/graph/undirected2directed/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/graph/bond_graph/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/graph/lattice/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/model-output/keysets",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/model-output/atoms_per_graph/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/model-output/m_0/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/model-output/crystal_fea/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/model-output/f_0/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/model-output/s_0/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/model-output/e/difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/C0-control/parameter-hash-equality",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-001/energy_eV/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-001/energy_eV/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-001/energy_eV/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-001/forces_eV_A/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-001/forces_eV_A/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-001/forces_eV_A/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-001/stress_eV_A3/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-001/stress_eV_A3/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-001/stress_eV_A3/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-002/energy_eV/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-002/energy_eV/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-002/energy_eV/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-002/forces_eV_A/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-002/forces_eV_A/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-002/forces_eV_A/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-002/stress_eV_A3/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-002/stress_eV_A3/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/baseline-002/stress_eV_A3/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/replay/energy_eV/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/replay/energy_eV/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/replay/energy_eV/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/replay/forces_eV_A/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/replay/forces_eV_A/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/replay/forces_eV_A/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/replay/stress_eV_A3/unchanged-tolerance",
+      "passed": true
+    },
+    {
+      "name": "C1-default/replay/stress_eV_A3/signed-difference",
+      "passed": true
+    },
+    {
+      "name": "C1-default/replay/stress_eV_A3/max-equality-tolerance",
+      "passed": true
+    },
+    {
+      "name": "posthoc-only/remaining-reported-runtime-exact",
+      "passed": true
+    },
+    {
+      "name": "frozen-C1-gate-retained-failed",
+      "passed": true
+    },
+    {
+      "name": "no-C2-attempt",
+      "passed": true
+    },
+    {
+      "name": "completed-R1-106-files-unchanged",
+      "passed": true
+    }
+  ],
+  "numerical_summary": {
+    "C0-control": {
+      "R1": {
+        "energy_eV": {
+          "max_abs_difference": 0.0,
+          "exact_equal": true,
+          "passed": true,
+          "components": 1
+        },
+        "forces_eV_A": {
+          "max_abs_difference": 0.0,
+          "exact_equal": true,
+          "passed": true,
+          "components": 60
+        },
+        "stress_eV_A3": {
+          "max_abs_difference": 0.0,
+          "exact_equal": true,
+          "passed": true,
+          "components": 9
+        }
+      },
+      "baseline-001": {
+        "energy_eV": {
+          "max_abs_difference": 0.0,
+          "exact_equal": true,
+          "passed": true,
+          "components": 1
+        },
+        "forces_eV_A": {
+          "max_abs_difference": 3.039836883544922e-05,
+          "exact_equal": false,
+          "passed": false,
+          "components": 60
+        },
+        "stress_eV_A3": {
+          "max_abs_difference": 5.364418029785156e-07,
+          "exact_equal": false,
+          "passed": false,
+          "components": 9
+        }
+      },
+      "baseline-002": {
+        "energy_eV": {
+          "max_abs_difference": 0.0,
+          "exact_equal": true,
+          "passed": true,
+          "components": 1
+        },
+        "forces_eV_A": {
+          "max_abs_difference": 3.039836883544922e-05,
+          "exact_equal": false,
+          "passed": false,
+          "components": 60
+        },
+        "stress_eV_A3": {
+          "max_abs_difference": 5.364418029785156e-07,
+          "exact_equal": false,
+          "passed": false,
+          "components": 9
+        }
+      },
+      "replay": {
+        "energy_eV": {
+          "max_abs_difference": 0.0,
+          "exact_equal": true,
+          "passed": true,
+          "components": 1
+        },
+        "forces_eV_A": {
+          "max_abs_difference": 0.0,
+          "exact_equal": true,
+          "passed": true,
+          "components": 60
+        },
+        "stress_eV_A3": {
+          "max_abs_difference": 0.0,
+          "exact_equal": true,
+          "passed": true,
+          "components": 9
+        }
+      }
+    },
+    "C1-default": {
+      "R1": {
+        "energy_eV": {
+          "max_abs_difference": 0.0,
+          "exact_equal": true,
+          "passed": true,
+          "components": 1
+        },
+        "forces_eV_A": {
+          "max_abs_difference": 5.1021575927734375e-05,
+          "exact_equal": false,
+          "passed": false,
+          "components": 60
+        },
+        "stress_eV_A3": {
+          "max_abs_difference": 5.736947059631348e-07,
+          "exact_equal": false,
+          "passed": false,
+          "components": 9
+        }
+      },
+      "C0-control": {
+        "energy_eV": {
+          "max_abs_difference": 0.0,
+          "exact_equal": true,
+          "passed": true,
+          "components": 1
+        },
+        "forces_eV_A": {
+          "max_abs_difference": 5.1021575927734375e-05,
+          "exact_equal": false,
+          "passed": false,
+          "components": 60
+        },
+        "stress_eV_A3": {
+          "max_abs_difference": 5.736947059631348e-07,
+          "exact_equal": false,
+          "passed": false,
+          "components": 9
+        }
+      },
+      "baseline-001": {
+        "energy_eV": {
+          "max_abs_difference": 0.0,
+          "exact_equal": true,
+          "passed": true,
+          "components": 1
+        },
+        "forces_eV_A": {
+          "max_abs_difference": 3.4332275390625e-05,
+          "exact_equal": false,
+          "passed": false,
+          "components": 60
+        },
+        "stress_eV_A3": {
+          "max_abs_difference": 4.4249463826417923e-07,
+          "exact_equal": false,
+          "passed": false,
+          "components": 9
+        }
+      },
+      "baseline-002": {
+        "energy_eV": {
+          "max_abs_difference": 0.0,
+          "exact_equal": true,
+          "passed": true,
+          "components": 1
+        },
+        "forces_eV_A": {
+          "max_abs_difference": 3.4332275390625e-05,
+          "exact_equal": false,
+          "passed": false,
+          "components": 60
+        },
+        "stress_eV_A3": {
+          "max_abs_difference": 4.4249463826417923e-07,
+          "exact_equal": false,
+          "passed": false,
+          "components": 9
+        }
+      },
+      "replay": {
+        "energy_eV": {
+          "max_abs_difference": 0.0,
+          "exact_equal": true,
+          "passed": true,
+          "components": 1
+        },
+        "forces_eV_A": {
+          "max_abs_difference": 5.1021575927734375e-05,
+          "exact_equal": false,
+          "passed": false,
+          "components": 60
+        },
+        "stress_eV_A3": {
+          "max_abs_difference": 5.736947059631348e-07,
+          "exact_equal": false,
+          "passed": false,
+          "components": 9
+        }
+      }
+    }
+  },
+  "runtime_differing_fields": [
+    "condition",
+    "cpu_capability",
+    "torch_build",
+    "environment_controls"
+  ],
+  "posthoc_runtime_explanation": "The sole additional differing field after intended exceptions is torch_build; its only differing line duplicates CPU capability usage. Removing that line is explanatory only and does not override the frozen failed gate.",
+  "C2_performed": false
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "Separated saved-array capture checks from the frozen bundled gate; does not change that gate",
+  "conditions": {
+    "C0-control": {
+      "raw_capture_checks_passed": true,
+      "frozen_bundled_capture_integrity_passed": true,
+      "frozen_comparison_assumptions_passed": true,
+      "failed_checks": []
+    },
+    "C1-default": {
+      "raw_capture_checks_passed": true,
+      "frozen_bundled_capture_integrity_passed": false,
+      "frozen_comparison_assumptions_passed": false,
+      "failed_checks": [
+        "other_effective_runtime_settings"
+      ]
+    }
+  }
+}

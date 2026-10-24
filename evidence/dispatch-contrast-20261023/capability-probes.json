@@ -1,0 +1,39 @@
+{
+  "scope": "Metadata-only separate-process probes, no model loading or inference",
+  "results": [
+    {
+      "returncode": 0,
+      "stdout": "{\"capability\": \"AVX512\", \"version\": \"2.6.0+cpu\", \"build_commit\": \"2236df1770800ffea5697b11b0bb0d910b2e59e1\", \"affinity\": [0], \"threads\": 1, \"interop\": 1, \"ATEN_CPU_CAPABILITY\": null, \"inference_performed\": false}\n",
+      "stderr": "",
+      "observation": {
+        "capability": "AVX512",
+        "version": "2.6.0+cpu",
+        "build_commit": "2236df1770800ffea5697b11b0bb0d910b2e59e1",
+        "affinity": [
+          0
+        ],
+        "threads": 1,
+        "interop": 1,
+        "ATEN_CPU_CAPABILITY": null,
+        "inference_performed": false
+      }
+    },
+    {
+      "returncode": 0,
+      "stdout": "{\"capability\": \"NO AVX\", \"version\": \"2.6.0+cpu\", \"build_commit\": \"2236df1770800ffea5697b11b0bb0d910b2e59e1\", \"affinity\": [0], \"threads\": 1, \"interop\": 1, \"ATEN_CPU_CAPABILITY\": \"default\", \"inference_performed\": false}\n",
+      "stderr": "",
+      "observation": {
+        "capability": "NO AVX",
+        "version": "2.6.0+cpu",
+        "build_commit": "2236df1770800ffea5697b11b0bb0d910b2e59e1",
+        "affinity": [
+          0
+        ],
+        "threads": 1,
+        "interop": 1,
+        "ATEN_CPU_CAPABILITY": "default",
+        "inference_performed": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "frozen_protocol",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "calculation_exited_successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input-arrays:keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input-arrays:atomic_numbers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input-arrays:positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input-arrays:cell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input-arrays:pbc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input-arrays:frac_coords",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input-arrays:lattice",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "neighbors:keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "neighbors:center",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "neighbors:neighbor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "neighbors:image",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "neighbors:distance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph:keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph:atomic_number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph:atom_frac_coord",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph:atom_graph",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph:neighbor_image",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph:directed2undirected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph:undirected2directed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph:bond_graph",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph:lattice",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model-output:keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model-output:atoms_per_graph",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model-output:m_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model-output:crystal_fea",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model-output:f_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model-output:s_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model-output:e",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:capture-summary.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:capture_helpers.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:config-original.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:diagnostic_eval.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:expected-source-code.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:graph-hashes.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:graph.npz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:input-array-hashes.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:input-arrays.npz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:input.cif",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:model-output-hashes.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:model-output.npz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:model-tensor-hashes.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:neighbor-hashes.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:neighbors.npz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:observations.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:provenance.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest:runtime.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture_calls",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "thread_device_affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "seed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "numerical_library_thread_controls",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "20_atoms_no_relaxation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "observable_shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "eight_graph_arrays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "required_model_arrays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "neighbor_keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "neighbor_shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph_consumed_neighbor_indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph_consumed_neighbor_images",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input_graph_consistency",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model_ASE_conversion:energy_eV",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model_ASE_conversion:forces_eV_A",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "model_ASE_conversion:stress_eV_A3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_hash:baseline-001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_hash:baseline-002",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_hash:replay",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-23T19:21:37.172488+00:00",
+  "scope": "Pre-inference independent protocol and source review only",
+  "requested_identity": "GPT-6 Astra High per parent request",
+  "observable_identity": "GPT-6-based Codex stated in developer instructions; exact variant/effort not independently exposed",
+  "protocol_sha256": "790f9eebe9c41285001efccddfa7f234507d88918ed5882ac20a21b072f06e6f",
+  "runner_sha256": "1ae5db3f1d85730b4e139b9743295544cb87d43a0a73942c25c128e859d86558",
+  "status": "Critical review findings resolved; no remaining scientific interpretation blocker",
+  "resolved": [
+    "Calculation timeout bounded by remaining investigation and calculation budgets, refreshed at launch",
+    "Exact model array keysets and dtypes enforced",
+    "Preflight passed, capture helper hash and reference manifest/all entry hashes checked"
+  ],
+  "limitations": [
+    "ATen DispatchStub selection is not a global AVX disable or per-kernel trace",
+    "Historical backend cause is not identifiable",
+    "Original force/stress acceptance remains unchanged",
+    "Current-process comparison is not platform-general repeatability"
+  ],
+  "inference_performed_by_reviewer": false
+}

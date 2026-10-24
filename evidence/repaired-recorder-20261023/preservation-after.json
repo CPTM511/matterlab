@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-23T19:10:37.618589+00:00",
+  "publication_entries_reverified": 446,
+  "errors": [],
+  "git_status": "",
+  "remote_main": "2c4a667a4c75488cb2ee2bb3e26a19cc6ab19ea1",
+  "original_publication_manifest_sha256": "dc15e4f699346755bb2c12cfb8bb4d36c648827fee23c8f509528636263e808c",
+  "original_audit_sha256": "2736cf96d41380a71ac08ef40ff2eb13a4a2aaa6df391895c3e0f499df114bcd",
+  "physical_job_active": false,
+  "scope": "Final local process check and recorded completed process; current public active_work remains empty."
+}

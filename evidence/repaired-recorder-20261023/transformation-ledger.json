@@ -1,0 +1,725 @@
+{
+  "schema_version": 1,
+  "boundary": "Private original to additive public derivative; original publication unchanged",
+  "entries": [
+    {
+      "private_relative_source": "ATTEMPT-STARTED.json",
+      "private_original_sha256": "dbd1ffb43fb869b22c4ee6b5e27dbce9a25fb697fd9882495e6c4f5045e8cdd8",
+      "public_relative_path": "ATTEMPT-STARTED.json",
+      "public_sha256": "dbd1ffb43fb869b22c4ee6b5e27dbce9a25fb697fd9882495e6c4f5045e8cdd8",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "D1-capture-comparison.json",
+      "private_original_sha256": "cb387bb310eeb1fd82c3822803f2410b4e2ef03ece98fb952cb70844d43e5b5d",
+      "public_relative_path": "D1-capture-comparison.json",
+      "public_sha256": "cb387bb310eeb1fd82c3822803f2410b4e2ef03ece98fb952cb70844d43e5b5d",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/capture-summary.json",
+      "private_original_sha256": "fd8bc24042225a8b0d4751a5911e3fcdec1f25ab9048ba3de2d3e39d40ac25ce",
+      "public_relative_path": "R1/capture-summary.json",
+      "public_sha256": "fd8bc24042225a8b0d4751a5911e3fcdec1f25ab9048ba3de2d3e39d40ac25ce",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/capture_helpers.py",
+      "private_original_sha256": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+      "public_relative_path": "R1/capture_helpers.py",
+      "public_sha256": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/config-original.json",
+      "private_original_sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601",
+      "public_relative_path": "R1/config-original.json",
+      "public_sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/diagnostic_eval.py",
+      "private_original_sha256": "5e2275fabbe387e17e1d71bfcd0089296b51cc05732f5f628d4303922a53f765",
+      "public_relative_path": "R1/diagnostic_eval.py",
+      "public_sha256": "5e2275fabbe387e17e1d71bfcd0089296b51cc05732f5f628d4303922a53f765",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/expected-source-code.json",
+      "private_original_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "public_relative_path": "R1/expected-source-code.json",
+      "public_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/graph-hashes.json",
+      "private_original_sha256": "de46e2c84cc5826d72c88a6cd4caf9a6cc645aa0f8df840ddfdc21b38ab09617",
+      "public_relative_path": "R1/graph-hashes.json",
+      "public_sha256": "de46e2c84cc5826d72c88a6cd4caf9a6cc645aa0f8df840ddfdc21b38ab09617",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/graph.npz",
+      "private_original_sha256": "cf985ae32baba35f5b561cada2f2b970397380e5dd7e8015308e2a0ead17914f",
+      "public_relative_path": "R1/graph.npz",
+      "public_sha256": "cf985ae32baba35f5b561cada2f2b970397380e5dd7e8015308e2a0ead17914f",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/input-array-hashes.json",
+      "private_original_sha256": "da540467bfa9b8d7cc1138af62b4ddcfc4d7e2d69ec022a01ef4ed9e8d167a43",
+      "public_relative_path": "R1/input-array-hashes.json",
+      "public_sha256": "da540467bfa9b8d7cc1138af62b4ddcfc4d7e2d69ec022a01ef4ed9e8d167a43",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/input-arrays.npz",
+      "private_original_sha256": "6bd5750564082c350755fff9b11c0f2e8377f0e72b63669a14cede0b6574c136",
+      "public_relative_path": "R1/input-arrays.npz",
+      "public_sha256": "6bd5750564082c350755fff9b11c0f2e8377f0e72b63669a14cede0b6574c136",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/input.cif",
+      "private_original_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "public_relative_path": "R1/input.cif",
+      "public_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/manifest.json",
+      "private_original_sha256": "bfe97f09c9351295b1914a3fc1485f546c5cd6186afdd419fe83254902d8d503",
+      "public_relative_path": "R1/original-recorder-manifest.json",
+      "public_sha256": "bfe97f09c9351295b1914a3fc1485f546c5cd6186afdd419fe83254902d8d503",
+      "transformation": "Retain recorder original manifest as provenance; derivative manifest regenerated separately"
+    },
+    {
+      "private_relative_source": "R1/model-output-hashes.json",
+      "private_original_sha256": "e4fca3bec173447751239b8afbe317f62b227553cb73a8a512868f7eb31d942b",
+      "public_relative_path": "R1/model-output-hashes.json",
+      "public_sha256": "e4fca3bec173447751239b8afbe317f62b227553cb73a8a512868f7eb31d942b",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/model-output.npz",
+      "private_original_sha256": "81171255efe7b475c4dd8e7d64550e7c27cf813600844696ce787f9eb5256268",
+      "public_relative_path": "R1/model-output.npz",
+      "public_sha256": "81171255efe7b475c4dd8e7d64550e7c27cf813600844696ce787f9eb5256268",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/model-tensor-hashes.json",
+      "private_original_sha256": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf",
+      "public_relative_path": "R1/model-tensor-hashes.json",
+      "public_sha256": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/neighbor-hashes.json",
+      "private_original_sha256": "f1ed95e4321e852ea790a931ae255bfd2ef81215dbb0c812b1c2e3f09db289f6",
+      "public_relative_path": "R1/neighbor-hashes.json",
+      "public_sha256": "f1ed95e4321e852ea790a931ae255bfd2ef81215dbb0c812b1c2e3f09db289f6",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/neighbors.npz",
+      "private_original_sha256": "e236f975d9b4b80ad80b6ee70989b7775a2293da9bf3b6d7c22c55833011d08c",
+      "public_relative_path": "R1/neighbors.npz",
+      "public_sha256": "e236f975d9b4b80ad80b6ee70989b7775a2293da9bf3b6d7c22c55833011d08c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/observations.json",
+      "private_original_sha256": "a47332b54bd6c7ed0cca77eda631018efeff14f603f4976e4ae003bdaaf5e0e6",
+      "public_relative_path": "R1/observations.json",
+      "public_sha256": "a47332b54bd6c7ed0cca77eda631018efeff14f603f4976e4ae003bdaaf5e0e6",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/provenance.json",
+      "private_original_sha256": "43907f038afa10a6e35e882a08186ae2c95cfe00cd71e15a70e41e7833cb9b12",
+      "public_relative_path": "R1/provenance.json",
+      "public_sha256": "43907f038afa10a6e35e882a08186ae2c95cfe00cd71e15a70e41e7833cb9b12",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "R1/runtime.json",
+      "private_original_sha256": "3069b58454242805f7dfe6609b3ad66b4a684b0ab696c6e7380a0d1868c34c82",
+      "public_relative_path": "R1/runtime.json",
+      "public_sha256": "3069b58454242805f7dfe6609b3ad66b4a684b0ab696c6e7380a0d1868c34c82",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "REPORT.md",
+      "private_original_sha256": "180531a1d6a18ea6623a9a79376310d0582d17416697b9a556b3e9adbbf50a13",
+      "public_relative_path": "REPORT.md",
+      "public_sha256": "180531a1d6a18ea6623a9a79376310d0582d17416697b9a556b3e9adbbf50a13",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "analyze.py",
+      "private_original_sha256": "018d6a1cc453fa4eef302d99ff721fb1dca23a240f0bcfbf59423f1d6ffb8c5c",
+      "public_relative_path": "analyze.py",
+      "public_sha256": "018d6a1cc453fa4eef302d99ff721fb1dca23a240f0bcfbf59423f1d6ffb8c5c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "calculation.log",
+      "private_original_sha256": "8962fac8fb7dcb1bb78ccbc815e8fd34f61b303e98edd65e1f51a17122380650",
+      "public_relative_path": "calculation.log",
+      "public_sha256": "a5fd8658c21e7f6de281e4b6f56f7062e2b569943e80a73fca0cf1ddc2c4fb69",
+      "transformation": "Redact private execution path; Redact temporary cache identifier"
+    },
+    {
+      "private_relative_source": "comparisons.json",
+      "private_original_sha256": "4f246536cf651a6cc85971e6a75b0d8ee751565d9ccde40418932c231b1865b2",
+      "public_relative_path": "comparisons.json",
+      "public_sha256": "4f246536cf651a6cc85971e6a75b0d8ee751565d9ccde40418932c231b1865b2",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "cpu.txt",
+      "private_original_sha256": "604fe4c4dddfdd84348a9b9c80ff7abbfee1a3e00e7a74c914ed9119bc863004",
+      "public_relative_path": "cpu.txt",
+      "public_sha256": "604fe4c4dddfdd84348a9b9c80ff7abbfee1a3e00e7a74c914ed9119bc863004",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "decision.json",
+      "private_original_sha256": "46868b5d5ce96f36eb04493be709858fc25fcd7534c9b1f921f86b676a255bbf",
+      "public_relative_path": "decision.json",
+      "public_sha256": "46868b5d5ce96f36eb04493be709858fc25fcd7534c9b1f921f86b676a255bbf",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "environment.json",
+      "private_original_sha256": "d8c009eab2d36d4660a6dba3ea98f92c40ad39436bc2214ee71636ab559c7a9c",
+      "public_relative_path": "environment.json",
+      "public_sha256": "d8c009eab2d36d4660a6dba3ea98f92c40ad39436bc2214ee71636ab559c7a9c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "execution.json",
+      "private_original_sha256": "9b5087cc1a3933407e41c290e44e6bbc279393f7b039a323af45486c0bda5aae",
+      "public_relative_path": "execution.json",
+      "public_sha256": "9b5087cc1a3933407e41c290e44e6bbc279393f7b039a323af45486c0bda5aae",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "finalize.py",
+      "private_original_sha256": "dcec80938b9a00954abc80782be5377f4a04772b1f3915e5d1e771406b68dd32",
+      "public_relative_path": "finalize.py",
+      "public_sha256": "dcec80938b9a00954abc80782be5377f4a04772b1f3915e5d1e771406b68dd32",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "identity.json",
+      "private_original_sha256": "25592ae8d86056376bc81db70bc786170ab9d1f5e511edcafe906836587ce0da",
+      "public_relative_path": "identity.json",
+      "public_sha256": "25592ae8d86056376bc81db70bc786170ab9d1f5e511edcafe906836587ce0da",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "installed-record-verification.json",
+      "private_original_sha256": "b9abb2eda131cf77e7aee1b7a292562abe1a75522c51306a1a9ec49ba87ee62b",
+      "public_relative_path": "installed-record-verification.json",
+      "public_sha256": "b9abb2eda131cf77e7aee1b7a292562abe1a75522c51306a1a9ec49ba87ee62b",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "integrity.json",
+      "private_original_sha256": "c64a30da5a225b2daf388d0eeb035e192664066f305d4d8bbf42005d5571d4f7",
+      "public_relative_path": "integrity.json",
+      "public_sha256": "c64a30da5a225b2daf388d0eeb035e192664066f305d4d8bbf42005d5571d4f7",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "launch_once.py",
+      "private_original_sha256": "aa87af4e028a3ebff46b022072dd37f7ad3b628b2281ec16f45bc49f7ba060a3",
+      "public_relative_path": "launch_once.py",
+      "public_sha256": "cc719c6807fe6e76b80671b6c6e15ca9a49ad5b4de78a360f342d96d54bc6fc1",
+      "transformation": "Replace fixed execution path with explicit environment-variable binding"
+    },
+    {
+      "private_relative_source": "licenses/ase/ase-3.26.0.dist-info/licenses/LICENSE",
+      "private_original_sha256": "21d7520250857d24adf0fbf80e01c966d8bae2a2d797f14cc038baf237cfe599",
+      "public_relative_path": "licenses/ase/ase-3.26.0.dist-info/licenses/LICENSE",
+      "public_sha256": "21d7520250857d24adf0fbf80e01c966d8bae2a2d797f14cc038baf237cfe599",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "licenses/chgnet/chgnet-0.4.2.dist-info/licenses/LICENSE",
+      "private_original_sha256": "a06789a2624485a9de5903d3d4cceeec6127a36042dd7364999ff994587a4a41",
+      "public_relative_path": "licenses/chgnet/chgnet-0.4.2.dist-info/licenses/LICENSE",
+      "public_sha256": "a06789a2624485a9de5903d3d4cceeec6127a36042dd7364999ff994587a4a41",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "licenses/numpy/numpy/_core/include/numpy/random/LICENSE.txt",
+      "private_original_sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+      "public_relative_path": "licenses/numpy/numpy/_core/include/numpy/random/LICENSE.txt",
+      "public_sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "licenses/numpy/numpy/ma/LICENSE",
+      "private_original_sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+      "public_relative_path": "licenses/numpy/numpy/ma/LICENSE",
+      "public_sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "licenses/numpy/numpy/random/LICENSE.md",
+      "private_original_sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+      "public_relative_path": "licenses/numpy/numpy/random/LICENSE.md",
+      "public_sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "licenses/numpy/numpy-2.2.6.dist-info/LICENSE.txt",
+      "private_original_sha256": "c002bd26de7dc7aa464250a0de063d58fe55974452e4389e5c21c350a820bf06",
+      "public_relative_path": "licenses/numpy/numpy-2.2.6.dist-info/LICENSE.txt",
+      "public_sha256": "c002bd26de7dc7aa464250a0de063d58fe55974452e4389e5c21c350a820bf06",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "licenses/pymatgen/pymatgen-2025.6.14.dist-info/licenses/LICENSE",
+      "private_original_sha256": "7e8f24f9b40be59291c7d82819edb8e93fb344f1d53997880e7db80bbc4f5d89",
+      "public_relative_path": "licenses/pymatgen/pymatgen-2025.6.14.dist-info/licenses/LICENSE",
+      "public_sha256": "7e8f24f9b40be59291c7d82819edb8e93fb344f1d53997880e7db80bbc4f5d89",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "licenses/scipy/scipy/_lib/_uarray/LICENSE",
+      "private_original_sha256": "c80c39b5fce06ba4897e14e0b0a88b54458334d951eb1361402ffad2cfb863b4",
+      "public_relative_path": "licenses/scipy/scipy/_lib/_uarray/LICENSE",
+      "public_sha256": "c80c39b5fce06ba4897e14e0b0a88b54458334d951eb1361402ffad2cfb863b4",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "licenses/scipy/scipy/fft/_pocketfft/LICENSE.md",
+      "private_original_sha256": "c254b2b5fd30ae3c89d36ba061730563b9760fca04f1b746a1b2c3157da2c789",
+      "public_relative_path": "licenses/scipy/scipy/fft/_pocketfft/LICENSE.md",
+      "public_sha256": "c254b2b5fd30ae3c89d36ba061730563b9760fca04f1b746a1b2c3157da2c789",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "licenses/scipy/scipy/integrate/LICENSE_DOP",
+      "private_original_sha256": "ed9bf58c6d74d3fad9d92d1d67d9bff8141d8ab60de784516b0711364fd43357",
+      "public_relative_path": "licenses/scipy/scipy/integrate/LICENSE_DOP",
+      "public_sha256": "ed9bf58c6d74d3fad9d92d1d67d9bff8141d8ab60de784516b0711364fd43357",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "licenses/scipy/scipy/spatial/qhull_src/COPYING_QHULL.txt",
+      "private_original_sha256": "106d55c931fd6a84822e5345d900273d059f1c27310d02567ccb313c5d18c55d",
+      "public_relative_path": "licenses/scipy/scipy/spatial/qhull_src/COPYING_QHULL.txt",
+      "public_sha256": "106d55c931fd6a84822e5345d900273d059f1c27310d02567ccb313c5d18c55d",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "licenses/scipy/scipy-1.17.1.dist-info/LICENSE.txt",
+      "private_original_sha256": "4daf14e37432e7026165979ecb7a39930707a3e89bef4876cfaf9dad36ed364a",
+      "public_relative_path": "licenses/scipy/scipy-1.17.1.dist-info/LICENSE.txt",
+      "public_sha256": "4daf14e37432e7026165979ecb7a39930707a3e89bef4876cfaf9dad36ed364a",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "licenses/torch/torch-2.6.0+cpu.dist-info/LICENSE",
+      "private_original_sha256": "6ecc267746f8c2b9c1faa1facc857c6f0d26db9bd00e6f43017da06f06120313",
+      "public_relative_path": "licenses/torch/torch-2.6.0+cpu.dist-info/LICENSE",
+      "public_sha256": "6ecc267746f8c2b9c1faa1facc857c6f0d26db9bd00e6f43017da06f06120313",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "licenses/torch/torch-2.6.0+cpu.dist-info/NOTICE",
+      "private_original_sha256": "c2cc7bf0caec7652c2b460a8a470bea1677f241e4ab8e431df34cf17f5a9fec0",
+      "public_relative_path": "licenses/torch/torch-2.6.0+cpu.dist-info/NOTICE",
+      "public_sha256": "c2cc7bf0caec7652c2b460a8a470bea1677f241e4ab8e431df34cf17f5a9fec0",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "model-ASE-consistency.json",
+      "private_original_sha256": "e54a1ea4d542e0d3013fe59fe7bc998c3ba1889580cadf5d5ae29d9805bbc98d",
+      "public_relative_path": "model-ASE-consistency.json",
+      "public_sha256": "e54a1ea4d542e0d3013fe59fe7bc998c3ba1889580cadf5d5ae29d9805bbc98d",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "neighbor-geometry-sanity.json",
+      "private_original_sha256": "0dd64f432e2931c00ef764fab04b7080732d5ec1a441c4c2eeb8932ed433c714",
+      "public_relative_path": "neighbor-geometry-sanity.json",
+      "public_sha256": "0dd64f432e2931c00ef764fab04b7080732d5ec1a441c4c2eeb8932ed433c714",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "preflight.json",
+      "private_original_sha256": "f009c22df7d5572054db08525d0bce73a16c2cc06802e7974ae6f18dd821a189",
+      "public_relative_path": "preflight.json",
+      "public_sha256": "696f4757c9a22a7ede5990e98c8f3b75dd2e299f9bd570b8ffd8ecea0b80ea48",
+      "transformation": "Redact private execution path"
+    },
+    {
+      "private_relative_source": "preflight.py",
+      "private_original_sha256": "c1ce3debfc0dc1a1c9fc1d37cf2fda1cd15f3695b3bfaab6e7ceefda483e521b",
+      "public_relative_path": "preflight.py",
+      "public_sha256": "78a7ebd516bd8b28c097dac59f77aff2c65a62bd4a5d8c3c70499a9101232156",
+      "transformation": "Replace fixed execution path with explicit environment-variable binding"
+    },
+    {
+      "private_relative_source": "preservation-after.json",
+      "private_original_sha256": "24a822cb88838a1211bcfdaf66ece9e3f4f9e0a608db2675ac84528fbe1d4ede",
+      "public_relative_path": "preservation-after.json",
+      "public_sha256": "24a822cb88838a1211bcfdaf66ece9e3f4f9e0a608db2675ac84528fbe1d4ede",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "proposed-STATE.json",
+      "private_original_sha256": "0c4342c4d6a2ae577af2672e947b7e66cd24b9acf6b7fd3d6d5d132050681582",
+      "public_relative_path": "proposed-STATE.json",
+      "public_sha256": "0c4342c4d6a2ae577af2672e947b7e66cd24b9acf6b7fd3d6d5d132050681582",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "protocol-freeze.json",
+      "private_original_sha256": "0f9b2222e44a02aa23134f30229c17c79c2dec34dd342a3f32934a72e7b8994c",
+      "public_relative_path": "protocol-freeze.json",
+      "public_sha256": "0f9b2222e44a02aa23134f30229c17c79c2dec34dd342a3f32934a72e7b8994c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "protocol.json",
+      "private_original_sha256": "c7dc58e056588a9fb3a0edb6ff4f0d6dbb50961e33332a08b7120b36070dcb37",
+      "public_relative_path": "protocol.json",
+      "public_sha256": "c7dc58e056588a9fb3a0edb6ff4f0d6dbb50961e33332a08b7120b36070dcb37",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "references/baseline-001/code.json",
+      "private_original_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "public_relative_path": "references/baseline-001/code.json",
+      "public_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "references/baseline-001/config.json",
+      "private_original_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+      "public_relative_path": "references/baseline-001/config.json",
+      "public_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "references/baseline-001/input.cif",
+      "private_original_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "public_relative_path": "references/baseline-001/input.cif",
+      "public_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "references/baseline-001/observations.json",
+      "private_original_sha256": "383815c8bf8c0e129cde6a67e61665cad49959e08db15a608df2218c7b0c48b4",
+      "public_relative_path": "references/baseline-001/observations.json",
+      "public_sha256": "383815c8bf8c0e129cde6a67e61665cad49959e08db15a608df2218c7b0c48b4",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "references/baseline-002/code.json",
+      "private_original_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "public_relative_path": "references/baseline-002/code.json",
+      "public_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "references/baseline-002/config.json",
+      "private_original_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+      "public_relative_path": "references/baseline-002/config.json",
+      "public_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "references/baseline-002/input.cif",
+      "private_original_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "public_relative_path": "references/baseline-002/input.cif",
+      "public_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "references/baseline-002/observations.json",
+      "private_original_sha256": "383815c8bf8c0e129cde6a67e61665cad49959e08db15a608df2218c7b0c48b4",
+      "public_relative_path": "references/baseline-002/observations.json",
+      "public_sha256": "383815c8bf8c0e129cde6a67e61665cad49959e08db15a608df2218c7b0c48b4",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "references/replay/code.json",
+      "private_original_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "public_relative_path": "references/replay/code.json",
+      "public_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "references/replay/config.json",
+      "private_original_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+      "public_relative_path": "references/replay/config.json",
+      "public_sha256": "34e39cf96b437bb7fbbc18266942cc00d7135a0dd7e9e83d7909f702b8a0f4bc",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "references/replay/input.cif",
+      "private_original_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "public_relative_path": "references/replay/input.cif",
+      "public_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "references/replay/observations.json",
+      "private_original_sha256": "a47332b54bd6c7ed0cca77eda631018efeff14f603f4976e4ae003bdaaf5e0e6",
+      "public_relative_path": "references/replay/observations.json",
+      "public_sha256": "a47332b54bd6c7ed0cca77eda631018efeff14f603f4976e4ae003bdaaf5e0e6",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "resume-checkpoint.json",
+      "private_original_sha256": "4dfddbe11db9fe6e05b080cc6642440c04a90b470341e9e0b881061f2f03c0e2",
+      "public_relative_path": "resume-checkpoint.json",
+      "public_sha256": "4dfddbe11db9fe6e05b080cc6642440c04a90b470341e9e0b881061f2f03c0e2",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "sanity-review.json",
+      "private_original_sha256": "81e27c329f6d5b6295d449b03713d07bd90c7621b2231bee012bb25210ed9ec2",
+      "public_relative_path": "sanity-review.json",
+      "public_sha256": "81e27c329f6d5b6295d449b03713d07bd90c7621b2231bee012bb25210ed9ec2",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "sanity_review.py",
+      "private_original_sha256": "64c169315cef08aa5f1cf19cec923e3e2399123e2fec2c72a9ff3373521711d6",
+      "public_relative_path": "sanity_review.py",
+      "public_sha256": "64c169315cef08aa5f1cf19cec923e3e2399123e2fec2c72a9ff3373521711d6",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/LICENSE",
+      "private_original_sha256": "85d73741cd43ff43b832520aeaaccffc6c019c1a04872a7ef1ccbffd990798af",
+      "public_relative_path": "source_snapshot/LICENSE",
+      "public_sha256": "85d73741cd43ff43b832520aeaaccffc6c019c1a04872a7ef1ccbffd990798af",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/__init__.py",
+      "private_original_sha256": "cfb471aeab92e13c11e604db2c2059c02d98ef208ffff0bf2f3c29ae853dbcf5",
+      "public_relative_path": "source_snapshot/chgnet/__init__.py",
+      "public_sha256": "cfb471aeab92e13c11e604db2c2059c02d98ef208ffff0bf2f3c29ae853dbcf5",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/data/__init__.py",
+      "private_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_relative_path": "source_snapshot/chgnet/data/__init__.py",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/data/dataset.py",
+      "private_original_sha256": "fb53ae559c6d6794780b156c7ad28a381b1a5f8efaf832043495499c3217d60e",
+      "public_relative_path": "source_snapshot/chgnet/data/dataset.py",
+      "public_sha256": "fb53ae559c6d6794780b156c7ad28a381b1a5f8efaf832043495499c3217d60e",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/graph/__init__.py",
+      "private_original_sha256": "8ddcf2c0f6af449c97ee56860bcc5971c623d583d6c18f6d341eb9f79cb410f2",
+      "public_relative_path": "source_snapshot/chgnet/graph/__init__.py",
+      "public_sha256": "8ddcf2c0f6af449c97ee56860bcc5971c623d583d6c18f6d341eb9f79cb410f2",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/graph/converter.py",
+      "private_original_sha256": "565a0a3007613323720e2ec3ab06e84043b6970a6a150234222123cee9979c0f",
+      "public_relative_path": "source_snapshot/chgnet/graph/converter.py",
+      "public_sha256": "565a0a3007613323720e2ec3ab06e84043b6970a6a150234222123cee9979c0f",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/graph/crystalgraph.py",
+      "private_original_sha256": "b75e26195790c19696d7e9ab0a58029e73decaa5e1589dd6679eaf97324fc727",
+      "public_relative_path": "source_snapshot/chgnet/graph/crystalgraph.py",
+      "public_sha256": "b75e26195790c19696d7e9ab0a58029e73decaa5e1589dd6679eaf97324fc727",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/graph/graph.py",
+      "private_original_sha256": "c5c613f013d62bcfd675d3c389b80ea6551208bfd461a22209f9a9395ba81e4f",
+      "public_relative_path": "source_snapshot/chgnet/graph/graph.py",
+      "public_sha256": "c5c613f013d62bcfd675d3c389b80ea6551208bfd461a22209f9a9395ba81e4f",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/model/__init__.py",
+      "private_original_sha256": "79ca3c8f5a559e1f921c5b8b7784a232ce9d0df6e40a3daf34466c67aaebf31f",
+      "public_relative_path": "source_snapshot/chgnet/model/__init__.py",
+      "public_sha256": "79ca3c8f5a559e1f921c5b8b7784a232ce9d0df6e40a3daf34466c67aaebf31f",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/model/basis.py",
+      "private_original_sha256": "0e75cf46d3e1b4e96e1726472af0bedf3757b2c24c70cc98161e051c163beace",
+      "public_relative_path": "source_snapshot/chgnet/model/basis.py",
+      "public_sha256": "0e75cf46d3e1b4e96e1726472af0bedf3757b2c24c70cc98161e051c163beace",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/model/composition_model.py",
+      "private_original_sha256": "c7111354fc8795c6a41147b3d01298546a070bc12c87d02f533d7678ab569570",
+      "public_relative_path": "source_snapshot/chgnet/model/composition_model.py",
+      "public_sha256": "c7111354fc8795c6a41147b3d01298546a070bc12c87d02f533d7678ab569570",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/model/dynamics.py",
+      "private_original_sha256": "c5c48a3cf2cd526f366b5aea430811f5c58a7148d6ae7ba53f26b6944acfcd46",
+      "public_relative_path": "source_snapshot/chgnet/model/dynamics.py",
+      "public_sha256": "c5c48a3cf2cd526f366b5aea430811f5c58a7148d6ae7ba53f26b6944acfcd46",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/model/encoders.py",
+      "private_original_sha256": "7dffbc1be159bc48acdfd363c618711bcbd88f72c7ecd5e4aad2dc1830de264c",
+      "public_relative_path": "source_snapshot/chgnet/model/encoders.py",
+      "public_sha256": "7dffbc1be159bc48acdfd363c618711bcbd88f72c7ecd5e4aad2dc1830de264c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/model/functions.py",
+      "private_original_sha256": "8914b73a7b990b1d4fa91ed1064ffc3138a5acd4bf2b192b8b7c5be7b15fed1b",
+      "public_relative_path": "source_snapshot/chgnet/model/functions.py",
+      "public_sha256": "8914b73a7b990b1d4fa91ed1064ffc3138a5acd4bf2b192b8b7c5be7b15fed1b",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/model/layers.py",
+      "private_original_sha256": "9c60e275508a0427084d5ee2089d27dd0a86db40bf90c3b268e81c1cb8b5716c",
+      "public_relative_path": "source_snapshot/chgnet/model/layers.py",
+      "public_sha256": "9c60e275508a0427084d5ee2089d27dd0a86db40bf90c3b268e81c1cb8b5716c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/model/model.py",
+      "private_original_sha256": "767b120ba8b3ee7f75c247416902d1b72e871ba8ffc2916ed76d24809c98fc96",
+      "public_relative_path": "source_snapshot/chgnet/model/model.py",
+      "public_sha256": "767b120ba8b3ee7f75c247416902d1b72e871ba8ffc2916ed76d24809c98fc96",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/trainer/__init__.py",
+      "private_original_sha256": "c7b544b26968c1489091d094a56e439b74903406704926c16b0b5b316bd363b5",
+      "public_relative_path": "source_snapshot/chgnet/trainer/__init__.py",
+      "public_sha256": "c7b544b26968c1489091d094a56e439b74903406704926c16b0b5b316bd363b5",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/trainer/trainer.py",
+      "private_original_sha256": "c932e54d1edfa506886afac43fd1b0f8fe0561aadb4eaea808f0b16ffaef55d4",
+      "public_relative_path": "source_snapshot/chgnet/trainer/trainer.py",
+      "public_sha256": "c932e54d1edfa506886afac43fd1b0f8fe0561aadb4eaea808f0b16ffaef55d4",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/utils/__init__.py",
+      "private_original_sha256": "73b851109bcdf553fde5009a6c59469bd6d5fc3f4a4a4eb32802a564cc4d7faf",
+      "public_relative_path": "source_snapshot/chgnet/utils/__init__.py",
+      "public_sha256": "73b851109bcdf553fde5009a6c59469bd6d5fc3f4a4a4eb32802a564cc4d7faf",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/utils/common_utils.py",
+      "private_original_sha256": "850fcd0c73c6b0b0a2f9787e77d5c8a1e3fa122f9eed831c8f7b8786f8b83772",
+      "public_relative_path": "source_snapshot/chgnet/utils/common_utils.py",
+      "public_sha256": "850fcd0c73c6b0b0a2f9787e77d5c8a1e3fa122f9eed831c8f7b8786f8b83772",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/chgnet/utils/vasp_utils.py",
+      "private_original_sha256": "b46993e27ebc0ca7ddd5fbd8cca03b62e1c10e3b328c67bd5e12442b47b271f3",
+      "public_relative_path": "source_snapshot/chgnet/utils/vasp_utils.py",
+      "public_sha256": "b46993e27ebc0ca7ddd5fbd8cca03b62e1c10e3b328c67bd5e12442b47b271f3",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/docs/THIRD_PARTY.md",
+      "private_original_sha256": "0cdf3dc4d35cfb55198e5ae727262ee894770bf15aeff36bb8d7088e544528ab",
+      "public_relative_path": "source_snapshot/docs/THIRD_PARTY.md",
+      "public_sha256": "0cdf3dc4d35cfb55198e5ae727262ee894770bf15aeff36bb8d7088e544528ab",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/src/matterlab/__init__.py",
+      "private_original_sha256": "6da326c20117347cd4b498489cc1cbf524e5cf5a0e1116e4cc41f479efb15d27",
+      "public_relative_path": "source_snapshot/src/matterlab/__init__.py",
+      "public_sha256": "6da326c20117347cd4b498489cc1cbf524e5cf5a0e1116e4cc41f479efb15d27",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/src/matterlab/__main__.py",
+      "private_original_sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "public_relative_path": "source_snapshot/src/matterlab/__main__.py",
+      "public_sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/src/matterlab/cli.py",
+      "private_original_sha256": "778d945618d9821bc7df8c491b996eee0e541869b1f16bfc65c5d4397d7e0be1",
+      "public_relative_path": "source_snapshot/src/matterlab/cli.py",
+      "public_sha256": "778d945618d9821bc7df8c491b996eee0e541869b1f16bfc65c5d4397d7e0be1",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/src/matterlab/evidence.py",
+      "private_original_sha256": "ec0e0194d618c61815e88e01f3dbbad9d572db54bde8a0f172032a0e08ed915d",
+      "public_relative_path": "source_snapshot/src/matterlab/evidence.py",
+      "public_sha256": "ec0e0194d618c61815e88e01f3dbbad9d572db54bde8a0f172032a0e08ed915d",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/src/matterlab/generate.py",
+      "private_original_sha256": "5d85ad13271efe0589cf4a924869087134c456f998400148ed069d051e76839c",
+      "public_relative_path": "source_snapshot/src/matterlab/generate.py",
+      "public_sha256": "5d85ad13271efe0589cf4a924869087134c456f998400148ed069d051e76839c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/src/matterlab/physics.py",
+      "private_original_sha256": "a58162e71a3d2afb0df30902c43d1e46e454805a6765fcbcd7c9ba0d9e6ac96c",
+      "public_relative_path": "source_snapshot/src/matterlab/physics.py",
+      "public_sha256": "a58162e71a3d2afb0df30902c43d1e46e454805a6765fcbcd7c9ba0d9e6ac96c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/src/matterlab/report.py",
+      "private_original_sha256": "50ddc6ef88b5111f21ab55a2d6b4c0fb895db13989ad17dbf4510ba3ec18f8bc",
+      "public_relative_path": "source_snapshot/src/matterlab/report.py",
+      "public_sha256": "50ddc6ef88b5111f21ab55a2d6b4c0fb895db13989ad17dbf4510ba3ec18f8bc",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "private_relative_source": "source_snapshot/src/matterlab/simulate.py",
+      "private_original_sha256": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a",
+      "public_relative_path": "source_snapshot/src/matterlab/simulate.py",
+      "public_sha256": "332375b21bd07d8b4344583930561cf7fce551252566b0a2a000d347ca93f87a",
+      "transformation": "Byte-identical copy"
+    }
+  ],
+  "excluded_categories": [
+    "Private account evidence and code embedding it",
+    "Private process listings",
+    "Complete private manifest containing private-only hashes"
+  ],
+  "generated_files": [
+    "README.md",
+    "transformation-ledger.json",
+    "sanitation-audit.json",
+    "manifest.json",
+    "R1/manifest.json"
+  ]
+}

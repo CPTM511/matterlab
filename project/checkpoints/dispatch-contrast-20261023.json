@@ -1,0 +1,26 @@
+{
+  "base_public_commit": "2c4a667a4c75488cb2ee2bb3e26a19cc6ab19ea1",
+  "coordination_parent": "f1fdd7fbe07b05c60cb2c15f808ddaa6c13a06bb",
+  "R1_manifest_sha256": "3bf1a29f665c140ef9d3c96d07c2516c424f8921d083c7b25e7c4d5a69c08743",
+  "contrast_manifest_sha256": "65cec9d2c334089e13e4b58391bbaaa2e264f414ffc3b102ff1de8b2bba8d08b",
+  "contrast_protocol_sha256": "790f9eebe9c41285001efccddfa7f234507d88918ed5882ac20a21b072f06e6f",
+  "report_sha256": "41a4c5b6dbb71be5a78df6f227e25a42d6cc130e74354b97a59e2d7e1e85ac0e",
+  "original_numerical_acceptance": "FAILED; unchanged",
+  "contrast_status": {
+    "evidence": "evidence/dispatch-contrast-20261023",
+    "protocol_sha256": "790f9eebe9c41285001efccddfa7f234507d88918ed5882ac20a21b072f06e6f",
+    "evaluations": 2,
+    "control": "Exact R1 input/graph/weight/model-output/ASE match",
+    "altered_condition": "ATEN_CPU_CAPABILITY=default; observed NO AVX",
+    "raw_capture_integrity": "passed",
+    "frozen_C1_combined_gate": "failed: duplicate intended capability text in torch_build",
+    "repeat": "not run",
+    "numerical_acceptance": "failed against original baselines",
+    "historical_cause": "unidentified",
+    "physical_job_active": false,
+    "full_migration_complete": false
+  },
+  "next_action": "Parent review of integrated R1 and bounded dispatch evidence. No inference remains authorized under either completed protocol. Decide whether a separately declared altered-condition repeatability test with semantic capability comparison would change the reproduction policy; do not search backend settings to match historical baselines. Refresh usage and ownership before future work.",
+  "local_fallback": "retained; non-overlapping",
+  "publication_status": "review candidate only; not published"
+}

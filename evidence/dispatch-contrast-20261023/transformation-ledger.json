@@ -1,0 +1,685 @@
+{
+  "boundary": "Private originals and independent review to sanitized additive derivative",
+  "entries": [
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/capture-summary.json",
+      "original_sha256": "7c0bfee1e3200ad074f94221fd0bc152f9d9684b3a37fca3b7ab1c2fc24a167c",
+      "public_relative_path": "C0-control/capture-summary.json",
+      "public_sha256": "7c0bfee1e3200ad074f94221fd0bc152f9d9684b3a37fca3b7ab1c2fc24a167c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/capture_helpers.py",
+      "original_sha256": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+      "public_relative_path": "C0-control/capture_helpers.py",
+      "public_sha256": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/config-original.json",
+      "original_sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601",
+      "public_relative_path": "C0-control/config-original.json",
+      "public_sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/diagnostic_eval.py",
+      "original_sha256": "5e2275fabbe387e17e1d71bfcd0089296b51cc05732f5f628d4303922a53f765",
+      "public_relative_path": "C0-control/diagnostic_eval.py",
+      "public_sha256": "5e2275fabbe387e17e1d71bfcd0089296b51cc05732f5f628d4303922a53f765",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/expected-source-code.json",
+      "original_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "public_relative_path": "C0-control/expected-source-code.json",
+      "public_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/graph-hashes.json",
+      "original_sha256": "de46e2c84cc5826d72c88a6cd4caf9a6cc645aa0f8df840ddfdc21b38ab09617",
+      "public_relative_path": "C0-control/graph-hashes.json",
+      "public_sha256": "de46e2c84cc5826d72c88a6cd4caf9a6cc645aa0f8df840ddfdc21b38ab09617",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/graph.npz",
+      "original_sha256": "cf985ae32baba35f5b561cada2f2b970397380e5dd7e8015308e2a0ead17914f",
+      "public_relative_path": "C0-control/graph.npz",
+      "public_sha256": "cf985ae32baba35f5b561cada2f2b970397380e5dd7e8015308e2a0ead17914f",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/input-array-hashes.json",
+      "original_sha256": "da540467bfa9b8d7cc1138af62b4ddcfc4d7e2d69ec022a01ef4ed9e8d167a43",
+      "public_relative_path": "C0-control/input-array-hashes.json",
+      "public_sha256": "da540467bfa9b8d7cc1138af62b4ddcfc4d7e2d69ec022a01ef4ed9e8d167a43",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/input-arrays.npz",
+      "original_sha256": "6bd5750564082c350755fff9b11c0f2e8377f0e72b63669a14cede0b6574c136",
+      "public_relative_path": "C0-control/input-arrays.npz",
+      "public_sha256": "6bd5750564082c350755fff9b11c0f2e8377f0e72b63669a14cede0b6574c136",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/input.cif",
+      "original_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "public_relative_path": "C0-control/input.cif",
+      "public_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/manifest.json",
+      "original_sha256": "87c2e53e9449ee5a3daf9804ca79a3379f8300528059e4d33162a8eb1b6f7cbd",
+      "public_relative_path": "C0-control/original-recorder-manifest.json",
+      "public_sha256": "87c2e53e9449ee5a3daf9804ca79a3379f8300528059e4d33162a8eb1b6f7cbd",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/model-output-hashes.json",
+      "original_sha256": "e4fca3bec173447751239b8afbe317f62b227553cb73a8a512868f7eb31d942b",
+      "public_relative_path": "C0-control/model-output-hashes.json",
+      "public_sha256": "e4fca3bec173447751239b8afbe317f62b227553cb73a8a512868f7eb31d942b",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/model-output.npz",
+      "original_sha256": "81171255efe7b475c4dd8e7d64550e7c27cf813600844696ce787f9eb5256268",
+      "public_relative_path": "C0-control/model-output.npz",
+      "public_sha256": "81171255efe7b475c4dd8e7d64550e7c27cf813600844696ce787f9eb5256268",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/model-tensor-hashes.json",
+      "original_sha256": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf",
+      "public_relative_path": "C0-control/model-tensor-hashes.json",
+      "public_sha256": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/neighbor-hashes.json",
+      "original_sha256": "f1ed95e4321e852ea790a931ae255bfd2ef81215dbb0c812b1c2e3f09db289f6",
+      "public_relative_path": "C0-control/neighbor-hashes.json",
+      "public_sha256": "f1ed95e4321e852ea790a931ae255bfd2ef81215dbb0c812b1c2e3f09db289f6",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/neighbors.npz",
+      "original_sha256": "e236f975d9b4b80ad80b6ee70989b7775a2293da9bf3b6d7c22c55833011d08c",
+      "public_relative_path": "C0-control/neighbors.npz",
+      "public_sha256": "e236f975d9b4b80ad80b6ee70989b7775a2293da9bf3b6d7c22c55833011d08c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/observations.json",
+      "original_sha256": "a47332b54bd6c7ed0cca77eda631018efeff14f603f4976e4ae003bdaaf5e0e6",
+      "public_relative_path": "C0-control/observations.json",
+      "public_sha256": "a47332b54bd6c7ed0cca77eda631018efeff14f603f4976e4ae003bdaaf5e0e6",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/provenance.json",
+      "original_sha256": "f40a7f63ef9657c16db6c4cc0375745ddae29a1dc2b2f9e205441671e471a45b",
+      "public_relative_path": "C0-control/provenance.json",
+      "public_sha256": "f40a7f63ef9657c16db6c4cc0375745ddae29a1dc2b2f9e205441671e471a45b",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control/runtime.json",
+      "original_sha256": "75f672cde55ce872923a7fb4795c7df123b2951ad56d2d2a567e189189f84140",
+      "public_relative_path": "C0-control/runtime.json",
+      "public_sha256": "75f672cde55ce872923a7fb4795c7df123b2951ad56d2d2a567e189189f84140",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control-ATTEMPT.json",
+      "original_sha256": "1b3fc3706af09c93759ee351eda71d5e0d4b6b36bf2e762d5e97c169c33c27df",
+      "public_relative_path": "C0-control-ATTEMPT.json",
+      "public_sha256": "1b3fc3706af09c93759ee351eda71d5e0d4b6b36bf2e762d5e97c169c33c27df",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control-comparisons.json",
+      "original_sha256": "40303b211bc69cbd572799c4efc8828b42815520e5131b73d17a85f9bf2ec858",
+      "public_relative_path": "C0-control-comparisons.json",
+      "public_sha256": "40303b211bc69cbd572799c4efc8828b42815520e5131b73d17a85f9bf2ec858",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control-execution.json",
+      "original_sha256": "0b5b683a8ef60c961b9679587a02ea9a727f1c9981db9b3197fb69f0fd6b980b",
+      "public_relative_path": "C0-control-execution.json",
+      "public_sha256": "0b5b683a8ef60c961b9679587a02ea9a727f1c9981db9b3197fb69f0fd6b980b",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control-gate.json",
+      "original_sha256": "3f0f49b0b18b22297871314d76f2bb6e3c0b7bb11d1b1cf0051b7d548f4d49d0",
+      "public_relative_path": "C0-control-gate.json",
+      "public_sha256": "3f0f49b0b18b22297871314d76f2bb6e3c0b7bb11d1b1cf0051b7d548f4d49d0",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C0-control.log",
+      "original_sha256": "fed7668b457afc03ee6a131b1a8309993f87879caa9d1d0e711baea7b4bbc22c",
+      "public_relative_path": "C0-control.log",
+      "public_sha256": "ffcca760f82e07ab9fdd5cd140c0f0ed29290ef9da440768c0c51927f3bbf2a9",
+      "transformation": "Sanitize private execution path; Sanitize temporary cache identifier"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/capture-summary.json",
+      "original_sha256": "d210729cb0e4237276880fcf415eb5d9d80f1b0dabadfeff107632c40a7d9075",
+      "public_relative_path": "C1-default/capture-summary.json",
+      "public_sha256": "d210729cb0e4237276880fcf415eb5d9d80f1b0dabadfeff107632c40a7d9075",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/capture_helpers.py",
+      "original_sha256": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+      "public_relative_path": "C1-default/capture_helpers.py",
+      "public_sha256": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/config-original.json",
+      "original_sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601",
+      "public_relative_path": "C1-default/config-original.json",
+      "public_sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/diagnostic_eval.py",
+      "original_sha256": "5e2275fabbe387e17e1d71bfcd0089296b51cc05732f5f628d4303922a53f765",
+      "public_relative_path": "C1-default/diagnostic_eval.py",
+      "public_sha256": "5e2275fabbe387e17e1d71bfcd0089296b51cc05732f5f628d4303922a53f765",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/expected-source-code.json",
+      "original_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "public_relative_path": "C1-default/expected-source-code.json",
+      "public_sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/graph-hashes.json",
+      "original_sha256": "de46e2c84cc5826d72c88a6cd4caf9a6cc645aa0f8df840ddfdc21b38ab09617",
+      "public_relative_path": "C1-default/graph-hashes.json",
+      "public_sha256": "de46e2c84cc5826d72c88a6cd4caf9a6cc645aa0f8df840ddfdc21b38ab09617",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/graph.npz",
+      "original_sha256": "cf985ae32baba35f5b561cada2f2b970397380e5dd7e8015308e2a0ead17914f",
+      "public_relative_path": "C1-default/graph.npz",
+      "public_sha256": "cf985ae32baba35f5b561cada2f2b970397380e5dd7e8015308e2a0ead17914f",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/input-array-hashes.json",
+      "original_sha256": "da540467bfa9b8d7cc1138af62b4ddcfc4d7e2d69ec022a01ef4ed9e8d167a43",
+      "public_relative_path": "C1-default/input-array-hashes.json",
+      "public_sha256": "da540467bfa9b8d7cc1138af62b4ddcfc4d7e2d69ec022a01ef4ed9e8d167a43",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/input-arrays.npz",
+      "original_sha256": "6bd5750564082c350755fff9b11c0f2e8377f0e72b63669a14cede0b6574c136",
+      "public_relative_path": "C1-default/input-arrays.npz",
+      "public_sha256": "6bd5750564082c350755fff9b11c0f2e8377f0e72b63669a14cede0b6574c136",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/input.cif",
+      "original_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "public_relative_path": "C1-default/input.cif",
+      "public_sha256": "1fe444e55772222e8f09e8b333901a94efdc701ef96909a4c22462087185cdd0",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/manifest.json",
+      "original_sha256": "416dc485127840e6471491b0b829407170c65958a80e21db7d8f9f70114658d1",
+      "public_relative_path": "C1-default/original-recorder-manifest.json",
+      "public_sha256": "416dc485127840e6471491b0b829407170c65958a80e21db7d8f9f70114658d1",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/model-output-hashes.json",
+      "original_sha256": "76ffa560bf5677b9f340155f5359b71959929d23e681d7490d719e28bde2bd0b",
+      "public_relative_path": "C1-default/model-output-hashes.json",
+      "public_sha256": "76ffa560bf5677b9f340155f5359b71959929d23e681d7490d719e28bde2bd0b",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/model-output.npz",
+      "original_sha256": "a22788265bc177ec9b087459dc7a92755df466ec79306dd3e2dab225325f7a5b",
+      "public_relative_path": "C1-default/model-output.npz",
+      "public_sha256": "a22788265bc177ec9b087459dc7a92755df466ec79306dd3e2dab225325f7a5b",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/model-tensor-hashes.json",
+      "original_sha256": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf",
+      "public_relative_path": "C1-default/model-tensor-hashes.json",
+      "public_sha256": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/neighbor-hashes.json",
+      "original_sha256": "f1ed95e4321e852ea790a931ae255bfd2ef81215dbb0c812b1c2e3f09db289f6",
+      "public_relative_path": "C1-default/neighbor-hashes.json",
+      "public_sha256": "f1ed95e4321e852ea790a931ae255bfd2ef81215dbb0c812b1c2e3f09db289f6",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/neighbors.npz",
+      "original_sha256": "e236f975d9b4b80ad80b6ee70989b7775a2293da9bf3b6d7c22c55833011d08c",
+      "public_relative_path": "C1-default/neighbors.npz",
+      "public_sha256": "e236f975d9b4b80ad80b6ee70989b7775a2293da9bf3b6d7c22c55833011d08c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/observations.json",
+      "original_sha256": "25f3c38f009dcd06a35c4b8921c1577ec238ce9aefd07ca05157773c51566207",
+      "public_relative_path": "C1-default/observations.json",
+      "public_sha256": "25f3c38f009dcd06a35c4b8921c1577ec238ce9aefd07ca05157773c51566207",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/provenance.json",
+      "original_sha256": "dd97ba40afed6fe06fa68ad2fba9444979100585a9b46c2abb60be35664683ae",
+      "public_relative_path": "C1-default/provenance.json",
+      "public_sha256": "dd97ba40afed6fe06fa68ad2fba9444979100585a9b46c2abb60be35664683ae",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default/runtime.json",
+      "original_sha256": "309d56388b7d6b8b2a4bede18d89b8db6c3bb9ab55a5d9c6147f3b5f5b59e720",
+      "public_relative_path": "C1-default/runtime.json",
+      "public_sha256": "309d56388b7d6b8b2a4bede18d89b8db6c3bb9ab55a5d9c6147f3b5f5b59e720",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default-ATTEMPT.json",
+      "original_sha256": "7859a450911baaeb1c0811e1c7c9d73c7ad2cdbef1bf365424c4c600b3fb3b58",
+      "public_relative_path": "C1-default-ATTEMPT.json",
+      "public_sha256": "7859a450911baaeb1c0811e1c7c9d73c7ad2cdbef1bf365424c4c600b3fb3b58",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default-comparisons.json",
+      "original_sha256": "41574c83815bb5cc4fd45801978d6fb76a1b8b5ad75ded55ba45275c7d59c536",
+      "public_relative_path": "C1-default-comparisons.json",
+      "public_sha256": "41574c83815bb5cc4fd45801978d6fb76a1b8b5ad75ded55ba45275c7d59c536",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default-execution.json",
+      "original_sha256": "6e45c9e5195e747a935aa919dc3f793b3b39a0d2efc8e1a2f904a2b2c693db76",
+      "public_relative_path": "C1-default-execution.json",
+      "public_sha256": "6e45c9e5195e747a935aa919dc3f793b3b39a0d2efc8e1a2f904a2b2c693db76",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default-gate.json",
+      "original_sha256": "4351521323eeda170dc044a579adcd31eef7ecbcbd290ac5215745efe6528217",
+      "public_relative_path": "C1-default-gate.json",
+      "public_sha256": "4351521323eeda170dc044a579adcd31eef7ecbcbd290ac5215745efe6528217",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "C1-default.log",
+      "original_sha256": "d678a915f32963745f8598974bcb6af71b71f5c33bc51411ebb42a0a0ae95c8c",
+      "public_relative_path": "C1-default.log",
+      "public_sha256": "4aca78cd1eb9a7764bfbd1971dc37842ed368ce7fabcf670e3919d6c30eda224",
+      "transformation": "Sanitize private execution path; Sanitize temporary cache identifier"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "DispatchStub.cpp",
+      "original_sha256": "92cbc3bafdea0db0993cd7e020d6b917d84fba3cfeb27c02c6b7050a89c76738",
+      "public_relative_path": "DispatchStub.cpp",
+      "public_sha256": "92cbc3bafdea0db0993cd7e020d6b917d84fba3cfeb27c02c6b7050a89c76738",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "R1-preservation.json",
+      "original_sha256": "29f308b9bd4d4f940c7e042d8b8069c0ea7cde33d0b9bb68b1773d76fe956ad2",
+      "public_relative_path": "R1-preservation.json",
+      "public_sha256": "29f308b9bd4d4f940c7e042d8b8069c0ea7cde33d0b9bb68b1773d76fe956ad2",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "REPORT.md",
+      "original_sha256": "41a4c5b6dbb71be5a78df6f227e25a42d6cc130e74354b97a59e2d7e1e85ac0e",
+      "public_relative_path": "REPORT.md",
+      "public_sha256": "41a4c5b6dbb71be5a78df6f227e25a42d6cc130e74354b97a59e2d7e1e85ac0e",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "capability-probes.json",
+      "original_sha256": "5cd3940e38325e6f2315fb625986395d829b9d36bed4d6c6246f81029e2b12fa",
+      "public_relative_path": "capability-probes.json",
+      "public_sha256": "5cd3940e38325e6f2315fb625986395d829b9d36bed4d6c6246f81029e2b12fa",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "contrast.py",
+      "original_sha256": "1ae5db3f1d85730b4e139b9743295544cb87d43a0a73942c25c128e859d86558",
+      "public_relative_path": "contrast.py",
+      "public_sha256": "1ae5db3f1d85730b4e139b9743295544cb87d43a0a73942c25c128e859d86558",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "cpu.txt",
+      "original_sha256": "604fe4c4dddfdd84348a9b9c80ff7abbfee1a3e00e7a74c914ed9119bc863004",
+      "public_relative_path": "cpu.txt",
+      "public_sha256": "604fe4c4dddfdd84348a9b9c80ff7abbfee1a3e00e7a74c914ed9119bc863004",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "decision.json",
+      "original_sha256": "4da468ca7da3285c2722f79a6e8b75d89e50a5a86ff062220e39088ed59fbbf4",
+      "public_relative_path": "decision.json",
+      "public_sha256": "4da468ca7da3285c2722f79a6e8b75d89e50a5a86ff062220e39088ed59fbbf4",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "dispatch-source.json",
+      "original_sha256": "4922f1df52e89bbbc086cc32614307079f90a90e06a60f64c40ff7e4afb81cd1",
+      "public_relative_path": "dispatch-source.json",
+      "public_sha256": "4922f1df52e89bbbc086cc32614307079f90a90e06a60f64c40ff7e4afb81cd1",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "environment.json",
+      "original_sha256": "eb55ef36bc061cda1224c01cce7572441ed8221d1352409f8f3e701f40b09963",
+      "public_relative_path": "environment.json",
+      "public_sha256": "eb55ef36bc061cda1224c01cce7572441ed8221d1352409f8f3e701f40b09963",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "finish_analysis.py",
+      "original_sha256": "aa0abc51797f17ab69d1b72be375b1fdebe33690b5cc4556e5212eba871aea6a",
+      "public_relative_path": "finish_analysis.py",
+      "public_sha256": "aa0abc51797f17ab69d1b72be375b1fdebe33690b5cc4556e5212eba871aea6a",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "installed-record-verification.json",
+      "original_sha256": "b9abb2eda131cf77e7aee1b7a292562abe1a75522c51306a1a9ec49ba87ee62b",
+      "public_relative_path": "installed-record-verification.json",
+      "public_sha256": "b9abb2eda131cf77e7aee1b7a292562abe1a75522c51306a1a9ec49ba87ee62b",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "investigation-start.json",
+      "original_sha256": "b3fb99d215ecf7538d5cddf2d15e744e1e222cdbec0c91e7bf91b2f8cea37449",
+      "public_relative_path": "investigation-start.json",
+      "public_sha256": "b3fb99d215ecf7538d5cddf2d15e744e1e222cdbec0c91e7bf91b2f8cea37449",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "preflight.json",
+      "original_sha256": "f009c22df7d5572054db08525d0bce73a16c2cc06802e7974ae6f18dd821a189",
+      "public_relative_path": "preflight.json",
+      "public_sha256": "696f4757c9a22a7ede5990e98c8f3b75dd2e299f9bd570b8ffd8ecea0b80ea48",
+      "transformation": "Sanitize private execution path"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "preflight.py",
+      "original_sha256": "eb288408956c2c4678acea83e4fc915f88fe117bb544770e5fae18f6ac9ea958",
+      "public_relative_path": "preflight.py",
+      "public_sha256": "4972901ebf4fbcebe505d109b9263e3647d33e270ce6f7cb91b9dcb56a67fa7b",
+      "transformation": "Replace fixed private execution path with environment binding"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "protocol-freeze.json",
+      "original_sha256": "e1c656643b0f36c3eeafff62d0df034a90b740397ef796ada0dd0b0de18ae8be",
+      "public_relative_path": "protocol-freeze.json",
+      "public_sha256": "e1c656643b0f36c3eeafff62d0df034a90b740397ef796ada0dd0b0de18ae8be",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "protocol.json",
+      "original_sha256": "790f9eebe9c41285001efccddfa7f234507d88918ed5882ac20a21b072f06e6f",
+      "public_relative_path": "protocol.json",
+      "public_sha256": "790f9eebe9c41285001efccddfa7f234507d88918ed5882ac20a21b072f06e6f",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "public-preservation.json",
+      "original_sha256": "e3ace1d006db755269e3f7679e504e376ebdbd1cf22cd308181f830feabe9901",
+      "public_relative_path": "public-preservation.json",
+      "public_sha256": "e3ace1d006db755269e3f7679e504e376ebdbd1cf22cd308181f830feabe9901",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "raw-capture-review.json",
+      "original_sha256": "0185395023c591c2c410dd5835aaaa5bd270eba65d3e5f5dc918da501894e256",
+      "public_relative_path": "raw-capture-review.json",
+      "public_sha256": "0185395023c591c2c410dd5835aaaa5bd270eba65d3e5f5dc918da501894e256",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "runtime-comparison-diagnosis.json",
+      "original_sha256": "a3dfdc831f1aa366da53a7b0c295de0f1fca6c16719c1c39c54d324207790d5c",
+      "public_relative_path": "runtime-comparison-diagnosis.json",
+      "public_sha256": "a3dfdc831f1aa366da53a7b0c295de0f1fca6c16719c1c39c54d324207790d5c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "private",
+      "original_relative_path": "scalar-sanity-review.json",
+      "original_sha256": "846d1dbea90d033aa6f3ed962b353275c29fc397bebd5a814325c72718df726f",
+      "public_relative_path": "scalar-sanity-review.json",
+      "public_sha256": "846d1dbea90d033aa6f3ed962b353275c29fc397bebd5a814325c72718df726f",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "reviewer",
+      "original_relative_path": "R1-arithmetic-check.json",
+      "original_sha256": "56d5e294c4527929480d6932ed1bcf818077a1e3f7ab6c873309ef7ee4715be6",
+      "public_relative_path": "reviewer/R1-arithmetic-check.json",
+      "public_sha256": "56d5e294c4527929480d6932ed1bcf818077a1e3f7ab6c873309ef7ee4715be6",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "reviewer",
+      "original_relative_path": "REVIEW.md",
+      "original_sha256": "dceecec4c24e3ce3103a97c41c01e8bdd103c0da9a69dde33a9b0a69b4300bdf",
+      "public_relative_path": "reviewer/REVIEW.md",
+      "public_sha256": "dceecec4c24e3ce3103a97c41c01e8bdd103c0da9a69dde33a9b0a69b4300bdf",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "reviewer",
+      "original_relative_path": "final-review.json",
+      "original_sha256": "1f4b21635a03a0eb1b2284a78127368b8c153f15b5b080c0c1157e53e718a7d3",
+      "public_relative_path": "reviewer/final-review.json",
+      "public_sha256": "1f4b21635a03a0eb1b2284a78127368b8c153f15b5b080c0c1157e53e718a7d3",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "reviewer",
+      "original_relative_path": "integrated-full-audit.json",
+      "original_sha256": "c411ce02f147914e67fe71da437cd2adac8fe99d9e5121d4940c8e5353053e00",
+      "public_relative_path": "reviewer/integrated-full-audit.json",
+      "public_sha256": "c411ce02f147914e67fe71da437cd2adac8fe99d9e5121d4940c8e5353053e00",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "reviewer",
+      "original_relative_path": "integrated-independent-audit.json",
+      "original_sha256": "c023cd001a92cc1cdc925c6da1267a28743c9d0fe1512f6fd1656c2476d62eec",
+      "public_relative_path": "reviewer/integrated-independent-audit.json",
+      "public_sha256": "c023cd001a92cc1cdc925c6da1267a28743c9d0fe1512f6fd1656c2476d62eec",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "reviewer",
+      "original_relative_path": "preliminary-review.json",
+      "original_sha256": "5732c454c8852bae9e11bf49c241228a3528acc28e1429aef04dedfa84f8e71d",
+      "public_relative_path": "reviewer/preliminary-review.json",
+      "public_sha256": "5732c454c8852bae9e11bf49c241228a3528acc28e1429aef04dedfa84f8e71d",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "reviewer",
+      "original_relative_path": "protocol-review-draft.json",
+      "original_sha256": "38aa18b126e4abb70e6cda49a160867b0ba5a16d463e4411a14a08a6b3cd9d35",
+      "public_relative_path": "reviewer/protocol-review-draft.json",
+      "public_sha256": "38aa18b126e4abb70e6cda49a160867b0ba5a16d463e4411a14a08a6b3cd9d35",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "reviewer",
+      "original_relative_path": "protocol-review.json",
+      "original_sha256": "9d250753747f4e9a5521a7557a1fd63608044527564efb57367cad2b8a95d67c",
+      "public_relative_path": "reviewer/protocol-review.json",
+      "public_sha256": "9d250753747f4e9a5521a7557a1fd63608044527564efb57367cad2b8a95d67c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "reviewer",
+      "original_relative_path": "runtime-difference-review.json",
+      "original_sha256": "3a998c865a999b1e07f88fde74a8d83aee57fb59e308ae3fcb8cc118e6ecefc0",
+      "public_relative_path": "reviewer/runtime-difference-review.json",
+      "public_sha256": "3a998c865a999b1e07f88fde74a8d83aee57fb59e308ae3fcb8cc118e6ecefc0",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "reviewer",
+      "original_relative_path": "saved-data-review.json",
+      "original_sha256": "29cd47ceaefaccab6bd5239c095ff67af781d32b857769ec51f28481148d69d1",
+      "public_relative_path": "reviewer/saved-data-review.json",
+      "public_sha256": "29cd47ceaefaccab6bd5239c095ff67af781d32b857769ec51f28481148d69d1",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "reviewer",
+      "original_relative_path": "state-diff-review.json",
+      "original_sha256": "d94669a64c5ece023f68986d5b01f05a57e7826d758d44c4c037e912d9683efa",
+      "public_relative_path": "reviewer/state-diff-review.json",
+      "public_sha256": "d94669a64c5ece023f68986d5b01f05a57e7826d758d44c4c037e912d9683efa",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "reviewer",
+      "original_relative_path": "verify_saved.py",
+      "original_sha256": "049fee8bfc04479afb6bb1e222e0d944d3eff7aa0947b554c0d6e2c54bc4e833",
+      "public_relative_path": "reviewer/verify_saved.py",
+      "public_sha256": "7b95f62658311b3b59065662a904fff501f863efffb9b5bbbaabbb18b0f0b66f",
+      "transformation": "Replace fixed private execution path with environment binding; Sanitize private execution path"
+    },
+    {
+      "origin_category": "verified_public",
+      "original_relative_path": "publication/manifest.json",
+      "original_sha256": "dc15e4f699346755bb2c12cfb8bb4d36c648827fee23c8f509528636263e808c",
+      "public_relative_path": "provenance/original-publication-manifest.json",
+      "public_sha256": "dc15e4f699346755bb2c12cfb8bb4d36c648827fee23c8f509528636263e808c",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "verified_public",
+      "original_relative_path": "publication/audit.json",
+      "original_sha256": "2736cf96d41380a71ac08ef40ff2eb13a4a2aaa6df391895c3e0f499df114bcd",
+      "public_relative_path": "provenance/original-publication-audit.json",
+      "public_sha256": "2736cf96d41380a71ac08ef40ff2eb13a4a2aaa6df391895c3e0f499df114bcd",
+      "transformation": "Byte-identical copy"
+    },
+    {
+      "origin_category": "verified_public",
+      "original_relative_path": "evidence/repaired-recorder-20261023/licenses/torch/torch-2.6.0+cpu.dist-info/LICENSE",
+      "original_sha256": "6ecc267746f8c2b9c1faa1facc857c6f0d26db9bd00e6f43017da06f06120313",
+      "public_relative_path": "licenses/PyTorch-LICENSE",
+      "public_sha256": "6ecc267746f8c2b9c1faa1facc857c6f0d26db9bd00e6f43017da06f06120313",
+      "transformation": "Byte-identical copy"
+    }
+  ],
+  "excluded_categories": [
+    "Private account records",
+    "Raw process listings",
+    "Private-path preservation index",
+    "Complete private manifest",
+    "Private-marker-specific reviewer sanitation script"
+  ],
+  "R1_original_export": "Unchanged; see R1-preservation.json",
+  "generated_files": [
+    "README.md",
+    "transformation-ledger.json",
+    "supplemental-audit.json",
+    "manifest.json",
+    "C0-control/manifest.json",
+    "C1-default/manifest.json"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "R1-repaired-recorder-validation",
+  "declared_at_utc": "2026-10-23T19:07:39.613617+00:00",
+  "scope": "One fresh CaTiO3 single point with the published proposed recorder. No repeat, backend contrast, relaxation or campaign.",
+  "hypotheses": {
+    "H_capture": "The bound-forward wrapper records exactly one model evaluation and graph conversion, with nonempty finite input, consumed-neighbor, graph and model-output arrays, plus ASE observations.",
+    "H_replay": "The new observations meet the original unchanged numerical tolerances against both onboarding baselines. Failure remains failure.",
+    "H_restored_consistency": "Comparison against the previously restored observation quantifies whether this new recorder/inter-op condition matches it; no historical hardware cause can be inferred."
+  },
+  "new_condition": "Published repaired recorder with bound forward and consumed neighbor interception; explicit inter-op=1; Python and NumPy seeds explicitly fixed in addition to the existing PyTorch seed. This is not a retry under D1.",
+  "public_checkpoint": "2c4a667a4c75488cb2ee2bb3e26a19cc6ab19ea1",
+  "physics_source": "3319dc595397f68c0e7a3326e64c2b27ae799027",
+  "recorder_sha256": "5e2275fabbe387e17e1d71bfcd0089296b51cc05732f5f628d4303922a53f765",
+  "capture_helpers_sha256": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+  "launcher_sha256": "aa87af4e028a3ebff46b022072dd37f7ad3b628b2281ec16f45bc49f7ba060a3",
+  "references": {
+    "baseline-001": {
+      "path": "evidence/restoration-20261023/baseline-001/observations.json",
+      "sha256": "383815c8bf8c0e129cde6a67e61665cad49959e08db15a608df2218c7b0c48b4"
+    },
+    "baseline-002": {
+      "path": "evidence/restoration-20261023/baseline-002/observations.json",
+      "sha256": "383815c8bf8c0e129cde6a67e61665cad49959e08db15a608df2218c7b0c48b4"
+    },
+    "replay": {
+      "path": "evidence/restoration-20261023/replay/observations.json",
+      "sha256": "a47332b54bd6c7ed0cca77eda631018efeff14f603f4976e4ae003bdaaf5e0e6"
+    }
+  },
+  "original_acceptance": {
+    "energy_eV": {
+      "atol": 1e-05,
+      "rtol": 0
+    },
+    "forces_eV_A": {
+      "atol": 1e-06,
+      "rtol": 0
+    },
+    "stress_eV_A3": {
+      "atol": 1e-07,
+      "rtol": 0
+    }
+  },
+  "comparison_convention": "Each signed difference is new minus named reference, float64 subtraction of persisted values; publish every component, finite/shape checks, exact equality and maximum absolute difference. Missing comparisons are unavailable, never zero.",
+  "integrity_criteria": [
+    "Full publication manifest and supplied manifest/audit digests pass; public parent coordination preserved.",
+    "All eight matterlab source digests match saved replay/code.json and physics Git blobs; imports bound to verified checkout.",
+    "Raw input/config digests and semantic saved config, Python executable, 20 CHGNet source hashes, all saved package versions and three cached model hashes verified before inference; active model is CHGNet 0.3.0.",
+    "Installed RECORD digests of CHGNet, torch, numpy, scipy, ASE and pymatgen verified; record native library hashes without claiming historical match.",
+    "Exactly one graph and model capture; exactly the eight published graph tensor keys; required model e/f_0/s_0 plus all returned tensors captured and nonempty; raw neighbor center/neighbor/image/distance arrays aligned and nonempty.",
+    "All raw arrays finite; byte hashes/dtypes/shapes recompute; input 20 atoms and forces 20x3/stress 3x3; raw model and ASE conversions consistent using the installed CHGNet/ASE conversion arithmetic.",
+    "Effective CPU device, one affinity, all numerical-library and PyTorch intra-op/inter-op threads one, seed 20261024; no relaxation.",
+    "Report exact input/graph/weight comparison with available D1 captures as diagnostic evidence only; the D1 numerical output remains missing."
+  ],
+  "resource_limits": {
+    "maximum_real_evaluations": 1,
+    "calculation_process_wall_timeout_seconds": 600,
+    "cpu_affinity": [
+      0
+    ],
+    "numerical_library_threads": 1,
+    "torch_intra_op_threads": 1,
+    "torch_inter_op_threads": 1,
+    "seed": 20261024,
+    "device": "cpu",
+    "relaxation": false
+  },
+  "stop_conditions": [
+    "Any exception, timeout, nonfinite/missing capture, integrity or comparison mismatch: no further inference; retain observations and complete comparisons/report only.",
+    "Other overlapping physical job or changed ownership: stop dependent work.",
+    "Included-usage/fee gate becomes unavailable or disallowed: checkpoint and defer. No paid API, credits, overage or account change."
+  ],
+  "outcomes_separate": [
+    "GitHub-backed checkpoint resume",
+    "recorder capture integrity",
+    "numerical replay acceptance"
+  ],
+  "limitations": [
+    "No DFT, synthesis, stability, novelty or application evidence.",
+    "Historical CPU/backend/graph data absent; do not reconstruct.",
+    "Retain original restoration failure and D1 instrumentation failure unchanged.",
+    "No full migration completion or fallback retirement.",
+    "No result publication or schedule changes in this task."
+  ]
+}

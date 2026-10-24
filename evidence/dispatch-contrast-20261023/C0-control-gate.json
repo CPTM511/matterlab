@@ -1,0 +1,249 @@
+{
+  "condition": "C0-control",
+  "capture_integrity_passed": true,
+  "comparison_assumptions_passed": true,
+  "checks": [
+    {
+      "name": "execution",
+      "passed": true
+    },
+    {
+      "name": "manifest:capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "manifest:config-original.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "manifest:expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:graph.npz",
+      "passed": true
+    },
+    {
+      "name": "manifest:input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "manifest:input.cif",
+      "passed": true
+    },
+    {
+      "name": "manifest:model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "manifest:model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "manifest:observations.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:provenance.json",
+      "passed": true
+    },
+    {
+      "name": "manifest:runtime.json",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:keys",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:atomic_numbers",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:positions",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:cell",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:pbc",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:frac_coords",
+      "passed": true
+    },
+    {
+      "name": "input-arrays:lattice",
+      "passed": true
+    },
+    {
+      "name": "neighbors:keys",
+      "passed": true
+    },
+    {
+      "name": "neighbors:center",
+      "passed": true
+    },
+    {
+      "name": "neighbors:neighbor",
+      "passed": true
+    },
+    {
+      "name": "neighbors:image",
+      "passed": true
+    },
+    {
+      "name": "neighbors:distance",
+      "passed": true
+    },
+    {
+      "name": "graph:keys",
+      "passed": true
+    },
+    {
+      "name": "graph:atomic_number",
+      "passed": true
+    },
+    {
+      "name": "graph:atom_frac_coord",
+      "passed": true
+    },
+    {
+      "name": "graph:atom_graph",
+      "passed": true
+    },
+    {
+      "name": "graph:neighbor_image",
+      "passed": true
+    },
+    {
+      "name": "graph:directed2undirected",
+      "passed": true
+    },
+    {
+      "name": "graph:undirected2directed",
+      "passed": true
+    },
+    {
+      "name": "graph:bond_graph",
+      "passed": true
+    },
+    {
+      "name": "graph:lattice",
+      "passed": true
+    },
+    {
+      "name": "model-output:keys",
+      "passed": true
+    },
+    {
+      "name": "model-output:atoms_per_graph",
+      "passed": true
+    },
+    {
+      "name": "model-output:m_0",
+      "passed": true
+    },
+    {
+      "name": "model-output:crystal_fea",
+      "passed": true
+    },
+    {
+      "name": "model-output:f_0",
+      "passed": true
+    },
+    {
+      "name": "model-output:s_0",
+      "passed": true
+    },
+    {
+      "name": "model-output:e",
+      "passed": true
+    },
+    {
+      "name": "one_graph_one_model",
+      "passed": true
+    },
+    {
+      "name": "cpu_threads_seed",
+      "passed": true
+    },
+    {
+      "name": "shapes",
+      "passed": true
+    },
+    {
+      "name": "graph_keys",
+      "passed": true
+    },
+    {
+      "name": "model_keys",
+      "passed": true
+    },
+    {
+      "name": "consumed_neighbors",
+      "passed": true
+    },
+    {
+      "name": "model_ASE_conversion",
+      "passed": true
+    },
+    {
+      "name": "input_graph_parameter_invariants",
+      "passed": true
+    },
+    {
+      "name": "other_effective_runtime_settings",
+      "passed": true
+    },
+    {
+      "name": "effective_intervention",
+      "passed": true
+    }
+  ],
+  "observables_exact_equal": {
+    "R1": true
+  },
+  "model_outputs_exact_equal": {
+    "R1": true
+  },
+  "runtime_comparison": {
+    "R1": {
+      "other_effective_settings_exact_equal": true
+    }
+  },
+  "changed_scientific_observable_vs_control": false,
+  "original_baseline_acceptance": false,
+  "comparisons_file": "C0-control-comparisons.json"
+}

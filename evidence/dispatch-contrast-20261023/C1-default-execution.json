@@ -1,0 +1,10 @@
+{
+  "condition": "C1-default",
+  "started_at_utc": "2026-10-23T19:21:38.793484+00:00",
+  "timeout": false,
+  "maximum_remaining_wall_seconds": 595.9243861619999,
+  "protocol_sha256": "790f9eebe9c41285001efccddfa7f234507d88918ed5882ac20a21b072f06e6f",
+  "returncode": 0,
+  "wall_seconds": 3.9236353620000273,
+  "ended_at_utc": "2026-10-23T19:21:42.717124+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "remote_main": "2c4a667a4c75488cb2ee2bb3e26a19cc6ab19ea1",
+  "verified_at_utc": "2026-10-23T19:23:25.502032+00:00",
+  "public_entries_reverified": 446,
+  "clean_source_checkout": true,
+  "coordination_active_work": [],
+  "current_cloud_ownership": "Parent assignment; read-only reviewer has no physical job",
+  "publication_audit_code_sha256": "958d0476a6303f7d3d5d21eed0fa49ed1c61f54ca4dd67ffed9d3e799d3366ac"
+}

@@ -1,0 +1,65 @@
+{
+  "scope": "Independent standard-library Decimal saved-observation arithmetic only; no model execution",
+  "comparisons": {
+    "baseline-001": {
+      "energy_eV": {
+        "components": 1,
+        "max_abs_difference": "0E-10",
+        "exact": true,
+        "passed": true
+      },
+      "forces_eV_A": {
+        "components": 60,
+        "max_abs_difference": "0.00003039836883545",
+        "exact": false,
+        "passed": false
+      },
+      "stress_eV_A3": {
+        "components": 9,
+        "max_abs_difference": "5.3644180298E-7",
+        "exact": false,
+        "passed": false
+      }
+    },
+    "baseline-002": {
+      "energy_eV": {
+        "components": 1,
+        "max_abs_difference": "0E-10",
+        "exact": true,
+        "passed": true
+      },
+      "forces_eV_A": {
+        "components": 60,
+        "max_abs_difference": "0.00003039836883545",
+        "exact": false,
+        "passed": false
+      },
+      "stress_eV_A3": {
+        "components": 9,
+        "max_abs_difference": "5.3644180298E-7",
+        "exact": false,
+        "passed": false
+      }
+    },
+    "replay": {
+      "energy_eV": {
+        "components": 1,
+        "max_abs_difference": "0E-10",
+        "exact": true,
+        "passed": true
+      },
+      "forces_eV_A": {
+        "components": 60,
+        "max_abs_difference": "0E-16",
+        "exact": true,
+        "passed": true
+      },
+      "stress_eV_A3": {
+        "components": 9,
+        "max_abs_difference": "0E-17",
+        "exact": true,
+        "passed": true
+      }
+    }
+  }
+}

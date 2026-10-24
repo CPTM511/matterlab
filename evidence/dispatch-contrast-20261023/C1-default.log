@@ -1,0 +1,7 @@
+mkdir -p failed for path [RUNTIME_HOME]/.config/matplotlib: [Errno 30] Read-only file system: '[RUNTIME_HOME]/.config/matplotlib'
+Matplotlib created a temporary cache directory at [TEMP_MATPLOTLIB_CACHE] because there was an issue with the default path ([RUNTIME_HOME]/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cpu
+CHGNet will run on cpu
+{"condition": "C1-default", "capability": "NO AVX", "energy_eV": -166.1494140625, "captures": {"graph_calls": 1, "model_calls": 1}}

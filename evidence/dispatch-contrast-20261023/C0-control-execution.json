@@ -1,0 +1,10 @@
+{
+  "condition": "C0-control",
+  "started_at_utc": "2026-10-23T19:21:27.282857+00:00",
+  "timeout": false,
+  "maximum_remaining_wall_seconds": 600,
+  "protocol_sha256": "790f9eebe9c41285001efccddfa7f234507d88918ed5882ac20a21b072f06e6f",
+  "returncode": 0,
+  "wall_seconds": 4.075613838000095,
+  "ended_at_utc": "2026-10-23T19:21:31.358474+00:00"
+}

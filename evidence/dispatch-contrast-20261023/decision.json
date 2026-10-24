@@ -1,0 +1,16 @@
+{
+  "status": "Stopped after two evaluations at frozen C1 runtime-comparison gate",
+  "new_evaluations": 2,
+  "C0": "Capture/integrity and exact R1 comparison passed, including all six raw model-output tensors",
+  "C1": "Raw capture and input/graph/parameter invariants passed; frozen bundled gate failed on duplicate capability text in torch_build",
+  "C2": "Not run; frozen gate prohibits repeat",
+  "total_calculation_process_wall_seconds": 7.999249200000122,
+  "observed_sensitivity": "Energy unchanged; finite force/stress changes under ATEN_CPU_CAPABILITY=default with identical input/graph/weights and only intended capability metadata changes. Single altered-process observation; altered repeatability untested.",
+  "original_numerical_acceptance": "Failed for both C0 and C1; unchanged thresholds and historical failures",
+  "historical_cause": "Not identified; no historical CPU/backend metadata inferred",
+  "next_research_decision": "The current derivative outputs are sensitive to supported ATen dispatch selection at invariant captured input/graph/weights. Do not search settings to fit historical baselines. Parent should first review whether confirming altered-process repeatability under a separately predeclared semantic runtime comparison is decision-relevant; no such inference is authorized by this completed protocol.",
+  "full_migration_complete": false,
+  "fallback": "Retained without overlap",
+  "publication": "Not performed; review candidate only",
+  "physical_job_active": false
+}

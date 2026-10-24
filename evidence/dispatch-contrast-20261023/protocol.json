@@ -1,0 +1,99 @@
+{
+  "id": "CPU-dispatch-contrast-20261023",
+  "declared_at_utc": "2026-10-23T19:20:10.458920+00:00",
+  "public_commit": "2c4a667a4c75488cb2ee2bb3e26a19cc6ab19ea1",
+  "physics_source": "3319dc595397f68c0e7a3326e64c2b27ae799027",
+  "question": "Does changing only the supported per-process ATen DispatchStub capability selection change CaTiO3 observables with identical inputs, graphs, parameters and captured conditions?",
+  "hypotheses": {
+    "H_control": "A fresh control matches saved R1 inputs, all graph/model output arrays, parameters and ASE observations exactly.",
+    "H_dispatch": "ATEN_CPU_CAPABILITY=default changes at least one finite ASE observable under invariant input/graph/weights and otherwise equal captured effective settings.",
+    "H_repeat": "If H_dispatch is observed, one fresh altered-condition repeat matches all altered model outputs and ASE observables exactly."
+  },
+  "conditions": [
+    {
+      "id": "C0-control",
+      "ATEN_CPU_CAPABILITY": null,
+      "expected_observed_capability": "AVX512",
+      "purpose": "Fresh negative control vs saved R1; require all captured model and ASE outputs exact."
+    },
+    {
+      "id": "C1-default",
+      "ATEN_CPU_CAPABILITY": "default",
+      "expected_observed_capability": "NO AVX",
+      "conditional": "Only after C0 capture/integrity and exact R1 control gate pass.",
+      "purpose": "One-factor ATen dispatch contrast."
+    },
+    {
+      "id": "C2-default-repeat",
+      "ATEN_CPU_CAPABILITY": "default",
+      "expected_observed_capability": "NO AVX",
+      "conditional": "Only if C1 invariants/captures pass and at least one finite ASE energy/force/stress component differs from C0 exactly.",
+      "purpose": "Test repeatability of observed altered-condition response; not a spare attempt."
+    }
+  ],
+  "interpretation": [
+    "C0 mismatch stops contrast: current control not identified.",
+    "Changed capability with invariant inputs/graphs/parameters and finite observable changes supports sensitivity to this per-process ATen dispatch selection in this build.",
+    "No observable change is a bounded negative result; do not spend third evaluation or try another setting.",
+    "Only model-intermediate change with equal ASE observables is internal sensitivity, not altered physical-observable evidence; no third run.",
+    "C2 exact output match supports repeatability for this pair of altered processes; mismatch stops with nonrepeatability.",
+    "Any historical-baseline threshold failures remain failed. A changed result or accidental baseline match is neither a correction nor evidence of historical host settings.",
+    "This setting does not globally disable AVX or control every MKL/oneDNN kernel. No per-kernel tracing is claimed."
+  ],
+  "original_acceptance": {
+    "energy_eV": {
+      "atol": 1e-05,
+      "rtol": 0
+    },
+    "forces_eV_A": {
+      "atol": 1e-06,
+      "rtol": 0
+    },
+    "stress_eV_A3": {
+      "atol": 1e-07,
+      "rtol": 0
+    }
+  },
+  "invariants": [
+    "Exact raw CIF/config, 20 atoms, no relaxation",
+    "All saved input and consumed neighbor arrays, all eight graph arrays exact including dtype/shape/order and data hashes",
+    "All model-parameter tensor hashes exact; same package/model/source/config hashes and dependency versions",
+    "All captured runtime settings equal except condition label, ATEN_CPU_CAPABILITY and observed CPU capability",
+    "Same CPU affinity [0], seed20261024 for Python/NumPy/PyTorch and Python hash seed, all numerical-library controls and PyTorch intra-op/inter-op threads one",
+    "C0 additionally requires all six model-output arrays and ASE observables exact vs R1; C2 exact vs C1"
+  ],
+  "capture_criteria": [
+    "Unchanged R1-validated published recorder; exactly one graph and model call; nonempty finite input/neighbor/graph/model arrays; saved byte hashes and manifests all verify",
+    "Six expected output tensors; 20x3 forces and 3x3 stress; exact float32 model-to-ASE conversion including stress symmetrization",
+    "Record all signed differences new minus named reference, every component, shape/dtype/finite/equality/tolerance decisions against R1/C0/C1 as applicable and both historical baselines plus replay; missing D1 remains unavailable"
+  ],
+  "stop_conditions": [
+    "Exception, nonfinite/missing capture, timeout, integrity failure, source/model/input mismatch or broken declared comparison assumption: stop further inference and preserve all available output.",
+    "No more than three new evaluations; <=600 seconds total calculation process wall and <=1800 seconds investigation from recorded start; no retry of failed condition.",
+    "No overlap, changed ownership/public head, disallowed/unavailable included-usage gate, extra fee warning: checkpoint and defer.",
+    "Do not search alternate settings to match old baseline. Original acceptance failure alone is reported but is not a broken current contrast assumption; it is already the retained outcome."
+  ],
+  "limits": {
+    "maximum_new_evaluations": 3,
+    "maximum_total_calculation_wall_seconds": 600,
+    "maximum_investigation_seconds": 1800,
+    "cpu_affinity": [
+      0
+    ],
+    "threads": 1,
+    "seed": 20261024,
+    "device": "cpu"
+  },
+  "recorder_sha256": "5e2275fabbe387e17e1d71bfcd0089296b51cc05732f5f628d4303922a53f765",
+  "runner_sha256": "1ae5db3f1d85730b4e139b9743295544cb87d43a0a73942c25c128e859d86558",
+  "source_support": {
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/2236df1770800ffea5697b11b0bb0d910b2e59e1/aten/src/ATen/native/DispatchStub.cpp",
+    "sha256": "92cbc3bafdea0db0993cd7e020d6b917d84fba3cfeb27c02c6b7050a89c76738",
+    "scope": "Public upstream source at installed PyTorch build commit; compiled installed binary checked separately"
+  },
+  "reference_R1_manifest_sha256": "bfe97f09c9351295b1914a3fc1485f546c5cd6186afdd419fe83254902d8d503",
+  "reference_R1_observations_sha256": "a47332b54bd6c7ed0cca77eda631018efeff14f603f4976e4ae003bdaaf5e0e6",
+  "R1_protocol_sha256": "c7dc58e056588a9fb3a0edb6ff4f0d6dbb50961e33332a08b7120b36070dcb37",
+  "scope": "Same cloud task; no packages changed, new environment, S1/S2/S3 campaign, publication, schedule change or fallback retirement.",
+  "capture_helpers_sha256": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d"
+}

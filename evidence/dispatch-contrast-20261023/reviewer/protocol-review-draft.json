@@ -1,0 +1,23 @@
+{
+  "review_scope": "Independent read-only source/protocol review and saved-data arithmetic; no inference, installation, account access, publication or scheduling",
+  "requested_identity": "GPT-6 Astra High as supplied by parent",
+  "observable_identity": "Developer instructions identify GPT-6-based Codex; actual variant and reasoning setting not independently exposed",
+  "reviewed_protocol_sha256": "660762ea6c278564429f1ac8bd593e0dc4539e9bfaec7519f53bb033158aa558",
+  "reviewed_runner_sha256": "01c310e8226e14c05c0c724beb959c882cd8d95aeeb29a583819146a08ff38d1",
+  "interpretation": "Acceptable bounded current-build ATen DispatchStub sensitivity test; historical attribution not identifiable",
+  "pre_freeze_findings": [
+    {
+      "severity": "required",
+      "finding": "Investigation time only checked before launch; cap subprocess timeout by remaining investigation budget as well as calculation budget"
+    },
+    {
+      "severity": "required",
+      "finding": "Model output exact gate ignores dtype equality; check dtype and exact keysets for C0/C2"
+    },
+    {
+      "severity": "recommended",
+      "finding": "Add explicit preflight passed, helper hash and R1 reference-manifest verification before launch"
+    }
+  ],
+  "status": "Awaiting updated runner before freeze"
+}

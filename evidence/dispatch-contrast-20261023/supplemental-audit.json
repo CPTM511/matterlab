@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "files_scanned": 88,
+  "NPZ_members_scanned": 48,
+  "ledger_entries_verified": 83,
+  "findings": [],
+  "scope": "Bounded private-marker, archive member/payload and derivative-hash checks; unchanged full publication audit is separate"
+}

@@ -1,0 +1,14 @@
+{
+  "public_source_commit": "2c4a667a4c75488cb2ee2bb3e26a19cc6ab19ea1",
+  "coordination_parent": "f1fdd7fbe07b05c60cb2c15f808ddaa6c13a06bb",
+  "github_backed_resume_verified": true,
+  "recorder_capture_integrity": "passed",
+  "numerical_replay_acceptance": "failed",
+  "attempts": 1,
+  "active_physical_job": false,
+  "fallback": "retained without overlap",
+  "original_public_evidence": "unchanged",
+  "next_action": "Parent review of the additive R1 evidence export and unchanged numerical failure. No further inference under the completed one-evaluation protocol. Any later discriminating condition requires a separate declared protocol and fresh usage/ownership gates.",
+  "publication": "parent review pending; no publication performed",
+  "schedule": "unchanged"
+}
