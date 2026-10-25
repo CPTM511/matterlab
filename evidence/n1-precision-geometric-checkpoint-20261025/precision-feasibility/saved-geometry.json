@@ -1,0 +1,54 @@
+{
+  "scope": "Exact products of saved float32 graph operands using rational arithmetic; not actual float32/float64 backend endpoint captures",
+  "h_binary64_value": {
+    "numerator": "1080863910568919",
+    "denominator": "288230376151711744",
+    "float_display": 0.00375
+  },
+  "endpoint_plus_delta_L1_A": {
+    "numerator": "177600088649",
+    "denominator": "576460752303423488",
+    "float_display": 3.0808704311498236e-07
+  },
+  "endpoint_minus_delta_L1_A": {
+    "numerator": "210943954637",
+    "denominator": "576460752303423488",
+    "float_display": 3.6592943022419055e-07
+  },
+  "geometric_multiplier_for_uniform_gradient_Linf": {
+    "numerator": "194272021643",
+    "denominator": "2161727821137838",
+    "float_display": 8.986886311188973e-05
+  },
+  "endpoint_only_sufficient_Linf_forcegradient_for_0.005": {
+    "numerator": "6230756230241793053355963941965",
+    "denominator": "111990195747830749963730550784",
+    "float_display": 55.63662237247659
+  },
+  "exact_product_baseline_minus_N1_actual_L1_A": {
+    "numerator": "4100582312857811",
+    "denominator": "590295810358705651712",
+    "float_display": 6.946656643837614e-06
+  },
+  "local_row_projection_diagnostic_eV_A2": {
+    "numerator": "-8226787293371829327",
+    "denominator": "72535549176877747798016",
+    "float_display": -0.00011341731587791291
+  },
+  "projection_is_not_a_nonlinear_bound": true,
+  "missing": [
+    "actual displaced Cartesian tensor captures",
+    "certified supremum force-gradient along endpoint perturbation segments",
+    "certified derivative-variation bound for baseline shift"
+  ],
+  "input_hashes": {
+    "PUBLIC_CHECKOUT/evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/graph.npz": "ab269a08251baf86f01eb0a16d450dc8a13029767b84ed865da8bc8f4d8d2d2c",
+    "PUBLIC_CHECKOUT/evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.00375_s1/graph.npz": "b83ba2063c4c2ded5d785fae4298add3469c29160e275ae94e2747421899a24c",
+    "PUBLIC_CHECKOUT/evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.00375_s-1/graph.npz": "10f4f8163cae50daceb32f2387f3009d10e9bea3106d7648c302995ac719651e"
+  },
+  "N1_input_hashes": {
+    "native-pre-normalization.npz": "1e537207c920b32f9eb3a14a2cb3bbcdc69d6ee7717b02f635567ad65cd85aeb",
+    "native-row-50.npz": "9f266858e0d1c5c1164241a8425099ebec0c9c8305f7ea5803cb0f9c4369e328"
+  },
+  "torch_imported": false
+}

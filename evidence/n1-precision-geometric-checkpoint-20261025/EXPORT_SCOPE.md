@@ -1,0 +1,9 @@
+# Additive N1, precision and geometric checkpoint candidate
+
+This candidate preserves N1 observations, all raw arrays and signed comparisons; the stopped precision design/feasibility evidence; and the exact saved-geometry classifications, enclosure and endpoint offsets. Original scientific failures and pending-review fields remain historical records. The later semantic review is additive and does not complete the earlier stopped prose review retrospectively.
+
+Scientific NPZ and geometric raw data remain byte-identical. Text/JSON derivatives replace private paths with logical evidence aliases or explicit placeholders and remove private administrative identifiers. Source snapshots are preserved evidence, not an executable released bundle: private paths and references to excluded administrative files may be placeholders. Original source manifests/quoted hashes describe original snapshots; new manifests cover these derivatives. No frozen source is silently claimed runnable after sanitation.
+
+Account observations, release/authorization records, process snapshots, private host/task identifiers, private bytecode and administrative reviewer marker scripts are excluded. Original hashes and paths for all private material remain in private preservation records. Public transformation records identify scientific originals; private administrative original hashes are withheld. Existing public source/license records and source-snapshot licenses are retained. This candidate adds no model checkpoint or dependency cache.
+
+The geometric result concerns the exact nominal rational path only. It does not certify compiled/native graph behavior, force convergence, accuracy, migration, stability or application performance. The precision contrast stays STOP. No publication or additional execution is authorized by this package.

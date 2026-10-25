@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-25T07:02:02.953254+00:00",
+  "approved_files": {
+    "audit.py": "b273bbe450ef22dbe50bd8ac04c27206a472e9d161ea84880595fc61bc92acf7",
+    "fixtures.py": "a5c1f9c2701041e7949e5ac41b110814341c5dc758a1957766f275f92e4ba180",
+    "protocol.json": "15ac87514c5541bc5839fe3d938ba75420b0ea4310a4bbc14fa93b9806f110ad",
+    "launch.py": "30a5b1582bfc44987a497b2f78c8a6daa7e16613f0503f6c631c69bc454cf6f5"
+  },
+  "scope": "One authorized ideal-geometric saved-data audit; no model/AD/backend certificate",
+  "independent_synthetic_checks": 36,
+  "passed": 36,
+  "scientific_analysis_run_by_reviewer": false,
+  "review_sha256": "6b39c3729c3f1b014c8eac581157224f4ac50cea74a37484e10103221edf29dc",
+  "fixtures": {
+    "supplied": "a527401a2d370dfa1cdd5c54d7ac0f2aa8d8384dc507791d2209130b78f1bd9f",
+    "additional": "e9414cfa8a96bdf0dbad49d7adaaef858c1716515fcefefab572a089aa179bf5"
+  },
+  "remaining_limits": [
+    "No native-backend or force certificate",
+    "Real launcher/timeout not executed by reviewer",
+    "No retry or scope expansion; all-role deadline unchanged"
+  ]
+}

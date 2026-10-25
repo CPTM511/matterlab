@@ -1,0 +1,21 @@
+{
+  "completed_utc": "2026-10-25T07:08:07.025142+00:00",
+  "status": "semantic_review_pass_in_new_stage",
+  "review": {
+    "bytes": 3129,
+    "sha256": "f1e5d0a1f89a9fd23444c8946a6fb0dd2428d1a70c50cc74fde1028cd9aa5595"
+  },
+  "report": {
+    "bytes": 3467,
+    "sha256": "7b5b30f095c6153bea0d92eff037142d0f3ded304ab6067e6397a33ad573b953"
+  },
+  "existing_verification": {
+    "bytes": 2583,
+    "sha256": "8c90a1edd86ddb27b5113307d23a1294f532d72efe98c683b46623add627d895"
+  },
+  "existing_verification_checks": 19,
+  "existing_verification_passed": 19,
+  "prior_supplementary_prose_status": "incomplete at prior deadline; unchanged",
+  "new_arithmetic_or_enumeration": false,
+  "publication_readiness_claimed": false
+}

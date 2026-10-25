@@ -1,0 +1,66 @@
+{
+  "checked_utc": "2026-10-24T13:25:01.027361+00:00",
+  "scope": "Independent exact rational saved-array arithmetic only; not native backend captures, model or AD",
+  "passed": true,
+  "count": 13,
+  "checks": [
+    {
+      "name": "h_binary64_value",
+      "passed": true
+    },
+    {
+      "name": "endpoint_plus_delta_L1_A",
+      "passed": true
+    },
+    {
+      "name": "endpoint_minus_delta_L1_A",
+      "passed": true
+    },
+    {
+      "name": "geometric_multiplier_for_uniform_gradient_Linf",
+      "passed": true
+    },
+    {
+      "name": "endpoint_only_sufficient_Linf_forcegradient_for_0.005",
+      "passed": true
+    },
+    {
+      "name": "exact_product_baseline_minus_N1_actual_L1_A",
+      "passed": true
+    },
+    {
+      "name": "local_row_projection_diagnostic_eV_A2",
+      "passed": true
+    },
+    {
+      "name": "input_hash:R-CaTiO3__base",
+      "passed": true
+    },
+    {
+      "name": "input_hash:R-CaTiO3__j50_h0.00375_s1",
+      "passed": true
+    },
+    {
+      "name": "input_hash:R-CaTiO3__j50_h0.00375_s-1",
+      "passed": true
+    },
+    {
+      "name": "N1_hash:native-pre-normalization.npz",
+      "passed": true
+    },
+    {
+      "name": "N1_hash:native-row-50.npz",
+      "passed": true
+    },
+    {
+      "name": "no_torch_import",
+      "passed": true
+    }
+  ],
+  "saved_geometry_sha256": "a59ce90f1eae22454fb90da7c119f3d82c5573b8438d69843755ccf15c83324f",
+  "limitations": [
+    "Threshold is an endpoint-only sufficient gradient budget, not an observed uniform bound",
+    "Exact rational products do not claim to reproduce native floating backend arithmetic",
+    "Local row projection does not bound nonlinear remainder or baseline derivative transport"
+  ]
+}

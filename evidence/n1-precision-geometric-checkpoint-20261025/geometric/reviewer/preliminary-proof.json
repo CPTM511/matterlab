@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-10-25T06:57:34.614689+00:00",
+  "scope": "Pre-implementation mathematical review only; no real-data enumeration",
+  "image_proof": "For d=(ri-rj)+nL and q=(ri-rj)L^-1, dL^-1=q+n. If norm2(d)<=R, each component of d is <=R in magnitude, hence |q_k+n_k|<=R*sum_l|invL_lk|. Over affine t, q extrema are at endpoints. Therefore ceil(-qmax_k-margin_k)<=n_k<=floor(-qmin_k+margin_k).",
+  "sign_requirement": "The negative-q bounds require +nL distance convention; saved neighbor images in ri-rj-imageL have the opposite sign.",
+  "quadratic_requirement": "Use exact rational min/max from endpoints plus any in-range vertex, including equality/tangency.",
+  "scope_limits": [
+    "Ideal saved geometry only; no compiled query or floating native radial certificate",
+    "All ordered pairs including nonzero self images; exclude only zero-image i=j explicitly",
+    "Count complete image enclosure before analysis and reject cap overflow without truncation"
+  ],
+  "status": "Implementation/fixtures pending; no execution approval"
+}

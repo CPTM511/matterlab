@@ -1,6 +1,6 @@
 {
   "project": "MatterLab",
-  "updated_date": "2026-10-24",
+  "updated_date": "2026-10-25",
   "phase": "gamma_numerical_uncertainty_unresolved",
   "overall_complete": false,
   "public_language": "English",
@@ -21,7 +21,7 @@
     "docs/delivery-checks-en.json"
   ],
   "active_work": [],
-  "next_action": "Review one bounded native-reference derivative diagnostic proposal. G1 consumed its anchor; no additional inference is released. Preserve all failed criteria; diagnosis precedes candidate DFT/competing phases and application-property evidence.",
+  "next_action": "Design one bounded diagnostic for remaining native backend semantics, finite-step or internal-arithmetic uncertainty using preserved evidence. No further scientific execution is released. Preserve all historical failures, the stopped precision contrast and the non-overlapping fallback.",
   "constraints": [
     "No additional spending",
     "No paid APIs or paid remote compute; subscription-included native cloud execution is authorized",
@@ -108,7 +108,7 @@
     "physical_job_active": false,
     "scope": "Historical D1 checkpoint fields retained unchanged; current recorder and dispatch outcomes are recorded in repaired_recorder_validation and cpu_dispatch_contrast."
   },
-  "updated_at_utc": "2026-10-24T09:54:34.958712+00:00",
+  "updated_at_utc": "2026-10-25T07:09:39.166641+00:00",
   "repaired_recorder_validation": {
     "evidence": "evidence/repaired-recorder-20261023",
     "evaluations": 1,
@@ -161,6 +161,42 @@
     "physical_job_active": false,
     "full_gamma_or_stability_acceptance": false,
     "original_replay_acceptance": "failed unchanged",
+    "full_migration_complete": false
+  },
+  "n1_native_derivative": {
+    "evidence": "evidence/n1-precision-geometric-checkpoint-20261025/n1",
+    "forwards": 1,
+    "added_native_rows": 2,
+    "exact_baseline_gate": "passed",
+    "native_reciprocity_eV_A2": 3.337860107421875e-06,
+    "native_reciprocity": "passed at 0.005 eV/Angstrom^2",
+    "AD_FD_failed_entries": 12,
+    "AD_FD_tolerance_eV_A2": 0.005,
+    "anchor_consumed": true,
+    "remaining_authorized_inference": 0,
+    "original_replay_acceptance": "failed unchanged",
+    "full_migration_complete": false
+  },
+  "precision_feasibility": {
+    "evidence": "evidence/n1-precision-geometric-checkpoint-20261025/precision-feasibility",
+    "status": "STOP; uniform derivative/remainder, baseline transport and arithmetic-error certificates absent",
+    "prior_design_timing": "FAIL preserved",
+    "adapter_constructed": false,
+    "new_model_evaluations": 0
+  },
+  "geometric_cutoff_audit": {
+    "evidence": "evidence/n1-precision-geometric-checkpoint-20261025/geometric",
+    "scope": "ideal exact-rational reference path, zero-based coordinate50, t in [-3/800,+3/800] Angstrom",
+    "ordered_pair_image_records": 3348,
+    "zero_self_excluded": 20,
+    "classified_records": 3328,
+    "crossing_or_touching_records": 0,
+    "native_backend_certified": false,
+    "force_convergence_established": false,
+    "model_forward_AD_scientific_tokens": 0,
+    "execution_consumed": true,
+    "remaining_authorized_analysis": 0,
+    "original_supplementary_prose_review": "incomplete; later semantic review is separate",
     "full_migration_complete": false
   }
 }

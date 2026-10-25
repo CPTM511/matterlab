@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-10-24T13:11:52.243172+00:00",
+  "scope": "Source inspection only; no torch import/model/AD/forward",
+  "source_sha256": {
+    "model/encoders.py": "7dffbc1be159bc48acdfd363c618711bcbd88f72c7ecd5e4aad2dc1830de264c",
+    "model/basis.py": "0e75cf46d3e1b4e96e1726472af0bedf3757b2c24c70cc98161e051c163beace",
+    "model/model.py": "767b120ba8b3ee7f75c247416902d1b72e871ba8ffc2916ed76d24809c98fc96",
+    "model/composition_model.py": "c7111354fc8795c6a41147b3d01298546a070bc12c87d02f533d7678ab569570",
+    "graph/converter.py": "565a0a3007613323720e2ec3ab06e84043b6970a6a150234222123cee9979c0f",
+    "graph/crystalgraph.py": "b75e26195790c19696d7e9ab0a58029e73decaa5e1589dd6679eaf97324fc727"
+  },
+  "precision_findings": [
+    "Independent graph.converter and graph.crystalgraph TORCH_DTYPE constants are float32",
+    "model imports TORCH_DTYPE for strain identity and volume construction",
+    "CompositionModel._assemble_graphs explicitly returns .float()",
+    "Basis initializer tensors use torch.float and numpy.float32; parameter/buffer promotion must be accounted for",
+    "Promoting already quantized baseline captures differs from reconstructing coordinates from original float64 input"
+  ],
+  "identifiability_findings": [
+    "A new smaller-step pair cannot uniquely identify truncation versus propagated arithmetic error",
+    "Final output ULP bound is not total internal force error bound",
+    "Near-collinear regularized acos geometry is a proxy, not causal proof or Hessian error bound",
+    "Stable discrete topology does not establish stable continuous feature curvature"
+  ],
+  "provisional_disposition": "Precision experiment execution-blocked until complete same-input same-function dtype-path audit; conditional three-forward one-query dominant-diagonal design potentially worthwhile"
+}

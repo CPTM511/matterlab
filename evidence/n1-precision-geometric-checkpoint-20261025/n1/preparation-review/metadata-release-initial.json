@@ -1,0 +1,218 @@
+{
+  "scope": "Synthetic release schema only; no actual release read, token claim, controller execution, torch import or AD",
+  "control_common_sha256": "54301a84aafae1145a2766897e81516123dba7342e694f454a858e2c52c54765",
+  "checks": [
+    {
+      "name": "valid_synthetic_metadata",
+      "expected_accept": true,
+      "actual_accept": true,
+      "passed": true
+    },
+    {
+      "name": "protocol_sha256",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "implementation_manifest_sha256",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "remote_head",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "parent_released_exact_protocolFalse",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "parent_released_exact_protocol1",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "ordinary_included_use_allowedFalse",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "ordinary_included_use_allowed1",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "all_displayed_windows_recordedFalse",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "all_displayed_windows_recorded1",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "usage_unambiguousFalse",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "usage_unambiguous1",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "current_cloud_ownershipFalse",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "current_cloud_ownership1",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "no_other_physical_jobFalse",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "no_other_physical_job1",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "fallback_nonoverlap_verifiedFalse",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "fallback_nonoverlap_verified1",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "single_existing_schedule_verifiedFalse",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "single_existing_schedule_verified1",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "usage_observed_at_utc-1",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "usage_observed_at_utc901",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "ownership_checked_at_utc-1",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "ownership_checked_at_utc901",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "windows:[]",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "windows:[True]",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "windows:[0.8]",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "windows:[nan]",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "windows:[inf]",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "windows:[-0.1]",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "start:-1",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "start:1800",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "spending:True",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "spending:0",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    },
+    {
+      "name": "spending:None",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "count": 35
+}

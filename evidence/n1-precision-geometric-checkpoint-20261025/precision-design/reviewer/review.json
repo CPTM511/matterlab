@@ -1,0 +1,30 @@
+{
+  "completed_utc": "2026-10-24T13:16:50.530979+00:00",
+  "status": "conditional_design_supported_execution_BLOCKED",
+  "proposal": {
+    "bytes": 8863,
+    "sha256": "948094bce2b3379c1b4654e539b6b0383aaf9cd31199bf1a5ea6eadb97c4c642"
+  },
+  "saved_diagnostics": {
+    "bytes": 11516,
+    "sha256": "4218698a7c89b161f3cc5791863a42cea305ce75d1870390348d45424849856c"
+  },
+  "review": {
+    "bytes": 4788,
+    "sha256": "beb436fe5bef1d89245e85cd4d5edf580e7ec2e52af2ec057e577414032f855e"
+  },
+  "verification": {
+    "bytes": 10263,
+    "sha256": "c72e7128b14a53816e19e8c54285866ecd12f8bc45b37bf7f88d5729dd232cb0"
+  },
+  "independent_saved_checks": 43,
+  "passed": 43,
+  "unresolved_execution_blockers": [
+    "Complete auditable same-function precision path unavailable",
+    "Effective Cartesian stencil contamination bound below0.005 not established",
+    "No executable implementation, negative fixtures or parent execution release"
+  ],
+  "model_or_AD_execution": false,
+  "requested_identity": "Astra High Standard",
+  "observable_identity": "GPT-6-based Codex; variant/effort/speed independently unattested"
+}

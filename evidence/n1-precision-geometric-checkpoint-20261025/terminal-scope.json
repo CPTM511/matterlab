@@ -1,0 +1,34 @@
+{
+  "N1": {
+    "forwards": 1,
+    "added_native_rows": 2,
+    "anchor_consumed": true,
+    "process_seconds": 17.356001833002665,
+    "remaining_authorized_inference": 0
+  },
+  "precision_design": {
+    "start_utc": "2026-10-24T13:08:44Z",
+    "deadline_utc": "2026-10-24T13:16:44Z",
+    "review_completed_utc": "2026-10-24T13:16:50.530979Z",
+    "checkpoint_utc": "2026-10-24T13:16:54.826106Z",
+    "timing_status": "FAIL; preserved",
+    "checkpoint_overrun_seconds": 10.826106
+  },
+  "precision_feasibility": {
+    "status": "STOP before adapter or model execution",
+    "elapsed_seconds": 414.004929
+  },
+  "geometric": {
+    "start_utc": "2026-10-25T06:55:05.100448Z",
+    "deadline_utc": "2026-10-25T07:05:05.100448Z",
+    "checkpoint_utc": "2026-10-25T07:04:47.278184Z",
+    "checkpoint_seconds": 582.177736,
+    "process_seconds": 0.36518637699987266,
+    "single_execution_consumed": true,
+    "supplementary_prose_review_in_original_stage": "incomplete; stopped; not retroactively completed",
+    "later_semantic_review": "separate saved-evidence review/export stage",
+    "new_model_forward_AD_scientific_tokens": 0
+  },
+  "physical_job_active": false,
+  "migration_complete": false
+}

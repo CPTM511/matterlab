@@ -1,0 +1,15 @@
+# Independent geometric-result semantic review
+
+Disposition: the existing evidence supports the reported ideal-geometric no-crossing result, with no unresolved semantic issue identified. This review is completed in the separately authorized review/export stage beginning2026-10-25T07:06:36.237767Z. The prior stage's supplementary prose was not completed by its deadline and remains incomplete; this document does not repair or extend that old clock.
+
+The reviewed RESULT.md is3467 bytes, SHA2567b5b30f095c6153bea0d92eff037142d0f3ded304ab6067e6397a33ad573b953. I read the report and the existing independent saved-result-verification.json, which recorded19/19 aggregate checks at07:03:33.647799UTC in the previous stage. Its arithmetic was not rerun here.
+
+That existing verification checked3348 saved ordered pair/image records for uniqueness, declared-box membership and complete cardinality across400 pair boxes; exactly20 true zero-image self pairs were excluded. For3328 classified records it recomputed rational polynomials from pinned inputs, extrema, extremizing parameters, threshold margins and classifications. All120 saved endpoint-offset components matched. Source/protocol/stage/input hashes and recorded terminal bounds passed. These are previous-stage verification results, not new computation in this stage.
+
+The counts agree with the report: at3Angstrom,192 records are strictly inside and3136 outside; at6Angstrom and both documented tolerance-band boundaries,1576 are inside and1752 outside. All nonexcluded records are outside the self-distance threshold. No crossing, touching or all-boundary case occurs. Combined with the reviewed exact inverse-cell enclosure proof, this supports absence of ideal geometric cutoff-membership changes along the fixed reference coordinate50 path t in[-3/800,+3/800]. It covers omitted pairs as well as previously consumed neighbors.
+
+The conclusion remains narrower than native graph continuity. The path uses exact rational interpretations of saved Cartesian inputs, not unrecorded rounded backend intermediates. Compiled neighbor-query fidelity, ordering/pairing, float32 radial branches, continuous-feature curvature, force convergence and discrepancy causality are unproved. The opposite image-sign convention is declared. Neither force-error certification nor reopening the stopped precision contrast follows.
+
+The recorded saved-data process returned0 in0.36518637699987266seconds; no model forward or AD was involved. Original numerical failures, consumed G1/N1 anchors, prior timing FAIL and Sol Light setup provenance retain their status. The earlier length-guard failure prevented supplementary prose completion; it changed no original scientific evidence.
+
+Requested reviewer configuration was Astra High/Standard; the observable GPT-6-based Codex interface does not independently attest serving variant, effort or speed. No analysis, enumeration, model/torch/AD, token, installation, remote action or publication was performed for this semantic review. Sanitized-package readiness requires the separate export review; it is not conferred by this result review.

@@ -1,0 +1,32 @@
+{
+  "status": "terminal_bounded_execution_valid_native_reciprocity_pass_all_selected_AD_FD_fail",
+  "independent_saved_evidence_review_sha256": "a4263eb0a4d4032b3ac252b95ecdbd85b3b549c22b46c5af43f560b7eb17bd77",
+  "independent_checks_passed": 246,
+  "native_reciprocity_passed": true,
+  "selected_AD_FD_passed": false,
+  "failed_AD_FD_entries": 12,
+  "criteria_unchanged": true,
+  "original_replay_acceptance": "failed unchanged",
+  "G1_quality": "failed unchanged",
+  "migration_complete": false,
+  "physical_accuracy_validated": false,
+  "remaining_authorized_forwards": 0,
+  "remaining_authorized_AD_queries": 0,
+  "raw_pending_review_fields_preserved": true,
+  "parent_result_acceptance": "pending",
+  "investigation_start_utc": "2026-10-24T12:56:10.647491+00:00",
+  "terminal_review_and_delivery_utc": "2026-10-24T13:04:57.162521+00:00",
+  "investigation_elapsed_seconds": 526.51503,
+  "calculation_process_wall_seconds": 17.356001833002665,
+  "consumed_tokens": {
+    "N1_anchor": 1,
+    "launch": 1,
+    "forward": 1
+  },
+  "native_calls": {
+    "original_force": 1,
+    "original_stress": 1,
+    "added_rows": 2
+  },
+  "no_retry": true
+}

@@ -1,0 +1,9 @@
+{
+  "checked_utc": "2026-10-25T07:00:59.012842+00:00",
+  "source_sha256_at_read": "30a5b1582bfc44987a497b2f78c8a6daa7e16613f0503f6c631c69bc454cf6f5",
+  "findings_reported": [
+    "Require usage observation age>=0 as well as<=900",
+    "Completed status must require actual elapsed<=60 and end<=immutable deadline"
+  ],
+  "scope": "Static source review; launcher not executed"
+}

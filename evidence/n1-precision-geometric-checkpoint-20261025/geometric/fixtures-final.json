@@ -1,0 +1,110 @@
+{
+  "checks": [
+    {
+      "name": "inverse exact",
+      "passed": true
+    },
+    {
+      "name": "singular rejected",
+      "passed": true
+    },
+    {
+      "name": "exact decimal h",
+      "passed": true
+    },
+    {
+      "name": "binary64 h distinct",
+      "passed": true
+    },
+    {
+      "name": "signed floor ceil",
+      "passed": true
+    },
+    {
+      "name": "image sign enclosure",
+      "passed": true
+    },
+    {
+      "name": "interior tangency",
+      "passed": true
+    },
+    {
+      "name": "crossing",
+      "passed": true
+    },
+    {
+      "name": "equality all",
+      "passed": true
+    },
+    {
+      "name": "strict inside",
+      "passed": true
+    },
+    {
+      "name": "strict outside",
+      "passed": true
+    },
+    {
+      "name": "constant polynomial",
+      "passed": true
+    },
+    {
+      "name": "reversed interval",
+      "passed": true
+    },
+    {
+      "name": "nonfinite rejected",
+      "passed": true
+    },
+    {
+      "name": "wrong scalar rejected",
+      "passed": true
+    },
+    {
+      "name": "float exact lift",
+      "passed": true
+    },
+    {
+      "name": "coverage cap stops",
+      "passed": true
+    },
+    {
+      "name": "nonzero self images retained",
+      "passed": true
+    },
+    {
+      "name": "unit-cell enclosure cardinality",
+      "passed": true
+    },
+    {
+      "name": "synthetic enclosure inclusion ((0, 0, 0), Fraction(-1, 2))",
+      "passed": true
+    },
+    {
+      "name": "synthetic enclosure inclusion ((0, 0, 0), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "synthetic enclosure inclusion ((0, 0, 0), Fraction(1, 2))",
+      "passed": true
+    },
+    {
+      "name": "synthetic witness exists",
+      "passed": true
+    },
+    {
+      "name": "bond equality semantics differ",
+      "passed": true
+    },
+    {
+      "name": "tol band exact distinction",
+      "passed": true
+    },
+    {
+      "name": "no float core",
+      "passed": true
+    }
+  ],
+  "passed": 26,
+  "scientific_analysis": false
+}

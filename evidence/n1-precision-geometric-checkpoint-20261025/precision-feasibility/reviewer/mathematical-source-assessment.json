@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-10-24T13:23:39.052281+00:00",
+  "scope": "Source and mathematical reasoning only; no model/torch/AD/forward",
+  "endpoint_bound": "|FD_perturbed-FD_nominal| <= (L_plus*norm(delta_plus)+L_minus*norm(delta_minus))/(2h), where L bounds dual norm of grad F50 uniformly over each connecting segment",
+  "assumptions": [
+    "Fixed defined force map on relevant segments",
+    "Compatible primal/dual norms",
+    "Uniform derivative bounds or equivalent certified Lipschitz bounds, not a point estimate"
+  ],
+  "missing_evidence": [
+    "N1 local row is not an endpoint-segment supremum",
+    "Baseline/midpoint derivative transport requires a separate certified remainder bound",
+    "Finite endpoint samples and source proxies do not certify these bounds"
+  ],
+  "in_principle_limit": "The specified model may admit an analytic or validated interval bound in principle; no such adequate bound is present in the reviewed record",
+  "constant_convention_risks": [
+    "Fourier.forward sqrt(torch.tensor([2])) uses a dtype-independent factory before assignment",
+    "Fourier normalization by numpy sqrt(pi), AngleEncoder Python 1-1e-6, and radial inv_cutoff/norm_const need explicit effective-constant convention",
+    "Lifting frozen effective float32 constants differs from recomputing literal expressions at float64"
+  ],
+  "source_hashes": {
+    "model/basis.py": "0e75cf46d3e1b4e96e1726472af0bedf3757b2c24c70cc98161e051c163beace",
+    "model/encoders.py": "7dffbc1be159bc48acdfd363c618711bcbd88f72c7ecd5e4aad2dc1830de264c",
+    "model/model.py": "767b120ba8b3ee7f75c247416902d1b72e871ba8ffc2916ed76d24809c98fc96",
+    "model/composition_model.py": "c7111354fc8795c6a41147b3d01298546a070bc12c87d02f533d7678ab569570",
+    "graph/converter.py": "565a0a3007613323720e2ec3ab06e84043b6970a6a150234222123cee9979c0f",
+    "graph/crystalgraph.py": "b75e26195790c19696d7e9ab0a58029e73decaa5e1589dd6679eaf97324fc727"
+  },
+  "prior_timing_failure_preserved": "Previous design review completed6.531 seconds after its deadline; not erased or relabeled by this new stage",
+  "disposition": "No adapter or contrast execution justified until required certified bound is established"
+}

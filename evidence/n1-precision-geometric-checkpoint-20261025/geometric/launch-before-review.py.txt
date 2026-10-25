@@ -1,0 +1,33 @@
+"""One saved-data process; metadata receipt is not a scientific attempt token."""
+from pathlib import Path
+import datetime,hashlib,json,os,subprocess,sys,time
+ROOT=Path(__file__).resolve().parent
+stage=json.loads((ROOT/'stage-private.json').read_text())
+protocol=json.loads((ROOT/'protocol.json').read_text())
+review=json.loads((ROOT/'reviewer/preexecution-review.json').read_text())
+if review['status']!='PASS': raise SystemExit('review did not pass')
+required={'audit.py','fixtures.py','protocol.json','launch.py'}
+if set(review['approved_files'])!=required: raise SystemExit('review file coverage')
+for name,sha in review['approved_files'].items():
+ if hashlib.sha256((ROOT/name).read_bytes()).hexdigest()!=sha: raise SystemExit('review hash mismatch '+name)
+now=datetime.datetime.now(datetime.timezone.utc)
+deadline=datetime.datetime.fromisoformat(stage['deadline_utc'])
+if protocol['stage_deadline_utc']!=stage['deadline_utc']: raise SystemExit('deadline mismatch')
+if (deadline-now).total_seconds()<90: raise SystemExit('insufficient time for analysis/checkpoint')
+if (now-datetime.datetime.fromisoformat(stage['usage_snapshot_utc'].replace('Z','+00:00'))).total_seconds()>900: raise SystemExit('stale usage observation')
+if (ROOT/'raw').exists(): raise SystemExit('output already exists; no retry')
+# Exclusive process receipt remains even on spawn/timeout failure. Never unlink it.
+with (ROOT/'analysis-launch-private.json').open('x') as f:json.dump({'started_utc':now.isoformat(),'maximum_seconds':60,'scientific_attempt_token':False},f)
+env=os.environ.copy();env.update({'PYTHONDONTWRITEBYTECODE':'1','OMP_NUM_THREADS':'1','OPENBLAS_NUM_THREADS':'1','MKL_NUM_THREADS':'1','NUMEXPR_NUM_THREADS':'1'})
+begin=time.monotonic();result={}
+try:
+ with (ROOT/'analysis.stdout').open('x') as out,(ROOT/'analysis.stderr').open('x') as err:
+  p=subprocess.run([sys.executable,'-B',str(ROOT/'audit.py'),str(ROOT/'protocol.json'),str(ROOT/'raw')],env=env,stdout=out,stderr=err,timeout=60,check=False)
+ result={'returncode':p.returncode,'status':'completed' if p.returncode==0 else 'failed'}
+except BaseException as e:
+ result={'status':'failed','exception':type(e).__name__,'message':str(e)}
+finally:
+ result.update({'seconds':time.monotonic()-begin,'ended_utc':datetime.datetime.now(datetime.timezone.utc).isoformat()})
+ (ROOT/'analysis-terminal-private.json').write_text(json.dumps(result,indent=2)+'\n')
+print(json.dumps(result))
+if result['status']!='completed':raise SystemExit(1)

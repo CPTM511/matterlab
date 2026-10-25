@@ -1,0 +1,31 @@
+{
+  "protocol_id": "N1-native-reference-curvature-20261024",
+  "status": "preparation_only_no_execution_release",
+  "public_head": "c3c089ff893dda65d12713aea49d9a17a08991be",
+  "protocol_markdown_sha256": "750c65bdfd370f13a105d1e0d94d3d68579f9a2ccc4a80d655ad73c1d710c9c4",
+  "baseline_sha256": "3eff19bb29393291617d0a852870fbf91b39b6152cc8020c7130925a73781d22",
+  "max_forwards": 1,
+  "max_added_queries": 2,
+  "coordinates": [
+    50,
+    59
+  ],
+  "steps_A": [
+    0.015,
+    0.0075,
+    0.00375
+  ],
+  "curvature_atol_eV_A2": 0.005,
+  "rtol": 0,
+  "original_replay_atol": {
+    "energy_eV": 1e-05,
+    "forces_eV_A": 1e-06,
+    "stress_eV_A3": 1e-07
+  },
+  "calculation_seconds": 600,
+  "investigation_seconds": 1800,
+  "freshness_seconds": 900,
+  "included_consumption_stop": 0.8,
+  "G1_closed": true,
+  "no_retry_after_anchor": true
+}

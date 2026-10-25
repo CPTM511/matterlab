@@ -1,0 +1,86 @@
+{
+  "checks": [
+    {
+      "name": "inverse exact",
+      "passed": true
+    },
+    {
+      "name": "singular rejected",
+      "passed": true
+    },
+    {
+      "name": "exact decimal h",
+      "passed": true
+    },
+    {
+      "name": "binary64 h distinct",
+      "passed": true
+    },
+    {
+      "name": "signed floor ceil",
+      "passed": true
+    },
+    {
+      "name": "image sign enclosure",
+      "passed": true
+    },
+    {
+      "name": "interior tangency",
+      "passed": true
+    },
+    {
+      "name": "crossing",
+      "passed": true
+    },
+    {
+      "name": "equality all",
+      "passed": true
+    },
+    {
+      "name": "strict inside",
+      "passed": true
+    },
+    {
+      "name": "strict outside",
+      "passed": true
+    },
+    {
+      "name": "constant polynomial",
+      "passed": true
+    },
+    {
+      "name": "reversed interval",
+      "passed": true
+    },
+    {
+      "name": "nonfinite rejected",
+      "passed": true
+    },
+    {
+      "name": "wrong scalar rejected",
+      "passed": true
+    },
+    {
+      "name": "float exact lift",
+      "passed": true
+    },
+    {
+      "name": "coverage cap stops",
+      "passed": true
+    },
+    {
+      "name": "nonzero self images retained",
+      "passed": true
+    },
+    {
+      "name": "record omission detectable",
+      "passed": true
+    },
+    {
+      "name": "no float core",
+      "passed": true
+    }
+  ],
+  "passed": 20,
+  "scientific_analysis": false
+}

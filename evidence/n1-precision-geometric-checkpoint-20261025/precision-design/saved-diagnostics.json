@@ -1,0 +1,307 @@
+{
+  "scope": "Saved output-rounding bound and source-guided float64 geometry proxies; not native intermediate captures, model inference or AD",
+  "rounding_assumption": "Hypothetical rounding only at final float32 force/AD storage, round-to-nearest; excludes all propagated arithmetic/input/feature errors",
+  "records": [
+    {
+      "j": 50,
+      "k": 50,
+      "h": 0.015,
+      "native": 14.91781997680664,
+      "FD": 16.688712437947594,
+      "FD_minus_native": 1.770892461140953,
+      "last_store_round_to_nearest_bound": 1.2218952178955078e-06,
+      "residual_over_bound": 1449299.7723577255
+    },
+    {
+      "j": 59,
+      "k": 50,
+      "h": 0.015,
+      "native": -2.1931121349334717,
+      "FD": -2.3287793000539145,
+      "FD_minus_native": -0.13566716512044286,
+      "last_store_round_to_nearest_bound": 2.433856328328451e-07,
+      "residual_over_bound": 557416.4897959189
+    },
+    {
+      "j": 50,
+      "k": 59,
+      "h": 0.015,
+      "native": -2.1931087970733643,
+      "FD": -2.405349413553874,
+      "FD_minus_native": -0.21224061648050974,
+      "last_store_round_to_nearest_bound": 2.433856328328451e-07,
+      "residual_over_bound": 872034.2857142868
+    },
+    {
+      "j": 59,
+      "k": 59,
+      "h": 0.015,
+      "native": 5.674581050872803,
+      "FD": 5.886479963858923,
+      "FD_minus_native": 0.21189891298612018,
+      "last_store_round_to_nearest_bound": 4.867712656656902e-07,
+      "residual_over_bound": 435315.16326530726
+    },
+    {
+      "j": 50,
+      "k": 50,
+      "h": 0.0075,
+      "native": 14.91781997680664,
+      "FD": 16.350491841634117,
+      "FD_minus_native": 1.4326718648274763,
+      "last_store_round_to_nearest_bound": 9.735425313313803e-07,
+      "residual_over_bound": 1471606.8571428594
+    },
+    {
+      "j": 59,
+      "k": 50,
+      "h": 0.0075,
+      "native": -2.1931121349334717,
+      "FD": -2.3793806632359824,
+      "FD_minus_native": -0.18626852830251073,
+      "last_store_round_to_nearest_bound": 2.433856328328451e-07,
+      "residual_over_bound": 765322.6122448985
+    },
+    {
+      "j": 50,
+      "k": 59,
+      "h": 0.0075,
+      "native": -2.1931087970733643,
+      "FD": -2.3048559824625654,
+      "FD_minus_native": -0.11174718538920114,
+      "last_store_round_to_nearest_bound": 2.123415470123291e-07,
+      "residual_over_bound": 526261.5204678377
+    },
+    {
+      "j": 59,
+      "k": 59,
+      "h": 0.0075,
+      "native": 5.674581050872803,
+      "FD": 5.865579346815745,
+      "FD_minus_native": 0.1909982959429426,
+      "last_store_round_to_nearest_bound": 4.867712656656902e-07,
+      "residual_over_bound": 392377.9183673475
+    },
+    {
+      "j": 50,
+      "k": 50,
+      "h": 0.00375,
+      "native": 14.91781997680664,
+      "FD": 15.48449198404948,
+      "FD_minus_native": 0.5666720072428397,
+      "last_store_round_to_nearest_bound": 9.735425313313803e-07,
+      "residual_over_bound": 582072.1632653072
+    },
+    {
+      "j": 59,
+      "k": 50,
+      "h": 0.00375,
+      "native": -2.1931121349334717,
+      "FD": -2.2912781685590744,
+      "FD_minus_native": -0.09816603362560272,
+      "last_store_round_to_nearest_bound": 2.123415470123291e-07,
+      "residual_over_bound": 462302.5263157895
+    },
+    {
+      "j": 50,
+      "k": 59,
+      "h": 0.00375,
+      "native": -2.1931087970733643,
+      "FD": -2.2569974263509116,
+      "FD_minus_native": -0.06388862927754735,
+      "last_store_round_to_nearest_bound": 2.123415470123291e-07,
+      "residual_over_bound": 300876.7251461995
+    },
+    {
+      "j": 59,
+      "k": 59,
+      "h": 0.00375,
+      "native": 5.674581050872803,
+      "FD": 5.770436426003775,
+      "FD_minus_native": 0.09585537513097186,
+      "last_store_round_to_nearest_bound": 4.867712656656902e-07,
+      "residual_over_bound": 196920.77551020528
+    }
+  ],
+  "h_squared_diagnostics": [
+    {
+      "j": 50,
+      "k": 50,
+      "coarse_error_ratio": 1.2360768048964272,
+      "fine_error_ratio": 2.5282206400104106,
+      "leading_smooth_h_squared_prediction": 4.0,
+      "fine_Richardson_residual": 0.27800538804796027
+    },
+    {
+      "j": 50,
+      "k": 59,
+      "coarse_error_ratio": 1.8992927270723001,
+      "fine_error_ratio": 1.7490934874145583,
+      "leading_smooth_h_squared_prediction": 4.0,
+      "fine_Richardson_residual": -0.04793577724032927
+    },
+    {
+      "j": 59,
+      "k": 50,
+      "coarse_error_ratio": 0.7283418533275339,
+      "fine_error_ratio": 1.8974845109146792,
+      "leading_smooth_h_squared_prediction": 4.0,
+      "fine_Richardson_residual": -0.06879853539996672
+    },
+    {
+      "j": 59,
+      "k": 59,
+      "coarse_error_ratio": 1.109428290655647,
+      "fine_error_ratio": 1.9925674035699337,
+      "leading_smooth_h_squared_prediction": 4.0,
+      "fine_Richardson_residual": 0.06414106819364829
+    }
+  ],
+  "geometry_proxies": [
+    {
+      "point": "R-CaTiO3__base",
+      "min_bond_length_A": 1.8793085379662893,
+      "min_abs_distance_to_3A": 0.0969529948202621,
+      "min_abs_distance_to_6A": 0.017755973497616928,
+      "angle_rows": 1824,
+      "one_minus_abs_cos_min": 0.01690415563144132,
+      "near_collinear_gap_lt_1e6": 0,
+      "near_collinear_gap_lt_1e4": 0
+    },
+    {
+      "point": "R-CaTiO3__j50_h0.015_s1",
+      "min_bond_length_A": 1.8763051565914648,
+      "min_abs_distance_to_3A": 0.0969529948202621,
+      "min_abs_distance_to_6A": 0.013594980636688625,
+      "angle_rows": 1824,
+      "one_minus_abs_cos_min": 0.014942165663037854,
+      "near_collinear_gap_lt_1e6": 0,
+      "near_collinear_gap_lt_1e4": 0
+    },
+    {
+      "point": "R-CaTiO3__j50_h0.015_s-1",
+      "min_bond_length_A": 1.8673990610787112,
+      "min_abs_distance_to_3A": 0.0969529948202621,
+      "min_abs_distance_to_6A": 0.012107555924184332,
+      "angle_rows": 1824,
+      "one_minus_abs_cos_min": 0.01690415563144132,
+      "near_collinear_gap_lt_1e6": 0,
+      "near_collinear_gap_lt_1e4": 0
+    },
+    {
+      "point": "R-CaTiO3__j50_h0.0075_s1",
+      "min_bond_length_A": 1.8778219023420877,
+      "min_abs_distance_to_3A": 0.0969529948202621,
+      "min_abs_distance_to_6A": 0.015851900785675888,
+      "angle_rows": 1824,
+      "one_minus_abs_cos_min": 0.015938486827688725,
+      "near_collinear_gap_lt_1e6": 0,
+      "near_collinear_gap_lt_1e4": 0
+    },
+    {
+      "point": "R-CaTiO3__j50_h0.0075_s-1",
+      "min_bond_length_A": 1.8747061508265688,
+      "min_abs_distance_to_3A": 0.0969529948202621,
+      "min_abs_distance_to_6A": 0.016815151893581515,
+      "angle_rows": 1824,
+      "one_minus_abs_cos_min": 0.01690415563144132,
+      "near_collinear_gap_lt_1e6": 0,
+      "near_collinear_gap_lt_1e4": 0
+    },
+    {
+      "point": "R-CaTiO3__j50_h0.00375_s1",
+      "min_bond_length_A": 1.8785908303937697,
+      "min_abs_distance_to_3A": 0.0969529948202621,
+      "min_abs_distance_to_6A": 0.016977154517418214,
+      "angle_rows": 1824,
+      "one_minus_abs_cos_min": 0.016457049400088852,
+      "near_collinear_gap_lt_1e6": 0,
+      "near_collinear_gap_lt_1e4": 0
+    },
+    {
+      "point": "R-CaTiO3__j50_h0.00375_s-1",
+      "min_bond_length_A": 1.8783605182773422,
+      "min_abs_distance_to_3A": 0.0969529948202621,
+      "min_abs_distance_to_6A": 0.017755973497616928,
+      "angle_rows": 1824,
+      "one_minus_abs_cos_min": 0.01690415563144132,
+      "near_collinear_gap_lt_1e6": 0,
+      "near_collinear_gap_lt_1e4": 0
+    },
+    {
+      "point": "R-CaTiO3__j59_h0.015_s1",
+      "min_bond_length_A": 1.8793085379662893,
+      "min_abs_distance_to_3A": 0.0969529948202621,
+      "min_abs_distance_to_6A": 0.016073473767486135,
+      "angle_rows": 1824,
+      "one_minus_abs_cos_min": 0.01690415563144132,
+      "near_collinear_gap_lt_1e6": 0,
+      "near_collinear_gap_lt_1e4": 0
+    },
+    {
+      "point": "R-CaTiO3__j59_h0.015_s-1",
+      "min_bond_length_A": 1.8763052463955534,
+      "min_abs_distance_to_3A": 0.08747175047589062,
+      "min_abs_distance_to_6A": 0.017755973497616928,
+      "angle_rows": 1824,
+      "one_minus_abs_cos_min": 0.01589732721975312,
+      "near_collinear_gap_lt_1e6": 0,
+      "near_collinear_gap_lt_1e4": 0
+    },
+    {
+      "point": "R-CaTiO3__j59_h0.0075_s1",
+      "min_bond_length_A": 1.8793085379662893,
+      "min_abs_distance_to_3A": 0.0969529948202621,
+      "min_abs_distance_to_6A": 0.017755973497616928,
+      "angle_rows": 1824,
+      "one_minus_abs_cos_min": 0.01690415563144132,
+      "near_collinear_gap_lt_1e6": 0,
+      "near_collinear_gap_lt_1e4": 0
+    },
+    {
+      "point": "R-CaTiO3__j59_h0.0075_s-1",
+      "min_bond_length_A": 1.8778219023420892,
+      "min_abs_distance_to_3A": 0.09337079241096369,
+      "min_abs_distance_to_6A": 0.017755973497616928,
+      "angle_rows": 1824,
+      "one_minus_abs_cos_min": 0.016436222233829234,
+      "near_collinear_gap_lt_1e6": 0,
+      "near_collinear_gap_lt_1e4": 0
+    },
+    {
+      "point": "R-CaTiO3__j59_h0.00375_s1",
+      "min_bond_length_A": 1.8793085379662893,
+      "min_abs_distance_to_3A": 0.0969529948202621,
+      "min_abs_distance_to_6A": 0.017755973497616928,
+      "angle_rows": 1824,
+      "one_minus_abs_cos_min": 0.01690415563144132,
+      "near_collinear_gap_lt_1e6": 0,
+      "near_collinear_gap_lt_1e4": 0
+    },
+    {
+      "point": "R-CaTiO3__j59_h0.00375_s-1",
+      "min_bond_length_A": 1.8785909228583457,
+      "min_abs_distance_to_3A": 0.09632291137706073,
+      "min_abs_distance_to_6A": 0.017755973497616928,
+      "angle_rows": 1824,
+      "one_minus_abs_cos_min": 0.016711005915360455,
+      "near_collinear_gap_lt_1e6": 0,
+      "near_collinear_gap_lt_1e4": 0
+    }
+  ],
+  "input_hashes": {
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.015_s1/model-output.npz": "f4a222ba69b43276a87d39dc65378deaf1afb6cff0ce45dffc4b27df58b4d11e",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.015_s-1/model-output.npz": "f21cf58ce459700a9ec219af1661f9d30870e1f1d5ed242d1d84cae2138bffb6",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.015_s1/model-output.npz": "27784abc8b07b6cd6064a976650635d289621a37728ae6c6437df7652bc4e4a8",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.015_s-1/model-output.npz": "8e6d3edd0c22879e258548f616fd15eb7196c80e15ee096114f14f60e2bb4f7a",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.0075_s1/model-output.npz": "ef8603e91ceb666c5971fe4dbbf4bc4a29b155fe739d8359c47e17d90337fe83",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.0075_s-1/model-output.npz": "b45ee4fa3fef3113058089cf26a879d40301dcdfb3927134de55323bc833eed2",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.0075_s1/model-output.npz": "6d2a2b1978d4a37af5add9f00e639787dc3bd41e68aa3750a80e88e88600fb09",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.0075_s-1/model-output.npz": "4a0ce3e609dae4f5744f2debc1a6d41f117efd41a81ab5467ac2da59a12f4bff",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.00375_s1/model-output.npz": "70fd4bac090f063077ae21e757833a3aab28a374da254ed1a0240dd2809f7e34",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.00375_s-1/model-output.npz": "21a16e0b935a9714f7cdae31181d68476606da68f738927422d79f39249bebbe",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.00375_s1/model-output.npz": "190cdc9ff9415c9f770c17cc3641902d24644979c1f30eb7c43f6ff49d314f61",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.00375_s-1/model-output.npz": "a46181bb11b1e2836908b10f33779a30c7074b2af863f17a376acee29c5ffaee"
+  },
+  "no_torch_import": true
+}

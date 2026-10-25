@@ -1,0 +1,10 @@
+{
+  "algorithm": "SHA256",
+  "scope": "Sanitized derivative only; historical original manifests retained privately",
+  "files": {
+    "classifications.jsonl": "8e2e8692693975d4f64b0f7345ef656beb4e2b8a961ee6c42fbededf16eac99d",
+    "enclosure.json": "de890d0435d0622569025688b1d6e748c3582c13719cb22eb45305338efd1433",
+    "endpoint-offsets.json": "86f4c146a13431c95309feba24fc60cd82b7611322d421fb9842c7758b476c3c",
+    "result.json": "3b808055a66fe68d0f540c0f33ccf2359f0fe3d7ab5986150bc57212c2866b99"
+  }
+}

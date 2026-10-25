@@ -1,0 +1,30 @@
+{
+  "public_checkout": "PUBLIC_CHECKOUT",
+  "public_head": "c3c089ff893dda65d12713aea49d9a17a08991be",
+  "inputs": [
+    {
+      "path": "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/input-arrays.npz",
+      "sha256": "774e110abf0da566186546d23b10218faa035c3bcd2765d68cc36de5c6a91084"
+    },
+    {
+      "path": "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.00375_s1/input-arrays.npz",
+      "sha256": "e3fdb99a0e60c08f163d56d730d361332bf677b4231bf59381c7eb448dc26755"
+    },
+    {
+      "path": "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.00375_s-1/input-arrays.npz",
+      "sha256": "8c623c6fd1ac963f5e20da5d2e223eb2546e46e414f888bdc50fcbb98ddc0cae"
+    }
+  ],
+  "stage_deadline_utc": "2026-10-25T07:05:05.100448+00:00",
+  "h_exact": "3/800",
+  "coordinate": 50,
+  "atom": 16,
+  "axis": 2,
+  "scope": "ideal exact-rational saved geometry only; no backend or force certificate",
+  "max_analysis_process_seconds": 60,
+  "max_records": 100000,
+  "zero_self": "exclude only i=j and image=(0,0,0); retain all other pairs",
+  "documented_tol_exact": "1/100000000",
+  "retry": false,
+  "image_convention": "ri-rj+nL; image sign differs from consumed neighbor convention; no saved neighbor identity comparison"
+}

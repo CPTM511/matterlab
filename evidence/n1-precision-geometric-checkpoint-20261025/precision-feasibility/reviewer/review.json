@@ -1,0 +1,33 @@
+{
+  "completed_utc": "2026-10-24T13:26:46.099803+00:00",
+  "disposition": "AGREE_STOP_CONTRAST_NO_ADAPTER; required certificate absent",
+  "result": {
+    "bytes": 5592,
+    "sha256": "08bae458abd586ad314490466bc8b7fa0e88cc2f16dbad65250b3f27dae663f7"
+  },
+  "saved_geometry": {
+    "bytes": 2483,
+    "sha256": "a59ce90f1eae22454fb90da7c119f3d82c5573b8438d69843755ccf15c83324f"
+  },
+  "review": {
+    "bytes": 3269,
+    "sha256": "386bea07d3f62a781de3e294bf710e5404d69a1b345d2b6307186e9367623d3c"
+  },
+  "rational_verification": {
+    "bytes": 1713,
+    "sha256": "ad1b9be07135d9a30707867965e8f2d9f84987a91e60b6a46e8e7840921ceb6b"
+  },
+  "independent_checks": 13,
+  "passed": 13,
+  "unresolved_result_errors": [],
+  "execution_blockers": [
+    "No certified uniform force-gradient bound along endpoint connecting segments",
+    "No certified baseline derivative-transport remainder",
+    "Actual endpoint backend captures/arithmetic bounds absent",
+    "Complete same-convention precision path unverified"
+  ],
+  "scope": "Source and saved rational arithmetic only; no torch/model/AD/forward/token",
+  "prior_timing_failure": "Preserved unchanged; this stage does not repair or extend prior clock",
+  "requested_identity": "Astra High Standard",
+  "observable_identity": "GPT-6-based Codex; serving variant/effort/speed independently unattested"
+}

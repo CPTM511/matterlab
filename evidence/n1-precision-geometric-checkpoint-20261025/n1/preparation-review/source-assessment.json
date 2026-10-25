@@ -1,0 +1,27 @@
+{
+  "time_utc": "2026-10-24T12:46:06.021692+00:00",
+  "scope": "Read-only source/AST inspection; no source import, torch import, model construction or derivative execution",
+  "installed_native_source": {
+    "bytes": 36917,
+    "sha256": "767b120ba8b3ee7f75c247416902d1b72e871ba8ffc2916ed76d24809c98fc96"
+  },
+  "proposal": {
+    "bytes": 5435,
+    "sha256": "9466a2b311bc36ad2c9eaa1f1dd699a8ed6cfa3b816e1354409e0ab46e5e2e30"
+  },
+  "baseline_specification": {
+    "bytes": 1614,
+    "sha256": "3eff19bb29393291617d0a852870fbf91b39b6152cc8020c7130925a73781d22"
+  },
+  "native_source_parses": true,
+  "mechanism": {
+    "force_grad_before_stress_and_normalization": true,
+    "force_create_graph": true,
+    "force_retain_graph": true,
+    "forward_composition_addition_in_place": true,
+    "predict_graph_detaches": true,
+    "positions": "BatchedGraph atom_cart_coords derived from fractional coordinates and strain-adjusted lattice",
+    "extra_queries": "Two -dF_j/dR rows at j50,59; compare four supported entries only"
+  },
+  "status": "Candidate implementation not yet inspected; execution blocked pending exact-source and guard review"
+}

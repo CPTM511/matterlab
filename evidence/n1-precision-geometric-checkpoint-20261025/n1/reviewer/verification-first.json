@@ -1,0 +1,1280 @@
+{
+  "checked_utc": "2026-10-24T13:00:43.319554+00:00",
+  "scope": "Independent saved-data hashes/NumPy arithmetic and ASE unit conversion only; no torch/model/AD/controller execution",
+  "checks": [
+    {
+      "name": "raw_manifest_exact_coverage",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:baseline-gate.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:call-attempts.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:config-original.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:diagnostic_eval.py",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:expected-source-code.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:graph-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:graph.npz",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:input-array-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:model-output-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:native-call-counts.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:native-pre-normalization.npz",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:native-row-50.npz",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:native-row-59.npz",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:neighbor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:observations.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:point.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:pre-inference-runtime-check.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:provenance.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:runtime.json",
+      "passed": true
+    },
+    {
+      "name": "raw_hash:signed-comparisons.json",
+      "passed": true
+    },
+    {
+      "name": "bundle_coverage",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:interception_fixtures.py",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:compare_saved.py",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:launch.sh",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:runtime_compare.py",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:points.json",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:baseline.json",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:metadata_fixtures.py",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:native_gate.py",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:native_child.py",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:freeze.json",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:run_native.py",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:protocol.json",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:native_worker.py",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:control_common.py",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:native_capture.py",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:preflight.py",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:point.json",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:capture_helpers.py",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:preinference_guards.py",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "bundle_hash:implementation-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "raw_worker_source",
+      "passed": true
+    },
+    {
+      "name": "raw_capture_helper",
+      "passed": true
+    },
+    {
+      "name": "public_manifest_pin",
+      "passed": true
+    },
+    {
+      "name": "baseline_bound:input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "baseline_bound:graph.npz",
+      "passed": true
+    },
+    {
+      "name": "baseline_bound:neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "baseline_bound:model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "baseline_bound:runtime.json",
+      "passed": true
+    },
+    {
+      "name": "baseline_bound:model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "baseline_bound:config-original.json",
+      "passed": true
+    },
+    {
+      "name": "baseline_bound:point.json",
+      "passed": true
+    },
+    {
+      "name": "baseline_bound:observations.json",
+      "passed": true
+    },
+    {
+      "name": "array_keys:input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "array_record_keys:input-arrays.npz",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:input-arrays.npz:atomic_numbers",
+      "passed": true
+    },
+    {
+      "name": "array_finite:input-arrays.npz:atomic_numbers",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:input-arrays.npz:atomic_numbers",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:input-arrays.npz:positions",
+      "passed": true
+    },
+    {
+      "name": "array_finite:input-arrays.npz:positions",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:input-arrays.npz:positions",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:input-arrays.npz:cell",
+      "passed": true
+    },
+    {
+      "name": "array_finite:input-arrays.npz:cell",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:input-arrays.npz:cell",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:input-arrays.npz:pbc",
+      "passed": true
+    },
+    {
+      "name": "array_finite:input-arrays.npz:pbc",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:input-arrays.npz:pbc",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:input-arrays.npz:frac_coords",
+      "passed": true
+    },
+    {
+      "name": "array_finite:input-arrays.npz:frac_coords",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:input-arrays.npz:frac_coords",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:input-arrays.npz:lattice",
+      "passed": true
+    },
+    {
+      "name": "array_finite:input-arrays.npz:lattice",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:input-arrays.npz:lattice",
+      "passed": true
+    },
+    {
+      "name": "array_keys:graph.npz",
+      "passed": true
+    },
+    {
+      "name": "array_record_keys:graph.npz",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:graph.npz:atomic_number",
+      "passed": true
+    },
+    {
+      "name": "array_finite:graph.npz:atomic_number",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:graph.npz:atomic_number",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:graph.npz:atom_frac_coord",
+      "passed": true
+    },
+    {
+      "name": "array_finite:graph.npz:atom_frac_coord",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:graph.npz:atom_frac_coord",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:graph.npz:atom_graph",
+      "passed": true
+    },
+    {
+      "name": "array_finite:graph.npz:atom_graph",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:graph.npz:atom_graph",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:graph.npz:neighbor_image",
+      "passed": true
+    },
+    {
+      "name": "array_finite:graph.npz:neighbor_image",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:graph.npz:neighbor_image",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:graph.npz:directed2undirected",
+      "passed": true
+    },
+    {
+      "name": "array_finite:graph.npz:directed2undirected",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:graph.npz:directed2undirected",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:graph.npz:undirected2directed",
+      "passed": true
+    },
+    {
+      "name": "array_finite:graph.npz:undirected2directed",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:graph.npz:undirected2directed",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:graph.npz:bond_graph",
+      "passed": true
+    },
+    {
+      "name": "array_finite:graph.npz:bond_graph",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:graph.npz:bond_graph",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:graph.npz:lattice",
+      "passed": true
+    },
+    {
+      "name": "array_finite:graph.npz:lattice",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:graph.npz:lattice",
+      "passed": true
+    },
+    {
+      "name": "array_keys:neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "array_record_keys:neighbors.npz",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:neighbors.npz:center",
+      "passed": true
+    },
+    {
+      "name": "array_finite:neighbors.npz:center",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:neighbors.npz:center",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:neighbors.npz:neighbor",
+      "passed": true
+    },
+    {
+      "name": "array_finite:neighbors.npz:neighbor",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:neighbors.npz:neighbor",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:neighbors.npz:image",
+      "passed": true
+    },
+    {
+      "name": "array_finite:neighbors.npz:image",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:neighbors.npz:image",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:neighbors.npz:distance",
+      "passed": true
+    },
+    {
+      "name": "array_finite:neighbors.npz:distance",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:neighbors.npz:distance",
+      "passed": true
+    },
+    {
+      "name": "array_keys:model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "array_record_keys:model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:model-output.npz:atoms_per_graph",
+      "passed": true
+    },
+    {
+      "name": "array_finite:model-output.npz:atoms_per_graph",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:model-output.npz:atoms_per_graph",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:model-output.npz:m_0",
+      "passed": true
+    },
+    {
+      "name": "array_finite:model-output.npz:m_0",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:model-output.npz:m_0",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:model-output.npz:crystal_fea",
+      "passed": true
+    },
+    {
+      "name": "array_finite:model-output.npz:crystal_fea",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:model-output.npz:crystal_fea",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:model-output.npz:f_0",
+      "passed": true
+    },
+    {
+      "name": "array_finite:model-output.npz:f_0",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:model-output.npz:f_0",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:model-output.npz:s_0",
+      "passed": true
+    },
+    {
+      "name": "array_finite:model-output.npz:s_0",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:model-output.npz:s_0",
+      "passed": true
+    },
+    {
+      "name": "array_bytes:model-output.npz:e",
+      "passed": true
+    },
+    {
+      "name": "array_finite:model-output.npz:e",
+      "passed": true
+    },
+    {
+      "name": "array_hash_record:model-output.npz:e",
+      "passed": true
+    },
+    {
+      "name": "metadata_exact:observations.json",
+      "passed": true
+    },
+    {
+      "name": "metadata_exact:model-tensor-hashes.json",
+      "passed": true
+    },
+    {
+      "name": "metadata_exact:config-original.json",
+      "passed": true
+    },
+    {
+      "name": "metadata_exact:point.json",
+      "passed": true
+    },
+    {
+      "name": "runtime_field_set",
+      "passed": true
+    },
+    {
+      "name": "runtime_condition_string",
+      "passed": true
+    },
+    {
+      "name": "runtime_every_other_field_exact",
+      "passed": true
+    },
+    {
+      "name": "runtime_unique_consistent_capability",
+      "passed": true
+    },
+    {
+      "name": "runtime_unique_consistent_capability",
+      "passed": true
+    },
+    {
+      "name": "six_output_keys",
+      "passed": true
+    },
+    {
+      "name": "ASE_force_exact",
+      "passed": true
+    },
+    {
+      "name": "ASE_energy_float32_exact",
+      "passed": true
+    },
+    {
+      "name": "ASE_stress_float32_symmetric_exact",
+      "passed": true
+    },
+    {
+      "name": "native_snapshot_keys",
+      "passed": true
+    },
+    {
+      "name": "native_scalar_finite_float32_shape",
+      "passed": true
+    },
+    {
+      "name": "native_positions_finite_float32_shape",
+      "passed": true
+    },
+    {
+      "name": "row_schema:50",
+      "passed": true
+    },
+    {
+      "name": "row_schema:59",
+      "passed": true
+    },
+    {
+      "name": "FD_public_hash:R-CaTiO3__j50_h0.015_s1",
+      "passed": true
+    },
+    {
+      "name": "FD_public_hash:R-CaTiO3__j50_h0.015_s-1",
+      "passed": true
+    },
+    {
+      "name": "FD_public_hash:R-CaTiO3__j59_h0.015_s1",
+      "passed": true
+    },
+    {
+      "name": "FD_public_hash:R-CaTiO3__j59_h0.015_s-1",
+      "passed": true
+    },
+    {
+      "name": "FD_public_hash:R-CaTiO3__j50_h0.0075_s1",
+      "passed": true
+    },
+    {
+      "name": "FD_public_hash:R-CaTiO3__j50_h0.0075_s-1",
+      "passed": true
+    },
+    {
+      "name": "FD_public_hash:R-CaTiO3__j59_h0.0075_s1",
+      "passed": true
+    },
+    {
+      "name": "FD_public_hash:R-CaTiO3__j59_h0.0075_s-1",
+      "passed": true
+    },
+    {
+      "name": "FD_public_hash:R-CaTiO3__j50_h0.00375_s1",
+      "passed": true
+    },
+    {
+      "name": "FD_public_hash:R-CaTiO3__j50_h0.00375_s-1",
+      "passed": true
+    },
+    {
+      "name": "FD_public_hash:R-CaTiO3__j59_h0.00375_s1",
+      "passed": true
+    },
+    {
+      "name": "FD_public_hash:R-CaTiO3__j59_h0.00375_s-1",
+      "passed": true
+    },
+    {
+      "name": "all12_signed_entries_exact",
+      "passed": true
+    },
+    {
+      "name": "signed_reciprocity_exact",
+      "passed": true
+    },
+    {
+      "name": "pending_raw_acceptance_unchanged",
+      "passed": true
+    },
+    {
+      "name": "old_failures_retained",
+      "passed": true
+    },
+    {
+      "name": "call_attempts",
+      "passed": true
+    },
+    {
+      "name": "native_call_counts",
+      "passed": true
+    },
+    {
+      "name": "capture_counts",
+      "passed": true
+    },
+    {
+      "name": "no_failure_file",
+      "passed": true
+    },
+    {
+      "name": "baseline_gate",
+      "passed": true
+    },
+    {
+      "name": "preflight_allchecks",
+      "passed": true
+    },
+    {
+      "name": "public_source:src/matterlab/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "public_source:src/matterlab/__main__.py",
+      "passed": true
+    },
+    {
+      "name": "public_source:src/matterlab/cli.py",
+      "passed": true
+    },
+    {
+      "name": "public_source:src/matterlab/evidence.py",
+      "passed": true
+    },
+    {
+      "name": "public_source:src/matterlab/generate.py",
+      "passed": true
+    },
+    {
+      "name": "public_source:src/matterlab/physics.py",
+      "passed": true
+    },
+    {
+      "name": "public_source:src/matterlab/report.py",
+      "passed": true
+    },
+    {
+      "name": "public_source:src/matterlab/simulate.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:__init__.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:data/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:data/dataset.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:graph/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:graph/converter.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:graph/crystalgraph.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:graph/graph.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:model/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:model/basis.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:model/composition_model.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:model/dynamics.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:model/encoders.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:model/functions.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:model/layers.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:model/model.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:trainer/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:trainer/trainer.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:utils/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:utils/common_utils.py",
+      "passed": true
+    },
+    {
+      "name": "installed_CHGNet_source:utils/vasp_utils.py",
+      "passed": true
+    },
+    {
+      "name": "cached_checkpoint:pretrained/0.2.0/chgnet_0.2.0_e30f77s348m32.pth.tar",
+      "passed": true
+    },
+    {
+      "name": "cached_checkpoint:pretrained/0.3.0/chgnet_0.3.0_e29f68s314m37.pth.tar",
+      "passed": true
+    },
+    {
+      "name": "cached_checkpoint:pretrained/r2scan/chgnet_r2scan_transfer_learning_e15f36s161m23.pth.tar",
+      "passed": true
+    },
+    {
+      "name": "terminal_process_success",
+      "passed": true
+    },
+    {
+      "name": "calculation_limit",
+      "passed": true
+    },
+    {
+      "name": "immutable_start",
+      "passed": true
+    },
+    {
+      "name": "investigation_limit",
+      "passed": true
+    },
+    {
+      "name": "tokens_same_controller",
+      "passed": true
+    },
+    {
+      "name": "tokens_fixed_bounds",
+      "passed": true
+    },
+    {
+      "name": "anchor_immutable_start",
+      "passed": true
+    },
+    {
+      "name": "one_invocation_intent",
+      "passed": true
+    },
+    {
+      "name": "release_copy_exact",
+      "passed": true
+    },
+    {
+      "name": "no_torch_import",
+      "passed": true
+    },
+    {
+      "name": "no_traceback_in_log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "count": 223,
+  "raw_manifest_members": 26,
+  "matched_arrays": 24,
+  "matched_array_elements": 29225,
+  "parameter_hash_records": 136,
+  "preflight_recorded_checks": 3424,
+  "native_scalar_eV": -18.561548233032227,
+  "native_positions": [
+    [
+      -0.14279934763908386,
+      5.460292816162109,
+      7.616442680358887
+    ],
+    [
+      2.6971302032470703,
+      -0.00043339875992387533,
+      1.9071825742721558
+    ],
+    [
+      2.9307079315185547,
+      0.384838730096817,
+      7.8325300216674805
+    ],
+    [
+      1.6760554313659668,
+      3.884997606277466,
+      1.7505046129226685
+    ],
+    [
+      1.2924028635025024,
+      1.185781478881836,
+      2.2979109287261963
+    ],
+    [
+      -0.1743345856666565,
+      5.460216045379639,
+      3.737117290496826
+    ],
+    [
+      2.7289984226226807,
+      7.707788608968258e-05,
+      5.786193370819092
+    ],
+    [
+      2.8962748050689697,
+      5.070646286010742,
+      3.952414035797119
+    ],
+    [
+      1.3217129707336426,
+      4.27108097076416,
+      6.178069114685059
+    ],
+    [
+      1.7097023725509644,
+      1.571553111076355,
+      5.630186080932617
+    ],
+    [
+      2.557251453399658,
+      2.7290050983428955,
+      -0.12126670032739639
+    ],
+    [
+      -0.06634264439344406,
+      2.732058525085449,
+      1.8843408823013306
+    ],
+    [
+      0.1669825315475464,
+      2.341810941696167,
+      7.810031414031982
+    ],
+    [
+      4.054422855377197,
+      1.5387595891952515,
+      2.320847988128662
+    ],
+    [
+      4.4383368492126465,
+      4.299869537353516,
+      1.7726536989212036
+    ],
+    [
+      2.5893001556396484,
+      2.7287654876708984,
+      3.7578532695770264
+    ],
+    [
+      5.489046573638916,
+      2.7280640602111816,
+      5.809028625488281
+    ],
+    [
+      0.13539481163024902,
+      3.1166205406188965,
+      3.930497169494629
+    ],
+    [
+      4.471560478210449,
+      1.1530457735061646,
+      5.6530303955078125
+    ],
+    [
+      4.084796905517578,
+      3.914391040802002,
+      6.1998395919799805
+    ]
+  ],
+  "native_rows": {
+    "50": [
+      0.2415292114019394,
+      0.2086944878101349,
+      -0.49276620149612427,
+      0.24573184549808502,
+      -0.06601361185312271,
+      -1.4254212379455566,
+      -0.1813659518957138,
+      -0.32159173488616943,
+      0.40239718556404114,
+      -0.1798536777496338,
+      0.05238436907529831,
+      1.178877830505371,
+      -0.40594401955604553,
+      0.3638763129711151,
+      1.234006404876709,
+      -0.3065805733203888,
+      0.5434025526046753,
+      -0.6284201741218567,
+      -0.05482320487499237,
+      -1.2777966260910034,
+      1.8907910585403442,
+      0.13128939270973206,
+      -0.45603036880493164,
+      -0.6199759840965271,
+      -0.13454917073249817,
+      0.2878885269165039,
+      -1.7191624641418457,
+      -0.5035738348960876,
+      0.4902414381504059,
+      -1.6391515731811523,
+      -0.46659088134765625,
+      0.030906207859516144,
+      -0.5126760005950928,
+      0.40805912017822266,
+      -1.316327691078186,
+      -9.173337936401367,
+      -0.5306411385536194,
+      0.49615663290023804,
+      2.3317790031433105,
+      -0.09206072986125946,
+      0.19693997502326965,
+      1.394408941268921,
+      0.05147959291934967,
+      0.03807801008224487,
+      1.3298453092575073,
+      0.8032751083374023,
+      -0.14617833495140076,
+      -0.7397373914718628,
+      0.3071414530277252,
+      -0.4074288308620453,
+      14.91781997680664,
+      0.41986921429634094,
+      1.2019580602645874,
+      -3.474447250366211,
+      0.014051024802029133,
+      0.17252908647060394,
+      -2.0617218017578125,
+      0.23355716466903687,
+      -0.0916881114244461,
+      -2.1931087970733643
+    ],
+    "59": [
+      -0.04375658184289932,
+      0.1745874583721161,
+      -0.5173774361610413,
+      -0.24587693810462952,
+      0.09123501181602478,
+      1.2274131774902344,
+      0.7480141520500183,
+      -0.639882504940033,
+      -0.6378825902938843,
+      0.08131464570760727,
+      -0.12735769152641296,
+      -0.425498366355896,
+      -0.010670170187950134,
+      0.03684866428375244,
+      -0.42683982849121094,
+      -0.27017706632614136,
+      -0.2816271483898163,
+      0.5312074422836304,
+      -0.12251761555671692,
+      0.18006597459316254,
+      -1.7026970386505127,
+      -0.616256594657898,
+      0.6859939694404602,
+      -1.3271820545196533,
+      0.14265824854373932,
+      0.07957404851913452,
+      0.8846644163131714,
+      0.18555907905101776,
+      0.03587445616722107,
+      0.11669071018695831,
+      0.43615061044692993,
+      0.309134304523468,
+      -0.8774904012680054,
+      0.06233861297369003,
+      -0.0933196097612381,
+      1.4115415811538696,
+      -0.4902946949005127,
+      0.4517658054828644,
+      -0.3526860177516937,
+      0.07683547586202621,
+      0.001137860119342804,
+      -0.3152177929878235,
+      -0.09683758020401001,
+      0.07554110884666443,
+      -0.6537247896194458,
+      0.18533670902252197,
+      0.29714080691337585,
+      0.5237985253334045,
+      0.38665634393692017,
+      -0.5316492319107056,
+      -2.1931121349334717,
+      1.0481698513031006,
+      -0.5355074405670166,
+      -1.6080539226531982,
+      0.05832904577255249,
+      -0.46549326181411743,
+      0.6678656339645386,
+      -1.5149751901626587,
+      0.255937397480011,
+      5.674581050872803
+    ]
+  },
+  "signed_entries": [
+    {
+      "row_j": 50,
+      "column_k": 50,
+      "h_A": 0.015,
+      "native_eV_A2": 14.91781997680664,
+      "finite_difference_eV_A2": 16.688712437947594,
+      "native_minus_FD_eV_A2": -1.770892461140953,
+      "within_0.005": false
+    },
+    {
+      "row_j": 59,
+      "column_k": 50,
+      "h_A": 0.015,
+      "native_eV_A2": -2.1931121349334717,
+      "finite_difference_eV_A2": -2.3287793000539145,
+      "native_minus_FD_eV_A2": 0.13566716512044286,
+      "within_0.005": false
+    },
+    {
+      "row_j": 50,
+      "column_k": 59,
+      "h_A": 0.015,
+      "native_eV_A2": -2.1931087970733643,
+      "finite_difference_eV_A2": -2.405349413553874,
+      "native_minus_FD_eV_A2": 0.21224061648050974,
+      "within_0.005": false
+    },
+    {
+      "row_j": 59,
+      "column_k": 59,
+      "h_A": 0.015,
+      "native_eV_A2": 5.674581050872803,
+      "finite_difference_eV_A2": 5.886479963858923,
+      "native_minus_FD_eV_A2": -0.21189891298612018,
+      "within_0.005": false
+    },
+    {
+      "row_j": 50,
+      "column_k": 50,
+      "h_A": 0.0075,
+      "native_eV_A2": 14.91781997680664,
+      "finite_difference_eV_A2": 16.350491841634117,
+      "native_minus_FD_eV_A2": -1.4326718648274763,
+      "within_0.005": false
+    },
+    {
+      "row_j": 59,
+      "column_k": 50,
+      "h_A": 0.0075,
+      "native_eV_A2": -2.1931121349334717,
+      "finite_difference_eV_A2": -2.3793806632359824,
+      "native_minus_FD_eV_A2": 0.18626852830251073,
+      "within_0.005": false
+    },
+    {
+      "row_j": 50,
+      "column_k": 59,
+      "h_A": 0.0075,
+      "native_eV_A2": -2.1931087970733643,
+      "finite_difference_eV_A2": -2.3048559824625654,
+      "native_minus_FD_eV_A2": 0.11174718538920114,
+      "within_0.005": false
+    },
+    {
+      "row_j": 59,
+      "column_k": 59,
+      "h_A": 0.0075,
+      "native_eV_A2": 5.674581050872803,
+      "finite_difference_eV_A2": 5.865579346815745,
+      "native_minus_FD_eV_A2": -0.1909982959429426,
+      "within_0.005": false
+    },
+    {
+      "row_j": 50,
+      "column_k": 50,
+      "h_A": 0.00375,
+      "native_eV_A2": 14.91781997680664,
+      "finite_difference_eV_A2": 15.48449198404948,
+      "native_minus_FD_eV_A2": -0.5666720072428397,
+      "within_0.005": false
+    },
+    {
+      "row_j": 59,
+      "column_k": 50,
+      "h_A": 0.00375,
+      "native_eV_A2": -2.1931121349334717,
+      "finite_difference_eV_A2": -2.2912781685590744,
+      "native_minus_FD_eV_A2": 0.09816603362560272,
+      "within_0.005": false
+    },
+    {
+      "row_j": 50,
+      "column_k": 59,
+      "h_A": 0.00375,
+      "native_eV_A2": -2.1931087970733643,
+      "finite_difference_eV_A2": -2.2569974263509116,
+      "native_minus_FD_eV_A2": 0.06388862927754735,
+      "within_0.005": false
+    },
+    {
+      "row_j": 59,
+      "column_k": 59,
+      "h_A": 0.00375,
+      "native_eV_A2": 5.674581050872803,
+      "finite_difference_eV_A2": 5.770436426003775,
+      "native_minus_FD_eV_A2": -0.09585537513097186,
+      "within_0.005": false
+    }
+  ],
+  "reciprocity_eV_A2": 3.337860107421875e-06,
+  "all12_FD_fail": true,
+  "abs_difference_range": [
+    0.06388862927754735,
+    1.770892461140953
+  ],
+  "cache_messages": {
+    "matplotlib_cache_warning": true,
+    "fontconfig_cache_error": true
+  },
+  "identities": {
+    "manifest.json": {
+      "sha256": "bfe06986ba09d64499e2de462bbb230589edd6b672561a07fa6110f598f952a9",
+      "bytes": 2514
+    },
+    "native-pre-normalization.npz": {
+      "sha256": "1e537207c920b32f9eb3a14a2cb3bbcdc69d6ee7717b02f635567ad65cd85aeb",
+      "bytes": 760
+    },
+    "native-row-50.npz": {
+      "sha256": "9f266858e0d1c5c1164241a8425099ebec0c9c8305f7ea5803cb0f9c4369e328",
+      "bytes": 500
+    },
+    "native-row-59.npz": {
+      "sha256": "fe30ec0c926385cd412cdd39bb5e316e5445398046c68e342de842b1c910854f",
+      "bytes": 500
+    },
+    "signed-comparisons.json": {
+      "sha256": "ccf15489070b88227c89f5ba09821b362435e26bdd0d63b53521b022148d1126",
+      "bytes": 3284
+    },
+    "model-output.npz": {
+      "sha256": "437fc3540dabfa3bed6b22d4ceab007a188e5282d60c65c370d2563f987c1388",
+      "bytes": 2110
+    }
+  }
+}

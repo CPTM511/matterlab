@@ -1,0 +1,48 @@
+{
+  "scope": "Only Budget counter methods executed; no NativeCapture instantiation, torch import or derivative call",
+  "source_sha256": "cfbaf1f78324a8f97e871e8281da7c6a42b545c898666b94e2f61826005ed2d5",
+  "passed": true,
+  "count": 10,
+  "checks": [
+    {
+      "name": "force_allowed_count",
+      "passed": true
+    },
+    {
+      "name": "force_overcap_before_call",
+      "passed": true
+    },
+    {
+      "name": "force_failure_terminal",
+      "passed": true
+    },
+    {
+      "name": "stress_allowed_count",
+      "passed": true
+    },
+    {
+      "name": "stress_overcap_before_call",
+      "passed": true
+    },
+    {
+      "name": "stress_failure_terminal",
+      "passed": true
+    },
+    {
+      "name": "added_allowed_count",
+      "passed": true
+    },
+    {
+      "name": "added_overcap_before_call",
+      "passed": true
+    },
+    {
+      "name": "added_failure_terminal",
+      "passed": true
+    },
+    {
+      "name": "explicit_failure_blocks_queries",
+      "passed": true
+    }
+  ]
+}

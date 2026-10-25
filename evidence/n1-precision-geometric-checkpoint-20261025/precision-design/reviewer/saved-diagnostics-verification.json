@@ -1,0 +1,227 @@
+{
+  "scope": "Independent saved arithmetic, not native intermediate capture/model/AD",
+  "passed": true,
+  "count": 43,
+  "checks": [
+    {
+      "name": "ULP_and_difference_0.015_50_50",
+      "passed": true
+    },
+    {
+      "name": "ULP_and_difference_0.015_59_50",
+      "passed": true
+    },
+    {
+      "name": "ULP_and_difference_0.015_50_59",
+      "passed": true
+    },
+    {
+      "name": "ULP_and_difference_0.015_59_59",
+      "passed": true
+    },
+    {
+      "name": "ULP_and_difference_0.0075_50_50",
+      "passed": true
+    },
+    {
+      "name": "ULP_and_difference_0.0075_59_50",
+      "passed": true
+    },
+    {
+      "name": "ULP_and_difference_0.0075_50_59",
+      "passed": true
+    },
+    {
+      "name": "ULP_and_difference_0.0075_59_59",
+      "passed": true
+    },
+    {
+      "name": "ULP_and_difference_0.00375_50_50",
+      "passed": true
+    },
+    {
+      "name": "ULP_and_difference_0.00375_59_50",
+      "passed": true
+    },
+    {
+      "name": "ULP_and_difference_0.00375_50_59",
+      "passed": true
+    },
+    {
+      "name": "ULP_and_difference_0.00375_59_59",
+      "passed": true
+    },
+    {
+      "name": "h2_(50, 50)",
+      "passed": true
+    },
+    {
+      "name": "h2_(50, 59)",
+      "passed": true
+    },
+    {
+      "name": "h2_(59, 50)",
+      "passed": true
+    },
+    {
+      "name": "h2_(59, 59)",
+      "passed": true
+    },
+    {
+      "name": "geometry_R-CaTiO3__base",
+      "passed": true
+    },
+    {
+      "name": "cutoff_proxy_R-CaTiO3__base",
+      "passed": true
+    },
+    {
+      "name": "geometry_R-CaTiO3__j50_h0.015_s1",
+      "passed": true
+    },
+    {
+      "name": "cutoff_proxy_R-CaTiO3__j50_h0.015_s1",
+      "passed": true
+    },
+    {
+      "name": "geometry_R-CaTiO3__j50_h0.015_s-1",
+      "passed": true
+    },
+    {
+      "name": "cutoff_proxy_R-CaTiO3__j50_h0.015_s-1",
+      "passed": true
+    },
+    {
+      "name": "geometry_R-CaTiO3__j50_h0.0075_s1",
+      "passed": true
+    },
+    {
+      "name": "cutoff_proxy_R-CaTiO3__j50_h0.0075_s1",
+      "passed": true
+    },
+    {
+      "name": "geometry_R-CaTiO3__j50_h0.0075_s-1",
+      "passed": true
+    },
+    {
+      "name": "cutoff_proxy_R-CaTiO3__j50_h0.0075_s-1",
+      "passed": true
+    },
+    {
+      "name": "geometry_R-CaTiO3__j50_h0.00375_s1",
+      "passed": true
+    },
+    {
+      "name": "cutoff_proxy_R-CaTiO3__j50_h0.00375_s1",
+      "passed": true
+    },
+    {
+      "name": "geometry_R-CaTiO3__j50_h0.00375_s-1",
+      "passed": true
+    },
+    {
+      "name": "cutoff_proxy_R-CaTiO3__j50_h0.00375_s-1",
+      "passed": true
+    },
+    {
+      "name": "geometry_R-CaTiO3__j59_h0.015_s1",
+      "passed": true
+    },
+    {
+      "name": "cutoff_proxy_R-CaTiO3__j59_h0.015_s1",
+      "passed": true
+    },
+    {
+      "name": "geometry_R-CaTiO3__j59_h0.015_s-1",
+      "passed": true
+    },
+    {
+      "name": "cutoff_proxy_R-CaTiO3__j59_h0.015_s-1",
+      "passed": true
+    },
+    {
+      "name": "geometry_R-CaTiO3__j59_h0.0075_s1",
+      "passed": true
+    },
+    {
+      "name": "cutoff_proxy_R-CaTiO3__j59_h0.0075_s1",
+      "passed": true
+    },
+    {
+      "name": "geometry_R-CaTiO3__j59_h0.0075_s-1",
+      "passed": true
+    },
+    {
+      "name": "cutoff_proxy_R-CaTiO3__j59_h0.0075_s-1",
+      "passed": true
+    },
+    {
+      "name": "geometry_R-CaTiO3__j59_h0.00375_s1",
+      "passed": true
+    },
+    {
+      "name": "cutoff_proxy_R-CaTiO3__j59_h0.00375_s1",
+      "passed": true
+    },
+    {
+      "name": "geometry_R-CaTiO3__j59_h0.00375_s-1",
+      "passed": true
+    },
+    {
+      "name": "cutoff_proxy_R-CaTiO3__j59_h0.00375_s-1",
+      "passed": true
+    },
+    {
+      "name": "no_torch",
+      "passed": true
+    }
+  ],
+  "saved_diagnostics_sha256": "4218698a7c89b161f3cc5791863a42cea305ce75d1870390348d45424849856c",
+  "input_hashes": {
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.015_s1/model-output.npz": "f4a222ba69b43276a87d39dc65378deaf1afb6cff0ce45dffc4b27df58b4d11e",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.015_s-1/model-output.npz": "f21cf58ce459700a9ec219af1661f9d30870e1f1d5ed242d1d84cae2138bffb6",
+    "N1/native-row-50.npz": "9f266858e0d1c5c1164241a8425099ebec0c9c8305f7ea5803cb0f9c4369e328",
+    "N1/native-row-59.npz": "fe30ec0c926385cd412cdd39bb5e316e5445398046c68e342de842b1c910854f",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.015_s1/model-output.npz": "27784abc8b07b6cd6064a976650635d289621a37728ae6c6437df7652bc4e4a8",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.015_s-1/model-output.npz": "8e6d3edd0c22879e258548f616fd15eb7196c80e15ee096114f14f60e2bb4f7a",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.0075_s1/model-output.npz": "ef8603e91ceb666c5971fe4dbbf4bc4a29b155fe739d8359c47e17d90337fe83",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.0075_s-1/model-output.npz": "b45ee4fa3fef3113058089cf26a879d40301dcdfb3927134de55323bc833eed2",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.0075_s1/model-output.npz": "6d2a2b1978d4a37af5add9f00e639787dc3bd41e68aa3750a80e88e88600fb09",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.0075_s-1/model-output.npz": "4a0ce3e609dae4f5744f2debc1a6d41f117efd41a81ab5467ac2da59a12f4bff",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.00375_s1/model-output.npz": "70fd4bac090f063077ae21e757833a3aab28a374da254ed1a0240dd2809f7e34",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.00375_s-1/model-output.npz": "21a16e0b935a9714f7cdae31181d68476606da68f738927422d79f39249bebbe",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.00375_s1/model-output.npz": "190cdc9ff9415c9f770c17cc3641902d24644979c1f30eb7c43f6ff49d314f61",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.00375_s-1/model-output.npz": "a46181bb11b1e2836908b10f33779a30c7074b2af863f17a376acee29c5ffaee",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/graph.npz": "ab269a08251baf86f01eb0a16d450dc8a13029767b84ed865da8bc8f4d8d2d2c",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/neighbors.npz": "60ed0f9d9e72a1639eddc3856dcee5bd0659c242ebe637794177e0f17b2b9290",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.015_s1/graph.npz": "319f40b7e39995ad73d225b43b6531f5b96eeb04a259eeaa22b9b6eb6bc37216",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.015_s1/neighbors.npz": "d3033140bc506b618ffbcb80aeefd06a0bfd3be8cacc1d455d534cce9bbb1495",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.015_s-1/graph.npz": "e5d45f348530b932882bb902b4c8ea33f1af2753aa6a47ff89bbd908858ea2e9",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.015_s-1/neighbors.npz": "9b58d9bfd72ed648ee398ecb8c86269e1c1b8fa98699b9355fa92673c6859087",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.0075_s1/graph.npz": "55d8762f427a9c2b7301ab797c51b8091a4c52f6cba3c8d4790e4931ad1cf8a3",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.0075_s1/neighbors.npz": "3222212969bedfcf5b010910df1f8c1e03002a6a9283eef38f301fc47b388c9e",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.0075_s-1/graph.npz": "642af099b2f64c0686afe41e2519703b5227391dcfea91d3bc8f7566a73d8ea8",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.0075_s-1/neighbors.npz": "8b1bff18c43e0078cd5611a90aa794d586f8cf0394b684874a746133cf21e535",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.00375_s1/graph.npz": "b83ba2063c4c2ded5d785fae4298add3469c29160e275ae94e2747421899a24c",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.00375_s1/neighbors.npz": "3aeeea1fb48d10fb485cb4c1e8ee8520fb3d99051557ddec62d6d923ac5da0d7",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.00375_s-1/graph.npz": "10f4f8163cae50daceb32f2387f3009d10e9bea3106d7648c302995ac719651e",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j50_h0.00375_s-1/neighbors.npz": "2f6275fc1f58cbccb6c65c4e5f77e60eb659179bbf5203857b189ecba519ae89",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.015_s1/graph.npz": "904693524227a799c48883ba9a282f506c5864dfa01cd3badc49ca74f0a0b3ff",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.015_s1/neighbors.npz": "26d0957e7e645589c0a4ccb8894ece66c8a82125320facb4f061104354eec497",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.015_s-1/graph.npz": "31cd62f34559540b0c2ff98e99499de6dfcf015739151805c7d366a8f2e194e8",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.015_s-1/neighbors.npz": "035035c75c3aa7ba2b63f70a48e136ff8add3824f6843adcc8ac8d6889327864",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.0075_s1/graph.npz": "8ecc96afa52807d62e3de0d5f417d51402a5eaa81ab0a7fd6cdc46df8aa10da6",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.0075_s1/neighbors.npz": "d45697066d6a4678d50b33322b6a760d2be76173227234fec81b127ca3f93f9a",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.0075_s-1/graph.npz": "f12cf901f582736c955769e9eb0e0ccafce93df4ebe5b25b80691df5222027bd",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.0075_s-1/neighbors.npz": "954573248c71767f876ef5de0d2e98d4a111533a053c72d96873dcc580695424",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.00375_s1/graph.npz": "936d4a23f251f518061eacf603935c836b2c4574e55047af46af811fec7cbd5f",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.00375_s1/neighbors.npz": "ad1aa196919e4f8b6d40f1630f7b6b02a355421577d15340cb5f8855f461938e",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.00375_s-1/graph.npz": "6cb4fca4da68f35f61ef5a58713159b184ba531172f63b64e24fa20a01621b74",
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__j59_h0.00375_s-1/neighbors.npz": "d9faaa34bafd3c5899a789ba20d2c19ddb658bb9a9d533cee28b8fd77828e595"
+  },
+  "limits": [
+    "Final output-rounding bound assumes round-to-nearest only at storage, not propagated numerical error",
+    "Float64 geometry reconstructed from saved float32 graphs is a proxy",
+    "Cutoff proxy covers consumed neighbor pool, not all omitted pairs or between-endpoint paths"
+  ]
+}

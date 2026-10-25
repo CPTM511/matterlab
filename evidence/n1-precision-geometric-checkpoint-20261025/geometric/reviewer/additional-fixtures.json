@@ -1,0 +1,48 @@
+{
+  "scope": "Synthetic fixtures only; audit.execute never called; no scientific inputs loaded or real pair audit",
+  "count": 10,
+  "passed": true,
+  "checks": [
+    {
+      "name": "touch_from_inside_preserved",
+      "passed": true
+    },
+    {
+      "name": "touch_from_outside_preserved",
+      "passed": true
+    },
+    {
+      "name": "interior_vertex",
+      "passed": true
+    },
+    {
+      "name": "missing_image_fixture_valid_witness",
+      "passed": true
+    },
+    {
+      "name": "missing_image_detected_by_witness",
+      "passed": true
+    },
+    {
+      "name": "synthetic_loader_exact_Fractions",
+      "passed": true
+    },
+    {
+      "name": "changed_hash_rejected",
+      "passed": true
+    },
+    {
+      "name": "wrong_dtype_rejected",
+      "passed": true
+    },
+    {
+      "name": "nonfinite_input_rejected",
+      "passed": true
+    },
+    {
+      "name": "no_torch_import",
+      "passed": true
+    }
+  ],
+  "audit_sha256": "b273bbe450ef22dbe50bd8ac04c27206a472e9d161ea84880595fc61bc92acf7"
+}
