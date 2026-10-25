@@ -1,0 +1,256 @@
+{
+  "supplied_fixtures_independently_rerun": {
+    "scope": "synthetic only; no real data read",
+    "checks": [
+      {
+        "name": "positive_zero",
+        "passed": true
+      },
+      {
+        "name": "negative_zero_conservative",
+        "passed": true
+      },
+      {
+        "name": "min_subnormal",
+        "passed": true
+      },
+      {
+        "name": "negative_subnormal",
+        "passed": true
+      },
+      {
+        "name": "one_power_boundary",
+        "passed": true
+      },
+      {
+        "name": "two_power_boundary",
+        "passed": true
+      },
+      {
+        "name": "smallest_normal",
+        "passed": true
+      },
+      {
+        "name": "adjacent_closed_midpoint_1",
+        "passed": true
+      },
+      {
+        "name": "negative_symmetry_1",
+        "passed": true
+      },
+      {
+        "name": "adjacent_closed_midpoint_2",
+        "passed": true
+      },
+      {
+        "name": "negative_symmetry_2",
+        "passed": true
+      },
+      {
+        "name": "adjacent_closed_midpoint_8388606",
+        "passed": true
+      },
+      {
+        "name": "negative_symmetry_8388606",
+        "passed": true
+      },
+      {
+        "name": "adjacent_closed_midpoint_8388607",
+        "passed": true
+      },
+      {
+        "name": "negative_symmetry_8388607",
+        "passed": true
+      },
+      {
+        "name": "adjacent_closed_midpoint_8388608",
+        "passed": true
+      },
+      {
+        "name": "negative_symmetry_8388608",
+        "passed": true
+      },
+      {
+        "name": "adjacent_closed_midpoint_1065353215",
+        "passed": true
+      },
+      {
+        "name": "negative_symmetry_1065353215",
+        "passed": true
+      },
+      {
+        "name": "adjacent_closed_midpoint_1065353216",
+        "passed": true
+      },
+      {
+        "name": "negative_symmetry_1065353216",
+        "passed": true
+      },
+      {
+        "name": "adjacent_closed_midpoint_1065353217",
+        "passed": true
+      },
+      {
+        "name": "negative_symmetry_1065353217",
+        "passed": true
+      },
+      {
+        "name": "adjacent_closed_midpoint_2139095037",
+        "passed": true
+      },
+      {
+        "name": "negative_symmetry_2139095037",
+        "passed": true
+      },
+      {
+        "name": "unsupported_2139095040",
+        "passed": true
+      },
+      {
+        "name": "unsupported_4286578688",
+        "passed": true
+      },
+      {
+        "name": "unsupported_2143289345",
+        "passed": true
+      },
+      {
+        "name": "unsupported_4290772992",
+        "passed": true
+      },
+      {
+        "name": "unsupported_2139095039",
+        "passed": true
+      },
+      {
+        "name": "unsupported_4286578687",
+        "passed": true
+      },
+      {
+        "name": "unsupported_-1",
+        "passed": true
+      },
+      {
+        "name": "unsupported_4294967296",
+        "passed": true
+      },
+      {
+        "name": "parser_valid",
+        "passed": true
+      },
+      {
+        "name": "header_descr>f4",
+        "passed": true
+      },
+      {
+        "name": "header_descr<f8",
+        "passed": true
+      },
+      {
+        "name": "header_fortran_orderTrue",
+        "passed": true
+      },
+      {
+        "name": "header_shape(60,)",
+        "passed": true
+      },
+      {
+        "name": "float_shape",
+        "passed": true
+      },
+      {
+        "name": "trailing_payload",
+        "passed": true
+      },
+      {
+        "name": "short_payload",
+        "passed": true
+      },
+      {
+        "name": "version",
+        "passed": true
+      },
+      {
+        "name": "archive_hash_mismatch",
+        "passed": true
+      },
+      {
+        "name": "synthetic_zero_inconclusive",
+        "passed": true
+      },
+      {
+        "name": "synthetic_ones_exclusion",
+        "passed": true
+      },
+      {
+        "name": "synthetic_balanced",
+        "passed": true
+      },
+      {
+        "name": "analysis_nonfinite",
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "count": 47
+  },
+  "independent_exact_predicate_checks": [
+    {
+      "name": "fresh",
+      "passed": true
+    },
+    {
+      "name": "usage_just_fresh",
+      "passed": true
+    },
+    {
+      "name": "usage_boundary",
+      "passed": true
+    },
+    {
+      "name": "usage_future",
+      "passed": true
+    },
+    {
+      "name": "ownership_boundary",
+      "passed": true
+    },
+    {
+      "name": "ownership_stale",
+      "passed": true
+    },
+    {
+      "name": "ownership_future",
+      "passed": true
+    },
+    {
+      "name": "reserve_boundary",
+      "passed": true
+    },
+    {
+      "name": "reserve_short",
+      "passed": true
+    },
+    {
+      "name": "io_boundary",
+      "passed": true
+    },
+    {
+      "name": "io_delayed",
+      "passed": true
+    },
+    {
+      "name": "cross_usage_under_1s",
+      "passed": true
+    },
+    {
+      "name": "cross_ownership_under_1s",
+      "passed": true
+    },
+    {
+      "name": "cross_reserve_under_1s",
+      "passed": true
+    }
+  ],
+  "real_values_read": false
+}

@@ -1,0 +1,7 @@
+{
+  "reason": "Independent reviewer requested precise lower-bound interpretation; not a change to criteria or execution scope.",
+  "initial_sha256": "a12fa2d385545a33e8ff07b619e827f7ea55d891b845b6d33e97aaab735874f6",
+  "final_sha256": "370e469610f784ba7d1ca379e0590f289b3dbd302f039bb2798a6c6acebae1e5",
+  "old": "Record every interval endpoint and, when excluded, distance to zero and its conditional per-atom lower bound divided by 20 in eV/Angstrom.",
+  "new": "Record every interval endpoint and, when excluded, distance d to zero and the conditional lower bound d/20 on at least one force component\u2019s distance from its reported rounding cell, in eV/Angstrom."
+}

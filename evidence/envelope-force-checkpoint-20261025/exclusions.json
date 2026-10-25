@@ -1,0 +1,49 @@
+{
+  "excluded_source_snapshots": [
+    {
+      "source_label": "force/frozen/analysis.py",
+      "original_bytes": 2177,
+      "original_sha256": "036dcf5e73ad2653a7f1b8227e071066c3eeaf92d6e609dd620ad2519dd2fa27",
+      "reason": "Executable admission/controller source withheld; preserved privately. Pure parser/arithmetic and synthetic fixtures retained for reproducibility; no operational release exported."
+    },
+    {
+      "source_label": "force/frozen/launch_once.py",
+      "original_bytes": 3060,
+      "original_sha256": "5eee41533335920342742d1f488660e94fa18e9b7ca571492c1ed101f59687d3",
+      "reason": "Executable admission/controller source withheld; preserved privately. Pure parser/arithmetic and synthetic fixtures retained for reproducibility; no operational release exported."
+    },
+    {
+      "source_label": "force/frozen-v2/analysis.py",
+      "original_bytes": 2457,
+      "original_sha256": "d3ee9d7fae34788141a37528680d45b9102dc4c51fc1c393d01a6a68b47463e0",
+      "reason": "Executable admission/controller source withheld; preserved privately. Pure parser/arithmetic and synthetic fixtures retained for reproducibility; no operational release exported."
+    },
+    {
+      "source_label": "force/frozen-v2/launch_once.py",
+      "original_bytes": 4085,
+      "original_sha256": "c1cae8c88e370d18069382e000fce8fbe8f843ffd345b030bf1bb066ef9f1687",
+      "reason": "Executable admission/controller source withheld; preserved privately. Pure parser/arithmetic and synthetic fixtures retained for reproducibility; no operational release exported."
+    },
+    {
+      "source_label": "force/frozen-v3/analysis.py",
+      "original_bytes": 2457,
+      "original_sha256": "d3ee9d7fae34788141a37528680d45b9102dc4c51fc1c393d01a6a68b47463e0",
+      "reason": "Executable admission/controller source withheld; preserved privately. Pure parser/arithmetic and synthetic fixtures retained for reproducibility; no operational release exported."
+    },
+    {
+      "source_label": "force/frozen-v3/launch_once.py",
+      "original_bytes": 4294,
+      "original_sha256": "b51815116fcc0fc1840f357a4c223961adf47ca81f6bdb77100366eb53b1a0c5",
+      "reason": "Executable admission/controller source withheld; preserved privately. Pure parser/arithmetic and synthetic fixtures retained for reproducibility; no operational release exported."
+    }
+  ],
+  "other_excluded_categories": [
+    "actual account/usage and release observations",
+    "private host/process/lease inventories",
+    "private stage/checkpoint/authorization records",
+    "private-path preservation inventory",
+    "tool-environment metadata",
+    "Git history and caches"
+  ],
+  "originals_retained_privately": true
+}

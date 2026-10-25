@@ -1,0 +1,10 @@
+{
+  "files": {
+    "PROTOCOL.md": "57f1d6c6dfb7168272a7deaa8144cc12f659bd9fc89f74d6119d92c9a7956714",
+    "analysis.py": "d3ee9d7fae34788141a37528680d45b9102dc4c51fc1c393d01a6a68b47463e0",
+    "fixtures.py": "90fcdf3f23a5cca366785757a56d0c41506ce4fe2f0da89b47d1a4e7e4934340",
+    "force_cells.py": "b9ab6afdec620b74c30583f7eb83e5a84cae7ef184bc23fd52dd9609deb329e0",
+    "inputs.json": "602f277d99c92e096406022cc58b653e446e5e9ee27a91dc58867fec6bf660cb",
+    "launch_once.py": "c1cae8c88e370d18069382e000fce8fbe8f843ffd345b030bf1bb066ef9f1687"
+  }
+}

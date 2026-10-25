@@ -1,0 +1,886 @@
+{
+  "schema": 1,
+  "components": 60,
+  "axis_sums": 3,
+  "units": "eV/Angstrom",
+  "cells": [
+    {
+      "atom": 0,
+      "axis": "x",
+      "bits_hex": "bb1a6ab0",
+      "lower": {
+        "numerator": -20239713,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": -20239711,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 0,
+      "axis": "y",
+      "bits_hex": "3acc796c",
+      "lower": {
+        "numerator": 26800855,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 26800857,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 0,
+      "axis": "z",
+      "bits_hex": "bb0e9808",
+      "lower": {
+        "numerator": -18690065,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": -18690063,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 1,
+      "axis": "x",
+      "bits_hex": "bb019bc0",
+      "lower": {
+        "numerator": -16988033,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": -16988031,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 1,
+      "axis": "y",
+      "bits_hex": "3a6e3280",
+      "lower": {
+        "numerator": 31220991,
+        "denominator": 34359738368
+      },
+      "upper": {
+        "numerator": 31220993,
+        "denominator": 34359738368
+      }
+    },
+    {
+      "atom": 1,
+      "axis": "z",
+      "bits_hex": "ba96bd00",
+      "lower": {
+        "numerator": -19757569,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": -19757567,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 2,
+      "axis": "x",
+      "bits_hex": "3a3d4800",
+      "lower": {
+        "numerator": 24809471,
+        "denominator": 34359738368
+      },
+      "upper": {
+        "numerator": 24809473,
+        "denominator": 34359738368
+      }
+    },
+    {
+      "atom": 2,
+      "axis": "y",
+      "bits_hex": "ba0aa200",
+      "lower": {
+        "numerator": -18170881,
+        "denominator": 34359738368
+      },
+      "upper": {
+        "numerator": -18170879,
+        "denominator": 34359738368
+      }
+    },
+    {
+      "atom": 2,
+      "axis": "z",
+      "bits_hex": "3b28d800",
+      "lower": {
+        "numerator": 22130687,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": 22130689,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 3,
+      "axis": "x",
+      "bits_hex": "3b454980",
+      "lower": {
+        "numerator": 25858815,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": 25858817,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 3,
+      "axis": "y",
+      "bits_hex": "3aa01c00",
+      "lower": {
+        "numerator": 20985855,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 20985857,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 3,
+      "axis": "z",
+      "bits_hex": "3afd7b00",
+      "lower": {
+        "numerator": 33224191,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 33224193,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 4,
+      "axis": "x",
+      "bits_hex": "3ae61c00",
+      "lower": {
+        "numerator": 30160895,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 30160897,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 4,
+      "axis": "y",
+      "bits_hex": "bb567800",
+      "lower": {
+        "numerator": -28110849,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": -28110847,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 4,
+      "axis": "z",
+      "bits_hex": "bac407c0",
+      "lower": {
+        "numerator": -25694081,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": -25694079,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 5,
+      "axis": "x",
+      "bits_hex": "bb532e00",
+      "lower": {
+        "numerator": -27679745,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": -27679743,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 5,
+      "axis": "y",
+      "bits_hex": "3a838b80",
+      "lower": {
+        "numerator": 17241855,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 17241857,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 5,
+      "axis": "z",
+      "bits_hex": "ba978b68",
+      "lower": {
+        "numerator": -19863249,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": -19863247,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 6,
+      "axis": "x",
+      "bits_hex": "baba6300",
+      "lower": {
+        "numerator": -24430081,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": -24430079,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 6,
+      "axis": "y",
+      "bits_hex": "3a4aca00",
+      "lower": {
+        "numerator": 26579967,
+        "denominator": 34359738368
+      },
+      "upper": {
+        "numerator": 26579969,
+        "denominator": 34359738368
+      }
+    },
+    {
+      "atom": 6,
+      "axis": "z",
+      "bits_hex": "3b1c7e00",
+      "lower": {
+        "numerator": 20511743,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": 20511745,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 7,
+      "axis": "x",
+      "bits_hex": "3a616000",
+      "lower": {
+        "numerator": 29540351,
+        "denominator": 34359738368
+      },
+      "upper": {
+        "numerator": 29540353,
+        "denominator": 34359738368
+      }
+    },
+    {
+      "atom": 7,
+      "axis": "y",
+      "bits_hex": "39d1d000",
+      "lower": {
+        "numerator": 27500543,
+        "denominator": 68719476736
+      },
+      "upper": {
+        "numerator": 27500545,
+        "denominator": 68719476736
+      }
+    },
+    {
+      "atom": 7,
+      "axis": "z",
+      "bits_hex": "39dc7000",
+      "lower": {
+        "numerator": 28893183,
+        "denominator": 68719476736
+      },
+      "upper": {
+        "numerator": 28893185,
+        "denominator": 68719476736
+      }
+    },
+    {
+      "atom": 8,
+      "axis": "x",
+      "bits_hex": "3b574020",
+      "lower": {
+        "numerator": 28213311,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": 28213313,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 8,
+      "axis": "y",
+      "bits_hex": "3acc8200",
+      "lower": {
+        "numerator": 26805247,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 26805249,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 8,
+      "axis": "z",
+      "bits_hex": "3a021c00",
+      "lower": {
+        "numerator": 17053695,
+        "denominator": 34359738368
+      },
+      "upper": {
+        "numerator": 17053697,
+        "denominator": 34359738368
+      }
+    },
+    {
+      "atom": 9,
+      "axis": "x",
+      "bits_hex": "3afe2580",
+      "lower": {
+        "numerator": 33311487,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 33311489,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 9,
+      "axis": "y",
+      "bits_hex": "bb52ca00",
+      "lower": {
+        "numerator": -27628545,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": -27628543,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 9,
+      "axis": "z",
+      "bits_hex": "bab9a4c0",
+      "lower": {
+        "numerator": -24332673,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": -24332671,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 10,
+      "axis": "x",
+      "bits_hex": "bb1b6200",
+      "lower": {
+        "numerator": -20366337,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": -20366335,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 10,
+      "axis": "y",
+      "bits_hex": "3a82fbc0",
+      "lower": {
+        "numerator": 17168255,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 17168257,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 10,
+      "axis": "z",
+      "bits_hex": "3945c800",
+      "lower": {
+        "numerator": 25923583,
+        "denominator": 137438953472
+      },
+      "upper": {
+        "numerator": 25923585,
+        "denominator": 137438953472
+      }
+    },
+    {
+      "atom": 11,
+      "axis": "x",
+      "bits_hex": "3aa54000",
+      "lower": {
+        "numerator": 21659647,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 21659649,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 11,
+      "axis": "y",
+      "bits_hex": "ba7f9200",
+      "lower": {
+        "numerator": -33498113,
+        "denominator": 34359738368
+      },
+      "upper": {
+        "numerator": -33498111,
+        "denominator": 34359738368
+      }
+    },
+    {
+      "atom": 11,
+      "axis": "z",
+      "bits_hex": "bb16d100",
+      "lower": {
+        "numerator": -19767809,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": -19767807,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 12,
+      "axis": "x",
+      "bits_hex": "3a887600",
+      "lower": {
+        "numerator": 17886207,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 17886209,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 12,
+      "axis": "y",
+      "bits_hex": "b8974a00",
+      "lower": {
+        "numerator": -19829761,
+        "denominator": 274877906944
+      },
+      "upper": {
+        "numerator": -19829759,
+        "denominator": 274877906944
+      }
+    },
+    {
+      "atom": 12,
+      "axis": "z",
+      "bits_hex": "3b5d8a00",
+      "lower": {
+        "numerator": 29037567,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": 29037569,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 13,
+      "axis": "x",
+      "bits_hex": "b9748000",
+      "lower": {
+        "numerator": -32047105,
+        "denominator": 137438953472
+      },
+      "upper": {
+        "numerator": -32047103,
+        "denominator": 137438953472
+      }
+    },
+    {
+      "atom": 13,
+      "axis": "y",
+      "bits_hex": "3a9114a0",
+      "lower": {
+        "numerator": 19015999,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 19016001,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 13,
+      "axis": "z",
+      "bits_hex": "3a6b8500",
+      "lower": {
+        "numerator": 30870015,
+        "denominator": 34359738368
+      },
+      "upper": {
+        "numerator": 30870017,
+        "denominator": 34359738368
+      }
+    },
+    {
+      "atom": 14,
+      "axis": "x",
+      "bits_hex": "3a0cca00",
+      "lower": {
+        "numerator": 18453503,
+        "denominator": 34359738368
+      },
+      "upper": {
+        "numerator": 18453505,
+        "denominator": 34359738368
+      }
+    },
+    {
+      "atom": 14,
+      "axis": "y",
+      "bits_hex": "baa68a80",
+      "lower": {
+        "numerator": -21828865,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": -21828863,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 14,
+      "axis": "z",
+      "bits_hex": "ba36d000",
+      "lower": {
+        "numerator": -23961601,
+        "denominator": 34359738368
+      },
+      "upper": {
+        "numerator": -23961599,
+        "denominator": 34359738368
+      }
+    },
+    {
+      "atom": 15,
+      "axis": "x",
+      "bits_hex": "bb22f6c0",
+      "lower": {
+        "numerator": -21360001,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": -21359999,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 15,
+      "axis": "y",
+      "bits_hex": "3ab40740",
+      "lower": {
+        "numerator": 23596671,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 23596673,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 15,
+      "axis": "z",
+      "bits_hex": "39ecde00",
+      "lower": {
+        "numerator": 31046655,
+        "denominator": 68719476736
+      },
+      "upper": {
+        "numerator": 31046657,
+        "denominator": 68719476736
+      }
+    },
+    {
+      "atom": 16,
+      "axis": "x",
+      "bits_hex": "3a890000",
+      "lower": {
+        "numerator": 17956863,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 17956865,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 16,
+      "axis": "y",
+      "bits_hex": "b9537290",
+      "lower": {
+        "numerator": -27714849,
+        "denominator": 137438953472
+      },
+      "upper": {
+        "numerator": -27714847,
+        "denominator": 137438953472
+      }
+    },
+    {
+      "atom": 16,
+      "axis": "z",
+      "bits_hex": "3af7c400",
+      "lower": {
+        "numerator": 32475135,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 32475137,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 17,
+      "axis": "x",
+      "bits_hex": "3aba3000",
+      "lower": {
+        "numerator": 24403967,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 24403969,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 17,
+      "axis": "y",
+      "bits_hex": "3af31600",
+      "lower": {
+        "numerator": 31861759,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": 31861761,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 17,
+      "axis": "z",
+      "bits_hex": "bb039d00",
+      "lower": {
+        "numerator": -17250817,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": -17250815,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 18,
+      "axis": "x",
+      "bits_hex": "38e9b000",
+      "lower": {
+        "numerator": 30629887,
+        "denominator": 274877906944
+      },
+      "upper": {
+        "numerator": 30629889,
+        "denominator": 274877906944
+      }
+    },
+    {
+      "atom": 18,
+      "axis": "y",
+      "bits_hex": "bafccba0",
+      "lower": {
+        "numerator": -33134401,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": -33134399,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 18,
+      "axis": "z",
+      "bits_hex": "b8b54800",
+      "lower": {
+        "numerator": -23760897,
+        "denominator": 274877906944
+      },
+      "upper": {
+        "numerator": -23760895,
+        "denominator": 274877906944
+      }
+    },
+    {
+      "atom": 19,
+      "axis": "x",
+      "bits_hex": "bb3f3fb8",
+      "lower": {
+        "numerator": -25067377,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": -25067375,
+        "denominator": 8589934592
+      }
+    },
+    {
+      "atom": 19,
+      "axis": "y",
+      "bits_hex": "baa9e640",
+      "lower": {
+        "numerator": -22269057,
+        "denominator": 17179869184
+      },
+      "upper": {
+        "numerator": -22269055,
+        "denominator": 17179869184
+      }
+    },
+    {
+      "atom": 19,
+      "axis": "z",
+      "bits_hex": "bb0c0bc8",
+      "lower": {
+        "numerator": -18356113,
+        "denominator": 8589934592
+      },
+      "upper": {
+        "numerator": -18356111,
+        "denominator": 8589934592
+      }
+    }
+  ],
+  "sums": [
+    {
+      "axis": "x",
+      "lower_eV_A": {
+        "numerator": 15477,
+        "denominator": 274877906944
+      },
+      "upper_eV_A": {
+        "numerator": 16267,
+        "denominator": 274877906944
+      },
+      "zero_excluded": true,
+      "distance_to_zero_eV_A": {
+        "numerator": 15477,
+        "denominator": 274877906944
+      },
+      "conditional_some_component_distance_from_cell_lower_bound_eV_A": {
+        "numerator": 15477,
+        "denominator": 5497558138880
+      },
+      "interpretation": "incompatible_with_joint_premise"
+    },
+    {
+      "axis": "y",
+      "lower_eV_A": {
+        "numerator": 44585,
+        "denominator": 274877906944
+      },
+      "upper_eV_A": {
+        "numerator": 45143,
+        "denominator": 274877906944
+      },
+      "zero_excluded": true,
+      "distance_to_zero_eV_A": {
+        "numerator": 44585,
+        "denominator": 274877906944
+      },
+      "conditional_some_component_distance_from_cell_lower_bound_eV_A": {
+        "numerator": 8917,
+        "denominator": 1099511627776
+      },
+      "interpretation": "incompatible_with_joint_premise"
+    },
+    {
+      "axis": "z",
+      "lower_eV_A": {
+        "numerator": 56733,
+        "denominator": 274877906944
+      },
+      "upper_eV_A": {
+        "numerator": 57443,
+        "denominator": 274877906944
+      },
+      "zero_excluded": true,
+      "distance_to_zero_eV_A": {
+        "numerator": 56733,
+        "denominator": 274877906944
+      },
+      "conditional_some_component_distance_from_cell_lower_bound_eV_A": {
+        "numerator": 56733,
+        "denominator": 5497558138880
+      },
+      "interpretation": "incompatible_with_joint_premise"
+    }
+  ],
+  "criterion": "exact zero exclusion from closed conservative rounding-cell sums",
+  "ties": "both midpoint endpoints included; signed zeros use common symmetric conservative cell",
+  "not_replay_acceptance": true,
+  "input_identities": {
+    "public_head": "ff078eb90df0f4748608cbe23f4309e0d9bbc626",
+    "archives": [
+      "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/model-output.npz",
+      "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/model-output.npz"
+    ],
+    "npz_sha256": "437fc3540dabfa3bed6b22d4ceab007a188e5282d60c65c370d2563f987c1388",
+    "member_sha256": "447f2e177c5fdc9825e6841a1705188ef06fdc517463ec1072e920fcfe442482",
+    "payload_sha256": "a00b6bb3f2c3008f8abc840e042dd6c184ed681a00d2637d74435beb862bdf3f",
+    "members": [
+      "atoms_per_graph.npy",
+      "m_0.npy",
+      "crystal_fea.npy",
+      "f_0.npy",
+      "s_0.npy",
+      "e.npy"
+    ],
+    "sources": {
+      "evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/model.py": "767b120ba8b3ee7f75c247416902d1b72e871ba8ffc2916ed76d24809c98fc96",
+      "evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/encoders.py": "7dffbc1be159bc48acdfd363c618711bcbd88f72c7ecd5e4aad2dc1830de264c",
+      "evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/basis.py": "0e75cf46d3e1b4e96e1726472af0bedf3757b2c24c70cc98161e051c163beace",
+      "evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/layers.py": "9c60e275508a0427084d5ee2089d27dd0a86db40bf90c3b268e81c1cb8b5716c",
+      "evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/functions.py": "8914b73a7b990b1d4fa91ed1064ffc3138a5acd4bf2b192b8b7c5be7b15fed1b",
+      "evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/composition_model.py": "c7111354fc8795c6a41147b3d01298546a070bc12c87d02f533d7678ab569570",
+      "evidence/repaired-recorder-20261023/source_snapshot/chgnet/graph/converter.py": "565a0a3007613323720e2ec3ab06e84043b6970a6a150234222123cee9979c0f",
+      "evidence/n1-precision-geometric-checkpoint-20261025/n1/source/native_worker.py": "ec9e8d44fc0fda72a2f852ba1a767ff0b92f74f7f4c5e05ae099c5a6d0eae75e",
+      "evidence/n1-precision-geometric-checkpoint-20261025/n1/source/native_capture.py": "941e18f30469629c161b105818fc7b86175d1db481aa52a46f9e38aed60668db"
+    }
+  },
+  "analysis_elapsed_seconds_before_output": 0.034467667996068485
+}

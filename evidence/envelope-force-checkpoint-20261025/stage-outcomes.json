@@ -1,0 +1,28 @@
+{
+  "supervisor_route": "CLOSED / NOT ESTABLISHED within observed authorized capabilities; not universal impossibility",
+  "feasibility_elapsed_seconds": 257.56095,
+  "feasibility_cap_seconds": 480,
+  "F1_elapsed_seconds": 470.228004,
+  "F1_cap_seconds": 600,
+  "F1_process_seconds": 0.11419623999972828,
+  "F1_process_cap_seconds": 60,
+  "resource_semantics": "practical monitored budgets under ordinary scheduling and finite I/O; no strict-envelope pass",
+  "F1_saved_data_invocations": 1,
+  "invocation_consumed": true,
+  "model_forwards": 0,
+  "AD_queries": 0,
+  "scientific_model_anchor_claims": 0,
+  "components": 60,
+  "axis_sums": 3,
+  "zero_excluded_axes": [
+    "x",
+    "y",
+    "z"
+  ],
+  "lower_bounds_not_upper_bounds": true,
+  "initial_preparation_findings_preserved": true,
+  "migration_complete": false,
+  "overall_complete": false,
+  "remaining_execution_authority": 0,
+  "fallback_retained": true
+}

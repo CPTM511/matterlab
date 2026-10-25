@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "4d5a859687fae397af5b3750253d211d3427511335b28414294056b175c2f66c",
+  "bundle": "frozen-v3",
+  "review_completed_utc": "2026-10-25T22:58:41.586097+00:00",
+  "maximum_real_invocations": 1,
+  "real_values_decoded": 0,
+  "scientific_sums_computed": 0,
+  "supplied_synthetic_fixtures_independently_rerun": 47,
+  "independent_final_predicate_checks": 14,
+  "initial_checks": 63,
+  "v2_checks": 37,
+  "initial_status": "NOT_READY; original evidence preserved",
+  "v2_gap": "Freshness/reserve boundary could be crossed in allowed1second pre-spawn delay; corrected V3",
+  "strict_association_envelope_passed": false,
+  "resource_semantics": "practical monitored budgets under ordinary scheduling and finite I/O",
+  "report_sha256": "3da48743cac86ca787e47402b879519e5761c2367495b7bab4b28de25f41a3f8"
+}

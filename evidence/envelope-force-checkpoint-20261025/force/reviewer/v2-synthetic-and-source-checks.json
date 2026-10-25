@@ -1,0 +1,155 @@
+{
+  "synthetic_only": true,
+  "real_values_read": false,
+  "checks": [
+    {
+      "name": "strict_shape_(20.0, 3.0)",
+      "passed": true
+    },
+    {
+      "name": "strict_shape_(20, 3.0)",
+      "passed": true
+    },
+    {
+      "name": "strict_shape_[20, 3]",
+      "passed": true
+    },
+    {
+      "name": "strict_shape_(True, 3)",
+      "passed": true
+    },
+    {
+      "name": "strict_shape_(20, 3, 1)",
+      "passed": true
+    },
+    {
+      "name": "strict_shape_()",
+      "passed": true
+    },
+    {
+      "name": "exact_header",
+      "passed": true
+    },
+    {
+      "name": "normal_boundary_1",
+      "passed": true
+    },
+    {
+      "name": "normal_boundary_2",
+      "passed": true
+    },
+    {
+      "name": "normal_boundary_32",
+      "passed": true
+    },
+    {
+      "name": "normal_boundary_64",
+      "passed": true
+    },
+    {
+      "name": "normal_boundary_100",
+      "passed": true
+    },
+    {
+      "name": "normal_boundary_126",
+      "passed": true
+    },
+    {
+      "name": "normal_boundary_127",
+      "passed": true
+    },
+    {
+      "name": "normal_boundary_128",
+      "passed": true
+    },
+    {
+      "name": "normal_boundary_160",
+      "passed": true
+    },
+    {
+      "name": "normal_boundary_200",
+      "passed": true
+    },
+    {
+      "name": "normal_boundary_253",
+      "passed": true
+    },
+    {
+      "name": "normal_boundary_254",
+      "passed": true
+    },
+    {
+      "name": "coverage",
+      "passed": true
+    },
+    {
+      "name": "frozen_PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "frozen_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_fixtures.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_force_cells.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "frozen_launch_once.py",
+      "passed": true
+    },
+    {
+      "name": "stage_binding",
+      "passed": true
+    },
+    {
+      "name": "interpreter_binding",
+      "passed": true
+    },
+    {
+      "name": "source_evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/model.py",
+      "passed": true
+    },
+    {
+      "name": "source_evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/encoders.py",
+      "passed": true
+    },
+    {
+      "name": "source_evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/basis.py",
+      "passed": true
+    },
+    {
+      "name": "source_evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/layers.py",
+      "passed": true
+    },
+    {
+      "name": "source_evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/functions.py",
+      "passed": true
+    },
+    {
+      "name": "source_evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/composition_model.py",
+      "passed": true
+    },
+    {
+      "name": "source_evidence/repaired-recorder-20261023/source_snapshot/chgnet/graph/converter.py",
+      "passed": true
+    },
+    {
+      "name": "source_evidence/n1-precision-geometric-checkpoint-20261025/n1/source/native_worker.py",
+      "passed": true
+    },
+    {
+      "name": "source_evidence/n1-precision-geometric-checkpoint-20261025/n1/source/native_capture.py",
+      "passed": true
+    }
+  ],
+  "count": 37
+}

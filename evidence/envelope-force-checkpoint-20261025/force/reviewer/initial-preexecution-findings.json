@@ -1,0 +1,266 @@
+{
+  "status": "NOT_READY",
+  "manifest_sha256": "ed12d43fdf0dc2ee7bca645f5372e0e3fb40dc76333d7016e0c9adbf920d7f09",
+  "findings": [
+    "Cached pre-setup admission time can accept stale usage/ownership and insufficient reserve",
+    "Stage bytes not bound to review",
+    "Non-integer shape dimensions accepted",
+    "Interpreter hash pinned but not enforced"
+  ],
+  "synthetic_checks": [
+    {
+      "name": "midpoints_0x1",
+      "passed": true
+    },
+    {
+      "name": "negative_0x1",
+      "passed": true
+    },
+    {
+      "name": "midpoints_0x2",
+      "passed": true
+    },
+    {
+      "name": "negative_0x2",
+      "passed": true
+    },
+    {
+      "name": "midpoints_0x3",
+      "passed": true
+    },
+    {
+      "name": "negative_0x3",
+      "passed": true
+    },
+    {
+      "name": "midpoints_0x7ffffe",
+      "passed": true
+    },
+    {
+      "name": "negative_0x7ffffe",
+      "passed": true
+    },
+    {
+      "name": "midpoints_0x7fffff",
+      "passed": true
+    },
+    {
+      "name": "negative_0x7fffff",
+      "passed": true
+    },
+    {
+      "name": "midpoints_0x800000",
+      "passed": true
+    },
+    {
+      "name": "negative_0x800000",
+      "passed": true
+    },
+    {
+      "name": "midpoints_0x800001",
+      "passed": true
+    },
+    {
+      "name": "negative_0x800001",
+      "passed": true
+    },
+    {
+      "name": "midpoints_0x3f7fffff",
+      "passed": true
+    },
+    {
+      "name": "negative_0x3f7fffff",
+      "passed": true
+    },
+    {
+      "name": "midpoints_0x3f800000",
+      "passed": true
+    },
+    {
+      "name": "negative_0x3f800000",
+      "passed": true
+    },
+    {
+      "name": "midpoints_0x3f800001",
+      "passed": true
+    },
+    {
+      "name": "negative_0x3f800001",
+      "passed": true
+    },
+    {
+      "name": "midpoints_0x40000000",
+      "passed": true
+    },
+    {
+      "name": "negative_0x40000000",
+      "passed": true
+    },
+    {
+      "name": "midpoints_0x7f7ffffe",
+      "passed": true
+    },
+    {
+      "name": "negative_0x7f7ffffe",
+      "passed": true
+    },
+    {
+      "name": "zero_0x0",
+      "passed": true
+    },
+    {
+      "name": "zero_0x80000000",
+      "passed": true
+    },
+    {
+      "name": "stop_0x7f7fffff",
+      "passed": true
+    },
+    {
+      "name": "stop_0xff7fffff",
+      "passed": true
+    },
+    {
+      "name": "stop_0x7f800000",
+      "passed": true
+    },
+    {
+      "name": "stop_0xff800000",
+      "passed": true
+    },
+    {
+      "name": "stop_0x7fc00000",
+      "passed": true
+    },
+    {
+      "name": "stop_0xffbfffff",
+      "passed": true
+    },
+    {
+      "name": "zero_coverage",
+      "passed": true
+    },
+    {
+      "name": "zero_sum_0",
+      "passed": true
+    },
+    {
+      "name": "zero_sum_1",
+      "passed": true
+    },
+    {
+      "name": "zero_sum_2",
+      "passed": true
+    },
+    {
+      "name": "mixed_axes_coverage",
+      "passed": true
+    },
+    {
+      "name": "mixed_axes_sum_0",
+      "passed": true
+    },
+    {
+      "name": "mixed_axes_sum_1",
+      "passed": true
+    },
+    {
+      "name": "mixed_axes_sum_2",
+      "passed": true
+    },
+    {
+      "name": "negative_coverage",
+      "passed": true
+    },
+    {
+      "name": "negative_sum_0",
+      "passed": true
+    },
+    {
+      "name": "negative_sum_1",
+      "passed": true
+    },
+    {
+      "name": "negative_sum_2",
+      "passed": true
+    },
+    {
+      "name": "balanced_coverage",
+      "passed": true
+    },
+    {
+      "name": "balanced_sum_0",
+      "passed": true
+    },
+    {
+      "name": "balanced_sum_1",
+      "passed": true
+    },
+    {
+      "name": "balanced_sum_2",
+      "passed": true
+    },
+    {
+      "name": "float32_be",
+      "passed": true
+    },
+    {
+      "name": "float64",
+      "passed": true
+    },
+    {
+      "name": "shape_list",
+      "passed": true
+    },
+    {
+      "name": "fortran_int",
+      "passed": true
+    },
+    {
+      "name": "initial_float_shape_bug_reproduced",
+      "passed": true
+    },
+    {
+      "name": "archive_duplicate",
+      "passed": true
+    },
+    {
+      "name": "archive_extra",
+      "passed": true
+    },
+    {
+      "name": "archive_missing",
+      "passed": true
+    },
+    {
+      "name": "original_manifest_binding",
+      "passed": true
+    },
+    {
+      "name": "hash_PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "hash_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "hash_fixtures.py",
+      "passed": true
+    },
+    {
+      "name": "hash_force_cells.py",
+      "passed": true
+    },
+    {
+      "name": "hash_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "hash_launch_once.py",
+      "passed": true
+    }
+  ],
+  "synthetic_only": true,
+  "real_values_read": false
+}

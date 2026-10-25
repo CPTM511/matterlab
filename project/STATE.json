@@ -21,7 +21,7 @@
     "docs/delivery-checks-en.json"
   ],
   "active_work": [],
-  "next_action": "Determine whether an independently enforceable execution envelope covering the supervisor itself exists within the dedicated environment and current permissions. Otherwise leave the association contrast unexecuted and consider a different identifiable question without reopening consumed attempts. No scientific execution is released; preserve historical failures, the precision STOP and the non-overlapping fallback.",
+  "next_action": "Design one bounded comparison that distinguishes native first-gradient arithmetic from an unverified translation, smoothness or coordinate premise using the preserved F1 observation and an identifiable reference. No execution is released. Keep the strict association-envelope route closed pending materially new authorized capability evidence or a separately reviewed new protocol; preserve all failures, consumed attempts and the fallback.",
   "constraints": [
     "No additional spending",
     "No paid APIs or paid remote compute; subscription-included native cloud execution is authorized",
@@ -108,7 +108,7 @@
     "physical_job_active": false,
     "scope": "Historical D1 checkpoint fields retained unchanged; current recorder and dispatch outcomes are recorded in repaired_recorder_validation and cpu_dispatch_contrast."
   },
-  "updated_at_utc": "2026-10-25T19:13:04.181370+00:00",
+  "updated_at_utc": "2026-10-25T23:06:53.728127+00:00",
   "repaired_recorder_validation": {
     "evidence": "evidence/repaired-recorder-20261023",
     "evaluations": 1,
@@ -247,5 +247,33 @@
     "physical_job_active": false,
     "original_replay_acceptance": "failed unchanged",
     "full_migration_complete": false
+  },
+  "supervisor_envelope_feasibility": {
+    "evidence": "evidence/envelope-force-checkpoint-20261025/envelope",
+    "status": "CLOSED / NOT ESTABLISHED within observed authorized capabilities",
+    "universal_impossibility_claim": false,
+    "association_execution_released": false
+  },
+  "saved_force_conservation": {
+    "evidence": "evidence/envelope-force-checkpoint-20261025/force",
+    "status": "completed and independently verified; conditional joint-premise incompatibility",
+    "saved_data_invocations": 1,
+    "invocation_consumed": true,
+    "components": 60,
+    "axis_sums": 3,
+    "zero_excluded_axes": [
+      "x",
+      "y",
+      "z"
+    ],
+    "interpretation": "Conservation/final-rounding incompatibility already present before added derivative queries under the stated exact-gradient/translation premise; no causal attribution of Hessian/FD/replay discrepancy",
+    "resource_semantics": "new practical monitored protocol; not strict association-envelope approval",
+    "model_forwards": 0,
+    "AD_queries": 0,
+    "physical_accuracy_established": false,
+    "full_migration_complete": false,
+    "remaining_execution_authority": 0,
+    "original_acceptance_thresholds": "unchanged",
+    "fallback_retained": true
   }
 }

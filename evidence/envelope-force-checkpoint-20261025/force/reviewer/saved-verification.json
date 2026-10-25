@@ -1,0 +1,1720 @@
+{
+  "status": "PASS",
+  "method": "Independent dyadic decoder from pinned raw saved bits; no analyzed implementation import or launcher reentry",
+  "verified_components": 60,
+  "verified_axis_sums": 3,
+  "checks": [
+    {
+      "name": "archive_sha_evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "archive_sha_evidence/n1-precision-geometric-checkpoint-20261025/n1/result/model-output.npz",
+      "passed": true
+    },
+    {
+      "name": "archives_identical",
+      "passed": true
+    },
+    {
+      "name": "archive_names",
+      "passed": true
+    },
+    {
+      "name": "member_sha",
+      "passed": true
+    },
+    {
+      "name": "npy_version",
+      "passed": true
+    },
+    {
+      "name": "header",
+      "passed": true
+    },
+    {
+      "name": "payload",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_0",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_0",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_1",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_1",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_2",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_2",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_3",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_3",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_4",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_4",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_5",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_5",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_6",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_6",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_7",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_7",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_8",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_8",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_9",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_9",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_10",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_10",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_11",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_11",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_12",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_12",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_13",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_13",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_14",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_14",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_15",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_15",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_16",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_16",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_17",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_17",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_18",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_18",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_19",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_19",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_20",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_20",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_21",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_21",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_22",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_22",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_23",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_23",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_24",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_24",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_25",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_25",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_26",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_26",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_27",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_27",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_28",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_28",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_29",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_29",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_30",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_30",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_31",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_31",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_32",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_32",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_33",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_33",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_34",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_34",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_35",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_35",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_36",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_36",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_37",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_37",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_38",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_38",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_39",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_39",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_40",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_40",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_41",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_41",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_42",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_42",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_43",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_43",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_44",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_44",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_45",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_45",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_46",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_46",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_47",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_47",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_48",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_48",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_49",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_49",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_50",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_50",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_51",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_51",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_52",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_52",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_53",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_53",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_54",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_54",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_55",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_55",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_56",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_56",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_57",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_57",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_58",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_58",
+      "passed": true
+    },
+    {
+      "name": "finite_admitted_59",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "cell_59",
+      "passed": true
+    },
+    {
+      "name": "top_schema",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "sum_0",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "sum_1",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "rational_integer_schema",
+      "passed": true
+    },
+    {
+      "name": "canonical_fraction",
+      "passed": true
+    },
+    {
+      "name": "sum_2",
+      "passed": true
+    },
+    {
+      "name": "manifest",
+      "passed": true
+    },
+    {
+      "name": "source_PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "source_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "source_fixtures.py",
+      "passed": true
+    },
+    {
+      "name": "source_force_cells.py",
+      "passed": true
+    },
+    {
+      "name": "source_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "source_launch_once.py",
+      "passed": true
+    },
+    {
+      "name": "scientific_source_evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/model.py",
+      "passed": true
+    },
+    {
+      "name": "scientific_source_evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/encoders.py",
+      "passed": true
+    },
+    {
+      "name": "scientific_source_evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/basis.py",
+      "passed": true
+    },
+    {
+      "name": "scientific_source_evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/layers.py",
+      "passed": true
+    },
+    {
+      "name": "scientific_source_evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/functions.py",
+      "passed": true
+    },
+    {
+      "name": "scientific_source_evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/composition_model.py",
+      "passed": true
+    },
+    {
+      "name": "scientific_source_evidence/repaired-recorder-20261023/source_snapshot/chgnet/graph/converter.py",
+      "passed": true
+    },
+    {
+      "name": "scientific_source_evidence/n1-precision-geometric-checkpoint-20261025/n1/source/native_worker.py",
+      "passed": true
+    },
+    {
+      "name": "scientific_source_evidence/n1-precision-geometric-checkpoint-20261025/n1/source/native_capture.py",
+      "passed": true
+    },
+    {
+      "name": "stage_hash",
+      "passed": true
+    },
+    {
+      "name": "preexec_manifest",
+      "passed": true
+    },
+    {
+      "name": "single_marker",
+      "passed": true
+    },
+    {
+      "name": "terminal_receipt",
+      "passed": true
+    },
+    {
+      "name": "deadline",
+      "passed": true
+    },
+    {
+      "name": "fresh_admission",
+      "passed": true
+    },
+    {
+      "name": "no_stderr",
+      "passed": true
+    },
+    {
+      "name": "stdout_complete",
+      "passed": true
+    }
+  ],
+  "checks_count": 420,
+  "sums": [
+    {
+      "axis": "x",
+      "lower": "15477/274877906944",
+      "upper": "16267/274877906944",
+      "distance": "15477/274877906944",
+      "conditional_lower_bound": "15477/5497558138880",
+      "lower_bound_less_than_original_force_tolerance": true
+    },
+    {
+      "axis": "y",
+      "lower": "44585/274877906944",
+      "upper": "45143/274877906944",
+      "distance": "44585/274877906944",
+      "conditional_lower_bound": "8917/1099511627776",
+      "lower_bound_less_than_original_force_tolerance": true
+    },
+    {
+      "axis": "z",
+      "lower": "56733/274877906944",
+      "upper": "57443/274877906944",
+      "distance": "56733/274877906944",
+      "conditional_lower_bound": "56733/5497558138880",
+      "lower_bound_less_than_original_force_tolerance": true
+    }
+  ],
+  "manifest_sha256": "4d5a859687fae397af5b3750253d211d3427511335b28414294056b175c2f66c",
+  "result_sha256": "e38276c90d2a31ca2acc903d2fa8832453ea105b7a924bb53dfa1675f8600472",
+  "process_receipt_sha256": "e10cf5a4b9e26b865ab23e3a02367af262b016475e95535fd971626c60dbc1a6",
+  "verification_completed_utc": "2026-10-25T22:59:53.174116+00:00",
+  "new_analysis_invocations": 0
+}

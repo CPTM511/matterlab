@@ -1,0 +1,30 @@
+{
+  "declared_members": 23,
+  "total_files": 25,
+  "all_match": true,
+  "hashes": {
+    "IMPLEMENTATION.md": "915acfceef151ed0173aa79682a9759fa71297dfafd653e67475f9090a2ca863",
+    "INPUT_MANIFEST.json": "88e000c7d48d43cc35951a77761292086881ac1782f3210ce694e9393c63b9ea",
+    "ORIGINAL_PROJECT_LICENSE": "85d73741cd43ff43b832520aeaaccffc6c019c1a04872a7ef1ccbffd990798af",
+    "PROTOCOL.md": "29746eccfe3c9d82195c09dfde6df8e32f8c2c8d7f2e18568f1eebd574ca8034",
+    "PUBLISHED_SOURCE_SNAPSHOT_LICENSE": "85d73741cd43ff43b832520aeaaccffc6c019c1a04872a7ef1ccbffd990798af",
+    "association_adapter.py": "481d35bba09859a3e15463b06821f57ebb6479313a1997981a7be1b73ff7edb8",
+    "capture_helpers.py": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+    "child.py": "3a9b7edd44e229b0c287974be7ca1928f87d5002b58826c9749eef9d5f2335f8",
+    "comparator.py": "3985d91e54a2591dfad25262a1954c9e6d2566e6a9ce0e9fe15e0bd5b519b02c",
+    "controller.py": "0324ac73d4f3a8144fc7076cfb1cf6d5758abe9092161eef17e2c3853bbf7478",
+    "guards.py": "d4278274e2939142034519ef49e7b4513c92c754a6dd808c0545b20f567524b3",
+    "launch.sh": "2b3f29bce80bda9eb99fd6e03c15f3c47b074d15150bda5b2d78eae1bcb93fa8",
+    "lifecycle.py": "0f810cdfc5f0ea062c57a5cce66a8481eaa9ed652b0d3e028dd961d6fc3e90ef",
+    "native_capture.py": "8998bde3a05f387156238fac4b282312da277b69f3146a82aad0ada0d551c152",
+    "native_gate.py": "967ac2aac363487ffb4cf8b41ea715c618009854c88e58e0a14f88af1919f319",
+    "point.json": "073155e240dbc3926d7e13348be0c6f912acb87b304f72720cf69b36add5fb2c",
+    "points.json": "4ba3bc00756af5bcbc3afc148b7c08d6abae83000028f978a881adda8d8987ff",
+    "preflight.py": "7e02e251309a19b7c3322af9e648225c584fc336bc5d0144a1dad7586c26bffd",
+    "preinference_guards.py": "ac21eb44e83e41fdf63e9507a8f98971bd4de955a401d975644d749c8c4a2121",
+    "protocol.json": "37dd6f9c30219b5785ded7a6b8e946a949566f0dc08c3c96264d64d9ad7aa0e7",
+    "runtime_compare.py": "65c4ab2017a8485b6c38ff2c3395a21d7e450fdfcce36c19160b0722535700d6",
+    "supervisor.py": "c16238a1692a5a746fabd282ed8f57ae9a59c1119a61760ab04bf4aaa0f8864b",
+    "worker.py": "f8dcb6737680d41a032a011924b0f1ffa055a0d63e26552f9148c746288cc24b"
+  }
+}

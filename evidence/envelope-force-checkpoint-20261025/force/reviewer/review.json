@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "4d5a859687fae397af5b3750253d211d3427511335b28414294056b175c2f66c",
+  "result_sha256": "e38276c90d2a31ca2acc903d2fa8832453ea105b7a924bb53dfa1675f8600472",
+  "saved_verification_sha256": "ade33a16dc9b89964dfef2f764a4b4a699229a15304645ce32e92a61c2efc638",
+  "process_receipt_sha256": "e10cf5a4b9e26b865ab23e3a02367af262b016475e95535fd971626c60dbc1a6",
+  "review_sha256": "edd23145653fe14d47d2c4faf8b2f0f5d1237009467256bc1b244dd34703beb5",
+  "review_completed_utc": "2026-10-25T23:01:10.262036+00:00",
+  "verified_components": 60,
+  "verified_sums": 3,
+  "zero_excluded_axes": [
+    "x",
+    "y",
+    "z"
+  ],
+  "interpretation": "Conditional conservation/final-rounding incompatibility already present before added row queries; no attribution of separate Hessian residual or original drift",
+  "all_conditional_component_lower_bounds_below_original_force_tolerance": true,
+  "lower_bound_is_error_upper_bound": false,
+  "new_analysis_invocations_by_reviewer": 0,
+  "strict_association_envelope_passed": false,
+  "original_failures_preserved": true,
+  "parent_report_sha256": "91665dab856bd8151524bfce79d228d10dad023c45264462c5d6dd2136af6ccc",
+  "parent_report_accepted": true
+}

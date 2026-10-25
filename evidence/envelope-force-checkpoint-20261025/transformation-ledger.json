@@ -1,0 +1,318 @@
+{
+  "files": [
+    {
+      "path": "envelope/REPORT.md",
+      "original_bytes": 10079,
+      "original_sha256": "370e469610f784ba7d1ca379e0590f289b3dbd302f039bb2798a6c6acebae1e5",
+      "export_bytes": 9447,
+      "export_sha256": "93a55cbb10daf00c719841afd89fbf1e397125f03908125903e15b6f28531e83",
+      "transformation": "Observed private coordination paragraphs/sentences removed; private filesystem locations aliased; root/interpreter/stage-private binding fields omitted where present. Scientific arrays, rational endpoints, outcome criteria and failures unchanged."
+    },
+    {
+      "path": "envelope/REPORT.initial-draft.md",
+      "original_bytes": 10017,
+      "original_sha256": "a12fa2d385545a33e8ff07b619e827f7ea55d891b845b6d33e97aaab735874f6",
+      "export_bytes": 9385,
+      "export_sha256": "887e23dcf44e90ee4b9c85ac592ea59f7510224485c56acc19b6665abb6e40e7",
+      "transformation": "Observed private coordination paragraphs/sentences removed; private filesystem locations aliased; root/interpreter/stage-private binding fields omitted where present. Scientific arrays, rational endpoints, outcome criteria and failures unchanged."
+    },
+    {
+      "path": "envelope/reviewer/REVIEW.md",
+      "original_bytes": 10585,
+      "original_sha256": "44b0d6941acc080e419181885456a1a0866fc15d18d59f4e09d949aeff336917",
+      "export_bytes": 10441,
+      "export_sha256": "f929f44cc7a34f9024f2233405c3169c95a6304f2deae10aa3068ffda2324e56",
+      "transformation": "Observed private coordination paragraphs/sentences removed; private filesystem locations aliased; root/interpreter/stage-private binding fields omitted where present. Scientific arrays, rational endpoints, outcome criteria and failures unchanged."
+    },
+    {
+      "path": "envelope/report-clarification.json",
+      "original_bytes": 671,
+      "original_sha256": "72e688c63b20e310d07ba925b2c817e6f951d68fd13fcedb85d46b3716488c6d",
+      "export_bytes": 671,
+      "export_sha256": "72e688c63b20e310d07ba925b2c817e6f951d68fd13fcedb85d46b3716488c6d",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "envelope/candidate-v3-integrity.json",
+      "original_bytes": 2184,
+      "original_sha256": "47b2584b3708eb0b8644fc4ca2327b68e28d0e750b4cc89ce03fa070853a4ed0",
+      "export_bytes": 2184,
+      "export_sha256": "47b2584b3708eb0b8644fc4ca2327b68e28d0e750b4cc89ce03fa070853a4ed0",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "envelope/timeout-help.txt",
+      "original_bytes": 2146,
+      "original_sha256": "0f9c12b56e4789c66aff100ca24efd141b7f5e231d72122386b864228c3193e4",
+      "export_bytes": 2146,
+      "export_sha256": "0f9c12b56e4789c66aff100ca24efd141b7f5e231d72122386b864228c3193e4",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/REPORT.md",
+      "original_bytes": 7434,
+      "original_sha256": "91665dab856bd8151524bfce79d228d10dad023c45264462c5d6dd2136af6ccc",
+      "export_bytes": 7047,
+      "export_sha256": "3863d050988ed72986ca4084c5b9f93654a48194c22eb6138f7399465863d3bc",
+      "transformation": "Observed private coordination paragraphs/sentences removed; private filesystem locations aliased; root/interpreter/stage-private binding fields omitted where present. Scientific arrays, rational endpoints, outcome criteria and failures unchanged."
+    },
+    {
+      "path": "force/REPORT.draft.md",
+      "original_bytes": 7036,
+      "original_sha256": "881cfbf92f4b983e27c59754e0f766e28774acc8e28890eba59741af29709255",
+      "export_bytes": 6649,
+      "export_sha256": "9638430e4cae9267854b718155377dff4f9be58cfc3b57abafc3118d21a344d5",
+      "transformation": "Observed private coordination paragraphs/sentences removed; private filesystem locations aliased; root/interpreter/stage-private binding fields omitted where present. Scientific arrays, rational endpoints, outcome criteria and failures unchanged."
+    },
+    {
+      "path": "force/result.json",
+      "original_bytes": 20330,
+      "original_sha256": "e38276c90d2a31ca2acc903d2fa8832453ea105b7a924bb53dfa1675f8600472",
+      "export_bytes": 19978,
+      "export_sha256": "c7de0744b9ebb732a32d41651c91a6cd9baa3e8d06692910ed1b8eba124221bf",
+      "transformation": "Observed private coordination paragraphs/sentences removed; private filesystem locations aliased; root/interpreter/stage-private binding fields omitted where present. Scientific arrays, rational endpoints, outcome criteria and failures unchanged."
+    },
+    {
+      "path": "force/process-receipt.json",
+      "original_bytes": 287,
+      "original_sha256": "e10cf5a4b9e26b865ab23e3a02367af262b016475e95535fd971626c60dbc1a6",
+      "export_bytes": 287,
+      "export_sha256": "e10cf5a4b9e26b865ab23e3a02367af262b016475e95535fd971626c60dbc1a6",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/stdout.txt",
+      "original_bytes": 92,
+      "original_sha256": "35feacb5bb51e2d8e0c1e975a0607ad82cf5b44bea01556534385468ccd386c5",
+      "export_bytes": 92,
+      "export_sha256": "35feacb5bb51e2d8e0c1e975a0607ad82cf5b44bea01556534385468ccd386c5",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/stderr.txt",
+      "original_bytes": 0,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_bytes": 0,
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/synthetic-fixtures.json",
+      "original_bytes": 3523,
+      "original_sha256": "ac7f50f2a6d4ebc58d93a9cff9778570e250cff505b1e36c2ef5d544c57bdbff",
+      "export_bytes": 3523,
+      "export_sha256": "ac7f50f2a6d4ebc58d93a9cff9778570e250cff505b1e36c2ef5d544c57bdbff",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/synthetic-fixtures-v2.json",
+      "original_bytes": 3586,
+      "original_sha256": "6d22f0e827f52fed4aa621cdea92a0ca5627ee3c8a56ba7ea0e42994e28e1224",
+      "export_bytes": 3586,
+      "export_sha256": "6d22f0e827f52fed4aa621cdea92a0ca5627ee3c8a56ba7ea0e42994e28e1224",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/synthetic-fixtures-v3.json",
+      "original_bytes": 3586,
+      "original_sha256": "6d22f0e827f52fed4aa621cdea92a0ca5627ee3c8a56ba7ea0e42994e28e1224",
+      "export_bytes": 3586,
+      "export_sha256": "6d22f0e827f52fed4aa621cdea92a0ca5627ee3c8a56ba7ea0e42994e28e1224",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/reviewer/PREEXECUTION_REVIEW.md",
+      "original_bytes": 5113,
+      "original_sha256": "3da48743cac86ca787e47402b879519e5761c2367495b7bab4b28de25f41a3f8",
+      "export_bytes": 5113,
+      "export_sha256": "3da48743cac86ca787e47402b879519e5761c2367495b7bab4b28de25f41a3f8",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/reviewer/REVIEW.md",
+      "original_bytes": 5882,
+      "original_sha256": "edd23145653fe14d47d2c4faf8b2f0f5d1237009467256bc1b244dd34703beb5",
+      "export_bytes": 5683,
+      "export_sha256": "ef62ba67ad733f94aa7a319282f80aa218947aa6e960158a23e4f668109212b4",
+      "transformation": "Observed private coordination paragraphs/sentences removed; private filesystem locations aliased; root/interpreter/stage-private binding fields omitted where present. Scientific arrays, rational endpoints, outcome criteria and failures unchanged."
+    },
+    {
+      "path": "force/reviewer/review.json",
+      "original_bytes": 1219,
+      "original_sha256": "4ad555884055b9f214c1168c81e04feb9ae3702231f1d668ff016af5f3622051",
+      "export_bytes": 1219,
+      "export_sha256": "4ad555884055b9f214c1168c81e04feb9ae3702231f1d668ff016af5f3622051",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/reviewer/preexecution.json",
+      "original_bytes": 922,
+      "original_sha256": "033910620646caa32114d199009699d7970b8525f837cd4b3f929907f55d3e29",
+      "export_bytes": 836,
+      "export_sha256": "d37af50d9a1a2dd58826cdf62ec2fac835fb7dab3e8705e4c59e3413d099644b",
+      "transformation": "Observed private coordination paragraphs/sentences removed; private filesystem locations aliased; root/interpreter/stage-private binding fields omitted where present. Scientific arrays, rational endpoints, outcome criteria and failures unchanged."
+    },
+    {
+      "path": "force/reviewer/initial-preexecution-findings.json",
+      "original_bytes": 4720,
+      "original_sha256": "88c80c0e0dc0c93310b90b680c4a406dae761869c041cfd01c8342007c5f815d",
+      "export_bytes": 4720,
+      "export_sha256": "88c80c0e0dc0c93310b90b680c4a406dae761869c041cfd01c8342007c5f815d",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/reviewer/v2-synthetic-and-source-checks.json",
+      "original_bytes": 3284,
+      "original_sha256": "132b66f5bcd16efe19e14311ff59dabbac31f313d69d040a6ded8903b9410bf5",
+      "export_bytes": 3284,
+      "export_sha256": "132b66f5bcd16efe19e14311ff59dabbac31f313d69d040a6ded8903b9410bf5",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/reviewer/v3-synthetic-checks.json",
+      "original_bytes": 5036,
+      "original_sha256": "f39d3dc4159ad36419ae23e5d9a20e053ff226b3c54edf58800eaa66adefa958",
+      "export_bytes": 5036,
+      "export_sha256": "f39d3dc4159ad36419ae23e5d9a20e053ff226b3c54edf58800eaa66adefa958",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/reviewer/saved-verification.json",
+      "original_bytes": 31497,
+      "original_sha256": "ade33a16dc9b89964dfef2f764a4b4a699229a15304645ce32e92a61c2efc638",
+      "export_bytes": 31497,
+      "export_sha256": "ade33a16dc9b89964dfef2f764a4b4a699229a15304645ce32e92a61c2efc638",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/frozen/PROTOCOL.md",
+      "original_bytes": 5351,
+      "original_sha256": "09890abbb0975b897a62a6bce1bd7f334f440a646476bf87fbb35a056187d1b7",
+      "export_bytes": 5351,
+      "export_sha256": "09890abbb0975b897a62a6bce1bd7f334f440a646476bf87fbb35a056187d1b7",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/frozen/force_cells.py",
+      "original_bytes": 3365,
+      "original_sha256": "3ff486b64a39429aff98fb5f46623227d51494d4f757fd0c2ebb3d4beab5992e",
+      "export_bytes": 3365,
+      "export_sha256": "3ff486b64a39429aff98fb5f46623227d51494d4f757fd0c2ebb3d4beab5992e",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/frozen/fixtures.py",
+      "original_bytes": 2413,
+      "original_sha256": "8698ca827de84edea46367376d152553e838f11c77d04410559424ba1c1dd6d2",
+      "export_bytes": 2413,
+      "export_sha256": "8698ca827de84edea46367376d152553e838f11c77d04410559424ba1c1dd6d2",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/frozen/inputs.json",
+      "original_bytes": 2291,
+      "original_sha256": "4540f54853118f859a04414805876d89eb1a1caf5f0d9d3fd9c43954fd421006",
+      "export_bytes": 2033,
+      "export_sha256": "4781f8855d241aae6a1ff476ad532965bbd1fb5b158b99b2b33710fee4e77b6b",
+      "transformation": "Observed private coordination paragraphs/sentences removed; private filesystem locations aliased; root/interpreter/stage-private binding fields omitted where present. Scientific arrays, rational endpoints, outcome criteria and failures unchanged."
+    },
+    {
+      "path": "force/frozen/manifest.json",
+      "original_bytes": 548,
+      "original_sha256": "ed12d43fdf0dc2ee7bca645f5372e0e3fb40dc76333d7016e0c9adbf920d7f09",
+      "export_bytes": 548,
+      "export_sha256": "ed12d43fdf0dc2ee7bca645f5372e0e3fb40dc76333d7016e0c9adbf920d7f09",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/frozen-v2/PROTOCOL.md",
+      "original_bytes": 5649,
+      "original_sha256": "57f1d6c6dfb7168272a7deaa8144cc12f659bd9fc89f74d6119d92c9a7956714",
+      "export_bytes": 5649,
+      "export_sha256": "57f1d6c6dfb7168272a7deaa8144cc12f659bd9fc89f74d6119d92c9a7956714",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/frozen-v2/force_cells.py",
+      "original_bytes": 3445,
+      "original_sha256": "b9ab6afdec620b74c30583f7eb83e5a84cae7ef184bc23fd52dd9609deb329e0",
+      "export_bytes": 3445,
+      "export_sha256": "b9ab6afdec620b74c30583f7eb83e5a84cae7ef184bc23fd52dd9609deb329e0",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/frozen-v2/fixtures.py",
+      "original_bytes": 2484,
+      "original_sha256": "90fcdf3f23a5cca366785757a56d0c41506ce4fe2f0da89b47d1a4e7e4934340",
+      "export_bytes": 2484,
+      "export_sha256": "90fcdf3f23a5cca366785757a56d0c41506ce4fe2f0da89b47d1a4e7e4934340",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/frozen-v2/inputs.json",
+      "original_bytes": 2377,
+      "original_sha256": "602f277d99c92e096406022cc58b653e446e5e9ee27a91dc58867fec6bf660cb",
+      "export_bytes": 2033,
+      "export_sha256": "4781f8855d241aae6a1ff476ad532965bbd1fb5b158b99b2b33710fee4e77b6b",
+      "transformation": "Observed private coordination paragraphs/sentences removed; private filesystem locations aliased; root/interpreter/stage-private binding fields omitted where present. Scientific arrays, rational endpoints, outcome criteria and failures unchanged."
+    },
+    {
+      "path": "force/frozen-v2/manifest.json",
+      "original_bytes": 548,
+      "original_sha256": "de9fcb873f8cd0f95c9cb16a796f160fc7999465e155f2f946f973cc47b62bdd",
+      "export_bytes": 548,
+      "export_sha256": "de9fcb873f8cd0f95c9cb16a796f160fc7999465e155f2f946f973cc47b62bdd",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/frozen-v3/PROTOCOL.md",
+      "original_bytes": 5882,
+      "original_sha256": "6b34cb5a8204c67d0b53f9929a26540ce1f19d0b60cf9dead0f959ec6a53a6fb",
+      "export_bytes": 5882,
+      "export_sha256": "6b34cb5a8204c67d0b53f9929a26540ce1f19d0b60cf9dead0f959ec6a53a6fb",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/frozen-v3/force_cells.py",
+      "original_bytes": 3445,
+      "original_sha256": "b9ab6afdec620b74c30583f7eb83e5a84cae7ef184bc23fd52dd9609deb329e0",
+      "export_bytes": 3445,
+      "export_sha256": "b9ab6afdec620b74c30583f7eb83e5a84cae7ef184bc23fd52dd9609deb329e0",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/frozen-v3/fixtures.py",
+      "original_bytes": 2484,
+      "original_sha256": "90fcdf3f23a5cca366785757a56d0c41506ce4fe2f0da89b47d1a4e7e4934340",
+      "export_bytes": 2484,
+      "export_sha256": "90fcdf3f23a5cca366785757a56d0c41506ce4fe2f0da89b47d1a4e7e4934340",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/frozen-v3/inputs.json",
+      "original_bytes": 2377,
+      "original_sha256": "602f277d99c92e096406022cc58b653e446e5e9ee27a91dc58867fec6bf660cb",
+      "export_bytes": 2033,
+      "export_sha256": "4781f8855d241aae6a1ff476ad532965bbd1fb5b158b99b2b33710fee4e77b6b",
+      "transformation": "Observed private coordination paragraphs/sentences removed; private filesystem locations aliased; root/interpreter/stage-private binding fields omitted where present. Scientific arrays, rational endpoints, outcome criteria and failures unchanged."
+    },
+    {
+      "path": "force/frozen-v3/manifest.json",
+      "original_bytes": 548,
+      "original_sha256": "4d5a859687fae397af5b3750253d211d3427511335b28414294056b175c2f66c",
+      "export_bytes": 548,
+      "export_sha256": "4d5a859687fae397af5b3750253d211d3427511335b28414294056b175c2f66c",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "force/reference-model-output.npz",
+      "original_bytes": 2110,
+      "original_sha256": "437fc3540dabfa3bed6b22d4ceab007a188e5282d60c65c370d2563f987c1388",
+      "export_bytes": 2110,
+      "export_sha256": "437fc3540dabfa3bed6b22d4ceab007a188e5282d60c65c370d2563f987c1388",
+      "transformation": "byte-identical copy of already-public pinned G1 reference archive"
+    }
+  ],
+  "private_original_locations": "withheld; retained in private preservation inventory",
+  "historical_embedded_hashes": "original identities, not sanitized derivative identities"
+}

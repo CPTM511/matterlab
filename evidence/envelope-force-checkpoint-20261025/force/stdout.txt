@@ -1,0 +1,1 @@
+{"status": "COMPLETE", "components": 60, "sums": 3, "elapsed_seconds": 0.03526757299550809}

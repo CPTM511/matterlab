@@ -1,0 +1,29 @@
+{
+  "public_head": "ff078eb90df0f4748608cbe23f4309e0d9bbc626",
+  "archives": [
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/model-output.npz",
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/model-output.npz"
+  ],
+  "npz_sha256": "437fc3540dabfa3bed6b22d4ceab007a188e5282d60c65c370d2563f987c1388",
+  "member_sha256": "447f2e177c5fdc9825e6841a1705188ef06fdc517463ec1072e920fcfe442482",
+  "payload_sha256": "a00b6bb3f2c3008f8abc840e042dd6c184ed681a00d2637d74435beb862bdf3f",
+  "members": [
+    "atoms_per_graph.npy",
+    "m_0.npy",
+    "crystal_fea.npy",
+    "f_0.npy",
+    "s_0.npy",
+    "e.npy"
+  ],
+  "sources": {
+    "evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/model.py": "767b120ba8b3ee7f75c247416902d1b72e871ba8ffc2916ed76d24809c98fc96",
+    "evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/encoders.py": "7dffbc1be159bc48acdfd363c618711bcbd88f72c7ecd5e4aad2dc1830de264c",
+    "evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/basis.py": "0e75cf46d3e1b4e96e1726472af0bedf3757b2c24c70cc98161e051c163beace",
+    "evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/layers.py": "9c60e275508a0427084d5ee2089d27dd0a86db40bf90c3b268e81c1cb8b5716c",
+    "evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/functions.py": "8914b73a7b990b1d4fa91ed1064ffc3138a5acd4bf2b192b8b7c5be7b15fed1b",
+    "evidence/repaired-recorder-20261023/source_snapshot/chgnet/model/composition_model.py": "c7111354fc8795c6a41147b3d01298546a070bc12c87d02f533d7678ab569570",
+    "evidence/repaired-recorder-20261023/source_snapshot/chgnet/graph/converter.py": "565a0a3007613323720e2ec3ab06e84043b6970a6a150234222123cee9979c0f",
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/source/native_worker.py": "ec9e8d44fc0fda72a2f852ba1a767ff0b92f74f7f4c5e05ae099c5a6d0eae75e",
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/source/native_capture.py": "941e18f30469629c161b105818fc7b86175d1db481aa52a46f9e38aed60668db"
+  }
+}
