@@ -1,0 +1,56 @@
+{
+  "scope": "Independent synthetic datetime fixtures; extracted exact freshness function only; no entrypoint, claims, scientific imports or data",
+  "guards_sha256": "d4278274e2939142034519ef49e7b4513c92c754a6dd808c0545b20f567524b3",
+  "checks": [
+    {
+      "name": "fresh",
+      "expected_admission": true,
+      "observed_admission": true,
+      "passed": true
+    },
+    {
+      "name": "usage_boundary",
+      "expected_admission": true,
+      "observed_admission": true,
+      "passed": true
+    },
+    {
+      "name": "usage_expired",
+      "expected_admission": false,
+      "observed_admission": false,
+      "passed": true
+    },
+    {
+      "name": "future_usage",
+      "expected_admission": false,
+      "observed_admission": false,
+      "passed": true
+    },
+    {
+      "name": "elapsed_boundary",
+      "expected_admission": false,
+      "observed_admission": false,
+      "passed": true
+    },
+    {
+      "name": "elapsed_near",
+      "expected_admission": true,
+      "observed_admission": true,
+      "passed": true
+    },
+    {
+      "name": "future_start",
+      "expected_admission": false,
+      "observed_admission": false,
+      "passed": true
+    },
+    {
+      "name": "start_zero",
+      "expected_admission": true,
+      "observed_admission": true,
+      "passed": true
+    }
+  ],
+  "passed": 8,
+  "total": 8
+}

@@ -1,0 +1,40 @@
+{
+  "checks": {
+    "manifest_hash": true,
+    "exact_coverage": true,
+    "all_member_hashes": true,
+    "preparation_blocked": true,
+    "accepted_protocol": true,
+    "reference_manifest_binding": true,
+    "protocol_json_binding": true,
+    "all_python_ast_parse": true
+  },
+  "all_pass": true,
+  "manifest_sha256": "97aa54fee56a7cc0d5b45a313035b90957f7d22902db8fcf673a4c06d7940649",
+  "freeze_sha256": "9518d5548c001cfed1463bbf68a5025ad1596ec67d60b52fc6e7afb07c76b0c8",
+  "file_hashes": {
+    "IMPLEMENTATION.md": "227b0570496950ed74d95fb85b999376c7376c691089c503bae6e4dbcec96486",
+    "INPUT_MANIFEST.json": "88e000c7d48d43cc35951a77761292086881ac1782f3210ce694e9393c63b9ea",
+    "ORIGINAL_PROJECT_LICENSE": "85d73741cd43ff43b832520aeaaccffc6c019c1a04872a7ef1ccbffd990798af",
+    "PROTOCOL.md": "29746eccfe3c9d82195c09dfde6df8e32f8c2c8d7f2e18568f1eebd574ca8034",
+    "PUBLISHED_SOURCE_SNAPSHOT_LICENSE": "85d73741cd43ff43b832520aeaaccffc6c019c1a04872a7ef1ccbffd990798af",
+    "association_adapter.py": "481d35bba09859a3e15463b06821f57ebb6479313a1997981a7be1b73ff7edb8",
+    "capture_helpers.py": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d",
+    "child.py": "3a9b7edd44e229b0c287974be7ca1928f87d5002b58826c9749eef9d5f2335f8",
+    "comparator.py": "3985d91e54a2591dfad25262a1954c9e6d2566e6a9ce0e9fe15e0bd5b519b02c",
+    "controller.py": "fc8b24509a6cc55cb0c6c97390fbbda2254b62087b364d6a2e869e2a8e24908d",
+    "freeze.json": "9518d5548c001cfed1463bbf68a5025ad1596ec67d60b52fc6e7afb07c76b0c8",
+    "guards.py": "096a2b9400fab63ff91403e751fb20dfccaf3ead5f2194b293f31bf5e8325770",
+    "implementation-manifest.json": "97aa54fee56a7cc0d5b45a313035b90957f7d22902db8fcf673a4c06d7940649",
+    "launch.sh": "c681c2d1212ec796cde8e0fdffb646e718b98fc3a156229abdd3a3208c8a071c",
+    "native_capture.py": "ded54a4749f1e257440859a24ce06e63a0f9d53d3c465974fcbdf728bf8f931a",
+    "native_gate.py": "7d42adf847109d559a7ddf019642c0bf0beda30f5aaa1e86f8d7f95e791dbd41",
+    "point.json": "073155e240dbc3926d7e13348be0c6f912acb87b304f72720cf69b36add5fb2c",
+    "points.json": "4ba3bc00756af5bcbc3afc148b7c08d6abae83000028f978a881adda8d8987ff",
+    "preflight.py": "7e02e251309a19b7c3322af9e648225c584fc336bc5d0144a1dad7586c26bffd",
+    "preinference_guards.py": "ac21eb44e83e41fdf63e9507a8f98971bd4de955a401d975644d749c8c4a2121",
+    "protocol.json": "37dd6f9c30219b5785ded7a6b8e946a949566f0dc08c3c96264d64d9ad7aa0e7",
+    "runtime_compare.py": "65c4ab2017a8485b6c38ff2c3395a21d7e450fdfcce36c19160b0722535700d6",
+    "worker.py": "97caed2f8729f216cc8e1c7074b921a57f59c1aaaa9da14cb47bcfc55eb2ee28"
+  }
+}

@@ -21,7 +21,7 @@
     "docs/delivery-checks-en.json"
   ],
   "active_work": [],
-  "next_action": "Design an identifiable bounded diagnostic for remaining native arithmetic, coordinate-path or smoothness uncertainty using preserved evidence. The saved translation-row audit is consumed; its one conditional exclusion does not explain the finite-difference gap. No further execution is released. Preserve historical failures, the precision STOP and the non-overlapping fallback.",
+  "next_action": "Determine whether an independently enforceable execution envelope covering the supervisor itself exists within the dedicated environment and current permissions. Otherwise leave the association contrast unexecuted and consider a different identifiable question without reopening consumed attempts. No scientific execution is released; preserve historical failures, the precision STOP and the non-overlapping fallback.",
   "constraints": [
     "No additional spending",
     "No paid APIs or paid remote compute; subscription-included native cloud execution is authorized",
@@ -108,7 +108,7 @@
     "physical_job_active": false,
     "scope": "Historical D1 checkpoint fields retained unchanged; current recorder and dispatch outcomes are recorded in repaired_recorder_validation and cpu_dispatch_contrast."
   },
-  "updated_at_utc": "2026-10-25T10:44:35.875768+00:00",
+  "updated_at_utc": "2026-10-25T19:13:04.181370+00:00",
   "repaired_recorder_validation": {
     "evidence": "evidence/repaired-recorder-20261023",
     "evaluations": 1,
@@ -230,6 +230,21 @@
     "invocation_consumed": true,
     "remaining_authorized_analysis": 0,
     "new_model_evaluations": 0,
+    "original_replay_acceptance": "failed unchanged",
+    "full_migration_complete": false
+  },
+  "association_contrast_preparation": {
+    "evidence": "evidence/association-preparation-checkpoint-20261025",
+    "status": "NOT READY; supervisor lifecycle bound unresolved",
+    "freshness_repair": "Source-level last-use checks and synthetic fixtures passed; no scientific execution",
+    "earlier_wholepath_review": "NOT READY; lifecycle and freshness gaps preserved",
+    "stage2_final_review": "Absent; later review is separate",
+    "initial_confinement_fixture": "34/35 failure preserved",
+    "dummy_processes": 3,
+    "scientific_evaluations": 0,
+    "real_anchor_claimed": false,
+    "remaining_authorized_inference": 0,
+    "physical_job_active": false,
     "original_replay_acceptance": "failed unchanged",
     "full_migration_complete": false
   }

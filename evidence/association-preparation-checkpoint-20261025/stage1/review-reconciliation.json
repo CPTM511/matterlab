@@ -1,0 +1,14 @@
+{
+  "accepted_proposal_sha256": "29746eccfe3c9d82195c09dfde6df8e32f8c2c8d7f2e18568f1eebd574ca8034",
+  "accepted_checkpoint_review_sha256": "4f355c9f98c1dc5360f57c9ed56bb91d80cc53e22780941455e5c5361695f7df",
+  "later_short_review_sha256": "bad3b1ce3156d46ab91d37093744a998e4824207f9d244d46457466084adb848",
+  "original_checkpoint_sha256": "940b8e130f7af84b3bab87527bbbbf6215c6aa3b713ec6e0189a250d33129bd2",
+  "conclusion": "Faithful shortening; no new required condition or unresolved design blocker. Original proposal and longer accepted review remain controlling; shorter review does not waive omitted detail.",
+  "differences": [
+    "Condensed source and fixture discussion; requirements remain in accepted proposal/long review",
+    "Added acknowledgement of second formatting-length failure; no scientific condition changed",
+    "Completion time and review metadata hashes changed, retained separately"
+  ],
+  "old_checkpoint_edited": false,
+  "execution_released": false
+}

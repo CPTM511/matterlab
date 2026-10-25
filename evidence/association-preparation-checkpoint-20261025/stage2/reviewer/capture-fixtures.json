@@ -1,0 +1,129 @@
+{
+  "scope": "Injected fake numpy/array objects and Python mock-gradient; no actual scientific module/data/AD/process/entrypoint",
+  "passed": 25,
+  "total": 25,
+  "checks": [
+    {
+      "name": "array_mismatch_values",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "array_mismatch_keys",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "array_mismatch_nonfinite",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "array_shape_mismatch",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "array_dtype_mismatch",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "array_exact_pass",
+      "pass": true
+    },
+    {
+      "name": "detached_product_rejected",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "nonfinite_capture_rejected",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "missing_capture_stages_rejected",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "unsupported_derivative_rejected_before_call",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "no_mock_query_on_disconnected_scalar",
+      "pass": true
+    },
+    {
+      "name": "safe_sibling_output",
+      "pass": true
+    },
+    {
+      "name": "path_root_child",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "path_bundle_child",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "path_ancestor",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "path_existing",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "runtime_label_only_pass",
+      "pass": true
+    },
+    {
+      "name": "runtime_bool",
+      "pass": true
+    },
+    {
+      "name": "runtime_dtype",
+      "pass": true
+    },
+    {
+      "name": "runtime_extra",
+      "pass": true
+    },
+    {
+      "name": "runtime_duplicate",
+      "pass": true
+    },
+    {
+      "name": "runtime_capability",
+      "pass": true
+    },
+    {
+      "name": "bounded_cleanup",
+      "pass": true
+    },
+    {
+      "name": "cleanup_reap_bounded",
+      "pass": true
+    },
+    {
+      "name": "unconfirmed_cleanup_blocks",
+      "pass": true,
+      "exception": "RuntimeError"
+    }
+  ],
+  "source_hashes": {
+    "association_adapter.py": "481d35bba09859a3e15463b06821f57ebb6479313a1997981a7be1b73ff7edb8",
+    "native_gate.py": "7d42adf847109d559a7ddf019642c0bf0beda30f5aaa1e86f8d7f95e791dbd41",
+    "native_capture.py": "ded54a4749f1e257440859a24ce06e63a0f9d53d3c465974fcbdf728bf8f931a",
+    "guards.py": "096a2b9400fab63ff91403e751fb20dfccaf3ead5f2194b293f31bf5e8325770",
+    "runtime_compare.py": "65c4ab2017a8485b6c38ff2c3395a21d7e450fdfcce36c19160b0722535700d6",
+    "controller.py": "fc8b24509a6cc55cb0c6c97390fbbda2254b62087b364d6a2e869e2a8e24908d"
+  }
+}

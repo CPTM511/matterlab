@@ -1,0 +1,72 @@
+{
+  "source_sha256": "481d35bba09859a3e15463b06821f57ebb6479313a1997981a7be1b73ff7edb8",
+  "baseline": {
+    "source_sha256": "481d35bba09859a3e15463b06821f57ebb6479313a1997981a7be1b73ff7edb8",
+    "scope": "Pure symbolic operator tracing; no torch, numpy, model, numeric array, AD or real attempt",
+    "passed": 11,
+    "total": 11,
+    "checks": [
+      {
+        "name": "control_exact_operation_trace",
+        "pass": true
+      },
+      {
+        "name": "control_vector_expression",
+        "pass": true
+      },
+      {
+        "name": "control_once_product",
+        "pass": true
+      },
+      {
+        "name": "control_unchanged_return_values",
+        "pass": true
+      },
+      {
+        "name": "control_operand_gate_before_association",
+        "pass": true
+      },
+      {
+        "name": "altered_exact_operation_trace",
+        "pass": true
+      },
+      {
+        "name": "altered_vector_expression",
+        "pass": true
+      },
+      {
+        "name": "altered_once_product",
+        "pass": true
+      },
+      {
+        "name": "altered_unchanged_return_values",
+        "pass": true
+      },
+      {
+        "name": "altered_operand_gate_before_association",
+        "pass": true
+      },
+      {
+        "name": "invalid_condition_stops",
+        "pass": true
+      }
+    ]
+  },
+  "mutants": [
+    {
+      "name": "wrong_association",
+      "detected": true
+    },
+    {
+      "name": "recomputed_product",
+      "detected": true
+    },
+    {
+      "name": "extra_operation",
+      "detected": true
+    }
+  ],
+  "passed": 14,
+  "total": 14,
+  "scope": "Symbolic objects only; three in-memory altered function definitions, no real model/operator/data execution"
+}

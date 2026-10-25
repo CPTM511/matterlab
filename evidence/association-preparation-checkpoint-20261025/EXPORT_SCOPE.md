@@ -1,0 +1,11 @@
+# Association preparation checkpoint candidate
+
+This additive documentation checkpoint records the accepted same-point design, incomplete first implementation preparation, incomplete second-stage review, completed NOT READY whole-path review, and repaired candidate-v3 with unresolved lifecycle requirements. No scientific run or real scientific anchor occurred. The three v3 dummy processes and synthetic fixtures are engineering evidence only.
+
+The current outcome is NOT READY. Last-use freshness was improved, but setup, fork and the supervisor's own final receipt remain outside the demonstrated strict execution envelope. Individual passing fixtures do not approve the full path. The original34/35 confinement failure, older source bindings, missing earlier final review, all historical numerical failures, precision STOP and consumed attempts remain preserved. No scientific threshold or acceptance status changes.
+
+Source and fixture copies here are preserved evidence snapshots, not an executable released bundle. Private paths are replaced with non-resolving logical aliases. Historical hashes inside reports and source manifests refer to the original private bytes; transformation-ledger.json binds those originals to these derivatives, and this package manifest binds every derivative. Full originals and private preservation records remain retained privately. No account observations, authorization records, live process identifiers, task identifiers, credentials, Git history, bytecode, dependency cache or model weights are included.
+
+The next action is to determine whether an independently enforceable execution envelope covering the supervisor itself exists within the dedicated environment and current permissions. If not, leave this contrast unexecuted and consider a different identifiable question without reopening consumed attempts. This package does not authorize further implementation, tests, execution or publication. Parent review of the exact candidate and audit remains required.
+
+MIT applies to original code under the included license. Existing third-party source/model license boundaries remain unchanged. Candidate materials, physical accuracy, migration completion and application performance are not established by this checkpoint.

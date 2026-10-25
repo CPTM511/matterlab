@@ -1,0 +1,262 @@
+{
+  "scope": "Pure synthetic state and rational values; no real saved arrays, controller main, child, launcher or scientific imports",
+  "source_hashes": {
+    "controller.py": "fc8b24509a6cc55cb0c6c97390fbbda2254b62087b364d6a2e869e2a8e24908d",
+    "comparator.py": "3985d91e54a2591dfad25262a1954c9e6d2566e6a9ce0e9fe15e0bd5b519b02c",
+    "native_capture.py": "ded54a4749f1e257440859a24ce06e63a0f9d53d3c465974fcbdf728bf8f931a"
+  },
+  "passed": 54,
+  "total": 54,
+  "checks": [
+    {
+      "name": "control_then_altered",
+      "pass": true
+    },
+    {
+      "name": "altered_first",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "before_without_previous_completion",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "after_without_launch",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "wrong_completion_condition",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "third_launch",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "elapsed_reject_-1.0",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "elapsed_reject_61.0",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "elapsed_reject_nan",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "elapsed_reject_inf",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "elapsed_reject_True",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "ok_exact_true_False",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "ok_exact_true_None",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "ok_exact_true_1",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "ok_exact_true_yes",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "remaining_reject_0.0",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "remaining_reject_-1.0",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "remaining_reject_nan",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "remaining_reject_inf",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "remaining_reject_True",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "failure_latches",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "no_retry_after_failure",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "remaining_bounds_timeout",
+      "pass": true
+    },
+    {
+      "name": "exact_binary_decode",
+      "pass": true
+    },
+    {
+      "name": "signed_differences",
+      "pass": true
+    },
+    {
+      "name": "scalar_reject_True",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "scalar_reject_None",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "scalar_reject_1",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "scalar_reject_nan",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "scalar_reject_inf",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "empty_differences",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "length_mismatch",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "energy_strict_equality_not_positive",
+      "pass": true
+    },
+    {
+      "name": "energy_positive_over_threshold",
+      "pass": true
+    },
+    {
+      "name": "energy_negative_over_threshold",
+      "pass": true
+    },
+    {
+      "name": "force_strict_equality_not_positive",
+      "pass": true
+    },
+    {
+      "name": "force_positive_over_threshold",
+      "pass": true
+    },
+    {
+      "name": "force_negative_over_threshold",
+      "pass": true
+    },
+    {
+      "name": "stress_strict_equality_not_positive",
+      "pass": true
+    },
+    {
+      "name": "stress_positive_over_threshold",
+      "pass": true
+    },
+    {
+      "name": "stress_negative_over_threshold",
+      "pass": true
+    },
+    {
+      "name": "curvature_strict_equality_not_positive",
+      "pass": true
+    },
+    {
+      "name": "curvature_positive_over_threshold",
+      "pass": true
+    },
+    {
+      "name": "curvature_negative_over_threshold",
+      "pass": true
+    },
+    {
+      "name": "force_second_claim_blocks",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "force_failed_latch_blocks_any",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "stress_second_claim_blocks",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "stress_failed_latch_blocks_any",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "added_second_claim_blocks",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "added_failed_latch_blocks_any",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "threshold_energy",
+      "pass": true
+    },
+    {
+      "name": "threshold_force",
+      "pass": true
+    },
+    {
+      "name": "threshold_stress",
+      "pass": true
+    },
+    {
+      "name": "threshold_curvature",
+      "pass": true
+    }
+  ]
+}

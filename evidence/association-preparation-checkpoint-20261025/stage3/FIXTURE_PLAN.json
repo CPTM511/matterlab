@@ -1,0 +1,15 @@
+{
+  "scope": "Benign OS/synthetic fixtures only; no candidate main or scientific entrypoint",
+  "declared_at": "2026-10-25T19:07:02.700498+00:00",
+  "outer_fixture_cap_seconds": 8,
+  "maximum_dummy_processes": 3,
+  "each_dummy_hard_seconds": 0.75,
+  "each_dummy_stop_seconds": 0.2,
+  "commands": [
+    "Python pass",
+    "Python sleep(30), representing stalled child execution",
+    "Python write stdout marker then sleep(30), representing terminal stall"
+  ],
+  "cleanup": "Own process groups; lifecycle kill/reap; parent-death SIGKILL; no descendants spawned",
+  "freshness_tests": "Pure timestamps before/after 900second boundary and600second investigation bound; no sleeping/model/data"
+}

@@ -1,0 +1,33 @@
+{
+  "new": [
+    "lifecycle.py",
+    "supervisor.py"
+  ],
+  "changed": [
+    "IMPLEMENTATION.md",
+    "controller.py",
+    "guards.py",
+    "launch.sh",
+    "native_capture.py",
+    "native_gate.py",
+    "worker.py"
+  ],
+  "unchanged": [
+    "INPUT_MANIFEST.json",
+    "ORIGINAL_PROJECT_LICENSE",
+    "PROTOCOL.md",
+    "PUBLISHED_SOURCE_SNAPSHOT_LICENSE",
+    "association_adapter.py",
+    "capture_helpers.py",
+    "child.py",
+    "comparator.py",
+    "point.json",
+    "points.json",
+    "preflight.py",
+    "preinference_guards.py",
+    "protocol.json",
+    "runtime_compare.py"
+  ],
+  "prior_manifest_unchanged": true,
+  "prior_freeze_unchanged": true
+}

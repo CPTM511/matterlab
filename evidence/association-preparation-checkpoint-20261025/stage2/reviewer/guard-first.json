@@ -1,0 +1,179 @@
+{
+  "source_sha256": "8dbc8870e5af065a148fedfa87b1be8e5309696ced4014ec51313d3dc6761ea2",
+  "scope": "Synthetic metadata and fixture-only O_EXCL marker; no real anchor, entrypoint, source execution, scientific package or data",
+  "passed": 34,
+  "total": 35,
+  "checks": [
+    {
+      "name": "synthetic_bundle_pass",
+      "pass": true
+    },
+    {
+      "name": "synthetic_release_pass",
+      "pass": true
+    },
+    {
+      "name": "release_reject_0_execution_released",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_1_ownership_confirmed",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_2_no_other_physical_job",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_3_fallback_nonoverlap",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_4_included_available",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_5_usage_unambiguous",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_6_all_displayed_windows_recorded",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_7_extra_spending_allowed",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_8_head",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_9_freeze_sha256",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_10_bundle",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_11_usage_observed_at",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_12_usage_observed_at",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_13_ownership_observed_at",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_14_ownership_observed_at",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_15_included_windows_consumed_fraction",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_16_included_windows_consumed_fraction",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_17_included_windows_consumed_fraction",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_18_included_windows_consumed_fraction",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_19_included_windows_consumed_fraction",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_20_included_windows_consumed_fraction",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_21_included_windows_consumed_fraction",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_22_included_windows_consumed_fraction",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_23_investigation_start",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "release_reject_24_investigation_start",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "preparation_status_blocks",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "extra_source_blocks",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "extra_bytecode_blocks",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "changed_source_blocks",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "missing_source_blocks",
+      "pass": true,
+      "exception": "ValueError"
+    },
+    {
+      "name": "external_symlink_blocks",
+      "pass": false
+    },
+    {
+      "name": "fixture_claim_once",
+      "pass": true
+    },
+    {
+      "name": "fixture_duplicate_claim_blocks",
+      "pass": true,
+      "exception": "FileExistsError"
+    }
+  ]
+}

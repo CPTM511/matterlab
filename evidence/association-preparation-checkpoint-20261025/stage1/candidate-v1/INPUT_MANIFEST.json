@@ -1,0 +1,230 @@
+{
+  "public_commit": "b2895ba36bbab3e93e409a0c3975d0250c8134f6",
+  "files": {
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/model-output-hashes.json": {
+      "bytes": 985,
+      "sha256": "0dadf136556e976a5060922f3fa0fcd3d683a9022bf797e8c7518fabe46db7c2"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/capture-summary.json": {
+      "bytes": 109,
+      "sha256": "95ae3164112d9c471a289bf7716348dfdc7c42f15e332a712ac7abc375eeeacd"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/model-output.npz": {
+      "bytes": 2110,
+      "sha256": "437fc3540dabfa3bed6b22d4ceab007a188e5282d60c65c370d2563f987c1388"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/model-tensor-hashes.json": {
+      "bytes": 27564,
+      "sha256": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/pre-inference-runtime-check.json": {
+      "bytes": 56,
+      "sha256": "24f279ade79a83fff45d7af0a86a41c5a4af21460f5829e9cbce9da07f557535"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/config-original.json": {
+      "bytes": 800,
+      "sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/diagnostic_eval.py": {
+      "bytes": 8470,
+      "sha256": "eee8534b02da1521e4e3b1757e4ef2926b90cc89ca126045517e8d319e450677"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/neighbor-hashes.json": {
+      "bytes": 659,
+      "sha256": "446200a4948ad85544c1f9d7c81d156793ae28cb765776cf7c66fa5baf822e3e"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/manifest.json": {
+      "bytes": 1977,
+      "sha256": "34ee8ddea9f183d96e9f6f2b31f2b55db1b87ef0f876b69151f68c65a0d462e9"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/observations.json": {
+      "bytes": 2442,
+      "sha256": "913a4827c309230a21861391b6f5ce14b4d1bce255790cd625d1ac446c81b2de"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/provenance.json": {
+      "bytes": 2252,
+      "sha256": "fdb2352af08395db913f6cc00565a9db300bd0c1055344aad5672eb49071f941"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/neighbors.npz": {
+      "bytes": 76652,
+      "sha256": "60ed0f9d9e72a1639eddc3856dcee5bd0659c242ebe637794177e0f17b2b9290"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/graph-hashes.json": {
+      "bytes": 1385,
+      "sha256": "1a2fc81dda176427e382557be5c694d4fdfd08d54aff8449b7b8e9e802ff5bcc"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/runtime.json": {
+      "bytes": 2581,
+      "sha256": "79db846c3bd9ccd505eb4b5079bcd8ae13afcd90a84d3bfa24c1ecd067f70640"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/expected-source-code.json": {
+      "bytes": 980,
+      "sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/call-attempts.json": {
+      "bytes": 48,
+      "sha256": "bc992c13ce1c40a0a3db5ada14801b8d53d29a97fe7b7ebcb9656b0042333d26"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/input-array-hashes.json": {
+      "bytes": 1003,
+      "sha256": "648f723c6d7cfd6e3eb1de0bb99f34cfbb3b67ec0f7d6fd7f8112cc321b7e8a8"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/input-arrays.npz": {
+      "bytes": 2777,
+      "sha256": "774e110abf0da566186546d23b10218faa035c3bcd2765d68cc36de5c6a91084"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/point.json": {
+      "bytes": 2482,
+      "sha256": "073155e240dbc3926d7e13348be0c6f912acb87b304f72720cf69b36add5fb2c"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/capture_helpers.py": {
+      "bytes": 398,
+      "sha256": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d"
+    },
+    "evidence/g1-selected-gamma-20261024/result/R-CaTiO3__base/graph.npz": {
+      "bytes": 79904,
+      "sha256": "ab269a08251baf86f01eb0a16d450dc8a13029767b84ed865da8bc8f4d8d2d2c"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/model-output-hashes.json": {
+      "bytes": 985,
+      "sha256": "0dadf136556e976a5060922f3fa0fcd3d683a9022bf797e8c7518fabe46db7c2"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/capture-summary.json": {
+      "bytes": 109,
+      "sha256": "b87a664bce4631dc19dfe03589cd6ef8328076603940a99acc89ede7453aae01"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/native-pre-normalization.npz": {
+      "bytes": 760,
+      "sha256": "1e537207c920b32f9eb3a14a2cb3bbcdc69d6ee7717b02f635567ad65cd85aeb"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/model-output.npz": {
+      "bytes": 2110,
+      "sha256": "437fc3540dabfa3bed6b22d4ceab007a188e5282d60c65c370d2563f987c1388"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/model-tensor-hashes.json": {
+      "bytes": 27564,
+      "sha256": "8ff4bb71a9616eee5ad6b5ce70f900bf9ac78b790fe7a0610187ba8f85c26fcf"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/pre-inference-runtime-check.json": {
+      "bytes": 56,
+      "sha256": "24f279ade79a83fff45d7af0a86a41c5a4af21460f5829e9cbce9da07f557535"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/config-original.json": {
+      "bytes": 800,
+      "sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/diagnostic_eval.py": {
+      "bytes": 7882,
+      "sha256": "ec9e8d44fc0fda72a2f852ba1a767ff0b92f74f7f4c5e05ae099c5a6d0eae75e"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/neighbor-hashes.json": {
+      "bytes": 659,
+      "sha256": "446200a4948ad85544c1f9d7c81d156793ae28cb765776cf7c66fa5baf822e3e"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/native-call-counts.json": {
+      "bytes": 99,
+      "sha256": "79b0339690d568d275d91b9e052fb8047209976429d54ec599282d3986559921"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/native-row-50.npz": {
+      "bytes": 500,
+      "sha256": "9f266858e0d1c5c1164241a8425099ebec0c9c8305f7ea5803cb0f9c4369e328"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/signed-comparisons.json": {
+      "bytes": 3284,
+      "sha256": "ccf15489070b88227c89f5ba09821b362435e26bdd0d63b53521b022148d1126"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/manifest.json": {
+      "bytes": 2604,
+      "sha256": "d4948312756c1143620acbc840d90f863ef1018ebc5c8008abf10ffcb362ca41"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/observations.json": {
+      "bytes": 2442,
+      "sha256": "913a4827c309230a21861391b6f5ce14b4d1bce255790cd625d1ac446c81b2de"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/provenance.json": {
+      "bytes": 2252,
+      "sha256": "291db8d7ece6418ca8ea1fcd63bb2800c23dbc63996c7ebcab6f5b3885f9b65c"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/neighbors.npz": {
+      "bytes": 76652,
+      "sha256": "60ed0f9d9e72a1639eddc3856dcee5bd0659c242ebe637794177e0f17b2b9290"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/graph-hashes.json": {
+      "bytes": 1385,
+      "sha256": "1a2fc81dda176427e382557be5c694d4fdfd08d54aff8449b7b8e9e802ff5bcc"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/runtime.json": {
+      "bytes": 2593,
+      "sha256": "9de7c5517fcfb5541ce6d59913e5fc90e4d0adac29289aff0eb3517897ebfffd"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/expected-source-code.json": {
+      "bytes": 980,
+      "sha256": "d94acdd639041e62670edeee7a027125a0128859ec26ac4b3329e5c8af5b620c"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/call-attempts.json": {
+      "bytes": 48,
+      "sha256": "bc992c13ce1c40a0a3db5ada14801b8d53d29a97fe7b7ebcb9656b0042333d26"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/input-array-hashes.json": {
+      "bytes": 1003,
+      "sha256": "648f723c6d7cfd6e3eb1de0bb99f34cfbb3b67ec0f7d6fd7f8112cc321b7e8a8"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/native-row-59.npz": {
+      "bytes": 500,
+      "sha256": "fe30ec0c926385cd412cdd39bb5e316e5445398046c68e342de842b1c910854f"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/input-arrays.npz": {
+      "bytes": 2777,
+      "sha256": "774e110abf0da566186546d23b10218faa035c3bcd2765d68cc36de5c6a91084"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/baseline-gate.json": {
+      "bytes": 84,
+      "sha256": "80de43cc0f5d17803b90cf02ce22123aeace8ea53e2cb56e811d0f0ac57cb22e"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/point.json": {
+      "bytes": 2482,
+      "sha256": "073155e240dbc3926d7e13348be0c6f912acb87b304f72720cf69b36add5fb2c"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/capture_helpers.py": {
+      "bytes": 398,
+      "sha256": "2a3135dd335902ddc212178f2913fd0939055db203e6bc3051e3cdf8a0462f2d"
+    },
+    "evidence/n1-precision-geometric-checkpoint-20261025/n1/result/graph.npz": {
+      "bytes": 79904,
+      "sha256": "ab269a08251baf86f01eb0a16d450dc8a13029767b84ed865da8bc8f4d8d2d2c"
+    },
+    "AGENTS.md": {
+      "bytes": 2562,
+      "sha256": "7aef49e8f36a6b639ec9244cdaa8da698b9308351d9c82421d6b2a6f17dfa7b6"
+    },
+    "project/OPERATIONS.md": {
+      "bytes": 6496,
+      "sha256": "3c0b92ee7924ef0e7c03389414624f9ab56c49f2a95d50eeb8abf0b87ff6b678"
+    },
+    "project/STATE.json": {
+      "bytes": 11776,
+      "sha256": "5040c7da7c2dce4c488563e5f994941cbd77e577712040196ff3a9c6659dfec6"
+    },
+    "project/CLOUD_MIGRATION.md": {
+      "bytes": 7740,
+      "sha256": "5a7cceb69380a8894189c5b113d8756a3d78e656eceeaacd42806ae80597ad95"
+    },
+    "project/CLOUD_HANDOFF.md": {
+      "bytes": 3764,
+      "sha256": "5be625b792f1f41e866c1b8e01243659b282f4faaa3cb8eaaf348d7235478560"
+    },
+    "LICENSE": {
+      "bytes": 1079,
+      "sha256": "85d73741cd43ff43b832520aeaaccffc6c019c1a04872a7ef1ccbffd990798af"
+    },
+    "docs/THIRD_PARTY.md": {
+      "bytes": 1671,
+      "sha256": "0cdf3dc4d35cfb55198e5ae727262ee894770bf15aeff36bb8d7088e544528ab"
+    },
+    "configs/round-001.json": {
+      "bytes": 800,
+      "sha256": "e270d736f658e73a5491ed75a5aaa7269ecb53fd923615e066ea807d3ec70601"
+    }
+  },
+  "scope": "Reference binding only; no arrays parsed or scientific arithmetic performed"
+}

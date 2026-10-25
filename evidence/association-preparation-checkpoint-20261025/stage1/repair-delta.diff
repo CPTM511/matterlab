@@ -1,0 +1,74 @@
+--- prior/association_adapter.py
++++ candidate/association_adapter.py
+@@ -23,7 +23,10 @@
+ class Adapter:
+  def __init__(self,model,torch,out,condition,control):
+   from pathlib import Path
+-  self.model=model;self.torch=torch;self.out=Path(out);self.condition=condition;self.control=Path(control);self.calls={'bond':0,'angle':0};self.original_bond=model.bond_basis_expansion.forward;self.original_angle=model.angle_basis_expansion.forward
++  self.model=model;self.torch=torch;self.out=Path(out);self.condition=condition;self.control=Path(control);self.calls={'bond':0,'angle':0};self.failed=False;self.stages=set();self.original_bond=model.bond_basis_expansion.forward;self.original_angle=model.angle_basis_expansion.forward
++ def persist(self):
++  import json
++  (self.out/'association-counts.json').write_text(json.dumps({'calls':self.calls,'failed':self.failed,'captured_stages':sorted(self.stages)})+'\n')
+  def observe(self,stage,values):
+   import numpy as np
+   arrays={}
+@@ -41,21 +44,27 @@
+   if stage=='operands' and self.condition=='altered':
+    from native_gate import exact_npz
+    exact_npz(path,self.control/path.name)
++  self.stages.add(stage);self.persist()
+  def install(self):
+   owner=self
+   def bond(module,center,neighbor,undirected2directed,image,lattice):
+-   owner.calls['bond']+=1
+-   if owner.calls['bond']!=1:raise ValueError('Extra bond evaluation')
+-   return bond_forward(module,center,neighbor,undirected2directed,image,lattice,ops=owner.torch,condition=owner.condition,observe=owner.observe)
++   owner.calls['bond']+=1;owner.persist()
++   try:
++    if owner.failed or owner.calls['bond']!=1:raise ValueError('Extra/failed bond evaluation')
++    return bond_forward(module,center,neighbor,undirected2directed,image,lattice,ops=owner.torch,condition=owner.condition,observe=owner.observe)
++   except BaseException:
++    owner.failed=True;owner.persist();raise
+   def angle(module,*a,**kw):
+-   owner.calls['angle']+=1
+-   if owner.calls['angle']!=1:raise ValueError('Extra angle evaluation')
+-   result=owner.original_angle(*a,**kw);owner.observe('angles',{'angles':result});return result
++   owner.calls['angle']+=1;owner.persist()
++   try:
++    if owner.failed or owner.calls['angle']!=1:raise ValueError('Extra/failed angle evaluation')
++    result=owner.original_angle(*a,**kw);owner.observe('angles',{'angles':result});return result
++   except BaseException:
++    owner.failed=True;owner.persist();raise
+   self.model.bond_basis_expansion.forward=types.MethodType(bond,self.model.bond_basis_expansion)
+   self.model.angle_basis_expansion.forward=types.MethodType(angle,self.model.angle_basis_expansion)
+  def finish(self):
+-  import json
+-  (self.out/'association-counts.json').write_text(json.dumps(self.calls)+'\n')
+-  if self.calls!={'bond':1,'angle':1}:raise ValueError('Incomplete adapter capture')
++  self.persist()
++  if self.failed or self.calls!={'bond':1,'angle':1} or self.stages!={'operands','vectors','features','angles'}:raise ValueError('Incomplete/failed adapter capture')
+  def restore(self):
+   self.model.bond_basis_expansion.forward=self.original_bond;self.model.angle_basis_expansion.forward=self.original_angle
+--- prior/guards.py
++++ candidate/guards.py
+@@ -48,7 +48,7 @@
+  if git('rev-parse','HEAD')!=HEAD or git('status','--porcelain'):raise ValueError('Dirty/wrong public checkout')
+  if git('ls-remote','https://github.com/CPTM511/matterlab.git','refs/heads/main').split()[0]!=HEAD:raise ValueError('Remote changed')
+  state=read(root/'project/STATE.json')
+- if state['active_work'] or any(isinstance(v,dict) and v.get('physical_job_active') for v in state.values()):raise ValueError('Public active work')
++ if state['active_work'] or any(isinstance(v,dict) and ('physical_job_active' in v and v['physical_job_active'] is not False) for v in state.values()):raise ValueError('Public active work')
+  allowed={os.getpid(),os.getppid(),int(os.environ.get('ASSOCIATION_CONTROLLER_PID','0'))}
+  for p in Path('/proc').iterdir():
+   if p.name.isdigit() and int(p.name) not in allowed:
+--- prior/worker.py
++++ candidate/worker.py
+@@ -107,8 +107,8 @@
+  assert array_record({k:v.detach().cpu().numpy() for k,v in model.state_dict().items()})==json.loads((P/'model-tensor-hashes.json').read_text())
+  from native_gate import exact_baseline
+  exact_baseline(R,P)
++ adapter.finish()
+  native.query_rows()
+- adapter.finish()
+  from native_gate import final_point_gate
+  final_point_gate(R,P)
+  print(json.dumps({'condition':runtime['condition'],'capability':runtime['cpu_capability'],'energy_eV':energy,'captures':captures}))

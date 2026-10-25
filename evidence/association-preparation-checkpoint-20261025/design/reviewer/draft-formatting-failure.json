@@ -1,0 +1,5 @@
+{
+  "failure": "Initial reviewer prose exceeded the 4000-character guard; assertion stopped before writing REVIEW.md. Tool transcript retains the draft and failed command.",
+  "scientific_or_source_failure": false,
+  "originals_changed": false
+}

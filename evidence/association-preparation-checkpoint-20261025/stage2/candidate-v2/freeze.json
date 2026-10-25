@@ -1,0 +1,10 @@
+{
+  "status": "preparation_only",
+  "created_at": "2026-10-25T18:48:11.842854+00:00",
+  "implementation_manifest_sha256": "97aa54fee56a7cc0d5b45a313035b90957f7d22902db8fcf673a4c06d7940649",
+  "proposal_sha256": "29746eccfe3c9d82195c09dfde6df8e32f8c2c8d7f2e18568f1eebd574ca8034",
+  "protocol_json_sha256": "37dd6f9c30219b5785ded7a6b8e946a949566f0dc08c3c96264d64d9ad7aa0e7",
+  "reference_manifest_sha256": "88e000c7d48d43cc35951a77761292086881ac1782f3210ce694e9393c63b9ea",
+  "execution_released": false,
+  "independent_review": "pending; no later review hash is claimed"
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "3 dummy child processes and synthetic timestamps; no scientific imports or entrypoint",
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "normal",
+      "passed": true,
+      "elapsed": 0.015680456002883147,
+      "error": null
+    },
+    {
+      "name": "stalled_execution",
+      "passed": true,
+      "elapsed": 0.20534983900142834,
+      "error": "Supervised timeout; no retry"
+    },
+    {
+      "name": "terminal_stall",
+      "passed": true,
+      "elapsed": 0.2052971399971284,
+      "error": "Supervised timeout; no retry"
+    },
+    {
+      "name": "fresh_now",
+      "passed": true
+    },
+    {
+      "name": "expired_after_metadata",
+      "passed": true
+    },
+    {
+      "name": "investigation_expired",
+      "passed": true
+    }
+  ],
+  "elapsed_seconds": 0.4264343969989568,
+  "within_8_second_fixture_bound": true,
+  "source_hashes": {
+    "lifecycle.py": "0f810cdfc5f0ea062c57a5cce66a8481eaa9ed652b0d3e028dd961d6fc3e90ef",
+    "guards.py": "d4278274e2939142034519ef49e7b4513c92c754a6dd808c0545b20f567524b3"
+  },
+  "limits": "Does not test stalled fork, uninterruptible I/O, real controller/supervisor entrypoint, native model or hard-real-time guarantees."
+}

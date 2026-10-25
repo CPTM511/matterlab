@@ -1,0 +1,10 @@
+{
+  "status": "preparation_only",
+  "version": 3,
+  "outcome": "NOT_READY_STRICT_LIFECYCLE_BOUND_UNRESOLVED",
+  "implementation_manifest_sha256": "cd37e9c14a316b75d0c91536d919f1ec0299b48e1d176abbc22aade9739cb291",
+  "proposal_sha256": "29746eccfe3c9d82195c09dfde6df8e32f8c2c8d7f2e18568f1eebd574ca8034",
+  "reference_manifest_sha256": "88e000c7d48d43cc35951a77761292086881ac1782f3210ce694e9393c63b9ea",
+  "execution_released": false,
+  "created_at": "2026-10-25T19:07:46.149787+00:00"
+}

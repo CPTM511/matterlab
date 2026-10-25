@@ -1,0 +1,53 @@
+# Same-point bond-vector association contrast
+
+Status: design only. Recommend implementation preparation for one controlled numerical-sensitivity question, subject to independent review and a later explicit execution release. No model, AD query, saved-array numerical experiment, scientific attempt or publication occurred in this design stage.
+
+## Question and competing explanations
+
+At the exact saved R-CaTiO3 baseline, does changing only the association of float32 periodic bond-vector subtraction materially change native A[50,50] or forces? The installed expression is c - (n + t), where t = image @ lattice. The proposed expression is (c - n) - t. Both branches compute the same live t once, before the respective association. These expressions, their coordinate derivatives and their strain derivatives are algebraically identical over the reals. No precision, backend, graph algorithm, model weight or physical input changes.
+
+This distinguishes sensitivity to one specified numerical implementation change from finite-displacement truncation or variation between physical endpoints: both evaluations use the same point and no finite-difference stencil. It does not distinguish forward feature rounding from ensuing AD arithmetic, nor establish which expression is more accurate. Downstream nonlinear or branch sensitivity can amplify the changed rounding and is part of the total intervention. An output difference is not proof of the historical host's cause or an explanation of the G1/N1 gap.
+
+The strongest alternative is that the saved gap mainly reflects finite-step or smooth-feature behavior while this rewrite produces no material same-point effect. Another is that arithmetic matters elsewhere but not in this operation. A negative result cannot eliminate either. An invalid baseline or mismatched operand must produce an inconclusive failed contrast, not a negative sensitivity result.
+
+## Baseline, inputs and source identity
+
+Pin public commit b2895ba36bbab3e93e409a0c3975d0250c8134f6. Use only the existing 20-atom R-CaTiO3 baseline: G1 R-CaTiO3__base and its matching N1 result. No C03-005 point, displacement, translation, relaxation or new baseline search is included. Input-array SHA256 is 774e110abf0da566186546d23b10218faa035c3bcd2765d68cc36de5c6a91084; graph SHA256 is ab269a08251baf86f01eb0a16d450dc8a13029767b84ed865da8bc8f4d8d2d2c; N1 row-50 SHA256 is 9f266858e0d1c5c1164241a8425099ebec0c9c8305f7ea5803cb0f9c4369e328. Freeze the complete public input, output, neighbor, parameter, source and runtime manifests before implementation review.
+
+Physics source remains 3319dc595397f68c0e7a3326e64c2b27ae799027; CHGNet package 0.4.2/model 0.3.0 checkpoint SHA256 d14ab7c0f093efe64b60a7bcd540bca10e74fb7f46c86108a079af60524659d1. Installed encoders.py SHA256 is 7dffbc1be159bc48acdfd363c618711bcbd88f72c7ecd5e4aad2dc1830de264c; model.py is 767b120ba8b3ee7f75c247416902d1b72e871ba8ffc2916ed76d24809c98fc96. No package file or installed model is to be edited.
+
+Reuse the saved N1 fingerprint: Python 3.12.14, PyTorch 2.6.0+cpu, float32 parameters/inputs, default dispatch with observed NO AVX, deterministic algorithms enabled, CPU affinity [0], numerical-library and PyTorch intra/inter-op threads one, seed 20261024, and the complete saved numerical settings/build. Any unlisted difference fails preflight. Condition labels and the explicitly reviewed adapter identity are the only intended provenance differences; no post-hoc runtime exclusions are allowed.
+
+## Minimal controlled sequence
+
+Two sequential child processes at most, each with one graph conversion, one consumed neighbor query, one model forward, the unchanged native force/stress gradient calls and one added native row-50 query. The fresh control is necessary to validate new capture/adapter instrumentation; it is not an unrelated repeatability run.
+
+1. Control uses the original association in the same reviewed adapter/capture harness. Require exact shape, dtype and decoded bytes for all six saved model tensors, ASE observations/conversions, native pre-normalization scalar/positions and the entire saved row 50. Require identical input, neighbor, discrete graph, parameter and runtime records. Only after this control passes may the altered process launch. The baseline archive hashes pin references; newly written NPZ container timestamps need not match, while their decoded scientific arrays must match exactly.
+2. Altered uses only the changed association. At the actual consumed BondEncoder call, capture c, n, image, lattice, undirected mapping and the once-computed live t. Require all operand/product bytes, dtypes, shapes and graph mappings to equal the control before forming the altered bond vector. Do not feed detached saved tensors back into the graph: t must retain its native lattice/strain connection. Operand capture uses copies for evidence only.
+3. Preserve both unnormalized bond-vector tensors, norms, normalized vectors and radial/angle outputs from their actual consumed operations. Downstream code is unchanged. Any recorded floating cutoff masks are outcomes; no equality is required after the intentional arithmetic change. Capture all six model tensors, ASE energy/forces/stress, native scalar/positions, full row 50, counters, settings, hashes, warnings and timings. No additional evaluation is allowed to recover a missing capture.
+
+Installed BondEncoder.forward computes neighbor + image @ lattice, then center minus that result, followed by norm, normalization, undirected selection and basis expansion. A future per-instance adapter must preserve the exact remaining body and live graph. No autocast, compilation, fusion, in-place rewriting, dtype promotion or backend switch is permitted. Native force calculation and pre-normalization capture semantics remain unchanged.
+
+## Metrics and fixed decision rules
+
+Primary: signed altered-minus-control A[50,50], with material sensitivity defined as absolute difference greater than 0.005 eV/Angstrom^2. Secondary: signed differences of every force component and their maximum absolute difference, with force sensitivity defined as exceeding 1e-6 eV/Angstrom. Also retain signed energy and stress differences and compare with 1e-5 eV and 1e-7 eV/Angstrom^3 respectively, all rtol=0. Decode saved values exactly for comparisons and preserve every signed difference; reporting may add explicitly rounded decimal displays.
+
+These reuse the existing numerical scales as sensitivity screens, not new replay acceptance. A curvature effect changes only the conclusion about this native curvature entry; a force effect changes only the conclusion about force sensitivity. Effects below all screens are a local negative finding for this rewrite, not a certificate of arithmetic robustness. Full-row values remain raw evidence; no post-hoc selection of another entry may replace the primary target.
+
+A positive screen establishes an effect of the specified expression rewrite under verified invariants. It does not quantify the cause of the original +0.5666720072428397 eV/Angstrom^2 FD-minus-native discrepancy, prove that an error was corrected, or authorize using the altered backend. A later mechanism-specific proposal would still be required. A negative screen closes this rewrite without trying alternative associations or settings. The altered condition is observed once and is not replicated. Conclusions are bounded to this recorded controlled pair under the declared deterministic assumptions; transient uncontrolled variation is not independently excluded, and no distributional robustness is established.
+
+## Gates, resource limits and launch-path status
+
+No executable launch path exists yet. The old N1 query_rows is hardcoded to rows 50 and 59 and its consumed context; it cannot be reused as this controller. G1, N1 and the translation-row saved audit remain consumed. A new reviewed, one-attempt controller must enforce the two-process aggregate budget, one added row per process, exact control gate and unchanged allowance after any exception.
+
+Proposed separate implementation preparation: 600 seconds all roles, no torch/model/forward/AD call or real attempt claim. Require independent source and negative-fixture review before freezing a launch.sh entrypoint using the existing verified interpreter with -B. Fixtures must challenge counter overruns, a detached/recomputed product, wrong association, extra numerical operations, source/runtime/input mismatches, missing/nonfinite capture, unsupported derivative, timeout, stale gates and duplicate admission. Symbolic/mock tensors may test operation traces without constructing a model or running native AD. Final implementation and manifest hashes require a new review; this design review does not attest future code.
+
+Proposed execution stage: one immutable 600-second all-role clock including preflight, two processes, terminal review and checkpoint; aggregate calculation-process cap 120 seconds and each child cap 60 seconds. One distinct attempt admission only, at most two forwards and two added row queries total. Check current public head, ownership, clean checkout and fresh included availability before admission and each launch. Stop on any preflight, exact-control, operand, integrity, finite-value, resource or ownership failure. No retry, replacement point, alternate entry, reset, extra baseline, follow-on FD sweep or automatic continuation. If terminal review cannot finish within the clock, preserve it as incomplete and defer separately without inference.
+
+## Limits and next decision
+
+The concrete next decision is whether to admit implementation preparation for this two-condition design. Scientific execution remains unlaunched and unreleased. The stopped precision contrast is not revived: no float64 path or nonlinear transport bound is claimed. The translation-row audit's one conditional exclusion and five inconclusive groups remain unchanged; its small lower bound is not an upper error bound.
+
+All original force/stress replay failures, failed C1 gate, unrun C2, G1/N1 failures and prior timing failures remain preserved. S1 and migration acceptance are incomplete; fallback remains retained. No DFT, material discovery, stability or application-performance claim follows. Existing free software/model artifacts may be used only after verification; no installation, paid API, new data purchase, credentials or spending is proposed.
+
+Requested configuration is gpt-6-astra, High reasoning, Standard speed. Observable assistant identity is GPT-6-based Codex; serving variant, effort and speed are not independently attested. Historical setup began under GPT-6.1 Sol Light before the UI changed to Astra High; that provenance is unchanged.
