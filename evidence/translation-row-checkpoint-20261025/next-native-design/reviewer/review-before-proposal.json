@@ -1,0 +1,33 @@
+{
+  "status": "CONDITIONAL_DESIGN_ONLY_EXECUTION_BLOCKED",
+  "completed_utc": "2026-10-25T10:18:02.840473+00:00",
+  "proposal_document_seen": false,
+  "proposal_absent_at_utc": "2026-10-25T10:17:20Z",
+  "examined_files": {
+    "native_capture.py": {
+      "sha256": "941e18f30469629c161b105818fc7b86175d1db481aa52a46f9e38aed60668db",
+      "bytes": 3773
+    },
+    "current_STATE.json": {
+      "sha256": "ac46e59b4395497756a7cc31dfc906fe07365bfe12b99fd296e65b15c3735bf3",
+      "bytes": 10258
+    },
+    "N1_REPORT.md": {
+      "sha256": "aab23262429f55af4f341422fbd232e84c1af154abf9bc5e42afee2fe75626d7",
+      "bytes": 8133
+    }
+  },
+  "review": {
+    "bytes": 3485,
+    "characters": 3478,
+    "sha256": "062b2dea2a41b76cf5dc6d4c0cebf63c428b65b62cee71b67a779302b4b535fe"
+  },
+  "blockers": [
+    "Exact proposal document unavailable",
+    "New endpoint controller/capture derivative unimplemented and unreviewed",
+    "No execution release"
+  ],
+  "scope": "Source and saved-evidence interpretation only; no scientific execution or new saved-data arithmetic",
+  "requested_identity": "Astra High / Standard",
+  "independently_attested_serving_identity": null
+}

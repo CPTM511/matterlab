@@ -1,0 +1,8 @@
+{
+  "components": 120,
+  "groups": 6,
+  "excluded_groups": 1,
+  "any_bound_exceeds_0.005": false,
+  "units": "eV/Angstrom^2",
+  "interpretation": "Exclusion rejects final-correct-rounding plus smooth translation-invariant exact-row premises jointly; inclusion inconclusive. No cause attribution or acceptance change."
+}

@@ -1,0 +1,101 @@
+{
+  "scope": "Metadata/record/hash verification only; no N1 row parsing, interval reconstruction, analysis rerun or scientific source execution",
+  "checks": [
+    {
+      "name": "approved_source_audit.py",
+      "pass": true
+    },
+    {
+      "name": "approved_source_fixtures.py",
+      "pass": true
+    },
+    {
+      "name": "approved_source_launch.py",
+      "pass": true
+    },
+    {
+      "name": "immutable_stage_binding",
+      "pass": true
+    },
+    {
+      "name": "completed_exit_zero",
+      "pass": true
+    },
+    {
+      "name": "one_recorded_invocation",
+      "pass": true
+    },
+    {
+      "name": "finite_process_within_cap",
+      "pass": true
+    },
+    {
+      "name": "within_immutable_stage",
+      "pass": true
+    },
+    {
+      "name": "within_freshness",
+      "pass": true
+    },
+    {
+      "name": "stderr_empty",
+      "pass": true
+    },
+    {
+      "name": "six_fixed_groups",
+      "pass": true
+    },
+    {
+      "name": "twenty_records_each",
+      "pass": true
+    },
+    {
+      "name": "120_recorded_components",
+      "pass": true
+    },
+    {
+      "name": "only59x_excluded",
+      "pass": true
+    },
+    {
+      "name": "summary_consistent",
+      "pass": true
+    },
+    {
+      "name": "stdout_matches_summary",
+      "pass": true
+    },
+    {
+      "name": "input_bytes_hash_only_50",
+      "pass": true
+    },
+    {
+      "name": "input_bytes_hash_only_59",
+      "pass": true
+    },
+    {
+      "name": "no_actual_bundle_bytecode",
+      "pass": true
+    }
+  ],
+  "passed": 19,
+  "total": 19,
+  "files": {
+    "process-receipt.json": {
+      "sha256": "08a8af77fa30b997501aa73f364e2244784de28a79228f1831bc3e0f61c95163",
+      "bytes": 320
+    },
+    "raw/classifications.jsonl": {
+      "sha256": "680c49c8b7fcef929e861f7d861e94580656010df864905a929de613f6c98054",
+      "bytes": 25851
+    },
+    "raw/input-identities.json": {
+      "sha256": "f72e350721f4c434ce3b35cf29984730bdabb352703fb0b0aefe734a2e9bcfd0",
+      "bytes": 399
+    },
+    "raw/result.json": {
+      "sha256": "c5ea0ee77bccfda303209a0521eddaaf3573d76b28f054a2dd42d46adbd6bd05",
+      "bytes": 320
+    }
+  }
+}

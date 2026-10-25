@@ -1,0 +1,44 @@
+"""One reviewed saved-data process, no model or scientific anchor."""
+from pathlib import Path
+from datetime import datetime,timezone
+import hashlib,json,os,subprocess,sys,time,traceback
+ROOT=Path(__file__).resolve().parent
+SOURCE=Path('PRIVATE_PATH_ALIAS_1')
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def now():return datetime.now(timezone.utc)
+def gates():
+ s=json.loads((ROOT/'stage-private.json').read_text());t=now()
+ if not datetime.fromisoformat(s['start'])<=t<datetime.fromisoformat(s['deadline']):raise RuntimeError('Outside immutable stage')
+ if not datetime.fromisoformat(s['usage_observation'])<=t<datetime.fromisoformat(s['freshness_deadline']):raise RuntimeError('Usage snapshot not fresh')
+ r=json.loads((ROOT/'reviewer/preexecution-review.json').read_text())
+ if r['outcome']!='PASS':raise RuntimeError('No review pass')
+ if set(r['approved_files'])!={'audit.py','fixtures.py','launch.py'}:raise RuntimeError('Incomplete review binding')
+ if any(sha(ROOT/n)!=h for n,h in r['approved_files'].items()):raise RuntimeError('Reviewed source changed')
+ if list(ROOT.rglob('__pycache__')):raise RuntimeError('Unexpected bytecode')
+ if set(p.name for p in ROOT.glob('*.py'))!={'audit.py','fixtures.py','launch.py'}:raise RuntimeError('Unexpected executable source')
+ for name,h in {'native-row-50.npz':'9f266858e0d1c5c1164241a8425099ebec0c9c8305f7ea5803cb0f9c4369e328','native-row-59.npz':'fe30ec0c926385cd412cdd39bb5e316e5445398046c68e342de842b1c910854f'}.items():
+  if sha(SOURCE/name)!=h:raise RuntimeError('Input identity failed')
+ remaining=(datetime.fromisoformat(s['deadline'])-t).total_seconds()
+ if remaining<120:raise RuntimeError('Insufficient process plus review/checkpoint reserve')
+ return s
+
+def main():
+ gates()
+ # Exclusive admission record: never remove or reuse after any outcome.
+ with (ROOT/'analysis-invocation.json').open('x') as f:
+  f.write(json.dumps({'start':now().isoformat(),'maximum_invocations':1,'kind':'saved-data analysis, not a scientific model token'})+'\n')
+ start=now();clock=time.monotonic();record={'start':start.isoformat(),'process_cap_seconds':60,'command':['verified Python','-B','audit.py','pinned N1 inputs','raw output']}
+ try:
+  gates()
+  env=os.environ.copy();env['PYTHONDONTWRITEBYTECODE']='1'
+  with (ROOT/'analysis.stdout').open('x') as out,(ROOT/'analysis.stderr').open('x') as err:
+   p=subprocess.run([sys.executable,'-B',str(ROOT/'audit.py'),str(SOURCE),str(ROOT/'raw')],stdout=out,stderr=err,env=env,timeout=60,check=False)
+  record['returncode']=p.returncode
+  if p.returncode:raise RuntimeError('Analysis failed; no retry')
+  record['status']='completed'
+ except BaseException:
+  record['status']='failed';record['exception']=traceback.format_exc();raise
+ finally:
+  record['end']=now().isoformat();record['elapsed_seconds']=time.monotonic()-clock
+  (ROOT/'process-receipt.json').write_text(json.dumps(record,indent=2)+'\n')
+if __name__=='__main__':main()

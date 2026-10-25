@@ -1,0 +1,131 @@
+{
+  "audit_sha256": "fbdbdffd8ac9182c9271f07a2e8218ad42a270cd48c49e7480ba99434f42e879",
+  "real_inputs_read": false,
+  "checks": [
+    {
+      "name": "exact_cell_0x40000000",
+      "pass": true
+    },
+    {
+      "name": "exact_cell_0xc0000000",
+      "pass": true
+    },
+    {
+      "name": "exact_cell_0x800000",
+      "pass": true
+    },
+    {
+      "name": "exact_cell_0x80800000",
+      "pass": true
+    },
+    {
+      "name": "reflection_0x0",
+      "pass": true
+    },
+    {
+      "name": "reflection_0x1",
+      "pass": true
+    },
+    {
+      "name": "reflection_0x2",
+      "pass": true
+    },
+    {
+      "name": "reflection_0x7fffff",
+      "pass": true
+    },
+    {
+      "name": "reflection_0x800000",
+      "pass": true
+    },
+    {
+      "name": "reflection_0x3f7fffff",
+      "pass": true
+    },
+    {
+      "name": "reflection_0x3f800000",
+      "pass": true
+    },
+    {
+      "name": "reflection_0x3f800001",
+      "pass": true
+    },
+    {
+      "name": "reflection_0x40000000",
+      "pass": true
+    },
+    {
+      "name": "reflection_0x7f7ffffe",
+      "pass": true
+    },
+    {
+      "name": "float_shape_rejected",
+      "pass": true,
+      "exception_type": "ValueError"
+    },
+    {
+      "name": "integer_fortran_rejected",
+      "pass": true,
+      "exception_type": "ValueError"
+    },
+    {
+      "name": "big_endian_rejected",
+      "pass": true,
+      "exception_type": "ValueError"
+    },
+    {
+      "name": "object_dtype_rejected",
+      "pass": true,
+      "exception_type": "ValueError"
+    },
+    {
+      "name": "nonzip_rejected",
+      "pass": true,
+      "exception_type": "BadZipFile"
+    },
+    {
+      "name": "oversized_member_rejected",
+      "pass": true,
+      "exception_type": "ValueError"
+    },
+    {
+      "name": "closed_cell_zero_inclusion",
+      "pass": true
+    },
+    {
+      "name": "positive_distance",
+      "pass": true
+    },
+    {
+      "name": "positive_d_over20",
+      "pass": true
+    },
+    {
+      "name": "negative_distance",
+      "pass": true
+    },
+    {
+      "name": "pinned_hash_rejected_before_parse",
+      "pass": true,
+      "exception_type": "ValueError"
+    },
+    {
+      "name": "all_six_fixed_groups",
+      "pass": true
+    },
+    {
+      "name": "axis_slices_and_signed_sums",
+      "pass": true
+    },
+    {
+      "name": "exact120_components",
+      "pass": true
+    },
+    {
+      "name": "two_synthetic_exclusions",
+      "pass": true
+    }
+  ],
+  "passed": 29,
+  "total": 29
+}

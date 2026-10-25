@@ -1,0 +1,31 @@
+{
+  "outcome": "PASS_BOUNDED_SAVED_RESULT",
+  "completed_utc": "2026-10-25T10:37:58.086270+00:00",
+  "report": {
+    "bytes": 5455,
+    "sha256": "26ac2e6af17637bd18b5331a115c3e8dbbcc9a3f52aedfbdba2eeda2dea7f588"
+  },
+  "review": {
+    "bytes": 3184,
+    "characters": 3183,
+    "sha256": "33663277971ffb486cbcaea631d1b04531cf12da60bcd85b75635306740ec6e1"
+  },
+  "verification": {
+    "terminal_checks": 19,
+    "manifest_report_checks": 5,
+    "all_pass": true
+  },
+  "raw_manifest_sha256": "2b841e2216df23b3561ae2610b8cf17ae33095b09126c26b0966ce0c5e4adb95",
+  "real_rows_reparsed": false,
+  "real_sums_reconstructed": false,
+  "analysis_rerun": false,
+  "excluded_groups": [
+    [
+      59,
+      "x"
+    ]
+  ],
+  "other_groups": "inconclusive",
+  "unresolved_blockers": [],
+  "execution_or_publication_released": false
+}

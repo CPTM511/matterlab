@@ -1,0 +1,35 @@
+{
+  "status": "PASS_PROSPECTIVE_SAVED_DATA_DESIGN_ONLY",
+  "execution_released": false,
+  "completed_utc": "2026-10-25T10:28:08.781989+00:00",
+  "result": {
+    "bytes": 7403,
+    "sha256": "d56463f8e6b55eecd10f2f35da8839ea720d2f60290b525d537486a12832d25c"
+  },
+  "review": {
+    "bytes": 3891,
+    "characters": 3891,
+    "sha256": "c90c555e6243fb62b3e37daeb9c9ea8d673fc214e76af62663fd00dd3c2594dc"
+  },
+  "source_inspection": {
+    "bytes": 2831,
+    "sha256": "c0cf6d825fbd18ae3203165ba48f607df1e01e112c4672556cce39788ee2f3e0",
+    "examined_identities": 15,
+    "execution_source_copy_matches": 5
+  },
+  "findings": [
+    "No specific sign, unit, normalization or index mismatch found in inspected paths",
+    "Translation row-sum identity supplies a conditional analytic constraint",
+    "Rounding-cell exclusion is one-sided and does not attribute the original FD gap",
+    "Conditional d/20 distance bound is valid"
+  ],
+  "remaining_prerequisites": [
+    "Parent acceptance",
+    "Exact-rational implementation and negative fixtures",
+    "Independent implementation and premise review",
+    "Separate saved-analysis authorization"
+  ],
+  "new_scientific_arithmetic": false,
+  "requested_identity": "Astra High / Standard",
+  "independently_attested_serving_identity": null
+}

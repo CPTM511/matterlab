@@ -1,0 +1,72 @@
+{
+  "launcher_sha256": "ea85cf67fe8a0b4ffc8a294ca3955e2450f002075c130d20affe47a8072318f7",
+  "real_input_read": false,
+  "real_process_launched": false,
+  "passed": 13,
+  "total": 13,
+  "checks": [
+    {
+      "name": "synthetic_gate_pass",
+      "pass": true
+    },
+    {
+      "name": "reject_stage_private_sha256",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "reject_outcome",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "reject_approved_files",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "source_mutation",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "bytecode_rejected",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "extra_source_rejected",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "before_start",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "insufficient_reserve",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "past_deadline",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "elapsed_over_cap_rejected",
+      "pass": true,
+      "exception": "RuntimeError"
+    },
+    {
+      "name": "resource_failure_preserved",
+      "pass": true
+    },
+    {
+      "name": "exclusive_no_retry",
+      "pass": true,
+      "exception": "FileExistsError"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-10-25T10:22:58.065749+00:00",
+  "N1_implementation_manifest_all_match": true,
+  "N1_entries": 18,
+  "source_files": {
+    "chgnet/model/model.py": {
+      "bytes": 36917,
+      "sha256": "767b120ba8b3ee7f75c247416902d1b72e871ba8ffc2916ed76d24809c98fc96"
+    },
+    "chgnet/model/dynamics.py": {
+      "bytes": 36048,
+      "sha256": "c5c48a3cf2cd526f366b5aea430811f5c58a7148d6ae7ba53f26b6944acfcd46"
+    },
+    "chgnet/model/encoders.py": {
+      "bytes": 5470,
+      "sha256": "7dffbc1be159bc48acdfd363c618711bcbd88f72c7ecd5e4aad2dc1830de264c"
+    },
+    "chgnet/model/basis.py": {
+      "bytes": 7092,
+      "sha256": "0e75cf46d3e1b4e96e1726472af0bedf3757b2c24c70cc98161e051c163beace"
+    },
+    "chgnet/model/composition_model.py": {
+      "bytes": 16822,
+      "sha256": "c7111354fc8795c6a41147b3d01298546a070bc12c87d02f533d7678ab569570"
+    },
+    "G1/analyze_saved.py": {
+      "bytes": 5952,
+      "sha256": "c22f611e18e2581aa89a20bb4f26c176fd9ca2871c5f5ed6c288e8fc73699662"
+    },
+    "N1/native_capture.py": {
+      "bytes": 3773,
+      "sha256": "941e18f30469629c161b105818fc7b86175d1db481aa52a46f9e38aed60668db"
+    },
+    "N1/native_worker.py": {
+      "bytes": 7882,
+      "sha256": "ec9e8d44fc0fda72a2f852ba1a767ff0b92f74f7f4c5e05ae099c5a6d0eae75e"
+    },
+    "N1/compare_saved.py": {
+      "bytes": 1378,
+      "sha256": "b03cb466823ba972edb1e4e86faff961bde2293bb0e949ee867943d65d4340c3"
+    }
+  },
+  "read_errors_retained": [
+    "analyze_native.py was not present; actual compare_saved.py then read",
+    "raw/*.json path absent; actual attempt/raw path identified"
+  ],
+  "scope": "text and file hashing only; no source imported or executed"
+}

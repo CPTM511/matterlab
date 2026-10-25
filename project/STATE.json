@@ -21,7 +21,7 @@
     "docs/delivery-checks-en.json"
   ],
   "active_work": [],
-  "next_action": "Design one bounded diagnostic for remaining native backend semantics, finite-step or internal-arithmetic uncertainty using preserved evidence. No further scientific execution is released. Preserve all historical failures, the stopped precision contrast and the non-overlapping fallback.",
+  "next_action": "Design an identifiable bounded diagnostic for remaining native arithmetic, coordinate-path or smoothness uncertainty using preserved evidence. The saved translation-row audit is consumed; its one conditional exclusion does not explain the finite-difference gap. No further execution is released. Preserve historical failures, the precision STOP and the non-overlapping fallback.",
   "constraints": [
     "No additional spending",
     "No paid APIs or paid remote compute; subscription-included native cloud execution is authorized",
@@ -108,7 +108,7 @@
     "physical_job_active": false,
     "scope": "Historical D1 checkpoint fields retained unchanged; current recorder and dispatch outcomes are recorded in repaired_recorder_validation and cpu_dispatch_contrast."
   },
-  "updated_at_utc": "2026-10-25T07:09:39.166641+00:00",
+  "updated_at_utc": "2026-10-25T10:44:35.875768+00:00",
   "repaired_recorder_validation": {
     "evidence": "evidence/repaired-recorder-20261023",
     "evaluations": 1,
@@ -197,6 +197,40 @@
     "execution_consumed": true,
     "remaining_authorized_analysis": 0,
     "original_supplementary_prose_review": "incomplete; later semantic review is separate",
+    "full_migration_complete": false
+  },
+  "endpoint_screen_design": {
+    "evidence": "evidence/translation-row-checkpoint-20261025/next-native-design",
+    "outcome": "No calculation recommended: endpoint-output variation would not identify a cause",
+    "new_model_evaluations": 0
+  },
+  "native_reference_feasibility": {
+    "evidence": "evidence/translation-row-checkpoint-20261025/native-reference-feasibility",
+    "outcome": "No sign/unit/index mismatch found; conditional translation identity identified for saved-data audit",
+    "full_derivative_oracle_established": false,
+    "new_model_evaluations": 0
+  },
+  "translation_row_audit": {
+    "evidence": "evidence/translation-row-checkpoint-20261025/translation-audit",
+    "saved_analysis_invocations": 1,
+    "components": 120,
+    "groups": 6,
+    "excluded_groups": [
+      [
+        59,
+        "x"
+      ]
+    ],
+    "other_groups": "inconclusive",
+    "conditional_component_distance_lower_bound_eV_A2": "23/8589934592",
+    "bound_is_upper_error_bound": false,
+    "original_FD_gap_explained": false,
+    "interpretation": "Exclusion rejects final-correct-rounding plus smooth translation-invariant exact-row premises jointly; no AD bug established",
+    "analysis_seconds": 0.06450216099983663,
+    "invocation_consumed": true,
+    "remaining_authorized_analysis": 0,
+    "new_model_evaluations": 0,
+    "original_replay_acceptance": "failed unchanged",
     "full_migration_complete": false
   }
 }

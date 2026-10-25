@@ -1,0 +1,87 @@
+{
+  "method": "Text inspection and SHA256 only; no source imports or scientific arithmetic",
+  "files": {
+    "CHGNet/model/model.py": {
+      "bytes": 36917,
+      "sha256": "767b120ba8b3ee7f75c247416902d1b72e871ba8ffc2916ed76d24809c98fc96"
+    },
+    "CHGNet/model/basis.py": {
+      "bytes": 7092,
+      "sha256": "0e75cf46d3e1b4e96e1726472af0bedf3757b2c24c70cc98161e051c163beace"
+    },
+    "CHGNet/model/encoders.py": {
+      "bytes": 5470,
+      "sha256": "7dffbc1be159bc48acdfd363c618711bcbd88f72c7ecd5e4aad2dc1830de264c"
+    },
+    "CHGNet/model/composition_model.py": {
+      "bytes": 16822,
+      "sha256": "c7111354fc8795c6a41147b3d01298546a070bc12c87d02f533d7678ab569570"
+    },
+    "CHGNet/model/dynamics.py": {
+      "bytes": 36048,
+      "sha256": "c5c48a3cf2cd526f366b5aea430811f5c58a7148d6ae7ba53f26b6944acfcd46"
+    },
+    "CHGNet/model/functions.py": {
+      "bytes": 7927,
+      "sha256": "8914b73a7b990b1d4fa91ed1064ffc3138a5acd4bf2b192b8b7c5be7b15fed1b"
+    },
+    "CHGNet/model/layers.py": {
+      "bytes": 17010,
+      "sha256": "9c60e275508a0427084d5ee2089d27dd0a86db40bf90c3b268e81c1cb8b5716c"
+    },
+    "CHGNet/graph/converter.py": {
+      "bytes": 10850,
+      "sha256": "565a0a3007613323720e2ec3ab06e84043b6970a6a150234222123cee9979c0f"
+    },
+    "N1/native_capture.py": {
+      "bytes": 3773,
+      "sha256": "941e18f30469629c161b105818fc7b86175d1db481aa52a46f9e38aed60668db"
+    },
+    "N1/native_worker.py": {
+      "bytes": 7882,
+      "sha256": "ec9e8d44fc0fda72a2f852ba1a767ff0b92f74f7f4c5e05ae099c5a6d0eae75e"
+    },
+    "N1/compare_saved.py": {
+      "bytes": 1378,
+      "sha256": "b03cb466823ba972edb1e4e86faff961bde2293bb0e949ee867943d65d4340c3"
+    },
+    "G1/analyze_saved.py": {
+      "bytes": 5952,
+      "sha256": "c22f611e18e2581aa89a20bb4f26c176fd9ca2871c5f5ed6c288e8fc73699662"
+    },
+    "G1/gamma_worker.py": {
+      "bytes": 8538,
+      "sha256": "ab170f4bacd7d1b27f4848016094f3d2a912e755b6e9004864a01fded30d67f5"
+    },
+    "public/AGENTS.md": {
+      "bytes": 2562,
+      "sha256": "7aef49e8f36a6b639ec9244cdaa8da698b9308351d9c82421d6b2a6f17dfa7b6"
+    },
+    "public/STATE.json": {
+      "bytes": 10258,
+      "sha256": "ac46e59b4395497756a7cc31dfc906fe07365bfe12b99fd296e65b15c3735bf3"
+    }
+  },
+  "source_copy_identity": {
+    "G1/analyze_saved.py": {
+      "frozen_v2_exists": true,
+      "equal_frozen_v2": true
+    },
+    "G1/gamma_worker.py": {
+      "frozen_v2_exists": true,
+      "equal_frozen_v2": true
+    },
+    "N1/native_capture.py": {
+      "execution_snapshot_exists": true,
+      "equal_execution_snapshot": true
+    },
+    "N1/native_worker.py": {
+      "execution_snapshot_exists": true,
+      "equal_execution_snapshot": true
+    },
+    "N1/compare_saved.py": {
+      "execution_snapshot_exists": true,
+      "equal_execution_snapshot": true
+    }
+  }
+}

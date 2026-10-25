@@ -1,0 +1,27 @@
+{
+  "outcome": "PASS",
+  "completed_utc": "2026-10-25T10:35:16.922189+00:00",
+  "approved_files": {
+    "audit.py": "fbdbdffd8ac9182c9271f07a2e8218ad42a270cd48c49e7480ba99434f42e879",
+    "fixtures.py": "78976fbea55559a569bd5102d51d739be74e53fe23f6384ac4e14e9daeb1b5fe",
+    "launch.py": "ea85cf67fe8a0b4ffc8a294ca3955e2450f002075c130d20affe47a8072318f7"
+  },
+  "scope": "One parent-authorized saved-array audit only; no scientific model execution",
+  "synthetic_checks": {
+    "supplied_independently_run": 32,
+    "independent_arithmetic_parser_pipeline": 29,
+    "independent_mocked_launcher": 13,
+    "total": 74,
+    "all_pass": true
+  },
+  "real_input_arrays_parsed_by_reviewer": false,
+  "actual_launcher_executed_by_reviewer": false,
+  "resolved_findings": [
+    "Immutable stage digest binding added",
+    "Actual elapsed and terminal deadline/freshness now condition completion",
+    "NPY shape requires exact tuple and integer dimension"
+  ],
+  "unresolved_blockers": [],
+  "requested_identity": "Astra High / Standard",
+  "independently_attested_serving_identity": null
+}

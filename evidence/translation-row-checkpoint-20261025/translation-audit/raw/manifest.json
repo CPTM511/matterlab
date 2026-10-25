@@ -1,0 +1,17 @@
+{
+  "algorithm": "SHA256",
+  "files": {
+    "classifications.jsonl": {
+      "bytes": 25851,
+      "sha256": "680c49c8b7fcef929e861f7d861e94580656010df864905a929de613f6c98054"
+    },
+    "input-identities.json": {
+      "bytes": 399,
+      "sha256": "f72e350721f4c434ce3b35cf29984730bdabb352703fb0b0aefe734a2e9bcfd0"
+    },
+    "result.json": {
+      "bytes": 320,
+      "sha256": "c5ea0ee77bccfda303209a0521eddaaf3573d76b28f054a2dd42d46adbd6bd05"
+    }
+  }
+}

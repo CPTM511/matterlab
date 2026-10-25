@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "name": "exact_raw_manifest_coverage",
+      "pass": true
+    },
+    {
+      "name": "manifest_member_classifications.jsonl",
+      "pass": true
+    },
+    {
+      "name": "manifest_member_input-identities.json",
+      "pass": true
+    },
+    {
+      "name": "manifest_member_result.json",
+      "pass": true
+    },
+    {
+      "name": "exact_report_identity",
+      "pass": true
+    }
+  ],
+  "passed": 5,
+  "total": 5,
+  "raw_manifest_sha256": "2b841e2216df23b3561ae2610b8cf17ae33095b09126c26b0966ce0c5e4adb95"
+}

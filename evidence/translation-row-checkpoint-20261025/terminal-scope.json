@@ -1,0 +1,47 @@
+{
+  "stages": {
+    "next-native-design": {
+      "checkpoint_utc": "2026-10-25T10:18:38.260251+00:00",
+      "start_utc": "2026-10-25T10:10:48.531426+00:00",
+      "deadline_utc": "2026-10-25T10:18:48.531426+00:00",
+      "elapsed_seconds": 469.728825,
+      "forward_count": 0,
+      "ad_count": 0,
+      "scientific_token_claims": 0,
+      "publication_writes": 0
+    },
+    "native-reference-feasibility": {
+      "start_utc": "2026-10-25T10:20:58.532842+00:00",
+      "deadline_utc": "2026-10-25T10:30:58.532842+00:00",
+      "checkpoint_utc": "2026-10-25T10:28:27.498213+00:00",
+      "elapsed_seconds": 448.965371,
+      "within_cap": true,
+      "model_constructions": 0,
+      "forwards": 0,
+      "AD_queries": 0,
+      "scientific_token_claims": 0,
+      "public_writes": 0
+    },
+    "translation-audit": {
+      "start_utc": "2026-10-25T10:30:44.961213+00:00",
+      "deadline_utc": "2026-10-25T10:40:44.961213+00:00",
+      "checkpoint_utc": "2026-10-25T10:38:17.613113+00:00",
+      "elapsed_seconds": 452.6519,
+      "within_600_seconds": true,
+      "analysis_invocations": 1,
+      "analysis_elapsed_seconds": 0.06450216099983663,
+      "components": 120,
+      "groups": 6,
+      "excluded_groups": 1,
+      "model_constructions": 0,
+      "forwards": 0,
+      "AD_queries": 0,
+      "scientific_token_claims": 0,
+      "public_writes": 0
+    }
+  },
+  "translation_analysis_invocation_consumed": true,
+  "remaining_authorized_analysis": 0,
+  "remaining_authorized_inference": 0,
+  "migration_complete": false
+}

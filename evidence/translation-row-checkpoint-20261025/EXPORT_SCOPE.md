@@ -1,0 +1,9 @@
+# Additive translation-row checkpoint candidate
+
+This package preserves the rejected endpoint-screen design, the source-only feasibility assessment and its earlier STOP draft, and the completed one-invocation saved-row translation audit. Historical review and release statements remain records of their own stages, not fresh authority to execute or publish. No model evaluation occurred in these three stages.
+
+All six scientific classifications, 120 binary32 bit patterns, rational rounding cells and raw result files are byte-identical. One interval excludes zero under the joint final-rounding and mathematical premises; the other five are inconclusive. The conditional lower bound is not an upper error bound or an explanation of the original finite-difference gap. Original numerical failures and the stopped precision contrast remain unchanged.
+
+Text/source derivatives replace private paths with logical placeholders. Selected JSON derivatives remove private administrative digest references. Sanitized launcher and reviewer source snapshots are preserved evidence, not executable released bundles: original quoted source hashes describe original files, while this package manifest binds derivatives. The full private sources, clocks, authorization and ownership records remain preserved privately. No private account observation, credential, live process identifier, task identifier, Git history or bytecode is included.
+
+Private transformation records retain all original paths and hashes. Public transformation records expose original scientific-source hashes where appropriate and derivative hashes for every selected file. Original code licensing follows the included MIT license; existing third-party source/model licenses remain in the unchanged repository. No dependency cache or model weights are added. Neither publication nor further scientific execution is authorized by this package.
