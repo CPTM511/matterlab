@@ -1,0 +1,9 @@
+{
+  "source_commit": "2baa6913e66688f5cc0ac9a4251ec2f628727c7f",
+  "source_summary": "runs/round-001-en/summary.json",
+  "summary_sha256": "a67ba016a2fed2b513bd04b205487a3401695aea8c585ef1e04318b1ad3d3be1",
+  "summary_git_blob": "26f16c0edc7a7447b54412ecf7e1c79cac5e304c",
+  "derivation": "summary.json is byte-identical to the published source; results.csv selects named fields without altering numeric values. Empty CSV cells denote unavailable or unreported values. Presentation does not perform scientific calculations.",
+  "interpretation": "Historical screening classifications are retained. Later published G1/N1/F1 diagnostics qualify interpretation; no material stability or application performance is certified.",
+  "evidence_through_date": "2026-10-26"
+}

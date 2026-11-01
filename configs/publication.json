@@ -22,7 +22,11 @@
     "project/CLOUD_MIGRATION.md",
     "project/CLOUD_HANDOFF.md",
     "project/CLOUD_START.md",
-    "project/checkpoints/diagnosis-20261023.json"
+    "project/checkpoints/diagnosis-20261023.json",
+    "docs/index.html",
+    "docs/.nojekyll",
+    "docs/SITE.md",
+    "tools/build_pages.py"
   ],
   "directories": [
     "src/matterlab",
@@ -30,7 +34,8 @@
     "ui",
     "configs",
     "tools/quantum",
-    "evidence"
+    "evidence",
+    "docs/site"
   ],
   "campaigns": [
     "round-001-en"

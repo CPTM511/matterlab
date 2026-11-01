@@ -1,0 +1,16 @@
+id,kind,formula,historical_screening_status,density_g_cm3,restricted_decomposition_eV_per_atom,fixed_shape_volume_response_GPa,relaxation_converged,gamma_assessment
+R-BaSnO3,reference,BaSnO3,relaxed,6.878577681750105,,,True,
+R-BaTiO3,reference,BaTiO3,relaxed,5.736006103165413,,,True,
+R-BaZrO3,reference,BaZrO3,relaxed,5.962488099142319,,,True,
+R-CaSnO3,reference,CaSnO3,relaxed,5.23902275637053,,,True,
+R-CaTiO3,reference,CaTiO3,relaxed,3.857870041633875,,,True,
+R-CaZrO3,reference,CaZrO3,relaxed,4.329665068718036,,,True,
+R-SrSnO3,reference,SrSnO3,relaxed,6.134010555600199,,,True,
+R-SrTiO3,reference,SrTiO3,relaxed,4.941811844798925,,,True,
+R-SrZrO3,reference,SrZrO3,relaxed,5.247448701209479,,,True,
+C01-007,candidate,Ca2SrBaTi2ZrSnO12,above_restricted_reference,5.086453231691164,0.03042621612548757,,True,
+C01-009,candidate,Ca2SrBaTi2ZrSnO12,above_restricted_reference,5.059731732516621,0.019133186340331676,,True,
+C02-002,candidate,CaSr2BaTiZr2SnO12,above_restricted_reference,5.405019100710574,0.015360832214355469,,True,
+C02-009,candidate,CaSr2BaTiZr2SnO12,above_restricted_reference,5.388301858824595,0.010464286804198863,132.2693383530331,True,inconclusive_near_zero_or_numerically_sensitive
+C03-005,candidate,CaSrBa2TiZrSn2O12,ml_screened,5.814163349363712,0.00902595520019478,128.37233678091516,True,inconclusive_near_zero_or_numerically_sensitive
+C03-008,candidate,CaSrBa2TiZrSn2O12,above_restricted_reference,5.783530824430739,0.015356063842773438,,True,

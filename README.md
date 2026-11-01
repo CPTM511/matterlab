@@ -4,7 +4,7 @@ MatterLab is an open-source platform for computational materials design. It conn
 
 Built for materials engineers, research teams and scientific developers, MatterLab helps turn configurable material hypotheses into traceable calculations and inspectable candidate dossiers. Its current implementation focuses on multication oxide perovskites.
 
-[Explore results](docs/RESULTS.md) · [Scientific methods](docs/scientific-design.md) · [Model card](docs/MODEL_CARD.md)
+[Interactive explorer](https://cptm511.github.io/matterlab/) · [Explore results](docs/RESULTS.md) · [Scientific methods](docs/scientific-design.md) · [Model card](docs/MODEL_CARD.md)
 
 ![MatterLab evidence dashboard](docs/images/matterlab-english.png)
 
