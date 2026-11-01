@@ -126,7 +126,7 @@ document.querySelectorAll('a[href^="https:"]').forEach(a=>{a.target='_blank';a.r
 (out/'icon.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#13251e"/><path d="M32 10 38 26 54 32 38 38 32 54 26 38 10 32 26 26Z" fill="#a6e3c4"/></svg>\n')
 fields={'id':'id','kind':'kind','formula':'formula','status':'historical_screening_status','density_g_cm3':'density_g_cm3','restricted_decomposition_eV_per_atom':'restricted_decomposition_eV_per_atom','bulk_modulus_GPa':'fixed_shape_volume_response_GPa','relaxation_converged':'relaxation_converged','gamma_assessment':'gamma_assessment'}
 with (out/'results.csv').open('w',newline='') as f:
-    w=csv.writer(f);w.writerow(fields.values())
+    w=csv.writer(f,lineterminator='\n');w.writerow(fields.values())
     for c in summary['candidates']: w.writerow([c.get(k,'') for k in fields])
 (out/'provenance.json').write_text(json.dumps({'source_commit':SNAPSHOT,'source_summary':'runs/round-001-en/summary.json','summary_sha256':hashlib.sha256(summary_bytes).hexdigest(),'summary_git_blob':SUMMARY_BLOB,'derivation':'summary.json is byte-identical to the published source; results.csv selects named fields without altering numeric values. Empty CSV cells denote unavailable or unreported values. Presentation does not perform scientific calculations.','interpretation':'Historical screening classifications are retained. Later published G1/N1/F1 diagnostics qualify interpretation; no material stability or application performance is certified.','evidence_through_date':'2026-10-26'},indent=2)+'\n')
 (ROOT/'docs/.nojekyll').write_text('')
