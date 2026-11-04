@@ -1,0 +1,14 @@
+{
+  "algorithm": "SHA256",
+  "scope": "Every closeout file except this manifest",
+  "files": {
+    "REPORT.md": {
+      "bytes": 7202,
+      "sha256": "b5600f1ff3c85c153002e1d3ccee95ec2b0920dd98dc0d374a8096501dcf9eb0"
+    },
+    "provenance.json": {
+      "bytes": 2424,
+      "sha256": "54478e4070bc9cd136ff34ccc2a948b0eaf7bba3894cc6c29166fd9d15068dfe"
+    }
+  }
+}

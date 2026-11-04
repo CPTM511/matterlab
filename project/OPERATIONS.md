@@ -1,5 +1,7 @@
 # Continuous research operating agreement
 
+> **Research paused - 2026-11-04.** Research, acquisition, installation and scientific computation are paused at the owner's request. This notice supersedes earlier continuous-work instructions. Research may resume only after a new explicit owner request and a separately approved bounded protocol. See the [closeout report](../evidence/closeout-20261104/REPORT.md).
+
 ## Objective and authority
 
 Develop MatterLab into an English-only open-source virtual materials R&D platform, and advance generated composition/structure hypotheses toward reproducible, application-relevant computational evidence. The owner authorized unattended continuation, GPT Astra roles, and public English GitHub publication on 2026-10-24. This authorizes ordinary reversible implementation, local computation, testing, documentation, and publication of reviewed project files. It does not authorize spending, physical synthesis, account/security changes, outreach, or unsupported scientific claims.

@@ -1,5 +1,7 @@
 # MatterLab project instructions
 
+> **Research paused - 2026-11-04.** Research, acquisition, installation and scientific computation are paused at the owner's request. This notice supersedes earlier continuous-work instructions. Research may resume only after a new explicit owner request and a separately approved bounded protocol. See the [closeout report](evidence/closeout-20261104/REPORT.md).
+
 - Goal: generate genuinely new composition/ordering hypotheses, execute real physical calculations, and publish reproducible evidence with bounded application hypotheses.
 - Zero additional spending. No OpenAI API, paid services, paid cloud compute, credit purchases, automatic quota resets, or fallback to paid overage. Existing signed-in Pro sessions and verified subscription-included native cloud execution are authorized; follow project/CLOUD_MIGRATION.md before transferring responsibility. Check account usage before further long agent batches; pause new model work before included allowance is exhausted. Account usage is shared and cannot be enforced by this repository.
 - The user explicitly requests GPT Astra roles. Use `gpt-6-astra` for delegated scientific/design/review tasks. Record actual role and tool evidence; never claim a prompt changes the underlying model.

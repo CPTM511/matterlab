@@ -1,5 +1,7 @@
 # MatterLab
 
+> **Research paused - 2026-11-04.** Research, acquisition, installation and scientific computation are paused at the owner's request. This notice supersedes earlier continuous-work instructions. Research may resume only after a new explicit owner request and a separately approved bounded protocol. See the [closeout report](evidence/closeout-20261104/REPORT.md).
+
 MatterLab is an open-source platform for computational materials design. It connects composition and atomic ordering, atomistic simulation, and reproducible evidence in a single research workflow.
 
 Built for materials engineers, research teams and scientific developers, MatterLab helps turn configurable material hypotheses into traceable calculations and inspectable candidate dossiers. Its current implementation focuses on multication oxide perovskites.

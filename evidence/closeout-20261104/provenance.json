@@ -1,0 +1,47 @@
+{
+  "public_base_commit": "e7e0ca4b3f9e0d8169d461c15d7a135c768dca92",
+  "public_base_tree": "053c9b411744db03273b0f7c0788c1091f3820d9",
+  "transformation": "New English closeout summary; no raw numerical record is edited or reconstructed. Original private locations and operational/account metadata are omitted. Original hashes identify retained records without exporting their contents.",
+  "original_records": [
+    {
+      "record": "P2 integration report",
+      "original_bytes": 7703,
+      "original_sha256": "761f40a9594ad4d1186bc17c6d53cef2e9f6a4707f4c96dfe900a3c707841c16",
+      "export": "Summary only; original private record excluded"
+    },
+    {
+      "record": "P2 independent review",
+      "original_bytes": 8195,
+      "original_sha256": "8d5a00c952d0014e7a574b4b79a357cd5088822447d9bc674079ae6acc0426ef",
+      "export": "Summary only; original private record excluded"
+    },
+    {
+      "record": "P2 final manufactured observations",
+      "original_bytes": 10344,
+      "original_sha256": "2fee91599785652b5913f0370fba0095a76d64d39e9e719b03ed0ed2e55be582",
+      "export": "Summary only; original private record excluded"
+    },
+    {
+      "record": "DFT admission report",
+      "original_bytes": 5775,
+      "original_sha256": "276924e5a02a496bba7ee71b53157026c0d294f885028bbd4272d8068ba5989f",
+      "export": "Summary only; original private record excluded"
+    },
+    {
+      "record": "Linux setup report",
+      "original_bytes": 3600,
+      "original_sha256": "2e6c726ab15e380cd65767b4abf2af118f50b6ae822a661bc6bcfd0f40fe9a11",
+      "export": "Summary only; original private record excluded"
+    },
+    {
+      "record": "Acquisition prerequisite diagnosis",
+      "original_bytes": 3054,
+      "original_sha256": "f5a5a4e1d005151c8d1d41180819685a97b24cfcdad8d2051898537ea8984937",
+      "export": "Summary only; original private record excluded"
+    }
+  ],
+  "derived_report_sha256": "b5600f1ff3c85c153002e1d3ccee95ec2b0920dd98dc0d374a8096501dcf9eb0",
+  "public_evidence": "Existing project/STATE.json and its linked evidence directories, preserved unchanged except current coordination fields in STATE",
+  "excluded": "Private checkpoints, account/authorization records, infrastructure identifiers, commercial outreach, credentials, installer/model binaries and new large raw files",
+  "verification_limit": "No scientific test or runtime reproduction was performed during packaging."
+}
